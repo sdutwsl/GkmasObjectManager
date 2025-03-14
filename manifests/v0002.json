@@ -1,6 +1,6 @@
 {
     "revision": [
-        201,
+        202,
         2
     ],
     "assetBundleList": [
@@ -27742,21 +27742,21 @@
         {
             "id": 4467,
             "name": "img_notice_notice-only_campaign_release-02-small",
-            "size": 40520,
-            "crc": 687120843,
+            "size": 40524,
+            "crc": 530532789,
             "state": "UPDATE",
-            "md5": "5feb85613a63a2f97708e26e4bd465a6",
-            "objectName": "6RMYkx",
+            "md5": "8eceb5761f72ddbcd1f8f07d3098782b",
+            "objectName": "74Kj7w",
             "uploadVersionId": 205000
         },
         {
             "id": 4468,
             "name": "img_notice_notice-only_campaign_release-01-small",
-            "size": 21181,
-            "crc": 92685198,
+            "size": 21189,
+            "crc": 81657756,
             "state": "UPDATE",
-            "md5": "b1c04496af8c1957f02c7598cdadf2c7",
-            "objectName": "3FMBx9",
+            "md5": "f69adc2bb19cee2fbab9a8cd7e5289ec",
+            "objectName": "buxFJg",
             "uploadVersionId": 205000
         },
         {
@@ -28830,11 +28830,11 @@
         {
             "id": 4566,
             "name": "img_notice_notice-only_login_login-wednesday-small",
-            "size": 39137,
-            "crc": 4292545104,
+            "size": 39136,
+            "crc": 145615156,
             "state": "UPDATE",
-            "md5": "a9d46bef81aabce2f16bce8362268fd5",
-            "objectName": "QOV0by",
+            "md5": "6dee9fef7fc511a61fa7ef14c7eb9923",
+            "objectName": "AFcTi9",
             "uploadVersionId": 205000
         },
         {
@@ -97189,11 +97189,11 @@
         {
             "id": 10939,
             "name": "img_general_ui_maintenance-banner_001",
-            "size": 124585,
-            "crc": 924211876,
-            "state": "ADD",
-            "md5": "121bf72362ae4e789482c76ab2647c8d",
-            "objectName": "0e2AYD",
+            "size": 128058,
+            "crc": 1410237102,
+            "state": "UPDATE",
+            "md5": "50cda4f622eeb8b994f8b1ab9d95494a",
+            "objectName": "I5zeC8",
             "uploadVersionId": 205000
         },
         {
@@ -98264,6 +98264,176 @@
             "state": "ADD",
             "md5": "d035f832d7868e899d9148eee859627b",
             "objectName": "29mM9h",
+            "uploadVersionId": 205000
+        },
+        {
+            "id": 11044,
+            "name": "img_notice_notice-list_pr_20th-special",
+            "size": 407373,
+            "crc": 2387044373,
+            "state": "ADD",
+            "md5": "5ec8ae9a1b75031e9e17d459cd530e51",
+            "objectName": "Zu0Kso",
+            "uploadVersionId": 205000
+        },
+        {
+            "id": 11045,
+            "name": "img_general_shop_jewel_dmmgames_coin_0002",
+            "size": 15625,
+            "crc": 1805762217,
+            "state": "ADD",
+            "md5": "f14ad5e0b47d2c6be9bfd6f8bf5859fd",
+            "objectName": "XOZvp8",
+            "uploadVersionId": 205000
+        },
+        {
+            "id": 11046,
+            "name": "img_general_shop_pass_dmmgames_pass_0001",
+            "size": 17705,
+            "crc": 22714019,
+            "state": "ADD",
+            "md5": "dec7ebdc4ee30590bc546ffc9cf03b03",
+            "objectName": "JPpZhY",
+            "uploadVersionId": 205000
+        },
+        {
+            "id": 11047,
+            "name": "img_general_shop_jewel_dmmgames_coin_0005",
+            "size": 26236,
+            "crc": 2782496607,
+            "state": "ADD",
+            "md5": "596802b1d7172504367f54a167d6bdd8",
+            "objectName": "31yxPk",
+            "uploadVersionId": 205000
+        },
+        {
+            "id": 11048,
+            "name": "img_general_shop_jewel_dmmgames_coin_0010",
+            "size": 27750,
+            "crc": 44182679,
+            "state": "ADD",
+            "md5": "d3933bbb41dfdd9622ddcd138a1c0f0d",
+            "objectName": "NZHfsM",
+            "uploadVersionId": 205000
+        },
+        {
+            "id": 11049,
+            "name": "img_general_shop_pass_dmmgames_pass_0002",
+            "size": 16968,
+            "crc": 3648101565,
+            "state": "ADD",
+            "md5": "c728aa850d0ce1977c8645d88d1dec3f",
+            "objectName": "Y7hSZm",
+            "uploadVersionId": 205000
+        },
+        {
+            "id": 11050,
+            "name": "img_general_shop_jewel_dmmgames_coin_0003",
+            "size": 19849,
+            "crc": 2172621534,
+            "state": "ADD",
+            "md5": "8961ccb3d1cb276af240d7247cdbb617",
+            "objectName": "4LY1C0",
+            "uploadVersionId": 205000
+        },
+        {
+            "id": 11051,
+            "name": "img_general_shop_jewel_dmmgames_coin_0006",
+            "size": 27657,
+            "crc": 3357327353,
+            "state": "ADD",
+            "md5": "b540eb90437275abede423e008647a5e",
+            "objectName": "KO5yZD",
+            "uploadVersionId": 205000
+        },
+        {
+            "id": 11052,
+            "name": "img_general_shop_jewel_dmmgames_coin_0007",
+            "size": 28207,
+            "crc": 210040416,
+            "state": "ADD",
+            "md5": "6aebe80a08b0125f6e664e35b9bbe599",
+            "objectName": "kPHJA2",
+            "uploadVersionId": 205000
+        },
+        {
+            "id": 11053,
+            "name": "img_general_shop_jewel_dmmgames_coin_0004",
+            "size": 25268,
+            "crc": 1842497593,
+            "state": "ADD",
+            "md5": "ca540b6afaf193ae5b753029314d7a1c",
+            "objectName": "ghaFHN",
+            "uploadVersionId": 205000
+        },
+        {
+            "id": 11054,
+            "name": "img_general_shop_jewel_dmmgames_coin_0008",
+            "size": 28612,
+            "crc": 169797869,
+            "state": "ADD",
+            "md5": "52e6db4c7121d544d74e008b3a06e7ac",
+            "objectName": "X2Y7vu",
+            "uploadVersionId": 205000
+        },
+        {
+            "id": 11055,
+            "name": "img_general_shop_jewel_dmmgames_coin_0001",
+            "size": 12798,
+            "crc": 1685682759,
+            "state": "ADD",
+            "md5": "7de0c875bcfb38ec80edbd50846045bb",
+            "objectName": "f6w3BI",
+            "uploadVersionId": 205000
+        },
+        {
+            "id": 11056,
+            "name": "img_notice_notice-list_pr_starlit-season-banner-04",
+            "size": 646449,
+            "crc": 4217321093,
+            "state": "ADD",
+            "md5": "1e109a5702d6026d9fda8ecf40645c90",
+            "objectName": "kIpfyk",
+            "uploadVersionId": 205000
+        },
+        {
+            "id": 11057,
+            "name": "img_general_shop_jewel_dmmgames_coin_0012",
+            "size": 27750,
+            "crc": 489473937,
+            "state": "ADD",
+            "md5": "0e8061c2ec31830da99a1b5660994664",
+            "objectName": "w3Ysdj",
+            "uploadVersionId": 205000
+        },
+        {
+            "id": 11058,
+            "name": "img_general_shop_jewel_dmmgames_coin_0009",
+            "size": 21768,
+            "crc": 4238331678,
+            "state": "ADD",
+            "md5": "51f4192c15c550d49ddd12417f7c9c5a",
+            "objectName": "ttffSJ",
+            "uploadVersionId": 205000
+        },
+        {
+            "id": 11059,
+            "name": "img_general_shop_jewel_dmmgames_coin_0011",
+            "size": 28613,
+            "crc": 175673548,
+            "state": "ADD",
+            "md5": "7348b0b0d83d7f17458116ce7989cb43",
+            "objectName": "kqnFpz",
+            "uploadVersionId": 205000
+        },
+        {
+            "id": 11060,
+            "name": "img_notice_gasha_gasha-000410-ssr-idol-support-3-banner-01-large-pre",
+            "size": 104941,
+            "crc": 3020818764,
+            "state": "ADD",
+            "md5": "fb80dde53cc5635e178e69da2b6c552a",
+            "objectName": "0fjGb8",
             "uploadVersionId": 205000
         }
     ],
