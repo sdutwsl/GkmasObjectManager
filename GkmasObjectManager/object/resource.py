@@ -13,11 +13,17 @@ from ..const import (
     CHARACTER_ABBREVS,
 )
 
+from ..media import GkmasDummyMedia
+from ..media.image import GkmasImage
+from ..media.audio import GkmasAudio, GkmasAWBAudio
+from ..media.video import GkmasUSMVideo
+
 import re
 import requests
 from hashlib import md5
 from pathlib import Path
 from urllib.parse import urljoin
+from typing import Tuple
 
 
 logger = Logger()
@@ -64,12 +70,54 @@ class GkmasResource:
         # 'self.state' unused, but retained for compatibility
         self._idname = f"RS[{self.id:05}] '{self.name}'"
 
+        # 'self._media' holds a class from media/ that implements
+        # format-specific extraction, if applicable.
+        # Not set at initialization, since downloading bytes is a prerequisite.
+        self._media = None
+
+        # We expect the client to use get_caption(),
+        # so this *internal* variable has a leading underscore.
+        self._caption = None
+
     def __repr__(self):
         return f"<GkmasResource {self._idname}>"
 
     def _get_canon_repr(self):
         # this format retains the order of fields
         return {field: getattr(self, field) for field in RESOURCE_INFO_FIELDS}
+
+    def _get_media(self):
+        """
+        [INTERNAL] Instantiates a high-level media class based on the resource name.
+        Used to dispatch download and extraction.
+        """
+
+        if self._media is None:
+            data = self._download_bytes()
+            if self.name.startswith("img_") and self.name.endswith(".png"):
+                self._media = GkmasImage(self._idname, data)
+            elif self.name.startswith("sud_") and self.name.endswith(".mp3"):
+                self._media = GkmasAudio(self._idname, data)
+            elif self.name.startswith("sud_"):
+                self._media = GkmasAWBAudio(self._idname, data)
+            elif self.name.startswith("mov_"):
+                self._media = GkmasUSMVideo(self._idname, data)
+            else:
+                self._media = GkmasDummyMedia(self._idname, data)
+
+        return self._media
+
+    def get_data(self, **kwargs) -> Tuple[bytes, str]:
+        return self._get_media().get_data(**kwargs)
+
+    # No leading underscore, since this should be client-side visible
+    def get_caption(self) -> str:
+        if self._caption is None:
+            caption = self._get_media().caption()
+            if caption.startswith("["):  # error message
+                return caption  # display in frontend, but don't cache
+            self._caption = caption
+        return self._caption
 
     def download(
         self,
@@ -92,9 +140,7 @@ class GkmasResource:
             logger.warning(f"{self._idname} already exists")
             return
 
-        dec = self._download_bytes()
-        path.write_bytes(dec)
-        logger.success(f"{self._idname} downloaded")
+        self._get_media().export(path, **kwargs)
 
     def _download_path(self, path: PATH_ARGTYPE, categorize: bool) -> Path:
         """
