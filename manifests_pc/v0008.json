@@ -1,0 +1,382 @@
+{
+    "revision": [
+        9,
+        8
+    ],
+    "assetBundleList": [
+        {
+            "id": 1076,
+            "name": "tln_gasha-001",
+            "size": 9593917,
+            "crc": 3991829944,
+            "dependencies": [
+                1357,
+                4634,
+                9048,
+                8162,
+                8236,
+                5560,
+                599,
+                3876,
+                80,
+                5187,
+                8591,
+                9615,
+                330,
+                7150,
+                6161,
+                5852,
+                5928,
+                5618,
+                2421,
+                1228
+            ],
+            "state": "UPDATE",
+            "md5": "4e44ec5ead50779340f32ef3e18a8b6e",
+            "objectName": "XdufW8",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 3707,
+            "name": "img_general_achievement_char_hrnm-017",
+            "size": 146187,
+            "crc": 2880703331,
+            "state": "UPDATE",
+            "md5": "afcdd902d262381c2a95f22fdc0eec55",
+            "objectName": "eaRGkc",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 3915,
+            "name": "img_general_achievement_char_ttmr-001",
+            "size": 115313,
+            "crc": 92958358,
+            "state": "UPDATE",
+            "md5": "659cee8100c1751e1dc3ba21cc30df29",
+            "objectName": "DQFPiD",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 3947,
+            "name": "img_general_achievement_char_ttmr-003",
+            "size": 137350,
+            "crc": 1219757112,
+            "state": "UPDATE",
+            "md5": "3d286b691ede99d51bf2121aa8f35222",
+            "objectName": "VGhh0n",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 5206,
+            "name": "img_general_achievement_char_ttmr-008",
+            "size": 116370,
+            "crc": 1879853598,
+            "state": "UPDATE",
+            "md5": "ac1889debc9a906ca007e5d12f2cde3a",
+            "objectName": "1IcsYG",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 5650,
+            "name": "img_cos_amao-cstm-0000_body",
+            "size": 113994,
+            "crc": 1528807768,
+            "state": "UPDATE",
+            "md5": "1cb127bf303504ec89a6821c17887733",
+            "objectName": "yij92c",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 8726,
+            "name": "img_general_achievement_char_ttmr-002",
+            "size": 124678,
+            "crc": 1315764351,
+            "state": "UPDATE",
+            "md5": "84189b59cdf16b791f2be214ae89d390",
+            "objectName": "xpab6h",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 11011,
+            "name": "img_gasha_banner_gasha-000410-ssr-idol-support-3-select-m",
+            "size": 137972,
+            "crc": 3896255030,
+            "state": "ADD",
+            "md5": "63d5516753288ce4a2b59ebee6d7e096",
+            "objectName": "2S7B0G",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 11012,
+            "name": "img_notice_notice-list_information_realese-001-large",
+            "size": 6228976,
+            "crc": 793058029,
+            "state": "ADD",
+            "md5": "b72efdeada12084187051def10c24c5e",
+            "objectName": "IstNDe",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 11013,
+            "name": "img_notice_campaign_campaign_20250312cm-001",
+            "size": 3097370,
+            "crc": 1262437847,
+            "state": "ADD",
+            "md5": "57c52834c5641c2ae09df49368807dd3",
+            "objectName": "iu9wTR",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 11014,
+            "name": "img_notice_gasha_gasha-000410-ssr-idol-support-3",
+            "size": 3386883,
+            "crc": 639948699,
+            "state": "ADD",
+            "md5": "1d3b6982142b24016783f400983a808a",
+            "objectName": "KUSsJ0",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 11015,
+            "name": "img_general_icon_exam-effect_examfullpowerlessonmultipleadditive",
+            "size": 6058,
+            "crc": 2991143587,
+            "state": "ADD",
+            "md5": "7425f369f6104562030ac0dcf55c2b74",
+            "objectName": "5DIXuL",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 11016,
+            "name": "img_general_icon_exam-effect_examreviewadditive",
+            "size": 4135,
+            "crc": 1616467735,
+            "state": "ADD",
+            "md5": "da1bafaa92fa9ff8a11e8f1aa8faf4fa",
+            "objectName": "KNaGIq",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 11017,
+            "name": "img_general_gasha-bg_gasha_000410-ssr-idol-support-3",
+            "size": 1367611,
+            "crc": 2426654357,
+            "state": "ADD",
+            "md5": "95cf0235584700907339e822758c94ee",
+            "objectName": "rz8VH9",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 11018,
+            "name": "img_notice_gasha_gasha-000410-ssr-idol-support-3-banner-01-large",
+            "size": 846135,
+            "crc": 211691652,
+            "state": "ADD",
+            "md5": "ca4639c4389601a47e3a8a24fb6ebce3",
+            "objectName": "RPOxgG",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 11019,
+            "name": "img_general_icon_exam-effect_examgroweffectlessonaddadditive",
+            "size": 6149,
+            "crc": 1187883740,
+            "state": "ADD",
+            "md5": "29ecf15f03f7d2eb2184bef117fc5a74",
+            "objectName": "LOsMP2",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 11020,
+            "name": "img_general_icon_exam-effect_examenthusiasticmultiple",
+            "size": 6145,
+            "crc": 2026692995,
+            "state": "ADD",
+            "md5": "33ef7e1b8e56bbcae3953b27e3b9b509",
+            "objectName": "xMy1vZ",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 11021,
+            "name": "img_general_icon_exam-effect_examaggressiveadditive",
+            "size": 4831,
+            "crc": 892674636,
+            "state": "ADD",
+            "md5": "968a272ec6f255e456b8682f76cbee46",
+            "objectName": "lfB9bi",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 11022,
+            "name": "img_general_icon_exam-effect_examlessonbuffadditive",
+            "size": 5201,
+            "crc": 2404521880,
+            "state": "ADD",
+            "md5": "7b21984abc7dfbbc5e3d9e56cbdfe627",
+            "objectName": "AKf98J",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 11023,
+            "name": "img_gasha_banner_gasha-000410-ssr-idol-support-3-select-s",
+            "size": 79834,
+            "crc": 107582641,
+            "state": "ADD",
+            "md5": "0debf30bdfe92cfc101b6b072ec3bfe0",
+            "objectName": "aquAmw",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 11024,
+            "name": "img_general_icon_exam-effect_examconcentrationlessonmultipleadditive",
+            "size": 4906,
+            "crc": 2378719587,
+            "state": "ADD",
+            "md5": "8634741a84a30d6d329032f2000a00f2",
+            "objectName": "aA5zu2",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 11025,
+            "name": "img_general_icon_exam-effect_examfullpowerpointadditive",
+            "size": 4728,
+            "crc": 3299322650,
+            "state": "ADD",
+            "md5": "1bbb35da79200db6d68958127b0fe921",
+            "objectName": "njL9qo",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 11026,
+            "name": "img_general_gasha_bg_gasha_000410-ssr-idol-support-3",
+            "size": 1367610,
+            "crc": 1386169440,
+            "state": "ADD",
+            "md5": "d7decbd791bc8f8d316770cb97aa7302",
+            "objectName": "9MtnQG",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 11027,
+            "name": "img_general_icon_exam-effect_examreviewmultiple",
+            "size": 4168,
+            "crc": 1278622867,
+            "state": "ADD",
+            "md5": "40c4d09585c49e861393a02e70f4c508",
+            "objectName": "MJojiT",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 11028,
+            "name": "img_notice_campaign_dmm-release-01",
+            "size": 2444640,
+            "crc": 190583175,
+            "state": "ADD",
+            "md5": "72eee91e558b1b38a0e07a677f3ec289",
+            "objectName": "ajEu7Z",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 11029,
+            "name": "img_general_comic4_0074-thumb",
+            "size": 52307,
+            "crc": 3414292161,
+            "state": "ADD",
+            "md5": "56a13282428416c4578834b2ded70d44",
+            "objectName": "dIoI5u",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 11030,
+            "name": "img_general_home_gasha_gasha-000410-ssr-idol-support-3",
+            "size": 39104,
+            "crc": 2709247342,
+            "state": "ADD",
+            "md5": "0d49a3dea24af712a4f8c16141054d5b",
+            "objectName": "IhFlj4",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 11031,
+            "name": "img_general_icon_exam-effect_examparameterbuffadditive",
+            "size": 5161,
+            "crc": 2738529242,
+            "state": "ADD",
+            "md5": "a271cded9e76c48c4b6a39fb6533def4",
+            "objectName": "d8r8Bc",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 11032,
+            "name": "img_notice_notice-list_campaign_cm20250318-001_banner-01-large",
+            "size": 1000244,
+            "crc": 1086724160,
+            "state": "ADD",
+            "md5": "087c8c5cdd41764d3a0584691ba9867d",
+            "objectName": "fhSGSu",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 11033,
+            "name": "img_general_icon_exam-effect_examenthusiasticadditive",
+            "size": 6086,
+            "crc": 2514251319,
+            "state": "ADD",
+            "md5": "24c8771a98bcb8747f32ea8356192cfd",
+            "objectName": "OMlIz4",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 11034,
+            "name": "img_gasha_banner_gasha-000410-ssr-idol-support-3-logo",
+            "size": 30834,
+            "crc": 810140223,
+            "state": "ADD",
+            "md5": "4987b453ab87655263b989bd4adc6cba",
+            "objectName": "lcM2hm",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 11035,
+            "name": "img_general_comic4_0073-thumb",
+            "size": 47011,
+            "crc": 3713766255,
+            "state": "ADD",
+            "md5": "24ba208e250ed190ebc456f8f65ae49b",
+            "objectName": "cErRH3",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 11036,
+            "name": "img_gasha_text_000410-ssr-idol-support-3",
+            "size": 57383,
+            "crc": 277628032,
+            "state": "ADD",
+            "md5": "3b90bba9a7e7b1a6f9a88b63a2c724e6",
+            "objectName": "meNZGA",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 11037,
+            "name": "img_general_comic4_0073",
+            "size": 398780,
+            "crc": 3068830409,
+            "state": "ADD",
+            "md5": "c13d4141290af5cdde7c2c7417b8bd77",
+            "objectName": "hkhVMz",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 11038,
+            "name": "img_general_comic4_0074",
+            "size": 486651,
+            "crc": 30297317,
+            "state": "ADD",
+            "md5": "297bcf1907ff288c01bd81e04f320890",
+            "objectName": "6E2rAr",
+            "uploadVersionId": 705000
+        }
+    ],
+    "resourceList": [],
+    "urlFormat": "https://object.asset.game-gakuen-idolmaster.jp/{o}"
+}
