@@ -1,6 +1,6 @@
 {
     "revision": [
-        207,
+        208,
         171
     ],
     "assetBundleList": [
@@ -90,6 +90,19 @@
             "uploadVersionId": 205000
         },
         {
+            "id": 260,
+            "name": "fbx_mdl_env_cmn-parts_live-stagesystem-00",
+            "size": 995460,
+            "crc": 3455711148,
+            "dependencies": [
+                1654
+            ],
+            "state": "UPDATE",
+            "md5": "218aef93c431e25801dc5859c40cb03d",
+            "objectName": "A4SBhx",
+            "uploadVersionId": 205000
+        },
+        {
             "id": 324,
             "name": "img_cos_kllj-cstm-0019_body",
             "size": 31754,
@@ -97,6 +110,41 @@
             "state": "UPDATE",
             "md5": "aad25b9616cf0c3009688b57fde19868",
             "objectName": "fLL1cN",
+            "uploadVersionId": 205000
+        },
+        {
+            "id": 342,
+            "name": "env_3d_adv_schoolgarden-00-00-night",
+            "size": 6697703,
+            "crc": 514702005,
+            "dependencies": [
+                2043,
+                3737,
+                4192,
+                3642,
+                3997,
+                1479,
+                3624,
+                1154,
+                1783,
+                2403,
+                1348,
+                1714,
+                3181,
+                260,
+                40,
+                1765,
+                3492,
+                796,
+                2841,
+                1646,
+                3728,
+                1654,
+                704
+            ],
+            "state": "UPDATE",
+            "md5": "e186795b7392fa9f3c5ea674d3ba2cb3",
+            "objectName": "2Ie2Xm",
             "uploadVersionId": 205000
         },
         {
@@ -337,11 +385,45 @@
         {
             "id": 1783,
             "name": "t_sky_night-00",
-            "size": 7045644,
-            "crc": 525239966,
+            "size": 3523408,
+            "crc": 805871049,
             "state": "UPDATE",
-            "md5": "57780770ccb6613a27f8c1da813d6ee9",
-            "objectName": "dG7Htw",
+            "md5": "81324ec8aeafc5134026f7b5f48f9684",
+            "objectName": "zw5ePj",
+            "uploadVersionId": 205000
+        },
+        {
+            "id": 1799,
+            "name": "env_3d_adv_schoolgarden-00-00-noon",
+            "size": 6672048,
+            "crc": 1422021125,
+            "dependencies": [
+                2403,
+                4192,
+                1654,
+                260,
+                2043,
+                3997,
+                704,
+                3492,
+                3181,
+                3231,
+                40,
+                2841,
+                3737,
+                1646,
+                1154,
+                1714,
+                1479,
+                3624,
+                3728,
+                3662,
+                3642,
+                927
+            ],
+            "state": "UPDATE",
+            "md5": "742d72c3c565bdfcfb6b909dafb31e58",
+            "objectName": "utsmxv",
             "uploadVersionId": 205000
         },
         {
@@ -437,6 +519,41 @@
             "state": "UPDATE",
             "md5": "65ba2be2bfee9af956ca711910153714",
             "objectName": "O6yb2m",
+            "uploadVersionId": 205000
+        },
+        {
+            "id": 2480,
+            "name": "env_3d_adv_schoolgarden-00-00-evening",
+            "size": 6644721,
+            "crc": 937160618,
+            "dependencies": [
+                704,
+                1714,
+                2043,
+                3728,
+                2841,
+                3492,
+                1154,
+                4192,
+                260,
+                1362,
+                4082,
+                1479,
+                1654,
+                2403,
+                2795,
+                3642,
+                3737,
+                3624,
+                1196,
+                3997,
+                40,
+                1646,
+                3181
+            ],
+            "state": "UPDATE",
+            "md5": "aea15a167801ffee0cd3652b3707f634",
+            "objectName": "rgFZIV",
             "uploadVersionId": 205000
         },
         {
