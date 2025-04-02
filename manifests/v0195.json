@@ -1,6 +1,6 @@
 {
     "revision": [
-        217,
+        218,
         195
     ],
     "assetBundleList": [
@@ -332,6 +332,21 @@
             "state": "UPDATE",
             "md5": "86c665683a60914f45de88a0e02ea6e8",
             "objectName": "Ik2buG",
+            "uploadVersionId": 205000
+        },
+        {
+            "id": 1718,
+            "name": "mdl_chr_nasr-base-0000_face",
+            "size": 1040206,
+            "crc": 574575984,
+            "dependencies": [
+                2071,
+                1554,
+                1654
+            ],
+            "state": "UPDATE",
+            "md5": "2a4b57132aa8caee8e7702ba060e61ec",
+            "objectName": "neLh1Z",
             "uploadVersionId": 205000
         },
         {

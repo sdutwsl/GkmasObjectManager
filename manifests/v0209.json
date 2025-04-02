@@ -1,9 +1,24 @@
 {
     "revision": [
-        217,
+        218,
         209
     ],
     "assetBundleList": [
+        {
+            "id": 1718,
+            "name": "mdl_chr_nasr-base-0000_face",
+            "size": 1040206,
+            "crc": 574575984,
+            "dependencies": [
+                2071,
+                1554,
+                1654
+            ],
+            "state": "UPDATE",
+            "md5": "2a4b57132aa8caee8e7702ba060e61ec",
+            "objectName": "neLh1Z",
+            "uploadVersionId": 205000
+        },
         {
             "id": 5278,
             "name": "img_tutorial_event_box-gasha-event_003",
