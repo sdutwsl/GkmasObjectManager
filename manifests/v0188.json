@@ -1,6 +1,6 @@
 {
     "revision": [
-        222,
+        223,
         188
     ],
     "assetBundleList": [
@@ -77,6 +77,16 @@
             "state": "UPDATE",
             "md5": "0e02c5d61635d987d4478d0c14984a38",
             "objectName": "oPAZeg",
+            "uploadVersionId": 205000
+        },
+        {
+            "id": 164,
+            "name": "img_general_ui_produce-1_btn",
+            "size": 67102,
+            "crc": 975274616,
+            "state": "UPDATE",
+            "md5": "356b866c4e0315d7f4cd256bddec9c33",
+            "objectName": "SrKy2q",
             "uploadVersionId": 205000
         },
         {
@@ -260,6 +270,16 @@
             "state": "UPDATE",
             "md5": "753a938ae587f020d5cff7a2d362f7a7",
             "objectName": "VhthuI",
+            "uploadVersionId": 205000
+        },
+        {
+            "id": 793,
+            "name": "img_general_ui_produce-2_btn",
+            "size": 77454,
+            "crc": 1275833847,
+            "state": "UPDATE",
+            "md5": "a295c8535d370a71a1dfe718217f43ee",
+            "objectName": "F6Xhi9",
             "uploadVersionId": 205000
         },
         {
@@ -977,6 +997,16 @@
             "uploadVersionId": 205000
         },
         {
+            "id": 7118,
+            "name": "img_general_ui_produce-2_btn-small",
+            "size": 78015,
+            "crc": 4037057242,
+            "state": "UPDATE",
+            "md5": "8c53e71373cb514cd16b6ea7c34909a1",
+            "objectName": "KIzVoy",
+            "uploadVersionId": 205000
+        },
+        {
             "id": 7119,
             "name": "img_general_achievement_char_hume-017",
             "size": 55585,
@@ -1024,6 +1054,16 @@
             "state": "UPDATE",
             "md5": "aaf90cdda891ff52041c1c8a626b146b",
             "objectName": "J7MEz8",
+            "uploadVersionId": 205000
+        },
+        {
+            "id": 7158,
+            "name": "img_general_ui_produce-1_btn-small",
+            "size": 68187,
+            "crc": 2120825105,
+            "state": "UPDATE",
+            "md5": "ebab66ab8e97a886eb7c149c8f5183e3",
+            "objectName": "3EwEf4",
             "uploadVersionId": 205000
         },
         {
@@ -1094,6 +1134,16 @@
             "state": "UPDATE",
             "md5": "8b93088a5da038ccb99c4a1428dc00e4",
             "objectName": "7X9npY",
+            "uploadVersionId": 205000
+        },
+        {
+            "id": 7228,
+            "name": "img_general_ui_produce-3_btn-small",
+            "size": 73275,
+            "crc": 3277791493,
+            "state": "UPDATE",
+            "md5": "ce462a8305626df605c7fc18525fa883",
+            "objectName": "GnEA5P",
             "uploadVersionId": 205000
         },
         {
@@ -1700,6 +1750,16 @@
             "uploadVersionId": 205000
         },
         {
+            "id": 9242,
+            "name": "img_general_ui_produce-1_btn-large",
+            "size": 115945,
+            "crc": 2321264040,
+            "state": "UPDATE",
+            "md5": "b7f0a42110815c246b855241306ee692",
+            "objectName": "4ARYFw",
+            "uploadVersionId": 205000
+        },
+        {
             "id": 9304,
             "name": "img_chr_atbm_00-thumb-circle",
             "size": 21795,
@@ -1847,6 +1907,16 @@
             "state": "UPDATE",
             "md5": "cf15e5f45044b585ff5dea5b370dd03d",
             "objectName": "wKHgRz",
+            "uploadVersionId": 205000
+        },
+        {
+            "id": 10031,
+            "name": "img_general_ui_produce-nia_btn-large",
+            "size": 149384,
+            "crc": 4215399496,
+            "state": "UPDATE",
+            "md5": "54b94bccccecd82bfe44fc988183e14d",
+            "objectName": "hf8XUC",
             "uploadVersionId": 205000
         },
         {
@@ -10988,6 +11058,16 @@
             "state": "ADD",
             "md5": "ad7db36c20578ac2f1d9f11a9205ea4d",
             "objectName": "FEe9BH",
+            "uploadVersionId": 205000
+        },
+        {
+            "id": 11568,
+            "name": "img_general_ui_produce-nia_btn",
+            "size": 77460,
+            "crc": 487803433,
+            "state": "ADD",
+            "md5": "0f2502e1cdfeae1357a49a7e0e7372a7",
+            "objectName": "sczBq6",
             "uploadVersionId": 205000
         }
     ],
