@@ -7,7 +7,6 @@ and PNG image handler for GkmasResource.
 from ..log import Logger
 from ..const import IMAGE_RESIZE_ARGTYPE
 from .dummy import GkmasDummyMedia
-from .ai_caption import GPTImageCaptionEngine
 
 from io import BytesIO
 from pathlib import Path
@@ -23,13 +22,10 @@ logger = Logger()
 class GkmasImage(GkmasDummyMedia):
     """Handler for images of common formats recognized by PIL."""
 
-    def __init__(self, name: str, raw: bytes):
-        super().__init__(name, raw)
+    def __init__(self, name: str, raw: bytes, mtime: str = ""):
+        super().__init__(name, raw, mtime)
         self.mimetype = "image"
         self.raw_format = name.split(".")[-1][:-1]
-
-    def caption(self) -> str:
-        return GPTImageCaptionEngine().generate(self.get_embed_url())
 
     def _convert(self, raw: bytes, **kwargs) -> bytes:
         return self._img2bytes(Image.open(BytesIO(raw)), **kwargs)
@@ -113,8 +109,8 @@ class GkmasImage(GkmasDummyMedia):
 class GkmasUnityImage(GkmasImage):
     """Conversion plugin for Unity images."""
 
-    def __init__(self, name: str, raw: bytes):
-        super().__init__(name, raw)
+    def __init__(self, name: str, raw: bytes, mtime: str = ""):
+        super().__init__(name, raw, mtime)
         self.raw_format = None  # don't override
         self.converted_format = "png"
 
