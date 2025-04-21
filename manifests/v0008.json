@@ -1,6 +1,6 @@
 {
     "revision": [
-        226,
+        228,
         8
     ],
     "assetBundleList": [
@@ -3863,11 +3863,11 @@
         {
             "id": 1654,
             "name": "shader",
-            "size": 7653808,
-            "crc": 1473822624,
+            "size": 7337359,
+            "crc": 4270819477,
             "state": "UPDATE",
-            "md5": "5cfb919f7f6b84d01e7fa9e0f61a0911",
-            "objectName": "xw4bba",
+            "md5": "d50d18ad6187f55672f3f2a3aba2d4d3",
+            "objectName": "VUqQXv",
             "uploadVersionId": 205000
         },
         {
@@ -4818,11 +4818,11 @@
         {
             "id": 2071,
             "name": "actor-shader",
-            "size": 10556989,
-            "crc": 547803114,
+            "size": 10560776,
+            "crc": 1579848340,
             "state": "UPDATE",
-            "md5": "dad68a1214eecf32a3c82b158019a4fb",
-            "objectName": "Pws4C8",
+            "md5": "39ffdd5f9d8991d82db5cc71d762e04c",
+            "objectName": "pE36Za",
             "uploadVersionId": 205000
         },
         {
@@ -33326,14 +33326,14 @@
         {
             "id": 6653,
             "name": "fbx_mdl_env_stg-parts_councilroom-00-00",
-            "size": 9276641,
-            "crc": 1103074985,
+            "size": 9275638,
+            "crc": 3366062235,
             "dependencies": [
                 1654
             ],
-            "state": "ADD",
-            "md5": "440fd268349f8fc8fd7e1a750af976dd",
-            "objectName": "ow2dsz",
+            "state": "UPDATE",
+            "md5": "e29bd443d744e20cb73ede1cd39dbd4f",
+            "objectName": "JXbPA6",
             "uploadVersionId": 205000
         },
         {
