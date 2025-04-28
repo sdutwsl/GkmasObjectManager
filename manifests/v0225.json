@@ -1,6 +1,6 @@
 {
     "revision": [
-        228,
+        230,
         225
     ],
     "assetBundleList": [
@@ -35,6 +35,90 @@
             "state": "UPDATE",
             "md5": "e29bd443d744e20cb73ede1cd39dbd4f",
             "objectName": "JXbPA6",
+            "uploadVersionId": 205000
+        },
+        {
+            "id": 11669,
+            "name": "img_general_meishi_illust_music-logo-fktn-003-full",
+            "size": 26536,
+            "crc": 377565894,
+            "state": "ADD",
+            "md5": "0478f03b3bb2fa61e8286817b9fc3004",
+            "objectName": "CfrEJj",
+            "uploadVersionId": 205000
+        },
+        {
+            "id": 11670,
+            "name": "img_notice_birthday_birthday-fktn-2025",
+            "size": 388159,
+            "crc": 2128456927,
+            "state": "ADD",
+            "md5": "06944cc207185562d27d7a9bd625c4b1",
+            "objectName": "1bYpWq",
+            "uploadVersionId": 205000
+        },
+        {
+            "id": 11671,
+            "name": "img_notice_information_birthday-fktn-2025-large",
+            "size": 122206,
+            "crc": 4023277372,
+            "state": "ADD",
+            "md5": "78d7ae99b177293c9bca375bf555a0d9",
+            "objectName": "QHTTQy",
+            "uploadVersionId": 205000
+        },
+        {
+            "id": 11672,
+            "name": "img_general_meishi_base_fktn-birthday-01-full",
+            "size": 717246,
+            "crc": 579534110,
+            "state": "ADD",
+            "md5": "b0f57bdb371d57cf8ace4a161b6e1295",
+            "objectName": "4ao9MV",
+            "uploadVersionId": 205000
+        },
+        {
+            "id": 11673,
+            "name": "img_general_meishi_base_fktn-birthday-01-thumb",
+            "size": 27445,
+            "crc": 1587985075,
+            "state": "ADD",
+            "md5": "4a39975bf6577760a19b1a3946546b32",
+            "objectName": "Ao75T0",
+            "uploadVersionId": 205000
+        },
+        {
+            "id": 11674,
+            "name": "mdl_env_grp_home_boards_birthdayfktn-00",
+            "size": 1197953,
+            "crc": 2909067544,
+            "dependencies": [
+                1655,
+                1654
+            ],
+            "state": "ADD",
+            "md5": "57f23e87caa34fb0bd4c1d080fe80d8a",
+            "objectName": "nOtdyl",
+            "uploadVersionId": 205000
+        },
+        {
+            "id": 11675,
+            "name": "img_general_home_birthday_birthday-fktn-2025-001",
+            "size": 17004,
+            "crc": 2251029350,
+            "state": "ADD",
+            "md5": "04dcbf9da6eda9d3344dd59f9ca179fa",
+            "objectName": "LyxThl",
+            "uploadVersionId": 205000
+        },
+        {
+            "id": 11676,
+            "name": "img_general_music_jacket_char-fktn-003",
+            "size": 369677,
+            "crc": 1090681601,
+            "state": "ADD",
+            "md5": "12c34b47561be0b7352514bd8c34c65d",
+            "objectName": "lETF93",
             "uploadVersionId": 205000
         }
     ],
@@ -568,6 +652,60 @@
             "state": "ADD",
             "md5": "8e874a064d1ad06a04b2dacae4d78659",
             "objectName": "4PPIyt",
+            "uploadVersionId": 205000
+        },
+        {
+            "id": 12438,
+            "name": "sud_music_general_fktn-003-fktn_game.awb",
+            "size": 4341058,
+            "state": "ADD",
+            "md5": "3df632b8d3bdb1c4407da7dc8a76f4b9",
+            "objectName": "ZHW5Z6",
+            "uploadVersionId": 205000
+        },
+        {
+            "id": 12439,
+            "name": "sud_music_general_fktn-003-fktn_game.mp3",
+            "size": 2365065,
+            "state": "ADD",
+            "md5": "18546cdb9dfdc4b29196021049ad9187",
+            "objectName": "AGF6l0",
+            "uploadVersionId": 205000
+        },
+        {
+            "id": 12440,
+            "name": "sud_vo_adv_startup_2025_bd-01_fktn-01.acb",
+            "size": 348032,
+            "state": "ADD",
+            "md5": "1e543bfe62340e43a669d53798b71bde",
+            "objectName": "L8XktG",
+            "uploadVersionId": 205000
+        },
+        {
+            "id": 12441,
+            "name": "adv_startup_2025_bd-01_fktn-01.txt",
+            "size": 29916,
+            "state": "ADD",
+            "md5": "66445115da01730017fca87e358b6f88",
+            "objectName": "SON70E",
+            "uploadVersionId": 205000
+        },
+        {
+            "id": 12442,
+            "name": "img_general_music_jacket_char-fktn-003.png",
+            "size": 1148076,
+            "state": "ADD",
+            "md5": "9671c193fef306e635837f23b87e2891",
+            "objectName": "d4pVo1",
+            "uploadVersionId": 205000
+        },
+        {
+            "id": 12443,
+            "name": "sud_music_general_fktn-003-fktn_game.acb",
+            "size": 10720,
+            "state": "ADD",
+            "md5": "db242e5ecfc3fb5d6e4257ff3fad0bb9",
+            "objectName": "kTO4Hy",
             "uploadVersionId": 205000
         }
     ],
