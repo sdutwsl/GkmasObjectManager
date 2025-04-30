@@ -1,6 +1,6 @@
 {
     "revision": [
-        230,
+        231,
         214
     ],
     "assetBundleList": [
@@ -3425,6 +3425,26 @@
             "state": "ADD",
             "md5": "12c34b47561be0b7352514bd8c34c65d",
             "objectName": "lETF93",
+            "uploadVersionId": 205000
+        },
+        {
+            "id": 11677,
+            "name": "img_notice_gasha_gasha-00410-pickup-001-banner-01-large-pre",
+            "size": 86138,
+            "crc": 610998061,
+            "state": "ADD",
+            "md5": "ad6d9b802d701e95289961831d22d7a3",
+            "objectName": "27ujDQ",
+            "uploadVersionId": 205000
+        },
+        {
+            "id": 11678,
+            "name": "img_notice_notice-list_event_main-story_event-main-story-009-banner",
+            "size": 90707,
+            "crc": 1702336712,
+            "state": "ADD",
+            "md5": "a96e901ed0808c8139d687979ba060f8",
+            "objectName": "TR1d2N",
             "uploadVersionId": 205000
         }
     ],
