@@ -3,23 +3,15 @@ assetbundle.py
 Unity asset bundle downloading, deobfuscation, and media extraction.
 """
 
-from ..log import Logger
-from ..const import (
-    PATH_ARGTYPE,
-    RESOURCE_INFO_FIELDS_HEAD,
-    RESOURCE_INFO_FIELDS_TAIL,
-    DEFAULT_DOWNLOAD_PATH,
-    UNITY_SIGNATURE,
-)
-
-from .resource import GkmasResource
-from .deobfuscate import GkmasAssetBundleDeobfuscator
-from ..media import GkmasDummyMedia
-from ..media.image import GkmasUnityImage
-from ..media.audio import GkmasUnityAudio
-
 from pathlib import Path
 
+from ..const import UNITY_SIGNATURE, PathArgtype
+from ..media import GkmasDummyMedia
+from ..media.audio import GkmasUnityAudio
+from ..media.image import GkmasUnityImage
+from ..utils import Logger
+from .deobfuscate import GkmasAssetBundleDeobfuscator
+from .resource import GkmasResource
 
 logger = Logger()
 
@@ -38,39 +30,28 @@ class GkmasAssetBundle(GkmasResource):
         download(
             path: Union[str, Path] = DEFAULT_DOWNLOAD_PATH,
             categorize: bool = True,
-            convert_image: bool = True,
-            image_format: str = "png",
-            image_resize: Union[None, str, Tuple[int, int]] = None,
+            **kwargs,
         ) -> None:
             Downloads and deobfuscates the assetbundle to the specified path.
-            Also extracts a single image from each bundle with type 'img'.
+            Also performs media conversion if applicable.
     """
 
-    def __init__(self, info: dict):
+    def __init__(self, info: dict, url_template: str):
         """
         Initializes an assetbundle with the given information.
         Usually called from GkmasManifest.
 
         Args:
             info (dict): An info dictionary, extracted from protobuf.
-                Must contain the following keys: id, name, objectName, size, md5, state, crc.
+            url_template (str): URL template for downloading the assetbundle.
+                {o} will be replaced with self.objectName.
         """
 
-        super().__init__(info)
-        self.crc = info["crc"]  # unused (for now)
-        self.dependencies = info.get("dependencies", [])
+        super().__init__(info, url_template)
         self._idname = f"AB[{self.id:05}] '{self.name}'"
 
     def __repr__(self):
         return f"<GkmasAssetBundle {self._idname}>"
-
-    def _get_canon_repr(self):
-        ret = {field: getattr(self, field) for field in RESOURCE_INFO_FIELDS_HEAD}
-        ret["crc"] = self.crc
-        if self.dependencies:
-            ret["dependencies"] = self.dependencies  # for ordering
-        ret.update({field: getattr(self, field) for field in RESOURCE_INFO_FIELDS_TAIL})
-        return ret
 
     def _get_media(self):
         """
@@ -90,7 +71,7 @@ class GkmasAssetBundle(GkmasResource):
 
         return self._media
 
-    def _download_path(self, path: PATH_ARGTYPE, categorize: bool) -> Path:
+    def _download_path(self, path: PathArgtype, categorize: bool) -> Path:
         """
         [INTERNAL] Refines the download path based on user input.
         Inherited from GkmasResource, but imposes a '.unity3d' suffix.

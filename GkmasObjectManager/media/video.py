@@ -3,13 +3,10 @@ media/video.py
 USM video conversion plugin for GkmasResource.
 """
 
-from ..log import Logger
-from .dummy import GkmasDummyMedia
-
-from pathlib import Path
-
 import ffmpeg
 
+from ..utils import Logger
+from .dummy import GkmasDummyMedia
 
 logger = Logger()
 
@@ -31,7 +28,7 @@ class GkmasUSMVideo(GkmasDummyMedia):
             vcodec="libx264",
             preset="ultrafast",
             format=self.converted_format,
-            movflags="frag_keyframe+empty_moov",
+            movflags="frag_keyframe",
             # otherwise libx264 reports 'muxer does not support non seekable output'
         )
 

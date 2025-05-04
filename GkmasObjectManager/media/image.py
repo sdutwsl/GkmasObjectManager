@@ -4,17 +4,14 @@ Unity image conversion plugin for GkmasAssetBundle,
 and PNG image handler for GkmasResource.
 """
 
-from ..log import Logger
-from ..const import IMAGE_RESIZE_ARGTYPE
-from .dummy import GkmasDummyMedia
-
 from io import BytesIO
-from pathlib import Path
-from typing import Union, Tuple
+from typing import Tuple, Union
 
 import UnityPy
 from PIL import Image
 
+from ..utils import Logger
+from .dummy import GkmasDummyMedia
 
 logger = Logger()
 
@@ -36,22 +33,24 @@ class GkmasImage(GkmasDummyMedia):
         Args:
             image_resize (Union[None, str, Tuple[int, int]]) = None: Image resizing argument.
                 If None, image is downloaded as is.
-                If str, string must contain exactly one ':' and image is resized to the specified ratio.
+                If str (must contain exactly one ':'), image is resized to the specified ratio.
                 If Tuple[int, int], image is resized to the specified exact dimensions.
         """
 
         image_resize = kwargs.get("image_resize", None)
         if image_resize:
-            if type(image_resize) == str:
+            if isinstance(image_resize, str):
                 image_resize = self._determine_new_size(img.size, ratio=image_resize)
             img = img.resize(image_resize, Image.LANCZOS)
 
         io = BytesIO()
         try:
-            img.save(io, format=self.converted_format.upper(), quality=100)
+            img.save(
+                io, format=self.converted_format.upper(), quality=100, optimize=True
+            )
         except OSError:  # cannot write mode RGBA as {self.converted_format}
             img.convert("RGB").save(
-                io, format=self.converted_format.upper(), quality=100
+                io, format=self.converted_format.upper(), quality=100, optimize=True
             )
 
         return io.getvalue()

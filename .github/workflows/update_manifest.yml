@@ -16,15 +16,24 @@ jobs:
 
         steps:
             - name: Checkout repository
-              uses: actions/checkout@v2
+              uses: actions/checkout@v4
               with:
                   ref: "refs/heads/manifest-update"
                   fetch-depth: 0
 
-            - name: Set up Python
-              uses: actions/setup-python@v2
+            - name: Set up Python 3.12 (with pip cache)
+              uses: actions/setup-python@v5
               with:
                   python-version: "3.12" # 'pyaudioop' removed in 3.13
+                  cache: "pip"
+
+            - name: Cache pip dependencies
+              uses: actions/cache@v4
+              with:
+                  path: ~/.cache/pip
+                  key: ${{ runner.os }}-pip-${{ hashFiles('**/requirements.txt') }}
+                  restore-keys: |
+                      ${{ runner.os }}-pip-
 
             - name: Install dependencies
               run: |
@@ -48,7 +57,7 @@ jobs:
               run: |
                   git config user.name "GitHub Actions"
                   git config user.email ""
-                  git add .
+                  git add manifests/ manifests_pc/
                   REV_NUMBER="$(cat manifests/LATEST_REVISION)"
                   REV_NUMBER_PC="$(cat manifests_pc/LATEST_REVISION)"
                   git commit -m "Update mobile manifest to revision v$REV_NUMBER and PC to v$REV_NUMBER_PC"

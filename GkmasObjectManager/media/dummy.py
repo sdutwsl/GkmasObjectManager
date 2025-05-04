@@ -5,22 +5,36 @@ Serves as a base class & template for other media plugins,
 as well as a fallback for unknown media types.
 """
 
-from ..log import Logger
-
 import os
-import base64
+from email.utils import parsedate_to_datetime
 from pathlib import Path
 from typing import Tuple
-
 from zipfile import ZipFile
-from email.utils import parsedate_to_datetime
 
+from ..utils import Logger
 
 logger = Logger()
 
 
 class GkmasDummyMedia:
-    """Unrecognized media handler, also the fallback for conversion plugins."""
+    """
+    Unrecognized media handler, also the fallback for conversion plugins.
+
+    Attributes:
+        name (str): Name of the media file (for logging purposes).
+        mtime (float): Last modified time of the media file as a timestamp.
+        mimetype (str): Media type (e.g., "image", "audio", "video").
+        raw (bytes): Raw binary data of the media file.
+        raw_format (str): Format of the raw media data.
+        converted (bytes): Converted binary data of the media file, if applicable.
+        converted_format (str): Format of the converted media data.
+
+    Methods:
+        get_data(**kwargs) -> Tuple[bytes, str]:
+            Requests data of the desired format.
+        export(path: Path, **kwargs):
+            Exports the media to the specified path.
+    """
 
     def __init__(self, name: str, raw: bytes, mtime: str = ""):
         self.name = name  # only for logging
@@ -36,6 +50,15 @@ class GkmasDummyMedia:
         raise NotImplementedError  # TO BE OVERRIDDEN
 
     def get_data(self, **kwargs) -> Tuple[bytes, str]:
+        """
+        Requests data of the desired format.
+
+        Args:
+            {mimetype}_format (str): Desired format for the media type.
+
+        Returns:
+            Tuple[bytes, str]: A tuple of (media data, mimetype).
+        """
 
         fmt = kwargs.get(
             f"{self.mimetype}_format",
@@ -70,11 +93,16 @@ class GkmasDummyMedia:
             )
         )
 
-    def get_embed_url(self, **kwargs) -> str:
-        data, mimetype = self.get_data(**kwargs)
-        return f"data:{mimetype};base64,{base64.b64encode(data).decode()}"
-
     def export(self, path: Path, **kwargs):
+        """
+        Exports the media to the specified path.
+
+        Args:
+            path (Path): The path to export the media to.
+            convert_{mimetype} (bool): Whether to enable media conversion.
+            {mimetype}_format (str): Desired format for the media type.
+        """
+
         # not overriding self.mimetype indicates unhandled media type
         if self.mimetype and kwargs.get(f"convert_{self.mimetype}", True):
             try:
