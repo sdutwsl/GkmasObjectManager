@@ -1,9 +1,30 @@
 {
     "revision": [
-        237,
+        238,
         236
     ],
-    "assetBundleList": [],
+    "assetBundleList": [
+        {
+            "id": 12036,
+            "name": "img_notice_gasha_gasha-00413-select-pickup-002-banner-01-large-pre",
+            "size": 94680,
+            "crc": 448089984,
+            "state": "UPDATE",
+            "md5": "e4be338b3fd15965095bc8c69adfa140",
+            "objectName": "LvnSQQ",
+            "uploadVersionId": 205000
+        },
+        {
+            "id": 12095,
+            "name": "img_notice_gasha_gasha-00413-select-pickup-001-banner-01-large-pre",
+            "size": 81332,
+            "crc": 4113742233,
+            "state": "UPDATE",
+            "md5": "130f92a05b969f498eb38d891bb640a6",
+            "objectName": "CFdaZc",
+            "uploadVersionId": 205000
+        }
+    ],
     "resourceList": [
         {
             "id": 12621,
