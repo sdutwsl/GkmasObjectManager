@@ -15,7 +15,7 @@ from google.protobuf.json_format import ParseError
 
 from ..const import CHARACTER_ABBREVS, CSV_COLUMNS, DEFAULT_DOWNLOAD_PATH, PathArgtype
 from ..object import GkmasAssetBundle, GkmasResource
-from ..utils import Logger
+from ..utils import Logger, nocache
 from .listing import GkmasObjectList
 from .octodb_pb2 import dict2pdbytes
 from .revision import GkmasManifestRevision
@@ -97,10 +97,10 @@ class GkmasManifest:
         self.urlformat = jdict["urlFormat"]
         # 'jdict' is then discarded and losslessly reconstructed at export
 
-    def __repr__(self):
+    def __repr__(self) -> str:
         return f"<GkmasManifest revision {self.revision} with {len(self.assetbundles)} assetbundles and {len(self.resources)} resources>"
 
-    def __getitem__(self, key: str):
+    def __getitem__(self, key: str) -> object:
         try:
             return self.assetbundles[key]
         except KeyError:
@@ -113,14 +113,14 @@ class GkmasManifest:
         for res in self.resources:
             yield res
 
-    def __len__(self):
+    def __len__(self) -> int:
         return len(self.assetbundles) + len(self.resources)
 
-    def __contains__(self, key: str):
+    def __contains__(self, key: str) -> bool:
         return key in self.assetbundles or key in self.resources
         # could also try self[key]
 
-    def __sub__(self, other):
+    def __sub__(self, other: "GkmasManifest") -> "GkmasManifest":
         return GkmasManifest(
             {  # this is not a standard JSON dict, more like named arguments
                 "revision": self.revision - other.revision,  # handles sanity check
@@ -131,7 +131,7 @@ class GkmasManifest:
             }
         )
 
-    def __add__(self, other):
+    def __add__(self, other: "GkmasManifest") -> "GkmasManifest":
         new_revision = self.revision + other.revision
         a, b = (
             (self, other) if new_revision.this == other.revision.this else (other, self)
@@ -145,7 +145,7 @@ class GkmasManifest:
             }
         )
 
-    def _get_canon_repr(self):
+    def _get_canon_repr(self) -> dict:
         """
         [INTERNAL] Returns the JSON-compatible "canonical" representation of the manifest.
         """
@@ -174,6 +174,9 @@ class GkmasManifest:
         """
 
         path = Path(path)
+        if path.exists():
+            logger.warning(f"{path} already exists, aborting")
+            return
 
         if format == "infer":
             if path.suffix == ".pdb":
@@ -245,7 +248,7 @@ class GkmasManifest:
         # which handles integer keys (index by ID) and messes up with standard modules
         # like pandas that rely on self[0] as a "sample" object from the list.
         dfa = pd.DataFrame(self.assetbundles._get_canon_repr(), columns=CSV_COLUMNS)
-        dfa["name"] = dfa["name"].apply(lambda x: x + ".unity3d")
+        dfa["name"] = dfa["name"].apply(lambda x: x + ".unity3d")  # stripped in canon
         dfr = pd.DataFrame(self.resources._get_canon_repr(), columns=CSV_COLUMNS)
         df = pd.concat([dfa, dfr], ignore_index=True)
         df.sort_values("name", inplace=True)
@@ -258,7 +261,12 @@ class GkmasManifest:
 
     # ----------- DOWNLOAD ----------- #
 
-    def search(self, criterion: str):
+    def search(
+        self,
+        criterion: str,
+        by_name: bool = True,
+        ascending: bool = True,
+    ) -> list[object]:
         """
         Searches the manifest for objects matching the specified criterion.
         Returns a list of objects.
@@ -267,14 +275,18 @@ class GkmasManifest:
             criterion (str): Regex pattern of object names.
         """
 
+        # This will be called by frontend; we instantiate here to make ID's visible.
         matches = filter(
             lambda s: re.match(criterion, s.name, flags=re.IGNORECASE) is not None,
             list(self),
         )
-        return sorted(matches, key=lambda x: x.name)
-        # This will be called by frontend.
-        # We instantiate here to make ID's readily available.
+        return sorted(
+            matches,
+            key=lambda x: x.name if by_name else x.id,
+            reverse=not ascending,
+        )
 
+    @nocache
     def download(self, *criteria: str, **kwargs):
         """
         Downloads the regex-specified assetbundles/resources to the specified path.
@@ -305,6 +317,7 @@ class GkmasManifest:
 
         asyncio.run(self._dispatch(objects, **kwargs))
 
+    @nocache
     def download_preset(self, preset_filename: str):
         """
         [INTERNAL] Downloads by a predefined preset (see examples in presets/).
@@ -366,6 +379,7 @@ class GkmasManifest:
             logger.info(f"Running post-processing script '{pp_path}'")
             subprocess.run(["python", pp_path, root], check=True)
 
+    @nocache
     def download_all_assetbundles(self, **kwargs):
         """
         Downloads all assetbundles to the specified path.
@@ -373,6 +387,7 @@ class GkmasManifest:
         """
         asyncio.run(self._dispatch(list(self.assetbundles), **kwargs))
 
+    @nocache
     def download_all_resources(self, **kwargs):
         """
         Downloads all resources to the specified path.
@@ -380,6 +395,7 @@ class GkmasManifest:
         """
         asyncio.run(self._dispatch(list(self.resources), **kwargs))
 
+    @nocache
     def download_all(self, **kwargs):
         """
         Downloads all assetbundles and resources to the specified path.

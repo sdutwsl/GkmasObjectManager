@@ -14,12 +14,11 @@ logger = Logger()
 class GkmasUSMVideo(GkmasDummyMedia):
     """Conversion plugin for USM videos."""
 
-    def __init__(self, name: str, raw: bytes, mtime: str = ""):
-        super().__init__(name, raw, mtime)
+    def _init_mimetype(self):
         self.mimetype = "video"
-        self.converted_format = "mp4"
+        self.default_converted_format = "mp4"
 
-    def _convert(self, raw: bytes, **kwargs) -> bytes:
+    def _convert(self, raw: bytes) -> bytes:
 
         stream_in = ffmpeg.input("pipe:0")
         stream_out = ffmpeg.output(

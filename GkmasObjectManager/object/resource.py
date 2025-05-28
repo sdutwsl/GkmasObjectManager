@@ -4,8 +4,8 @@ General-purpose resource downloading.
 """
 
 import re
+from email.utils import parsedate_to_datetime
 from pathlib import Path
-from typing import Tuple
 
 import requests
 
@@ -65,25 +65,20 @@ class GkmasResource:
         # Not set at initialization, since downloading bytes is a prerequisite.
         self._media = None
 
-        # Modification time, to be overwritten by _download_bytes()
-        # (if available; checked before passing to os.utime())
-        self._mtime = ""
-
-    def __repr__(self):
+    def __repr__(self) -> str:
         return f"<GkmasResource {self._idname}>"
 
-    def _get_canon_repr(self):
+    def _get_canon_repr(self) -> dict:
         # this format retains the order of fields
         return {field: getattr(self, field) for field in self._fields}
 
-    def _get_media(self):
+    def _get_media(self) -> GkmasDummyMedia:
         """
         [INTERNAL] Instantiates a high-level media class based on the resource name.
         Used to dispatch download and extraction.
         """
 
         if self._media is None:
-            data = self._download_bytes()
             if self.name.startswith("img_"):
                 media_class = GkmasImage
             elif self.name.startswith("sud_") and self.name.endswith(".awb"):
@@ -98,11 +93,11 @@ class GkmasResource:
                 media_class = GkmasAdventure
             else:
                 media_class = GkmasDummyMedia
-            self._media = media_class(self._idname, data, self._mtime)
+            self._media = media_class(self._idname, self._download_bytes)
 
         return self._media
 
-    def get_data(self, **kwargs) -> Tuple[bytes, str]:
+    def get_data(self, **kwargs) -> dict:
         """
         Requests object data, potentially converting it to a specific format.
         For **kwargs usage, see get_data() methods of GkmasDummyMedia and descendants in media/.
@@ -112,7 +107,7 @@ class GkmasResource:
             {mimetype}_format (str): Desired format for the media type.
 
         Returns:
-            Tuple[bytes, str]: A tuple of (media data, mimetype).
+            dict: A dictionary of keys "bytes", "mimetype", and "mtime".
         """
         return self._get_media().get_data(**kwargs)
 
@@ -133,10 +128,6 @@ class GkmasResource:
         """
 
         path = self._download_path(path, categorize)
-        if path.exists():
-            logger.warning(f"{self._idname} already exists")
-            return
-
         self._get_media().export(path, **kwargs)
 
     def _download_path(self, path: PathArgtype, categorize: bool) -> Path:
@@ -184,7 +175,7 @@ class GkmasResource:
 
         return Path(*filename.split("_"))
 
-    def _download_bytes(self) -> bytes:
+    def _download_bytes(self) -> dict:
         """
         [INTERNAL] Downloads the resource from the server and performs sanity checks
         on HTTP status code, size, and MD5 hash. Returns the resource as raw bytes.
@@ -204,6 +195,8 @@ class GkmasResource:
         if md5sum(response.content) != bytes.fromhex(self.md5):
             logger.error(f"{self._idname} has invalid MD5 hash")
 
-        self._mtime = response.headers.get("Last-Modified", "")
-
-        return response.content
+        mtime = response.headers.get("Last-Modified", "")
+        return {
+            "bytes": response.content,
+            "mtime": parsedate_to_datetime(mtime).timestamp() if mtime else None,
+        }

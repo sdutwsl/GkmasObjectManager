@@ -19,7 +19,7 @@ class GkmasObjectList:
             Only used when instantiating objects from the list.
     """
 
-    def __init__(self, infos: list, base_class: object, url_template: str):
+    def __init__(self, infos: list[dict], base_class: object, url_template: str):
         infos.sort(key=lambda x: x["id"])
 
         self.infos = infos
@@ -31,8 +31,14 @@ class GkmasObjectList:
         self._name_idx = {info["name"]: i for i, info in enumerate(infos)}
         # 'self._*_idx' are int/str -> int lookup tables
 
-    def __repr__(self):
+    def __repr__(self) -> str:
         return f"<GkmasObjectList of {len(self.infos)} {self.base_class.__name__}'s>"
+
+    def _get_object(self, idx: int) -> object:
+        # necessary for enabling cache everywhere
+        if self._objects[idx] is None:
+            self._objects[idx] = self.base_class(self.infos[idx], self.url_template)
+        return self._objects[idx]
 
     def __getitem__(self, key: Union[int, str]) -> object:
 
@@ -43,16 +49,13 @@ class GkmasObjectList:
         else:
             raise TypeError  # just in case, should never reach here
 
-        if self._objects[idx] is None:
-            self._objects[idx] = self.base_class(self.infos[idx], self.url_template)
-
-        return self._objects[idx]
+        return self._get_object(idx)
 
     def __iter__(self):
-        for info in self.infos:
-            yield self.base_class(info, self.url_template)
+        for i in range(len(self.infos)):
+            yield self._get_object(i)
 
-    def __len__(self):
+    def __len__(self) -> int:
         return len(self.infos)
 
     def __contains__(self, key: str) -> bool:
@@ -82,7 +85,7 @@ class GkmasObjectList:
             list(mapped.values()), self.base_class, self.url_template
         )
 
-    def _get_canon_repr(self):
+    def _get_canon_repr(self) -> list[dict]:
         """
         [INTERNAL] Returns the JSON-compatible "canonical" representation of the object list.
         """
