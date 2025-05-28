@@ -26,9 +26,9 @@ def do_update(path: str, pc: bool = False) -> bool:
     # this number is used to construct commit message in workflow.
     (path / "LATEST_REVISION").write_text(str(rev_remote))
 
-    m_remote.export(path / "v0000.json")
+    m_remote.export(path / "v0000.json", force_overwrite=True)
     for i in range(1, rev_remote):
-        gom.fetch(i, pc=pc).export(path / f"v{i:04}.json")
+        gom.fetch(i, pc=pc).export(path / f"v{i:04}.json", force_overwrite=True)
 
     return True
 

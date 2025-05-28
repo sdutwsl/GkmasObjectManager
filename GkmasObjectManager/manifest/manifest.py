@@ -158,7 +158,12 @@ class GkmasManifest:
 
     # ------------ EXPORT ------------ #
 
-    def export(self, path: PathArgtype, format: str = "infer"):
+    def export(
+        self,
+        path: PathArgtype,
+        format: str = "infer",
+        force_overwrite: bool = False,
+    ):
         """
         Exports the manifest as ProtoDB, JSON, and/or CSV to the specified path.
         This is a dispatcher method.
@@ -171,10 +176,12 @@ class GkmasManifest:
                 a warning is issued if the extension is not .pdb.)
             format (str) = 'infer': The format to export.
                 Should be one of 'pdb', 'json', 'csv', or 'infer'.
+            force_overwrite (bool) = False: Whether to overwrite the file if it already exists.
+                Meant for exclusive use by update_manifest watcher.
         """
 
         path = Path(path)
-        if path.exists():
+        if path.exists() and not force_overwrite:
             logger.warning(f"{path} already exists, aborting")
             return
 

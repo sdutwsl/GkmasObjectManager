@@ -27,7 +27,7 @@ class GkmasUSMVideo(GkmasDummyMedia):
             vcodec="libx264",
             preset="ultrafast",
             format=self.converted_format,
-            movflags="frag_keyframe",
+            movflags="faststart+frag_keyframe",
             # otherwise libx264 reports 'muxer does not support non seekable output'
         )
 
