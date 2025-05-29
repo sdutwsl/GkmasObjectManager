@@ -1,6 +1,6 @@
 {
     "revision": [
-        54,
+        57,
         45
     ],
     "assetBundleList": [
@@ -1458,14 +1458,14 @@
         {
             "id": 12783,
             "name": "mdl_prp_chain-env-00_chainleft",
-            "size": 8111559,
-            "crc": 824241995,
+            "size": 8111804,
+            "crc": 897010854,
             "dependencies": [
                 2421
             ],
-            "state": "ADD",
-            "md5": "11c80214cb2e304a9eb9081647798b4d",
-            "objectName": "v7xcoL",
+            "state": "UPDATE",
+            "md5": "d25c3793b161c5627e75754f10b7bc28",
+            "objectName": "TcNMEz",
             "uploadVersionId": 705000
         },
         {
@@ -2293,13 +2293,13 @@
             "id": 12859,
             "name": "mdl_prp_chain-env-00_chaincenter",
             "size": 8110347,
-            "crc": 194240841,
+            "crc": 865526447,
             "dependencies": [
                 2421
             ],
-            "state": "ADD",
-            "md5": "1fccd7d766549f1e92d3f69b3fa47847",
-            "objectName": "h6Ywlw",
+            "state": "UPDATE",
+            "md5": "4eee64c2390318438691644b54b1eeb7",
+            "objectName": "Ro54XE",
             "uploadVersionId": 705000
         },
         {
@@ -3198,11 +3198,11 @@
         {
             "id": 12942,
             "name": "mot_live_all-011_in_layout",
-            "size": 11278,
-            "crc": 1508121045,
-            "state": "ADD",
-            "md5": "d6200d486a570ac61e2421ddaed2849e",
-            "objectName": "tmqtxG",
+            "size": 11324,
+            "crc": 2410198781,
+            "state": "UPDATE",
+            "md5": "f47a97a8b48013332deeffd3b29b41b0",
+            "objectName": "NZIpjm",
             "uploadVersionId": 705000
         },
         {
@@ -3334,11 +3334,11 @@
         {
             "id": 12955,
             "name": "mot_live_chr_cmmn_all-011_01_in",
-            "size": 5291544,
-            "crc": 1641189838,
-            "state": "ADD",
-            "md5": "c7ff26ab7be75e2b0edbb34c706e884e",
-            "objectName": "F7o4Ps",
+            "size": 5290513,
+            "crc": 3000219697,
+            "state": "UPDATE",
+            "md5": "31ed07e1fdf72655b2298f58e953f467",
+            "objectName": "Z2UXPn",
             "uploadVersionId": 705000
         },
         {
@@ -3841,11 +3841,11 @@
         {
             "id": 13003,
             "name": "img_notice_shop_pass_0014-large",
-            "size": 2231342,
-            "crc": 56191168,
-            "state": "ADD",
-            "md5": "f282c2cabbba39b5aa9f3548dd5d6fc8",
-            "objectName": "n1z3Ru",
+            "size": 2041012,
+            "crc": 1514446714,
+            "state": "UPDATE",
+            "md5": "de9f66e796ebda28feb8b2e2e2ae81d3",
+            "objectName": "txN8gQ",
             "uploadVersionId": 705000
         },
         {
@@ -4612,14 +4612,14 @@
         {
             "id": 13074,
             "name": "mdl_prp_chain-env-00_chainright",
-            "size": 8111090,
-            "crc": 2296164083,
+            "size": 8111636,
+            "crc": 1039306660,
             "dependencies": [
                 2421
             ],
-            "state": "ADD",
-            "md5": "7ed35a95942543ff6bbf12086be0d53d",
-            "objectName": "4A4qI9",
+            "state": "UPDATE",
+            "md5": "4b9bfafd5fd1eedfeab071e74495706f",
+            "objectName": "iHo2Xy",
             "uploadVersionId": 705000
         },
         {
@@ -4942,10 +4942,10 @@
         {
             "id": 13748,
             "name": "mov_general_cidol-jsna-3-012_1-loop-gasha.usm",
-            "size": 6031456,
-            "state": "ADD",
-            "md5": "97ad3c25e9cbec6a6674b64416f569e6",
-            "objectName": "FJ8bye",
+            "size": 5996480,
+            "state": "UPDATE",
+            "md5": "8cba963fd9f3413fed24573a28146e67",
+            "objectName": "lzRmmn",
             "uploadVersionId": 705000
         },
         {
@@ -5077,10 +5077,10 @@
         {
             "id": 13763,
             "name": "mov_general_cidol-jsna-3-012_1.usm",
-            "size": 14715680,
-            "state": "ADD",
-            "md5": "fbf9c35c6bed0fc10f0b9b27fe4fa02c",
-            "objectName": "9Nfrky",
+            "size": 14237984,
+            "state": "UPDATE",
+            "md5": "1adb9a270380d5f7389a1616477a9394",
+            "objectName": "DuQISc",
             "uploadVersionId": 705000
         },
         {
@@ -6103,10 +6103,10 @@
         {
             "id": 13877,
             "name": "mov_general_cidol-jsna-3-012_1-loop.usm",
-            "size": 14715680,
-            "state": "ADD",
-            "md5": "8fdb36021c467959e493cc6e3c2814d8",
-            "objectName": "djHa8J",
+            "size": 14237984,
+            "state": "UPDATE",
+            "md5": "37d1a6956fadeeed9fdb42b5c22b3e56",
+            "objectName": "9QJZ0U",
             "uploadVersionId": 705000
         },
         {
@@ -6463,19 +6463,19 @@
         {
             "id": 13917,
             "name": "adv_cidol-hrnm-3-012_02.txt",
-            "size": 208707,
-            "state": "ADD",
-            "md5": "34a4b05c4ceea84f2ea4a474f02f47f8",
-            "objectName": "TwZj1s",
+            "size": 208703,
+            "state": "UPDATE",
+            "md5": "52524bc1c8631257440264b7cfd42f01",
+            "objectName": "7no6Q5",
             "uploadVersionId": 705000
         },
         {
             "id": 13918,
             "name": "mov_general_cidol-jsna-3-012_1-gasha.usm",
-            "size": 698336,
-            "state": "ADD",
-            "md5": "320ea19230604662210c7a48a02d536e",
-            "objectName": "GhDzUx",
+            "size": 674304,
+            "state": "UPDATE",
+            "md5": "a7fb268102d7afcc4c59566719a9e5ac",
+            "objectName": "7XrcrN",
             "uploadVersionId": 705000
         },
         {
@@ -6931,10 +6931,10 @@
         {
             "id": 13969,
             "name": "mov_general_gasha_bg_idol_cidol-jsna-3-012.usm",
-            "size": 19694560,
-            "state": "ADD",
-            "md5": "c0866bbd713ee62cf3b5c6e64328a5f1",
-            "objectName": "XMDDKB",
+            "size": 19678208,
+            "state": "UPDATE",
+            "md5": "df5abb06496af95f51b7cacd32ca3b57",
+            "objectName": "Dfsrld",
             "uploadVersionId": 705000
         },
         {
@@ -7079,6 +7079,15 @@
             "state": "ADD",
             "md5": "8385d6a7900bd29a736c86d01a22a1d9",
             "objectName": "vZ7s3e",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 13986,
+            "name": "sud_se_adv_short-circuit-01.acb",
+            "size": 63520,
+            "state": "ADD",
+            "md5": "d4f4178d528ff3520cf6c5747292fd83",
+            "objectName": "gYkXlK",
             "uploadVersionId": 705000
         }
     ],

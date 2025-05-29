@@ -1,0 +1,49 @@
+{
+    "revision": [
+        57,
+        56
+    ],
+    "assetBundleList": [
+        {
+            "id": 12783,
+            "name": "mdl_prp_chain-env-00_chainleft",
+            "size": 8111804,
+            "crc": 897010854,
+            "dependencies": [
+                2421
+            ],
+            "state": "UPDATE",
+            "md5": "d25c3793b161c5627e75754f10b7bc28",
+            "objectName": "TcNMEz",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 12859,
+            "name": "mdl_prp_chain-env-00_chaincenter",
+            "size": 8110347,
+            "crc": 865526447,
+            "dependencies": [
+                2421
+            ],
+            "state": "UPDATE",
+            "md5": "4eee64c2390318438691644b54b1eeb7",
+            "objectName": "Ro54XE",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 13074,
+            "name": "mdl_prp_chain-env-00_chainright",
+            "size": 8111636,
+            "crc": 1039306660,
+            "dependencies": [
+                2421
+            ],
+            "state": "UPDATE",
+            "md5": "4b9bfafd5fd1eedfeab071e74495706f",
+            "objectName": "iHo2Xy",
+            "uploadVersionId": 705000
+        }
+    ],
+    "resourceList": [],
+    "urlFormat": "https://object.asset.game-gakuen-idolmaster.jp/{o}"
+}
