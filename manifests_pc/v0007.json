@@ -1,6 +1,6 @@
 {
     "revision": [
-        58,
+        60,
         7
     ],
     "assetBundleList": [
@@ -46299,6 +46299,76 @@
             "md5": "806649bfff87534819c140bf2914a2c7",
             "objectName": "to9oMm",
             "uploadVersionId": 705000
+        },
+        {
+            "id": 13085,
+            "name": "img_general_meishi_base_ttmr-birthday-02-thumb",
+            "size": 70747,
+            "crc": 3061699554,
+            "state": "ADD",
+            "md5": "5687d563067b5e77e467a1b233fd5d67",
+            "objectName": "YhwgkI",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 13086,
+            "name": "img_general_music_jacket_char-ttmr-005",
+            "size": 596321,
+            "crc": 560246866,
+            "state": "ADD",
+            "md5": "da2c043b3aec9811f631aa02c872dd3d",
+            "objectName": "IKIUl9",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 13087,
+            "name": "img_notice_birthday_birthday-ttmr-2025",
+            "size": 1595477,
+            "crc": 3655000142,
+            "state": "ADD",
+            "md5": "721c4fa5a0113792c93498dd512e3477",
+            "objectName": "3k9OdB",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 13088,
+            "name": "img_notice_information_birthday-ttmr-2025-large",
+            "size": 855277,
+            "crc": 2897968861,
+            "state": "ADD",
+            "md5": "d2c42b9ee356a2303bce144b1b44f823",
+            "objectName": "p2re1T",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 13089,
+            "name": "img_general_home_birthday_birthday-ttmr-2025-001",
+            "size": 44431,
+            "crc": 2790102268,
+            "state": "ADD",
+            "md5": "d03dd733b2edb30a7cf18846eab4a9e7",
+            "objectName": "I5RXYx",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 13090,
+            "name": "img_general_media_birthday-live-2025-ttmr",
+            "size": 2147327,
+            "crc": 3984005836,
+            "state": "ADD",
+            "md5": "62fb4b63332bfa1dc2d040c4893864dd",
+            "objectName": "g2CUEH",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 13091,
+            "name": "img_general_meishi_base_ttmr-birthday-02-full",
+            "size": 1845746,
+            "crc": 4065186211,
+            "state": "ADD",
+            "md5": "469e527874195a1bf59f31fba2ba5a92",
+            "objectName": "JvQSyM",
+            "uploadVersionId": 705000
         }
     ],
     "resourceList": [
@@ -64480,6 +64550,78 @@
             "state": "ADD",
             "md5": "d4f4178d528ff3520cf6c5747292fd83",
             "objectName": "gYkXlK",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 13987,
+            "name": "mov_general_media_birthday-live-2025-ttmr.usm",
+            "size": 846831520,
+            "state": "ADD",
+            "md5": "dd3fbf9b659f22cde68b17594558632e",
+            "objectName": "ZSN3ad",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 13988,
+            "name": "sud_music_general_ttmr-005-ttmr_game-inst.acb",
+            "size": 10720,
+            "state": "ADD",
+            "md5": "df42304e79d3cb723128aae18f9e11bc",
+            "objectName": "Ma3qtj",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 13989,
+            "name": "sud_music_general_ttmr-005-ttmr_game-inst.awb",
+            "size": 4259218,
+            "state": "ADD",
+            "md5": "0aaf6f75136689b03921c13eb671d53c",
+            "objectName": "4xU2jX",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 13990,
+            "name": "sud_music_general_ttmr-005-ttmr_game-inst.mp3",
+            "size": 2320761,
+            "state": "ADD",
+            "md5": "04d999ca53cdb69c397594fd64b06f8d",
+            "objectName": "j5kK46",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 13991,
+            "name": "sud_music_general_ttmr-005-ttmr_game.acb",
+            "size": 10720,
+            "state": "ADD",
+            "md5": "08c1356c346bd3c1edd23f623131b275",
+            "objectName": "M6KhPO",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 13992,
+            "name": "sud_music_general_ttmr-005-ttmr_game.awb",
+            "size": 4259218,
+            "state": "ADD",
+            "md5": "adb198cc20c5bbc7d7f6c4318f8e121a",
+            "objectName": "FUM37R",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 13993,
+            "name": "sud_music_general_ttmr-005-ttmr_game.mp3",
+            "size": 2320761,
+            "state": "ADD",
+            "md5": "bb15bb2b37f39c095752041c34a1bb1a",
+            "objectName": "xzgUz8",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 13994,
+            "name": "img_general_music_jacket_char-ttmr-005.png",
+            "size": 788563,
+            "state": "ADD",
+            "md5": "9f5dd05ac482300ebb2a5d4104b85c7d",
+            "objectName": "mFYo7c",
             "uploadVersionId": 705000
         }
     ],
