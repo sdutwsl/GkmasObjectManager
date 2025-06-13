@@ -1,6 +1,6 @@
 {
     "revision": [
-        63,
+        65,
         13
     ],
     "assetBundleList": [
@@ -401,6 +401,21 @@
             "uploadVersionId": 705000
         },
         {
+            "id": 1827,
+            "name": "mdl_chr_ttmr-base-0000_face",
+            "size": 1227919,
+            "crc": 3946616176,
+            "dependencies": [
+                2421,
+                8213,
+                3717
+            ],
+            "state": "UPDATE",
+            "md5": "e9ce8c3210c971fb0572fdb257d4a3b0",
+            "objectName": "XQXdch",
+            "uploadVersionId": 705000
+        },
+        {
             "id": 2116,
             "name": "img_general_stamp_non-08",
             "size": 88505,
@@ -516,6 +531,19 @@
             "uploadVersionId": 705000
         },
         {
+            "id": 2693,
+            "name": "mdl_chr_jsna-trng-0001_body",
+            "size": 7243179,
+            "crc": 571265692,
+            "dependencies": [
+                8213
+            ],
+            "state": "UPDATE",
+            "md5": "b3bb6ab39125f58c7f92f4e5df356e3b",
+            "objectName": "eafrOt",
+            "uploadVersionId": 705000
+        },
+        {
             "id": 2695,
             "name": "img_general_meishi_illust_stamp-kllj-03-full",
             "size": 105734,
@@ -523,6 +551,22 @@
             "state": "UPDATE",
             "md5": "86f0bbbe515fee42d787a58aa2a6034a",
             "objectName": "YDOWS8",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 2706,
+            "name": "mdl_chr_ttmr-cstm-0065_face",
+            "size": 463526,
+            "crc": 4017863397,
+            "dependencies": [
+                1827,
+                2421,
+                8213,
+                3717
+            ],
+            "state": "UPDATE",
+            "md5": "0e7d2390d48ba4115bd7f34a5d2744ca",
+            "objectName": "zLDtJS",
             "uploadVersionId": 705000
         },
         {
@@ -1330,6 +1374,16 @@
             "uploadVersionId": 705000
         },
         {
+            "id": 7441,
+            "name": "img_general_report_text_ttmr-003",
+            "size": 45838,
+            "crc": 1044994177,
+            "state": "UPDATE",
+            "md5": "728d02bf68c2b85ada6ec3e6813a1c2a",
+            "objectName": "aPsn9O",
+            "uploadVersionId": 705000
+        },
+        {
             "id": 7455,
             "name": "mdl_chr_hume-trng-0001_body",
             "size": 7730569,
@@ -1416,6 +1470,22 @@
             "uploadVersionId": 705000
         },
         {
+            "id": 8229,
+            "name": "mdl_chr_kcna-cstm-0065_face",
+            "size": 479501,
+            "crc": 655267327,
+            "dependencies": [
+                2421,
+                8213,
+                3717,
+                8424
+            ],
+            "state": "UPDATE",
+            "md5": "ef49edafb7c8dc749f07c9d51911635d",
+            "objectName": "mm3SoT",
+            "uploadVersionId": 705000
+        },
+        {
             "id": 8317,
             "name": "env_3d_adv_councilroom-00-00-evening",
             "size": 16861094,
@@ -1452,6 +1522,21 @@
             "state": "UPDATE",
             "md5": "7cec2c40f7bac85e50b154e98d188732",
             "objectName": "kjrOMc",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 8424,
+            "name": "mdl_chr_kcna-base-0000_face",
+            "size": 1298585,
+            "crc": 527169403,
+            "dependencies": [
+                8213,
+                3717,
+                2421
+            ],
+            "state": "UPDATE",
+            "md5": "09d628675bc75b20900f0720550f7277",
+            "objectName": "RYCJi2",
             "uploadVersionId": 705000
         },
         {
@@ -1686,6 +1771,19 @@
             "state": "UPDATE",
             "md5": "19ef449499e4dcb569813c3c21773f91",
             "objectName": "Vphhr8",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 10276,
+            "name": "mdl_chr_jsna-trng-0000_body",
+            "size": 7405090,
+            "crc": 4187339676,
+            "dependencies": [
+                8213
+            ],
+            "state": "UPDATE",
+            "md5": "d573abc1b8b68805d042b824b77113bc",
+            "objectName": "DezHOm",
             "uploadVersionId": 705000
         },
         {
@@ -20417,17 +20515,17 @@
         {
             "id": 12880,
             "name": "mdl_chr_kcna-spcs-0000_face",
-            "size": 361832,
-            "crc": 3703481163,
+            "size": 361871,
+            "crc": 643301286,
             "dependencies": [
-                3717,
-                8424,
                 2421,
-                8213
+                8213,
+                3717,
+                8424
             ],
-            "state": "ADD",
-            "md5": "55669afbbcf49727d4859be9d2f3a372",
-            "objectName": "NDB7hJ",
+            "state": "UPDATE",
+            "md5": "6a701403dc55f593092da96baf028865",
+            "objectName": "6BGgqp",
             "uploadVersionId": 705000
         },
         {
@@ -22003,17 +22101,17 @@
         {
             "id": 13028,
             "name": "mdl_chr_ttmr-spcs-0000_face",
-            "size": 352178,
-            "crc": 3357147154,
+            "size": 352066,
+            "crc": 3122043473,
             "dependencies": [
+                2421,
                 8213,
                 3717,
-                1827,
-                2421
+                1827
             ],
-            "state": "ADD",
-            "md5": "5fe45a082e7eae0ea580f9021ca8fb5a",
-            "objectName": "sXpjuN",
+            "state": "UPDATE",
+            "md5": "c3c79845e39829e64e04cc70fa94fb35",
+            "objectName": "qbmmWW",
             "uploadVersionId": 705000
         },
         {
@@ -25748,6 +25846,265 @@
             "state": "ADD",
             "md5": "95ed547e05ccc7f65a972673aab33e4e",
             "objectName": "sRySRp",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 13394,
+            "name": "img_general_comic4_radio-0001-thumb",
+            "size": 54816,
+            "crc": 1215532143,
+            "state": "ADD",
+            "md5": "dc846e58448cd95a461c844aa222029c",
+            "objectName": "tO4mFj",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 13395,
+            "name": "img_notice_gasha_gasha-00450-pickup-001-banner-01-large-pre",
+            "size": 956477,
+            "crc": 4199591404,
+            "state": "ADD",
+            "md5": "6b22d56baac633c1e5166a17e0c357e8",
+            "objectName": "uU9zjZ",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 13396,
+            "name": "mot_dress_chr_cmmn_idle-ac-001_pose",
+            "size": 10996,
+            "crc": 1509806660,
+            "state": "ADD",
+            "md5": "20bcd59081be311cf8e1739ec84b1d2d",
+            "objectName": "fJfV1K",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 13397,
+            "name": "mdl_chr_hmsz-hair-0002_hair",
+            "size": 5899769,
+            "crc": 82661640,
+            "dependencies": [
+                8213
+            ],
+            "state": "ADD",
+            "md5": "9a4e8649067e87be10e5300dae1c9bc3",
+            "objectName": "VxOWvO",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 13398,
+            "name": "mot_dress_chr_cmmn_idle-ac-002_pose",
+            "size": 11047,
+            "crc": 2361045470,
+            "state": "ADD",
+            "md5": "e8e39c2b1c2c36404086e9a39567feb5",
+            "objectName": "XvcRc6",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 13399,
+            "name": "mot_dress_chr_cmmn_idle-b-003_pose",
+            "size": 10997,
+            "crc": 1647238959,
+            "state": "ADD",
+            "md5": "e94413eff2e565d703e6f84e3af59b23",
+            "objectName": "bc8zpC",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 13400,
+            "name": "img_cos_hmsz-cstm-0072_body",
+            "size": 166207,
+            "crc": 67436005,
+            "state": "ADD",
+            "md5": "034a98ad21e92ffc6b1ffbe2fdd3a65e",
+            "objectName": "BultFI",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 13401,
+            "name": "mot_dress_chr_cmmn_idle-a-003_pose",
+            "size": 11070,
+            "crc": 73758658,
+            "state": "ADD",
+            "md5": "0d15a01b093d901df2b66ffa7d645479",
+            "objectName": "eU9tM6",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 13402,
+            "name": "img_notice_notice-list_tower-009_banner-001-small",
+            "size": 421393,
+            "crc": 3477102448,
+            "state": "ADD",
+            "md5": "4a86d167ac853e0d51986f9af776e42b",
+            "objectName": "pBRGAM",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 13403,
+            "name": "mot_dress_chr_cmmn_idle-bd-001_pose",
+            "size": 10996,
+            "crc": 3015772172,
+            "state": "ADD",
+            "md5": "53f6a2d2ed3816183afcf1ab1b420fb9",
+            "objectName": "VbEinH",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 13404,
+            "name": "img_general_comic4_radio-0001",
+            "size": 528085,
+            "crc": 1056040916,
+            "state": "ADD",
+            "md5": "352edf93eaa2bf1c55c7509ec06385b0",
+            "objectName": "Hk8B7j",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 13405,
+            "name": "img_general_comic4_radio-0002-thumb",
+            "size": 54869,
+            "crc": 287961474,
+            "state": "ADD",
+            "md5": "c776d277c8589360709e057057a68a86",
+            "objectName": "Y3BFk1",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 13406,
+            "name": "mot_dress_chr_cmmn_idle-d-003_pose",
+            "size": 11057,
+            "crc": 891248313,
+            "state": "ADD",
+            "md5": "d4c5a8f81f72b9836e4b5585aa826f13",
+            "objectName": "Vmr0qT",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 13407,
+            "name": "mdl_chr_hmsz-cstm-0073_body",
+            "size": 9131081,
+            "crc": 455523872,
+            "dependencies": [
+                8213
+            ],
+            "state": "ADD",
+            "md5": "c93dc6cc4b2f438d7e36d56ea0ba69b0",
+            "objectName": "nGlCV2",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 13408,
+            "name": "img_notice_event_tower-009",
+            "size": 2000846,
+            "crc": 3260603927,
+            "state": "ADD",
+            "md5": "8990f8cf1905e397f2b2980768b3f7d9",
+            "objectName": "hB5qK1",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 13409,
+            "name": "img_general_comic4_radio-0000",
+            "size": 503007,
+            "crc": 1439503123,
+            "state": "ADD",
+            "md5": "0801b773fb591eda8099dc34340ee0a3",
+            "objectName": "Xro4GX",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 13410,
+            "name": "img_cos_costume_head_hmsz-hair-0002_head",
+            "size": 99335,
+            "crc": 35996864,
+            "state": "ADD",
+            "md5": "1c39055198a0f78c96150178cc304080",
+            "objectName": "5cnDkv",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 13411,
+            "name": "mdl_chr_hmsz-cstm-0072_body",
+            "size": 7330378,
+            "crc": 2763564081,
+            "dependencies": [
+                8213
+            ],
+            "state": "ADD",
+            "md5": "8586cc692911ab50f6f37b0904fb190b",
+            "objectName": "reFpOR",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 13412,
+            "name": "mot_dress_chr_cmmn_idle-c-003_pose",
+            "size": 11062,
+            "crc": 3480969769,
+            "state": "ADD",
+            "md5": "fe6a80171d9f196c3379967b006c380e",
+            "objectName": "lQ9eFH",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 13413,
+            "name": "img_general_comic4_radio-0000-thumb",
+            "size": 49077,
+            "crc": 745295741,
+            "state": "ADD",
+            "md5": "41d5563e2752793fcd4cd556a2f824be",
+            "objectName": "Du9mFC",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 13414,
+            "name": "img_notice_event_highscorerush-event-002-large",
+            "size": 438292,
+            "crc": 1168924264,
+            "state": "ADD",
+            "md5": "8cfd8f55a12a386c59b052b4f69fcd8b",
+            "objectName": "GQZFo9",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 13415,
+            "name": "img_cos_hmsz-cstm-0073_body",
+            "size": 153915,
+            "crc": 2595100721,
+            "state": "ADD",
+            "md5": "3b278648c096abe4b45620ad078b7f6e",
+            "objectName": "XTO5WY",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 13416,
+            "name": "img_general_comic4_radio-0002",
+            "size": 469643,
+            "crc": 2984176308,
+            "state": "ADD",
+            "md5": "4c9f760ad387148de6818e5738d601f5",
+            "objectName": "lEqiCC",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 13417,
+            "name": "img_notice_event_highscorerush-event-002-large-pre",
+            "size": 425257,
+            "crc": 596525491,
+            "state": "ADD",
+            "md5": "ee4ad8b8728380a8bfafc4de1c60b99e",
+            "objectName": "VwpAzE",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 13418,
+            "name": "mot_dress_chr_cmmn_idle-bd-002_pose",
+            "size": 11066,
+            "crc": 4200060740,
+            "state": "ADD",
+            "md5": "b3943943eb6c3afed75fa2741c73d97c",
+            "objectName": "v7j0gp",
             "uploadVersionId": 705000
         }
     ],
@@ -44146,6 +44503,42 @@
             "state": "ADD",
             "md5": "145412db1c185cfeedd426c4409ec933",
             "objectName": "J5Jzt9",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 14051,
+            "name": "sud_vo_system_hmsz-cstm-0073_01.acb",
+            "size": 64928,
+            "state": "ADD",
+            "md5": "ed620db1d1687a7ead88a19b7c632fec",
+            "objectName": "Yoahu8",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 14052,
+            "name": "sud_vo_system_hmsz-cstm-0073_02.acb",
+            "size": 62528,
+            "state": "ADD",
+            "md5": "0a5f9a773788e7f279916597973d41c8",
+            "objectName": "2o53sB",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 14053,
+            "name": "sud_vo_system_hmsz-cstm-0072_01.acb",
+            "size": 56736,
+            "state": "ADD",
+            "md5": "34e3c773482c3bea5c57197a9d0c85d9",
+            "objectName": "GC7HTC",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 14054,
+            "name": "sud_vo_system_hmsz-cstm-0072_02.acb",
+            "size": 95264,
+            "state": "ADD",
+            "md5": "e4bab0dfc484763fa6313ce36fc27049",
+            "objectName": "5Ankv8",
             "uploadVersionId": 705000
         }
     ],
