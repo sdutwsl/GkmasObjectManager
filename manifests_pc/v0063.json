@@ -1,6 +1,6 @@
 {
     "revision": [
-        66,
+        68,
         63
     ],
     "assetBundleList": [
@@ -402,9 +402,1202 @@
             "md5": "a70cea1d65646a7810d1e8ea2cbb5414",
             "objectName": "AmsCXa",
             "uploadVersionId": 705000
+        },
+        {
+            "id": 13420,
+            "name": "img_general_meishi_illust_highscore-rush-ssmk-001-ranking-001-thumb",
+            "size": 66607,
+            "crc": 2984507283,
+            "state": "ADD",
+            "md5": "15273d5a11d82d287bf93c073662c9dc",
+            "objectName": "0Ls2XY",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 13421,
+            "name": "img_general_event_panel_evnet-dearness-mission-001-reward-01",
+            "size": 372391,
+            "crc": 3574342083,
+            "state": "ADD",
+            "md5": "d80cef7c1f936f613fd942687299757a",
+            "objectName": "d3n4oi",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 13422,
+            "name": "img_general_csprt-3-0064_thumb-square",
+            "size": 23780,
+            "crc": 4150102388,
+            "state": "ADD",
+            "md5": "3c406c2d13d5042771878670e22a03ff",
+            "objectName": "sYE98r",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 13423,
+            "name": "img_general_meishi_illust_highscore-rush-ssmk-001-ranking-004-thumb",
+            "size": 66285,
+            "crc": 4283638989,
+            "state": "ADD",
+            "md5": "e106f19655e851efdae43484672689c7",
+            "objectName": "4XdWw0",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 13424,
+            "name": "img_general_cidol-ssmk-3-012_1-thumb-square",
+            "size": 23318,
+            "crc": 1142034337,
+            "state": "ADD",
+            "md5": "392c05021d4bc44f80c84e32c1845279",
+            "objectName": "hw45Zn",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 13425,
+            "name": "img_general_meishi_illust_highscore-rush-ssmk-001-ranking-002-thumb",
+            "size": 66656,
+            "crc": 3856336530,
+            "state": "ADD",
+            "md5": "20850ff6272e9f0c15aa6e61993434b6",
+            "objectName": "yo8HI6",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 13426,
+            "name": "mot_live_ssmk-004_in_layout",
+            "size": 9196,
+            "crc": 1553573684,
+            "state": "ADD",
+            "md5": "63446eae527563b898b5ade7af61ffd9",
+            "objectName": "OIWodk",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 13427,
+            "name": "img_general_meishi_illust_highscore-rush-ssmk-001-ranking-004-full",
+            "size": 106346,
+            "crc": 4121668285,
+            "state": "ADD",
+            "md5": "dbd4cc730707cedae02fd64d0aa2e50d",
+            "objectName": "XFMXfn",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 13428,
+            "name": "img_tutorial_event_high-score-rush-event_002-04",
+            "size": 468284,
+            "crc": 2770277251,
+            "state": "ADD",
+            "md5": "8e5b53019c4854af9184b43c3ebbe091",
+            "objectName": "YQ8MIl",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 13429,
+            "name": "sud_music_live_ssmk-004-ssmk_true-001",
+            "size": 3186332,
+            "crc": 3819906759,
+            "state": "ADD",
+            "md5": "93d399d8e2d529a70a1e8fa6906d8ae5",
+            "objectName": "8lmPwX",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 13430,
+            "name": "img_general_meishi_illust_highscore-rush-ssmk-001-ranking-top1000-full",
+            "size": 134263,
+            "crc": 1199190855,
+            "state": "ADD",
+            "md5": "726ae6b7552027f74e42a25e64b7f48f",
+            "objectName": "R5gLKd",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 13431,
+            "name": "img_notice_campaign_dearness-event-001",
+            "size": 3852037,
+            "crc": 1256393084,
+            "state": "ADD",
+            "md5": "ecf9f36c28f12bca5f02fcc3fd20786e",
+            "objectName": "HcFpea",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 13432,
+            "name": "img_general_csprt-2-0054_thumb-landscape",
+            "size": 39775,
+            "crc": 745332214,
+            "state": "ADD",
+            "md5": "e154b51220ef8b0c88471be50873b340",
+            "objectName": "BnNQxS",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 13433,
+            "name": "img_general_pitem_3-158",
+            "size": 182509,
+            "crc": 3735608970,
+            "state": "ADD",
+            "md5": "2e8baf391add2a25852527640de3875c",
+            "objectName": "xfTIUx",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 13434,
+            "name": "env_3d_live_ssmk004-00-noon",
+            "size": 3903776,
+            "crc": 690467255,
+            "dependencies": [
+                8566,
+                3805,
+                9248,
+                9970,
+                7783,
+                9800,
+                13462,
+                5144,
+                2421,
+                2224,
+                3769,
+                2251,
+                1854,
+                8535,
+                9213
+            ],
+            "state": "ADD",
+            "md5": "6f38b71470c3e9a9211b7e512f27856b",
+            "objectName": "qm5ma6",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 13435,
+            "name": "img_general_meishi_illust_highscore-rush-ssmk-001-ranking-top10-full",
+            "size": 141490,
+            "crc": 1361542915,
+            "state": "ADD",
+            "md5": "96e38694c6866dad3ad8a7527f4978a2",
+            "objectName": "AJENhf",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 13436,
+            "name": "img_general_cidol-ssmk-3-012_1-thumb-landscape",
+            "size": 44524,
+            "crc": 3757201621,
+            "state": "ADD",
+            "md5": "8785d760f0fe7b7bcbbaf41e8bd872a7",
+            "objectName": "ZYKlak",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 13437,
+            "name": "mdl_chr_ssmk-hair-0010_hair",
+            "size": 5142320,
+            "crc": 2028865175,
+            "dependencies": [
+                8213
+            ],
+            "state": "ADD",
+            "md5": "38c06aa183b5dadad5a8729c8c77de3a",
+            "objectName": "UYgImS",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 13438,
+            "name": "img_general_skillcard_ido-3_134",
+            "size": 310827,
+            "crc": 2218087853,
+            "state": "ADD",
+            "md5": "ac03401e909dc710dacddb65ca9897c5",
+            "objectName": "DcbIA1",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 13439,
+            "name": "img_general_cidol-ssmk-3-012_0-thumb-landscape",
+            "size": 44399,
+            "crc": 1566005325,
+            "state": "ADD",
+            "md5": "b2b1b855f633e1e47f303a3659d56fe6",
+            "objectName": "7u9mXB",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 13440,
+            "name": "img_general_meishi_illust_highscore-rush-ssmk-001-ranking-002-full",
+            "size": 113796,
+            "crc": 4058788649,
+            "state": "ADD",
+            "md5": "7355ac87df93e2e1e506f01e844a4c0d",
+            "objectName": "Jg3Jsz",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 13441,
+            "name": "tln_live_ssmk-004",
+            "size": 23958554,
+            "crc": 2211561606,
+            "dependencies": [
+                1132,
+                557,
+                9048,
+                2201,
+                5165,
+                2421,
+                1938,
+                5187,
+                2826,
+                13426,
+                13497,
+                13429,
+                940,
+                6190,
+                4042,
+                13523,
+                9615,
+                5984,
+                4081
+            ],
+            "state": "ADD",
+            "md5": "a371931af4b1135463a7c91eaf4fd16a",
+            "objectName": "Hf4m5m",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 13442,
+            "name": "img_general_meishi_illust_highscore-rush-ssmk-001-ranking-bronze-thumb",
+            "size": 66293,
+            "crc": 2889331476,
+            "state": "ADD",
+            "md5": "8f20665211687589afb3f4ac62ce2e52",
+            "objectName": "liuHBM",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 13443,
+            "name": "img_tutorial_event_high-score-rush-event_002-01",
+            "size": 512507,
+            "crc": 1894496162,
+            "state": "ADD",
+            "md5": "3efb63d029283d1e519770e75e448863",
+            "objectName": "N78WBX",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 13444,
+            "name": "img_tutorial_dearness_001",
+            "size": 465666,
+            "crc": 1987488176,
+            "state": "ADD",
+            "md5": "3cbc68b04a6165148dc34797c9562e78",
+            "objectName": "yXub6p",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 13445,
+            "name": "img_tutorial_dearness_004",
+            "size": 451764,
+            "crc": 1133296470,
+            "state": "ADD",
+            "md5": "4d8ecb6ca7954ed92f35dda5b1f5e835",
+            "objectName": "3fZ1Gq",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 13446,
+            "name": "img_mov_general_gasha_bg_idol_cidol-ssmk-3-012",
+            "size": 2186787,
+            "crc": 1097532808,
+            "state": "ADD",
+            "md5": "92de4c8c1e51030f344e28177de44ad8",
+            "objectName": "TuffOG",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 13447,
+            "name": "img_general_csprt-2-0054_thumb-square",
+            "size": 22835,
+            "crc": 416136137,
+            "state": "ADD",
+            "md5": "3da97044410641e1075df0a9667667aa",
+            "objectName": "gMpIui",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 13448,
+            "name": "img_notice_gasha_gasha-00450-pickup-001",
+            "size": 3278313,
+            "crc": 2018929845,
+            "state": "ADD",
+            "md5": "868250a5f0765e822f73b281a360e1ea",
+            "objectName": "LCxzp7",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 13449,
+            "name": "scl_dearevent_cmmn-00",
+            "size": 8160,
+            "crc": 588535752,
+            "state": "ADD",
+            "md5": "1998cbc4b611d537225e36cb188946a5",
+            "objectName": "hzyZ4E",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 13450,
+            "name": "img_general_item_dearness-point",
+            "size": 35008,
+            "crc": 3950339998,
+            "state": "ADD",
+            "md5": "f1e1cfcf9138a7d394e9f3e561fb53de",
+            "objectName": "6doKjh",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 13451,
+            "name": "img_general_cidol-ssmk-3-012_0-thumb-portrait",
+            "size": 85666,
+            "crc": 1906884917,
+            "state": "ADD",
+            "md5": "9ce1c0a72774baa97ff146513ad8bbdd",
+            "objectName": "8Eyar0",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 13452,
+            "name": "img_notice_notice-list_dearness-event_001",
+            "size": 1166545,
+            "crc": 231986234,
+            "state": "ADD",
+            "md5": "66c851febb23e64c597ebb8b0dd24ceb",
+            "objectName": "8RUv2h",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 13453,
+            "name": "img_general_event_highscorerush_highscorerush-event-002-circle",
+            "size": 16243,
+            "crc": 1471936731,
+            "state": "ADD",
+            "md5": "a6b52fbae725ba48025fd2c1c1649202",
+            "objectName": "VgDnW2",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 13454,
+            "name": "img_general_cidol-ssmk-3-012_0-thumb-landscape-large",
+            "size": 1919507,
+            "crc": 1771678364,
+            "state": "ADD",
+            "md5": "cd4114e3c46abae72be886a80deaa3d7",
+            "objectName": "YsrKPb",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 13455,
+            "name": "img_general_event_dearness-event-001-banner",
+            "size": 333180,
+            "crc": 2265928308,
+            "state": "ADD",
+            "md5": "90e9f64bb2e9994a5e742bea0c60134c",
+            "objectName": "ms1bVY",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 13456,
+            "name": "img_general_pitem_2-093",
+            "size": 283056,
+            "crc": 1157796924,
+            "state": "ADD",
+            "md5": "3dfe030a54703a95802d1be7b26cf010",
+            "objectName": "nig4kY",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 13457,
+            "name": "img_general_icon_campaign_highscorerush-event",
+            "size": 15269,
+            "crc": 94040332,
+            "state": "ADD",
+            "md5": "d4b4daf87c3a50581ba9e401c9d628b3",
+            "objectName": "6mmmE9",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 13458,
+            "name": "img_gasha_banner_gasha-00450-pickup-001-select-s",
+            "size": 80234,
+            "crc": 253280997,
+            "state": "ADD",
+            "md5": "b5770d07cc0cdf821893dd047d6b2f65",
+            "objectName": "YS9Rcd",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 13459,
+            "name": "img_general_achievement_ssmk-3-012_006",
+            "size": 186086,
+            "crc": 2879713509,
+            "state": "ADD",
+            "md5": "e0912b9d2e6d100400d77d67ddae48f9",
+            "objectName": "mGUs3D",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 13460,
+            "name": "img_general_achievement_ssmk-3-012_002",
+            "size": 189338,
+            "crc": 1455268427,
+            "state": "ADD",
+            "md5": "9b311866658a4e8a4de43dd692a72dbe",
+            "objectName": "ecizwg",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 13461,
+            "name": "img_tutorial_dearness_003",
+            "size": 451764,
+            "crc": 996060019,
+            "state": "ADD",
+            "md5": "781329a13e98eeea0e77a3164bb03727",
+            "objectName": "r0Wj4z",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 13462,
+            "name": "fbx_mdl_env_stg-parts_livestg-ssmk004-00",
+            "size": 27502033,
+            "crc": 4106286568,
+            "dependencies": [
+                2421
+            ],
+            "state": "ADD",
+            "md5": "2eba978795e9df02226271f4861aac1b",
+            "objectName": "nf1yi6",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 13463,
+            "name": "img_general_event_highscorerush_highscorerush-event-002-logo-b",
+            "size": 43624,
+            "crc": 1745198866,
+            "state": "ADD",
+            "md5": "47ead74ff491ef9e4cb5e1038794519f",
+            "objectName": "RrxaZP",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 13464,
+            "name": "img_general_achievement_ssmk-3-012_001",
+            "size": 196151,
+            "crc": 552084420,
+            "state": "ADD",
+            "md5": "a057dbb0d0414505632fd00e93dea6b5",
+            "objectName": "pVs3VB",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 13465,
+            "name": "img_tutorial_event_high-score-rush-event_002-03",
+            "size": 462333,
+            "crc": 2371798085,
+            "state": "ADD",
+            "md5": "cdfd0ba3f50fa3345cb7063af9984379",
+            "objectName": "6icQsi",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 13466,
+            "name": "img_help_dearness_002-help",
+            "size": 722440,
+            "crc": 4070199398,
+            "state": "ADD",
+            "md5": "1ce889a7331aa4b223ae8a96dfa3525e",
+            "objectName": "F3ot66",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 13467,
+            "name": "img_general_music_jacket_char-ssmk-004",
+            "size": 1169151,
+            "crc": 485801285,
+            "state": "ADD",
+            "md5": "1fd8132f3a1cf879ab1202424cf30721",
+            "objectName": "O943SS",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 13468,
+            "name": "img_general_home_event_highscorerush-event-002",
+            "size": 32081,
+            "crc": 2495454308,
+            "state": "ADD",
+            "md5": "be4c530ae3eefdbdcfecd720f7684a48",
+            "objectName": "rukSJV",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 13469,
+            "name": "img_general_achievement_ssmk-3-012_004",
+            "size": 178772,
+            "crc": 3269647112,
+            "state": "ADD",
+            "md5": "525f911518930c3fa96e0b1889d2f358",
+            "objectName": "O1dIxT",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 13470,
+            "name": "img_notice_event_highscorerush-event-002",
+            "size": 1894716,
+            "crc": 1886407820,
+            "state": "ADD",
+            "md5": "c8f3cc50b07e0cb5e2c421f0df8a1bd6",
+            "objectName": "GF4VyS",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 13471,
+            "name": "img_tutorial_dearness_002",
+            "size": 402284,
+            "crc": 771484574,
+            "state": "ADD",
+            "md5": "dd45e1e959c58fa3f06e52bd6609d97c",
+            "objectName": "CguFKo",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 13472,
+            "name": "img_general_live_music-char-ssmk-004_true-end",
+            "size": 638523,
+            "crc": 2961079945,
+            "state": "ADD",
+            "md5": "f138985151ffac1a28c1c70883dc4e12",
+            "objectName": "g2atOU",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 13473,
+            "name": "img_notice_gasha_gasha-00450-pickup-001-banner-01-large",
+            "size": 962382,
+            "crc": 1275258039,
+            "state": "ADD",
+            "md5": "f0b11040ade25a7bf59a1c5d267f315f",
+            "objectName": "sDOnb2",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 13474,
+            "name": "mot_all_chr_cmmn_naderu-002_lp",
+            "size": 79661,
+            "crc": 773852998,
+            "state": "ADD",
+            "md5": "bf274837a2a048bb641f9ea78f861310",
+            "objectName": "frbRiS",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 13475,
+            "name": "mdl_chr_ssmk-cstm-0097_hair",
+            "size": 5170897,
+            "crc": 92069392,
+            "dependencies": [
+                8213
+            ],
+            "state": "ADD",
+            "md5": "b22488a76d4f9fc2a094959926eb3a99",
+            "objectName": "NlZBrX",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 13476,
+            "name": "mot_dress_chr_cmmn_idle-ac-004_pose",
+            "size": 11096,
+            "crc": 123840535,
+            "state": "ADD",
+            "md5": "935adf4b1edb219b2c7f144a7fb007e4",
+            "objectName": "IuFeTe",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 13477,
+            "name": "img_tutorial_event_high-score-rush-event_002-02",
+            "size": 553940,
+            "crc": 854380377,
+            "state": "ADD",
+            "md5": "f06aa9a6794865cab6f36d93af9c2e90",
+            "objectName": "xF11dS",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 13478,
+            "name": "img_mov_general_gasha_bg_support_csprt-3-0064",
+            "size": 1909756,
+            "crc": 1979342083,
+            "state": "ADD",
+            "md5": "4f6d6b799c644c9915e22a79d06df322",
+            "objectName": "CQxwWS",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 13479,
+            "name": "img_general_meishi_illust_highscore-rush-ssmk-001-ranking-003-thumb",
+            "size": 66498,
+            "crc": 25271686,
+            "state": "ADD",
+            "md5": "8ede268abf3d837776607cd635e60387",
+            "objectName": "5tLo8t",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 13480,
+            "name": "mdl_chr_ssmk-cstm-0096_body",
+            "size": 10669882,
+            "crc": 3061777544,
+            "dependencies": [
+                8213
+            ],
+            "state": "ADD",
+            "md5": "3099f109a66f82cc65861130dcdf008e",
+            "objectName": "XN2pJP",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 13481,
+            "name": "img_help_dearness_001-help",
+            "size": 764449,
+            "crc": 695377336,
+            "state": "ADD",
+            "md5": "1fd12557c3ff037190a79ea43ce4f21e",
+            "objectName": "7cnAxs",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 13482,
+            "name": "img_general_cidol-ssmk-3-012_1-full",
+            "size": 2523493,
+            "crc": 1992326186,
+            "state": "ADD",
+            "md5": "2f1a9c31e87ddb958c98c3c5eecabcd5",
+            "objectName": "ikmPZO",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 13483,
+            "name": "img_gasha_banner_gasha-00450-pickup-001-logo",
+            "size": 19898,
+            "crc": 606021162,
+            "state": "ADD",
+            "md5": "dba1e99db2a6673de9e7fbdb59b227b1",
+            "objectName": "d3gX6h",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 13484,
+            "name": "img_general_cidol-ssmk-3-012_1-thumb-landscape-large",
+            "size": 2105430,
+            "crc": 2784583124,
+            "state": "ADD",
+            "md5": "f72ec2a1fd151252f71525504b83bb4d",
+            "objectName": "vf3sR7",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 13485,
+            "name": "img_general_meishi_illust_highscore-rush-ssmk-001-ranking-top10-thumb",
+            "size": 66682,
+            "crc": 3709133920,
+            "state": "ADD",
+            "md5": "95cdc5de19cc93bb4bb27a7f2dd0f6aa",
+            "objectName": "uKGYpR",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 13486,
+            "name": "img_general_icon_produce-effect_pict-shoprerollcount",
+            "size": 5560,
+            "crc": 2465350867,
+            "state": "ADD",
+            "md5": "746c36cbb6aa550da19bd6e8ddff4b1c",
+            "objectName": "t2X3or",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 13487,
+            "name": "img_general_cidol-ssmk-3-012_1-thumb-portrait",
+            "size": 83770,
+            "crc": 3646549093,
+            "state": "ADD",
+            "md5": "66414a43c160f78851f4d6a34959648c",
+            "objectName": "9KcX5o",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 13488,
+            "name": "img_general_meishi_illust_highscore-rush-ssmk-001-ranking-top1000-thumb",
+            "size": 66501,
+            "crc": 104251922,
+            "state": "ADD",
+            "md5": "ca843242b68941934474394c8800902f",
+            "objectName": "wpJVVj",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 13489,
+            "name": "img_general_pitem_3-136",
+            "size": 251233,
+            "crc": 3887542485,
+            "state": "ADD",
+            "md5": "2bef252437c4a7411938a1b01d18eed1",
+            "objectName": "XUQTAX",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 13490,
+            "name": "img_general_event_highscore_event-highscore-001-logo-w",
+            "size": 28001,
+            "crc": 4131706676,
+            "state": "ADD",
+            "md5": "1dd7d2967b1406efc4374d649a4e3fed",
+            "objectName": "eagh0g",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 13491,
+            "name": "img_general_csprt-3-0064_full",
+            "size": 2409327,
+            "crc": 1661721530,
+            "state": "ADD",
+            "md5": "6502bd4563ad0a4c7a1d063be548572b",
+            "objectName": "uQobBp",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 13492,
+            "name": "img_gasha_banner_gasha-00450-pickup-001-select-m",
+            "size": 161608,
+            "crc": 3361389672,
+            "state": "ADD",
+            "md5": "9a40afcc2ca63c0f41a69fbfb74ae656",
+            "objectName": "1OgyIH",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 13493,
+            "name": "img_general_home_campaign_dearness-event-001",
+            "size": 44208,
+            "crc": 1828445499,
+            "state": "ADD",
+            "md5": "3780e0d524a67c0e0b2105c3294cd9a6",
+            "objectName": "lHpQca",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 13494,
+            "name": "img_cos_ssmk-cstm-0096_body",
+            "size": 107639,
+            "crc": 1862905387,
+            "state": "ADD",
+            "md5": "695e5f2034e0c7f3ec2392ec80698d63",
+            "objectName": "fxGeR9",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 13495,
+            "name": "img_general_achievement_ssmk-3-012_005",
+            "size": 176971,
+            "crc": 4111116390,
+            "state": "ADD",
+            "md5": "8ce8a1aee920de62538685272cd49ab7",
+            "objectName": "CJePmb",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 13496,
+            "name": "img_general_meishi_illust_highscore-rush-ssmk-001-ranking-003-full",
+            "size": 108171,
+            "crc": 820332660,
+            "state": "ADD",
+            "md5": "37271a99f668d2962a2e8ec0411a18cc",
+            "objectName": "9yJ7DN",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 13497,
+            "name": "eff_cav_mov_ssmk-004",
+            "size": 22615248,
+            "crc": 3528389358,
+            "state": "ADD",
+            "md5": "17a8ca65947dbe550b3a1144397e946b",
+            "objectName": "pHRqit",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 13498,
+            "name": "img_general_achievement_ssmk-3-012_003",
+            "size": 212525,
+            "crc": 801568497,
+            "state": "ADD",
+            "md5": "95df3a01a8acfb1838052f5d9d9e5bfb",
+            "objectName": "t8B0EP",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 13499,
+            "name": "img_general_meishi_illust_highscore-rush-ssmk-001-ranking-top1-full",
+            "size": 142294,
+            "crc": 3754043612,
+            "state": "ADD",
+            "md5": "fd499f499748208f97e64690f49c74d1",
+            "objectName": "LfWjKu",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 13500,
+            "name": "img_general_cidol-ssmk-3-012_0-thumb-square",
+            "size": 23688,
+            "crc": 2802892121,
+            "state": "ADD",
+            "md5": "dfbc4e18921a4260935f1d5679d120e6",
+            "objectName": "xrnUJw",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 13501,
+            "name": "mdl_chr_ssmk-cstm-0097_body",
+            "size": 10826481,
+            "crc": 3993822350,
+            "dependencies": [
+                8213
+            ],
+            "state": "ADD",
+            "md5": "e596000eb58213492e8e2dd1ea026d22",
+            "objectName": "vWK6DY",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 13502,
+            "name": "img_general_home_gasha_gasha-00450-pickup-001",
+            "size": 42493,
+            "crc": 1240370278,
+            "state": "ADD",
+            "md5": "ddb230826f19b61035b160f8ae6a5958",
+            "objectName": "GSZxVV",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 13503,
+            "name": "img_general_cidol-ssmk-3-012_0-full",
+            "size": 2108871,
+            "crc": 4226013839,
+            "state": "ADD",
+            "md5": "2d02fb07d4cc9ff52ca606667d48d30f",
+            "objectName": "Gxtfd9",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 13504,
+            "name": "img_general_event_dearness-boost_logo-color",
+            "size": 29460,
+            "crc": 1411075621,
+            "state": "ADD",
+            "md5": "15886f3dd20ae503278451b5ca139e38",
+            "objectName": "B0Yi4z",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 13505,
+            "name": "mdl_chr_ssmk-cstm-0096_hair",
+            "size": 5195576,
+            "crc": 2347985331,
+            "dependencies": [
+                8213
+            ],
+            "state": "ADD",
+            "md5": "a9c84c7ca009b353c8406a40d01c2eab",
+            "objectName": "MvOUm3",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 13506,
+            "name": "img_cos_costume_head_ssmk-cstm-0097_head",
+            "size": 100153,
+            "crc": 2227183168,
+            "state": "ADD",
+            "md5": "248a30d89f16ca21cf2731e284591545",
+            "objectName": "phwwRh",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 13507,
+            "name": "img_general_csprt-3-0064_thumb-landscape",
+            "size": 45364,
+            "crc": 266202965,
+            "state": "ADD",
+            "md5": "d560da1d38dc1f97208e7d9bebc785b8",
+            "objectName": "R1tI9m",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 13508,
+            "name": "mdl_chr_ssmk-cstm-0096_face",
+            "size": 768621,
+            "crc": 1965794127,
+            "dependencies": [
+                8213,
+                3717,
+                7467,
+                2421
+            ],
+            "state": "ADD",
+            "md5": "a518bc38ef6e95fd7523f438681e9b4a",
+            "objectName": "2WlS5F",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 13509,
+            "name": "img_general_meishi_illust_highscore-rush-ssmk-001-ranking-001-full",
+            "size": 114265,
+            "crc": 3196480283,
+            "state": "ADD",
+            "md5": "f586fc52e21d5fc1e4911ce7b3537177",
+            "objectName": "A7NIkr",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 13510,
+            "name": "img_general_comic4_0090",
+            "size": 461518,
+            "crc": 3044488408,
+            "state": "ADD",
+            "md5": "5e24e3872f7b102419380d3f708c2e9b",
+            "objectName": "tIuuuR",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 13511,
+            "name": "img_general_event_highscorerush_highscorerush-event-002-banner",
+            "size": 213746,
+            "crc": 2819950351,
+            "state": "ADD",
+            "md5": "c9b6ca9644c7efd7141c7ed0f8986b81",
+            "objectName": "5YVHAg",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 13512,
+            "name": "img_general_meishi_illust_highscore-rush-ssmk-001-ranking-top1-thumb",
+            "size": 66790,
+            "crc": 2843217191,
+            "state": "ADD",
+            "md5": "783dfa88edfe41a04c825a8eeb5e4005",
+            "objectName": "gRfV5l",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 13513,
+            "name": "env_3d_adv_dressroom-00-00-noon",
+            "size": 4519204,
+            "crc": 3965545409,
+            "dependencies": [
+                9750,
+                8535,
+                5147,
+                7604,
+                3344,
+                10224,
+                5170,
+                7875,
+                5817,
+                3015,
+                9416,
+                1131,
+                6767,
+                9331,
+                2638,
+                2421,
+                7892,
+                1060,
+                5581,
+                7397,
+                4559,
+                1226,
+                10566,
+                9213,
+                383,
+                10100,
+                9248,
+                3901
+            ],
+            "state": "ADD",
+            "md5": "c7fa83f44a63c30c5c28108e04dc53f6",
+            "objectName": "lujnXJ",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 13514,
+            "name": "img_cos_costume_head_ssmk-cstm-0096_head",
+            "size": 100136,
+            "crc": 795572578,
+            "state": "ADD",
+            "md5": "b281705438a55b77e89e7605fc15ee41",
+            "objectName": "ieopQS",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 13515,
+            "name": "mdl_chr_ssmk-hair-0010_face",
+            "size": 550423,
+            "crc": 1094016451,
+            "dependencies": [
+                8213,
+                3717,
+                7467,
+                2421
+            ],
+            "state": "ADD",
+            "md5": "483b127962f79d327f9c5549a89233d6",
+            "objectName": "1lxoIX",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 13516,
+            "name": "img_general_comic4_0090-thumb",
+            "size": 49589,
+            "crc": 4144055921,
+            "state": "ADD",
+            "md5": "fe760b5688b11c23bee58b9b3d747d6e",
+            "objectName": "9z9C1L",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 13517,
+            "name": "img_general_event_highscorerush_highscorerush-event-002-logo-w",
+            "size": 25212,
+            "crc": 1807656483,
+            "state": "ADD",
+            "md5": "c0b0b91028cdcfb62aa0c12915d84155",
+            "objectName": "qRz1dd",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 13518,
+            "name": "img_general_cidol-ssmk-3-012_0-thumb-gasha",
+            "size": 132452,
+            "crc": 1971741355,
+            "state": "ADD",
+            "md5": "f6f3ceff944df3c66666cdb9b3790f91",
+            "objectName": "xkWcu7",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 13519,
+            "name": "img_cos_ssmk-cstm-0097_body",
+            "size": 107676,
+            "crc": 1403879320,
+            "state": "ADD",
+            "md5": "6e730c89b2858820ff81095d1ab3238d",
+            "objectName": "COUoVg",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 13520,
+            "name": "img_general_event_dearness-boost_logo-base",
+            "size": 32886,
+            "crc": 4249258258,
+            "state": "ADD",
+            "md5": "85a0f738ad6812d368dafb581ce9fc19",
+            "objectName": "KGKbPI",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 13521,
+            "name": "mdl_chr_ssmk-cstm-0097_face",
+            "size": 768437,
+            "crc": 1606910531,
+            "dependencies": [
+                3717,
+                7467,
+                2421,
+                8213
+            ],
+            "state": "ADD",
+            "md5": "1ab7505a3cba323271ada4e98451e38f",
+            "objectName": "ujMScN",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 13522,
+            "name": "img_general_event_dearness-event-001-circle",
+            "size": 22801,
+            "crc": 1679963133,
+            "state": "ADD",
+            "md5": "d827b367a813637eb9fe2b1b9365ddd9",
+            "objectName": "PHvRuN",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 13523,
+            "name": "mot_live_chr_ssmk_ssmk-004_00_in",
+            "size": 2789315,
+            "crc": 1813007925,
+            "state": "ADD",
+            "md5": "7d8de507e541f6ef5b752a8df052383d",
+            "objectName": "CKRdCe",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 13524,
+            "name": "img_general_csprt-2-0054_full",
+            "size": 1280869,
+            "crc": 3118845985,
+            "state": "ADD",
+            "md5": "83d615227651b3439da9d0630866e44b",
+            "objectName": "gBhO8B",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 13525,
+            "name": "img_cos_costume_head_ssmk-hair-0010_head",
+            "size": 92604,
+            "crc": 2696468644,
+            "state": "ADD",
+            "md5": "58c7b87a9cf2e3ab22a8f000f6b4e8f6",
+            "objectName": "oEi47D",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 13526,
+            "name": "img_general_meishi_illust_highscore-rush-ssmk-001-ranking-bronze-full",
+            "size": 131652,
+            "crc": 3339394820,
+            "state": "ADD",
+            "md5": "a9b2f47748b5e321098785f237a00391",
+            "objectName": "l0SR0L",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 13527,
+            "name": "mot_all_chr_hmsz_odoroku-001_in",
+            "size": 37011,
+            "crc": 2295084996,
+            "state": "ADD",
+            "md5": "3b317b4b771cb6bb0e69386eaa7c6feb",
+            "objectName": "i9Jjgy",
+            "uploadVersionId": 705000
         }
     ],
     "resourceList": [
+        {
+            "id": 157,
+            "name": "musics.txt",
+            "size": 13888,
+            "state": "UPDATE",
+            "md5": "70eb9ae7af1087c2f6b58439c41d5b61",
+            "objectName": "0A2cDs",
+            "uploadVersionId": 705000
+        },
         {
             "id": 14051,
             "name": "sud_vo_system_hmsz-cstm-0073_01.acb",
@@ -439,6 +1632,924 @@
             "state": "ADD",
             "md5": "e4bab0dfc484763fa6313ce36fc27049",
             "objectName": "5Ankv8",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 14055,
+            "name": "mov_adv_dear_ed_ssmk_003.usm",
+            "size": 160088576,
+            "state": "ADD",
+            "md5": "33813e9d5f8fdb8e3af19a74f449e1d7",
+            "objectName": "FqFGk7",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 14056,
+            "name": "sud_vo_system_ssmk-cstm-0096_02.acb",
+            "size": 85728,
+            "state": "ADD",
+            "md5": "0e08798c209690f79fc9a4bf17df118f",
+            "objectName": "T1Qa4x",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 14057,
+            "name": "sud_vo_system_dear_ssmk_022-02.acb",
+            "size": 94944,
+            "state": "ADD",
+            "md5": "1c31a5ee18eca05efc70f8e943c9f643",
+            "objectName": "nru2Gf",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 14058,
+            "name": "sud_vo_adv_cidol-ssmk-3-012_01.acb",
+            "size": 1340672,
+            "state": "ADD",
+            "md5": "315fe184048339fccb5ccbac17e6bd2e",
+            "objectName": "onsnR2",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 14059,
+            "name": "sud_vo_adv_dear_ssmk_026.acb",
+            "size": 2303936,
+            "state": "ADD",
+            "md5": "a7fa2c6033b887d03febf4c64ad1fc15",
+            "objectName": "rW4cJm",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 14060,
+            "name": "sud_vo_system_dear_ssmk_024-03.acb",
+            "size": 54688,
+            "state": "ADD",
+            "md5": "cda8bb90c500a39495fd52d26bc6cd9c",
+            "objectName": "IpLO6d",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 14061,
+            "name": "adv_dear_ssmk_026.txt",
+            "size": 173186,
+            "state": "ADD",
+            "md5": "43cd28e2e4fcf810ab113180ec024526",
+            "objectName": "JsQ46e",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 14062,
+            "name": "adv_dear_ssmk_021.txt",
+            "size": 236412,
+            "state": "ADD",
+            "md5": "0d62be7ffb60274233dcd4beb24e335c",
+            "objectName": "DJuKwj",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 14063,
+            "name": "sud_vo_system_dear_ssmk_024-02.acb",
+            "size": 67328,
+            "state": "ADD",
+            "md5": "92f59e75ed4ddc19a6de061e2e631b66",
+            "objectName": "yvVe9I",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 14064,
+            "name": "sud_music_general_ssmk-004-ssmk_game-inst.awb",
+            "size": 4243532,
+            "state": "ADD",
+            "md5": "6a04f59862e7380fed337a53c73fe46c",
+            "objectName": "puxz50",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 14065,
+            "name": "sud_vo_adv_dear_ssmk_021.acb",
+            "size": 2437600,
+            "state": "ADD",
+            "md5": "c6b0802d7c3d80a2495edf17b3b6cfe4",
+            "objectName": "PJLpUo",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 14066,
+            "name": "sud_vo_adv_dear_ssmk_024.acb",
+            "size": 1791456,
+            "state": "ADD",
+            "md5": "c9504571b161909606a7ef6874cf09de",
+            "objectName": "NsTiS6",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 14067,
+            "name": "sud_vo_adv_dear_ssmk_025.acb",
+            "size": 3551872,
+            "state": "ADD",
+            "md5": "7cb14a354b932a37b0b1369c9b6376a3",
+            "objectName": "xbSaPj",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 14068,
+            "name": "adv_cidol-ssmk-3-012_03.txt",
+            "size": 168651,
+            "state": "ADD",
+            "md5": "8f868d5727b215870bdce1c0fd2eff57",
+            "objectName": "NfM3Ck",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 14069,
+            "name": "sud_vo_system_dear_ssmk_024-01.acb",
+            "size": 69024,
+            "state": "ADD",
+            "md5": "b647baea655cd8e6e7e747c9e3884893",
+            "objectName": "2v3tqF",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 14070,
+            "name": "sud_vo_system_dear_ssmk_025-03.acb",
+            "size": 66624,
+            "state": "ADD",
+            "md5": "d2596873239dfbd7c39dc769c497e7a4",
+            "objectName": "0SZgTd",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 14071,
+            "name": "sud_vo_system_dear_ssmk_027-02.acb",
+            "size": 56064,
+            "state": "ADD",
+            "md5": "2d0691cabc838f00a38d18d6730bf634",
+            "objectName": "YXYdVB",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 14072,
+            "name": "sud_vo_adv_cidol-ssmk-3-012_02.acb",
+            "size": 1501344,
+            "state": "ADD",
+            "md5": "223279891f0137812c5df738676d21db",
+            "objectName": "Uzy8IP",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 14073,
+            "name": "sud_vo_system_ssmk-cstm-0096_01.acb",
+            "size": 62880,
+            "state": "ADD",
+            "md5": "ddcc66d555661309a597f066f77b759a",
+            "objectName": "i4rH4J",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 14074,
+            "name": "sud_vo_system_dear_ssmk_027-01.acb",
+            "size": 76512,
+            "state": "ADD",
+            "md5": "78fdb191c83402d8c314e23fcdd1f5e4",
+            "objectName": "UOzpzi",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 14075,
+            "name": "sud_vo_system_cidol-ssmk-3-012_idol_details-01.acb",
+            "size": 32544,
+            "state": "ADD",
+            "md5": "d4b2f78a38d17dbe5f717eaf46477482",
+            "objectName": "aaFwpU",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 14076,
+            "name": "sud_vo_system_cidol-ssmk-3-012_produce_schedule-04.acb",
+            "size": 89472,
+            "state": "ADD",
+            "md5": "2409eac1a4ef25b34c8e2cfe940d690f",
+            "objectName": "6BU1xi",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 14077,
+            "name": "sud_vo_system_dear_ssmk_021-02.acb",
+            "size": 69376,
+            "state": "ADD",
+            "md5": "c46a48f372556f2e117f8ac29e28dbb6",
+            "objectName": "NvuXzh",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 14078,
+            "name": "sud_music_general_ssmk-004-ssmk_game.awb",
+            "size": 4243532,
+            "state": "ADD",
+            "md5": "bffa828a41e0caabe53f51544b35df9e",
+            "objectName": "DtX7HY",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 14079,
+            "name": "sud_vo_system_cidol-ssmk-3-012_idol_potential-01.acb",
+            "size": 47552,
+            "state": "ADD",
+            "md5": "db1b3a3009de54bc7228c79c07a3cca6",
+            "objectName": "qNU82S",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 14080,
+            "name": "adv_csprt-3-0064_02.txt",
+            "size": 124056,
+            "state": "ADD",
+            "md5": "645d24391ab7792e446d62c387c42e5c",
+            "objectName": "4QjFWB",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 14081,
+            "name": "sud_bgm_general_event-highscore-001.acb",
+            "size": 15104,
+            "state": "ADD",
+            "md5": "a8b3ba5614402538b79f32a6e4f163ab",
+            "objectName": "34ZBD6",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 14082,
+            "name": "sud_vo_adv_csprt-2-0054_01.acb",
+            "size": 1471744,
+            "state": "ADD",
+            "md5": "62e1e411916ffbe9dc84a589c825db9f",
+            "objectName": "95gDfQ",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 14083,
+            "name": "adv_dear_ssmk_025.txt",
+            "size": 335763,
+            "state": "ADD",
+            "md5": "2906374d1f8569a9647e9b3565db829e",
+            "objectName": "xiHcOH",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 14084,
+            "name": "sud_music_general_ssmk-004-ssmk_game-inst.acb",
+            "size": 10720,
+            "state": "ADD",
+            "md5": "f8cdc56f86f00d19649e9f6a0b2a5420",
+            "objectName": "Ae9jkB",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 14085,
+            "name": "adv_dear_ssmk_024.txt",
+            "size": 136250,
+            "state": "ADD",
+            "md5": "322f6e3a45dd754a6cef3c5e5d519b40",
+            "objectName": "bClare",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 14086,
+            "name": "sud_bgm_adv_inst-all-013.awb",
+            "size": 3067764,
+            "state": "ADD",
+            "md5": "24e2a9903f8a2172f4dcd39af9b489d1",
+            "objectName": "ULGujK",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 14087,
+            "name": "sud_vo_system_dear_ssmk_021-03.acb",
+            "size": 49248,
+            "state": "ADD",
+            "md5": "c991140ed48df8a7a941c1f6ef6b8243",
+            "objectName": "5qvms0",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 14088,
+            "name": "sud_vo_system_csprt-3-0064_03-hrnm.acb",
+            "size": 96288,
+            "state": "ADD",
+            "md5": "5ba818fa90ddb0e056f74bdd0afea57d",
+            "objectName": "oefx4m",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 14089,
+            "name": "sud_vo_adv_dear_ssmk_022.acb",
+            "size": 3390464,
+            "state": "ADD",
+            "md5": "32a185a0eefe197a62c2d4f80bd34275",
+            "objectName": "kTRvj4",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 14090,
+            "name": "mov_general_cidol-ssmk-3-012_1-loop.usm",
+            "size": 6112704,
+            "state": "ADD",
+            "md5": "b3bd08fe82ec74365a4289a692716903",
+            "objectName": "eqK6mR",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 14091,
+            "name": "sud_vo_system_dear_ssmk_022-01.acb",
+            "size": 68672,
+            "state": "ADD",
+            "md5": "ec664efdb30bfef9714ee6c07128c4dd",
+            "objectName": "1eRNuA",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 14092,
+            "name": "sud_vo_system_dear_ssmk_026-03.acb",
+            "size": 75840,
+            "state": "ADD",
+            "md5": "9135645e2edf1e42abd94b7b2f53f08f",
+            "objectName": "RBYZ6A",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 14093,
+            "name": "adv_dear_ssmk_022.txt",
+            "size": 251143,
+            "state": "ADD",
+            "md5": "124e7646e5e976ddaec1e04b0ae0e0d2",
+            "objectName": "dSwQGp",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 14094,
+            "name": "img_general_music_jacket_char-ssmk-004.png",
+            "size": 1409371,
+            "state": "ADD",
+            "md5": "1663688b3ed12bdd023f685d7966a4d0",
+            "objectName": "m5H6u6",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 14095,
+            "name": "sud_vo_system_csprt-2-0054_01-ssmk.acb",
+            "size": 64928,
+            "state": "ADD",
+            "md5": "f873606aec5cb3146dc15312bf60eb1b",
+            "objectName": "CfxIT1",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 14096,
+            "name": "sud_vo_system_dear_ssmk_026-01.acb",
+            "size": 94240,
+            "state": "ADD",
+            "md5": "5715914ca06e922ed8dbe7e0022e76b1",
+            "objectName": "0diHPW",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 14097,
+            "name": "mov_general_cidol-ssmk-3-012_1-loop-gasha.usm",
+            "size": 2506144,
+            "state": "ADD",
+            "md5": "0e5eb67f103f8111cec346ebf6132a42",
+            "objectName": "GtlNjy",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 14098,
+            "name": "adv_dear_ssmk_023.txt",
+            "size": 236697,
+            "state": "ADD",
+            "md5": "6fa403cb7d888b26263b68c22782f149",
+            "objectName": "w9oRIE",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 14099,
+            "name": "sud_bgm_adv_inst-all-012.awb",
+            "size": 3200754,
+            "state": "ADD",
+            "md5": "999603f13ef440f4cef28cea72a2e804",
+            "objectName": "ZMqLDC",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 14100,
+            "name": "sud_vo_system_cidol-ssmk-3-012_produce_schedule-03.acb",
+            "size": 57088,
+            "state": "ADD",
+            "md5": "d420a2bd7c42abe450c9b6b960ff0269",
+            "objectName": "zYeqoG",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 14101,
+            "name": "sud_bgm_adv_inst-all-014.awb",
+            "size": 3158470,
+            "state": "ADD",
+            "md5": "afdc543d22c8f8a8fc033625b2cad8ff",
+            "objectName": "gLMXaZ",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 14102,
+            "name": "sud_vo_system_dear_ssmk_023-03.acb",
+            "size": 68672,
+            "state": "ADD",
+            "md5": "26f369df9a8271068614c3d4bba98c49",
+            "objectName": "VA2Esw",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 14103,
+            "name": "sud_vo_system_cidol-ssmk-3-012_produce_start-01.acb",
+            "size": 38656,
+            "state": "ADD",
+            "md5": "9145d2e9416615819514ea66bb019159",
+            "objectName": "Ckekrh",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 14104,
+            "name": "adv_dear_ssmk_027.txt",
+            "size": 256412,
+            "state": "ADD",
+            "md5": "a1c2113555dc5168c4a6f3cef284b899",
+            "objectName": "YsvnSl",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 14105,
+            "name": "sud_bgm_general_event-highscore-001.awb",
+            "size": 1798022,
+            "state": "ADD",
+            "md5": "e2062d75e058f673dcfe5d5005f12c05",
+            "objectName": "hVPXFc",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 14106,
+            "name": "sud_vo_system_dear_ssmk_021-01.acb",
+            "size": 46176,
+            "state": "ADD",
+            "md5": "c0aec228c3d105ac8281389b3f4aa18b",
+            "objectName": "8HeorD",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 14107,
+            "name": "sud_vo_system_dear_ssmk_023-02.acb",
+            "size": 47872,
+            "state": "ADD",
+            "md5": "5696a4d45d83579c292cba6c38f58422",
+            "objectName": "kitaSP",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 14108,
+            "name": "adv_csprt-2-0054_02.txt",
+            "size": 91257,
+            "state": "ADD",
+            "md5": "2a5dc4037c7b9ec1fadfeed6b55c13df",
+            "objectName": "ldILsz",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 14109,
+            "name": "sud_vo_adv_csprt-2-0054_02.acb",
+            "size": 1410784,
+            "state": "ADD",
+            "md5": "d1baaecfcba17a0e4fc85b43b9ac6865",
+            "objectName": "oFTW2m",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 14110,
+            "name": "sud_bgm_adv_inst-ssmk-004.awb",
+            "size": 4618632,
+            "state": "ADD",
+            "md5": "ad04a0624c5ee2d99b2920afdb85e502",
+            "objectName": "Aiz9CK",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 14111,
+            "name": "sud_vo_system_nasr_produce_consultation-27.acb",
+            "size": 48576,
+            "state": "ADD",
+            "md5": "0666efbdd549f21073f6e7e35af8b560",
+            "objectName": "xkyrMC",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 14112,
+            "name": "mov_general_cidol-ssmk-3-012_1-gasha.usm",
+            "size": 3914016,
+            "state": "ADD",
+            "md5": "f432dd7dc1a6f29fe43a63588d97014f",
+            "objectName": "oOiC4s",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 14113,
+            "name": "sud_bgm_adv_inst-ssmk-004.acb",
+            "size": 10688,
+            "state": "ADD",
+            "md5": "0da2d7ffecae5373b8bae7e26c69d485",
+            "objectName": "KYHiWQ",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 14114,
+            "name": "adv_event_highscore_introduction-02.txt",
+            "size": 18695,
+            "state": "ADD",
+            "md5": "93944c5024a41f9e3dc83910546502c3",
+            "objectName": "6JD8Lq",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 14115,
+            "name": "adv_csprt-2-0054_01.txt",
+            "size": 99229,
+            "state": "ADD",
+            "md5": "bcca90aeadfd27b68d890cd4e4e3200b",
+            "objectName": "rqJtUU",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 14116,
+            "name": "mov_general_gasha_bg_idol_cidol-ssmk-3-012.usm",
+            "size": 30380352,
+            "state": "ADD",
+            "md5": "d92cb4e63f78d6041ed875be500336a2",
+            "objectName": "zV8ios",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 14117,
+            "name": "sud_vo_system_csprt-2-0054_03-amao.acb",
+            "size": 75488,
+            "state": "ADD",
+            "md5": "cafc61de2e71ca9da47be41811969a53",
+            "objectName": "Gktu8n",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 14118,
+            "name": "sud_vo_system_nasr_produce_consultation-25.acb",
+            "size": 38656,
+            "state": "ADD",
+            "md5": "f86331d4971ae6feb5a9d38639a204f1",
+            "objectName": "JV4U5H",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 14119,
+            "name": "adv_cidol-ssmk-3-012_02.txt",
+            "size": 99840,
+            "state": "ADD",
+            "md5": "1ce9057fd5763d1361f1756630d3a2b3",
+            "objectName": "M41xTm",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 14120,
+            "name": "sud_vo_system_dear_ssmk_023-01.acb",
+            "size": 49920,
+            "state": "ADD",
+            "md5": "a4a81ce3944b3a7855a500a440e2d719",
+            "objectName": "URILoS",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 14121,
+            "name": "sud_bgm_adv_inst-all-014.acb",
+            "size": 11328,
+            "state": "ADD",
+            "md5": "dc94a041bca502213df6330fa01cbd57",
+            "objectName": "0WBQXa",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 14122,
+            "name": "sud_vo_adv_cidol-ssmk-3-012_03.acb",
+            "size": 1951072,
+            "state": "ADD",
+            "md5": "0ee48cde6a61c32c79b3312981c9b203",
+            "objectName": "Ul0Haj",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 14123,
+            "name": "sud_vo_adv_event_highscore_introduction-02.acb",
+            "size": 709152,
+            "state": "ADD",
+            "md5": "ab81b939128c4147995c8156bd43ac4e",
+            "objectName": "OoSQbo",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 14124,
+            "name": "sud_bgm_adv_inst-all-013.acb",
+            "size": 11328,
+            "state": "ADD",
+            "md5": "819da2f300fdb8f977ff209ea3fd0909",
+            "objectName": "2tq3tc",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 14125,
+            "name": "sud_vo_adv_csprt-3-0064_02.acb",
+            "size": 1530016,
+            "state": "ADD",
+            "md5": "8232f769879fe6718b8847098c0829bd",
+            "objectName": "k7rmOd",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 14126,
+            "name": "sud_vo_adv_dear_ssmk_027.acb",
+            "size": 2082816,
+            "state": "ADD",
+            "md5": "31b183ac9f66d7f1c18278eb97dd6cd7",
+            "objectName": "89oywt",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 14127,
+            "name": "mov_general_gasha_bg_idol_cidol-ssmk-3-000.usm",
+            "size": 26512640,
+            "state": "ADD",
+            "md5": "9dc17b4c080196beead7863dd15e1293",
+            "objectName": "ikz9ux",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 14128,
+            "name": "sud_vo_adv_dear_ssmk_023.acb",
+            "size": 3402880,
+            "state": "ADD",
+            "md5": "5ed1f467a2585be82dbacb96be5f7b63",
+            "objectName": "GaDDzC",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 14129,
+            "name": "mov_general_cidol-ssmk-3-012_1.usm",
+            "size": 12537376,
+            "state": "ADD",
+            "md5": "357f96152d359af55ef60b1bf6afb793",
+            "objectName": "BYBmGO",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 14130,
+            "name": "adv_csprt-3-0064_01.txt",
+            "size": 133370,
+            "state": "ADD",
+            "md5": "ccbe4226aaf8d45629c714a5dea2c323",
+            "objectName": "0kJJyY",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 14131,
+            "name": "sud_music_general_ssmk-004-ssmk_game.acb",
+            "size": 10720,
+            "state": "ADD",
+            "md5": "86f07451caef9bd55952c33112caa32b",
+            "objectName": "hDwlrk",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 14132,
+            "name": "sud_vo_system_dear_ssmk_026-02.acb",
+            "size": 45824,
+            "state": "ADD",
+            "md5": "403727635cd4ef9a14dd8a52bfa4a887",
+            "objectName": "o1Z6Pm",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 14133,
+            "name": "sud_vo_system_dear_ssmk_027-03.acb",
+            "size": 48896,
+            "state": "ADD",
+            "md5": "204a35f3edfa8b5e007df2f031af75e3",
+            "objectName": "f0PuZH",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 14134,
+            "name": "sud_vo_adv_csprt-3-0064_01.acb",
+            "size": 1249472,
+            "state": "ADD",
+            "md5": "d3955d33da1b09b675b67a668a498087",
+            "objectName": "rPGSDM",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 14135,
+            "name": "adv_cidol-ssmk-3-012_01.txt",
+            "size": 103229,
+            "state": "ADD",
+            "md5": "fd720f7643389210c0e69b2e3f60190c",
+            "objectName": "PK7rNV",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 14136,
+            "name": "sud_vo_system_dear_ssmk_025-02.acb",
+            "size": 61184,
+            "state": "ADD",
+            "md5": "a6d844ef71f73c116352f25e75ecdd0f",
+            "objectName": "LfSQK8",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 14137,
+            "name": "sud_vo_system_nasr_produce_consultation-26.acb",
+            "size": 47872,
+            "state": "ADD",
+            "md5": "c7f201b8fd4cbb8784e00f8dc95a1624",
+            "objectName": "CzQsFv",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 14138,
+            "name": "sud_vo_system_dear_ssmk_022-03.acb",
+            "size": 89824,
+            "state": "ADD",
+            "md5": "43cc68d00ffc006f49b80d17c9ae2ed3",
+            "objectName": "YKI051",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 14139,
+            "name": "sud_vo_system_dear_ssmk_025-01.acb",
+            "size": 62528,
+            "state": "ADD",
+            "md5": "34d7643fffded1cc59ef1a252e93c49c",
+            "objectName": "qqey0y",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 14140,
+            "name": "mov_general_gasha_bg_support_csprt-3-0064.usm",
+            "size": 12361632,
+            "state": "ADD",
+            "md5": "d760995b37f3b0372f5785843cf507bb",
+            "objectName": "jm6Cty",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 14141,
+            "name": "sud_vo_system_cidol-ssmk-3-012_produce_schedule-01.acb",
+            "size": 70720,
+            "state": "ADD",
+            "md5": "1429b37b29313493042110b5c3a7d9fe",
+            "objectName": "8LOJDT",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 14142,
+            "name": "sud_vo_system_cidol-ssmk-3-012_produce_schedule-02.acb",
+            "size": 83680,
+            "state": "ADD",
+            "md5": "9615f9b16e7685d0a7e20008890e1df5",
+            "objectName": "OESNOm",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 14143,
+            "name": "sud_music_general_ssmk-004-ssmk_game-inst.mp3",
+            "size": 2312609,
+            "state": "ADD",
+            "md5": "f50ab22a2783ed03ae1e86f3487b0c5a",
+            "objectName": "GO7vZd",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 14144,
+            "name": "sud_vo_system_cidol-ssmk-3-012_home_cmmn-01.acb",
+            "size": 86400,
+            "state": "ADD",
+            "md5": "5c96d37ca4eacc2a2aae06bc999113f8",
+            "objectName": "l7ZLJB",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 14145,
+            "name": "sud_vo_system_csprt-2-0054_02-amao.acb",
+            "size": 64256,
+            "state": "ADD",
+            "md5": "cc2348a7b4e716422a634e331ab28817",
+            "objectName": "8qq69R",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 14146,
+            "name": "sud_vo_adv_csprt-3-0064_03.acb",
+            "size": 1472192,
+            "state": "ADD",
+            "md5": "9fc13c571172ac6ae18a5ebbaef0d05d",
+            "objectName": "0JJRUP",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 14147,
+            "name": "sud_vo_system_cidol-ssmk-3-012_produce_skillcard-01.acb",
+            "size": 36992,
+            "state": "ADD",
+            "md5": "b682da470ce603da0cbc29330dd21686",
+            "objectName": "ntOwBo",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 14148,
+            "name": "sud_music_general_ssmk-004-ssmk_game.mp3",
+            "size": 2312609,
+            "state": "ADD",
+            "md5": "16ecfd5f954336299ec50c47d9f10b2f",
+            "objectName": "1ArrCQ",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 14149,
+            "name": "adv_csprt-3-0064_03.txt",
+            "size": 91807,
+            "state": "ADD",
+            "md5": "a06f4bc71731cf4d347348f56c9bb741",
+            "objectName": "lSfW9n",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 14150,
+            "name": "sud_vo_system_cidol-ssmk-3-012_idol_details-02.acb",
+            "size": 46176,
+            "state": "ADD",
+            "md5": "64213ba3d745df82f3590e0fb2ce9455",
+            "objectName": "bIraC7",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 14151,
+            "name": "mov_general_gasha_live_i_card-skin-ssmk-3-012-result.usm",
+            "size": 2002912,
+            "state": "ADD",
+            "md5": "cca0e455715d756480ae440f0050eecf",
+            "objectName": "Dv7FRG",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 14152,
+            "name": "sud_vo_system_cidol-ssmk-3-012_home_cmmn-03.acb",
+            "size": 60832,
+            "state": "ADD",
+            "md5": "3af97c2e2c7021a6388a5db8ebf3bf37",
+            "objectName": "4bzW8t",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 14153,
+            "name": "sud_vo_system_csprt-3-0064_02-ssmk.acb",
+            "size": 42752,
+            "state": "ADD",
+            "md5": "b558d20f6049ca73ce6c3a885f385af2",
+            "objectName": "suoRiR",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 14154,
+            "name": "sud_vo_system_csprt-3-0064_01-hrnm.acb",
+            "size": 46848,
+            "state": "ADD",
+            "md5": "f2331f7240428447cf03826dadf2605f",
+            "objectName": "Lr77Hf",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 14155,
+            "name": "sud_bgm_adv_inst-all-012.acb",
+            "size": 11328,
+            "state": "ADD",
+            "md5": "6aff30080f9fe9aaaa4ed5419789bf12",
+            "objectName": "rAUOZD",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 14156,
+            "name": "sud_vo_system_cidol-ssmk-3-012_home_cmmn-02.acb",
+            "size": 56064,
+            "state": "ADD",
+            "md5": "ce29620406fed5c8b98231f9dcc14c3f",
+            "objectName": "d1Nlbh",
             "uploadVersionId": 705000
         }
     ],
