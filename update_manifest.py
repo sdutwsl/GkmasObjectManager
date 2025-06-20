@@ -15,7 +15,7 @@ def do_update(path: str, pc: bool = False) -> bool:
 
     path = Path(path)
     m_remote = gom.fetch(pc=pc)
-    rev_remote = m_remote.revision._get_canon_repr()
+    rev_remote = m_remote.revision.canon_repr
     rev_local = int((path / "LATEST_REVISION").read_text())
 
     if rev_remote == rev_local:
