@@ -1,6 +1,6 @@
 {
     "revision": [
-        271,
+        273,
         262
     ],
     "assetBundleList": [
@@ -79,14 +79,14 @@
         {
             "id": 5317,
             "name": "mdl_chr_hrnm-cstm-0051_body",
-            "size": 4616601,
-            "crc": 3664835664,
+            "size": 4616969,
+            "crc": 3742045585,
             "dependencies": [
                 2071
             ],
             "state": "UPDATE",
-            "md5": "2e1d3ea335ce2a8dd0984ee9187f0d34",
-            "objectName": "oHOYt1",
+            "md5": "19734381e6b6747f15c62b4cd93f10af",
+            "objectName": "Polgd6",
             "uploadVersionId": 205000
         },
         {
@@ -192,14 +192,14 @@
         {
             "id": 5454,
             "name": "mdl_chr_ssmk-cstm-0051_body",
-            "size": 4639190,
-            "crc": 1883205998,
+            "size": 4641853,
+            "crc": 4151966037,
             "dependencies": [
                 2071
             ],
             "state": "UPDATE",
-            "md5": "a7de26783c71a57c2b7f15bea6cfd46e",
-            "objectName": "D5cQ5u",
+            "md5": "36cd1a8eafcbcfbb5bb4bd5f2da2bbcb",
+            "objectName": "HoIPie",
             "uploadVersionId": 205000
         },
         {
@@ -7206,6 +7206,106 @@
             "md5": "97f72a5b8fbf78df686bb036b1ded9ea",
             "objectName": "VhqrK2",
             "uploadVersionId": 205000
+        },
+        {
+            "id": 13887,
+            "name": "img_general_shop_costume_0033-large",
+            "size": 123486,
+            "crc": 14654336,
+            "state": "ADD",
+            "md5": "aa519758948d62b87a2b822f9382de23",
+            "objectName": "mhtaBd",
+            "uploadVersionId": 205000
+        },
+        {
+            "id": 13888,
+            "name": "img_cos_hrnm-cstm-0051_body",
+            "size": 26894,
+            "crc": 3733329230,
+            "state": "ADD",
+            "md5": "4a9259703d1924319055096a364d9f10",
+            "objectName": "9gKj1h",
+            "uploadVersionId": 205000
+        },
+        {
+            "id": 13889,
+            "name": "img_general_shop_costume_0033-small",
+            "size": 25280,
+            "crc": 973252672,
+            "state": "ADD",
+            "md5": "06f7162e71eb79b00e5b67cdfb81c295",
+            "objectName": "l0qXej",
+            "uploadVersionId": 205000
+        },
+        {
+            "id": 13890,
+            "name": "img_cos_ssmk-cstm-0051_body",
+            "size": 26902,
+            "crc": 1902001287,
+            "state": "ADD",
+            "md5": "32bb9b4758bc4306314991271fe6a546",
+            "objectName": "BYhSTw",
+            "uploadVersionId": 205000
+        },
+        {
+            "id": 13891,
+            "name": "img_notice_notice-list_costume_item-0051",
+            "size": 87291,
+            "crc": 1746429588,
+            "state": "ADD",
+            "md5": "8ee031b1210c09c665a8a90e19c6d1d5",
+            "objectName": "jxVYWo",
+            "uploadVersionId": 205000
+        },
+        {
+            "id": 13892,
+            "name": "img_general_shop_costume_0034-large",
+            "size": 111369,
+            "crc": 2168234896,
+            "state": "ADD",
+            "md5": "b76bebdb8a0254bc7803aaa53e10c5b6",
+            "objectName": "XBhDVs",
+            "uploadVersionId": 205000
+        },
+        {
+            "id": 13893,
+            "name": "img_general_shop_costume_0034-small",
+            "size": 24109,
+            "crc": 945797849,
+            "state": "ADD",
+            "md5": "d9e872283c9328ddef891ed378c2b027",
+            "objectName": "5hRpqg",
+            "uploadVersionId": 205000
+        },
+        {
+            "id": 13894,
+            "name": "img_notice_notice-list_shop_costume_item-0051",
+            "size": 87301,
+            "crc": 3737038589,
+            "state": "ADD",
+            "md5": "8824b9ceb623846923c9fc67b063a165",
+            "objectName": "o5DCVg",
+            "uploadVersionId": 205000
+        },
+        {
+            "id": 13895,
+            "name": "img_general_home_shop_costume_item-0051",
+            "size": 15609,
+            "crc": 2783784766,
+            "state": "ADD",
+            "md5": "64a8c19024aa2939009026b5b587b15a",
+            "objectName": "xmiIso",
+            "uploadVersionId": 205000
+        },
+        {
+            "id": 13896,
+            "name": "img_notice_shop_costume_item-0051",
+            "size": 288519,
+            "crc": 1553055089,
+            "state": "ADD",
+            "md5": "c37a16fe914ffe5fabbd68a19f947fc5",
+            "objectName": "jvFHIF",
+            "uploadVersionId": 205000
         }
     ],
     "resourceList": [
@@ -7491,10 +7591,10 @@
         {
             "id": 14092,
             "name": "sud_bgm_adv_inst-all-012.acb",
-            "size": 11328,
-            "state": "ADD",
-            "md5": "6aff30080f9fe9aaaa4ed5419789bf12",
-            "objectName": "MgkGP3",
+            "size": 11296,
+            "state": "UPDATE",
+            "md5": "4b5e85129f2bee57116f87b787525109",
+            "objectName": "PG9hle",
             "uploadVersionId": 205000
         },
         {
@@ -7518,10 +7618,10 @@
         {
             "id": 14095,
             "name": "sud_bgm_adv_inst-all-014.acb",
-            "size": 11328,
-            "state": "ADD",
-            "md5": "dc94a041bca502213df6330fa01cbd57",
-            "objectName": "afdTnE",
+            "size": 11296,
+            "state": "UPDATE",
+            "md5": "7378c52f099fcdcac8341a9d2427d94b",
+            "objectName": "Aj4JAX",
             "uploadVersionId": 205000
         },
         {
@@ -7590,10 +7690,10 @@
         {
             "id": 14103,
             "name": "sud_bgm_adv_inst-all-013.acb",
-            "size": 11328,
-            "state": "ADD",
-            "md5": "819da2f300fdb8f977ff209ea3fd0909",
-            "objectName": "CZ73rA",
+            "size": 11296,
+            "state": "UPDATE",
+            "md5": "34568d1038f8a2772be027c98df0d549",
+            "objectName": "XsuvEq",
             "uploadVersionId": 205000
         },
         {
@@ -7653,10 +7753,10 @@
         {
             "id": 14110,
             "name": "sud_bgm_adv_inst-all-012.awb",
-            "size": 3200754,
-            "state": "ADD",
-            "md5": "999603f13ef440f4cef28cea72a2e804",
-            "objectName": "TmdfDE",
+            "size": 2877486,
+            "state": "UPDATE",
+            "md5": "feb630ded3bb0aebc2ed730bf430380a",
+            "objectName": "OMAVf0",
             "uploadVersionId": 205000
         },
         {
@@ -7752,10 +7852,10 @@
         {
             "id": 14121,
             "name": "sud_bgm_adv_inst-all-014.awb",
-            "size": 3158470,
-            "state": "ADD",
-            "md5": "afdc543d22c8f8a8fc033625b2cad8ff",
-            "objectName": "DzUNCY",
+            "size": 2877486,
+            "state": "UPDATE",
+            "md5": "2bf52cceba7bdc39a3a8f131b531e2ab",
+            "objectName": "wp6Ouf",
             "uploadVersionId": 205000
         },
         {
@@ -7806,10 +7906,10 @@
         {
             "id": 14127,
             "name": "sud_bgm_adv_inst-all-013.awb",
-            "size": 3067764,
-            "state": "ADD",
-            "md5": "24e2a9903f8a2172f4dcd39af9b489d1",
-            "objectName": "SKdsaJ",
+            "size": 2877486,
+            "state": "UPDATE",
+            "md5": "1075c69d58852089b750c27e0a620c0b",
+            "objectName": "X4sAEJ",
             "uploadVersionId": 205000
         },
         {
@@ -10987,6 +11087,42 @@
             "state": "ADD",
             "md5": "f91496e036fcef310934564b2343e537",
             "objectName": "PxcPmu",
+            "uploadVersionId": 205000
+        },
+        {
+            "id": 14481,
+            "name": "sud_vo_system_ssmk-cstm-0051_02.acb",
+            "size": 47872,
+            "state": "ADD",
+            "md5": "30631053e8c9c398461a184369da952c",
+            "objectName": "PeQU5l",
+            "uploadVersionId": 205000
+        },
+        {
+            "id": 14482,
+            "name": "sud_vo_system_hrnm-cstm-0051_01.acb",
+            "size": 49248,
+            "state": "ADD",
+            "md5": "8de172e24bd998107cec09b32ef92bad",
+            "objectName": "DtmKr5",
+            "uploadVersionId": 205000
+        },
+        {
+            "id": 14483,
+            "name": "sud_vo_system_ssmk-cstm-0051_01.acb",
+            "size": 51616,
+            "state": "ADD",
+            "md5": "35b7b852aff3b1a108326bd956969c54",
+            "objectName": "A8mSmN",
+            "uploadVersionId": 205000
+        },
+        {
+            "id": 14484,
+            "name": "sud_vo_system_hrnm-cstm-0051_02.acb",
+            "size": 68352,
+            "state": "ADD",
+            "md5": "d7665d8cdc847cd2ff5ec3cf4bd80110",
+            "objectName": "syDzUu",
             "uploadVersionId": 205000
         }
     ],
