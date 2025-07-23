@@ -1,6 +1,6 @@
 {
     "revision": [
-        80,
+        82,
         51
     ],
     "assetBundleList": [
@@ -14062,6 +14062,76 @@
             "md5": "12b4725f1b09993d2b65c3b17a5ebc30",
             "objectName": "42CGBi",
             "uploadVersionId": 705000
+        },
+        {
+            "id": 13937,
+            "name": "img_general_music_jacket_char-kllj-005",
+            "size": 377679,
+            "crc": 870572555,
+            "state": "ADD",
+            "md5": "7f4061bb6a462f70fff1f4a832fae61b",
+            "objectName": "X1b9YE",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 13938,
+            "name": "img_notice_birthday_birthday-kllj-2025",
+            "size": 2412552,
+            "crc": 3531439638,
+            "state": "ADD",
+            "md5": "22b54678c36b56240b5b47c031e8f792",
+            "objectName": "XHP7LK",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 13939,
+            "name": "img_notice_information_birthday-kllj-2025-large",
+            "size": 904327,
+            "crc": 2540445420,
+            "state": "ADD",
+            "md5": "95eea7f0301e4a452dff623129c7c7a3",
+            "objectName": "nhnQfs",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 13940,
+            "name": "img_general_home_birthday_birthday-kllj-2025-001",
+            "size": 45392,
+            "crc": 3651174382,
+            "state": "ADD",
+            "md5": "4ca031b7a4ab4c905f414a1440a4b2e5",
+            "objectName": "BRjupe",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 13941,
+            "name": "img_general_media_birthday-live-2025-kllj",
+            "size": 2213058,
+            "crc": 1074386266,
+            "state": "ADD",
+            "md5": "501dad5acbdc463e9128802896841e01",
+            "objectName": "r18rS9",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 13942,
+            "name": "img_general_meishi_base_kllj-birthday-02-full",
+            "size": 2251580,
+            "crc": 4023505756,
+            "state": "ADD",
+            "md5": "a14b07c345b328bda9d50d1001605341",
+            "objectName": "45U7dL",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 13943,
+            "name": "img_general_meishi_base_kllj-birthday-02-thumb",
+            "size": 68405,
+            "crc": 78925409,
+            "state": "ADD",
+            "md5": "c9d28ea7e106f945b9a44f6985d8b116",
+            "objectName": "zMa8KG",
+            "uploadVersionId": 705000
         }
     ],
     "resourceList": [
@@ -21632,6 +21702,78 @@
             "state": "ADD",
             "md5": "ae58a1fc8c5be974480e6ee0cb531cb3",
             "objectName": "ohqfZH",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 14551,
+            "name": "sud_music_general_kllj-005-kllj_game.awb",
+            "size": 4077124,
+            "state": "ADD",
+            "md5": "22039ced197fc2b1d96766ece589a3e9",
+            "objectName": "ZnwPCg",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 14552,
+            "name": "sud_music_general_kllj-005-kllj_game.mp3",
+            "size": 2221705,
+            "state": "ADD",
+            "md5": "348627bf985822fd61e152bfc1c5a9e5",
+            "objectName": "Sv19X8",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 14553,
+            "name": "img_general_music_jacket_char-kllj-005.png",
+            "size": 435361,
+            "state": "ADD",
+            "md5": "f75b130e1b371d89812479856b70ffea",
+            "objectName": "3bUNct",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 14554,
+            "name": "mov_general_media_birthday-live-2025-kllj.usm",
+            "size": 876216352,
+            "state": "ADD",
+            "md5": "9610f9499fa144c3ecf5b62021346d64",
+            "objectName": "I3rjxR",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 14555,
+            "name": "sud_music_general_kllj-005-kllj_game-inst.acb",
+            "size": 10720,
+            "state": "ADD",
+            "md5": "d0fd8f36952179e7a78e9ce3daeb6936",
+            "objectName": "rS3QVu",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 14556,
+            "name": "sud_music_general_kllj-005-kllj_game-inst.awb",
+            "size": 4077124,
+            "state": "ADD",
+            "md5": "bdc0a908d9d368429fe4484dcc37cd6b",
+            "objectName": "BcOKJg",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 14557,
+            "name": "sud_music_general_kllj-005-kllj_game-inst.mp3",
+            "size": 2221705,
+            "state": "ADD",
+            "md5": "3da605297f7233bd2caa6c6f7d593181",
+            "objectName": "6LgVVS",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 14558,
+            "name": "sud_music_general_kllj-005-kllj_game.acb",
+            "size": 10720,
+            "state": "ADD",
+            "md5": "046bc970fb8a59056d63b39743386799",
+            "objectName": "HihJ6H",
             "uploadVersionId": 705000
         }
     ],
