@@ -1,6 +1,6 @@
 {
     "revision": [
-        281,
+        283,
         133
     ],
     "assetBundleList": [
@@ -22658,14 +22658,14 @@
         {
             "id": 10552,
             "name": "mdl_chr_hmsz-cstm-0000_body",
-            "size": 6786776,
-            "crc": 1611189056,
+            "size": 6786798,
+            "crc": 4108082404,
             "dependencies": [
                 2071
             ],
             "state": "UPDATE",
-            "md5": "904e3346a3dd772d1950c2bbf85edf50",
-            "objectName": "EElJ30",
+            "md5": "b18e99e5e8e59c21ab9f44ccab2c23be",
+            "objectName": "QOU5aM",
             "uploadVersionId": 205000
         },
         {
@@ -53301,14 +53301,14 @@
         {
             "id": 13456,
             "name": "mdl_chr_hmsz-cstm-0073_body",
-            "size": 6224296,
-            "crc": 2445527951,
+            "size": 6224300,
+            "crc": 2322695443,
             "dependencies": [
                 2071
             ],
             "state": "UPDATE",
-            "md5": "2fee1b5d62143ba77ca596c65dc6068a",
-            "objectName": "ndRBJ2",
+            "md5": "2c92622a63697982807f8af027d72858",
+            "objectName": "bHigqP",
             "uploadVersionId": 205000
         },
         {
@@ -53384,14 +53384,14 @@
         {
             "id": 13464,
             "name": "mdl_chr_hmsz-cstm-0072_body",
-            "size": 5590698,
-            "crc": 1210033323,
+            "size": 5590181,
+            "crc": 4133560604,
             "dependencies": [
                 2071
             ],
             "state": "UPDATE",
-            "md5": "10a76e1b673df83d3be0d18341996c3f",
-            "objectName": "pKN163",
+            "md5": "2c6647aee9b6b6ecec87a917b073fe41",
+            "objectName": "juKCo3",
             "uploadVersionId": 205000
         },
         {
@@ -59181,6 +59181,49 @@
             "state": "ADD",
             "md5": "7fa9f975cc1cf8b5d27dde174e155832",
             "objectName": "RLyviY",
+            "uploadVersionId": 205000
+        },
+        {
+            "id": 14016,
+            "name": "img_notice_event_tower-010",
+            "size": 312298,
+            "crc": 2698647664,
+            "state": "ADD",
+            "md5": "695570dab62551652ad4215467bdbd4f",
+            "objectName": "MGFvdU",
+            "uploadVersionId": 205000
+        },
+        {
+            "id": 14017,
+            "name": "img_notice_notice-list_tower-010_banner-001-large",
+            "size": 85718,
+            "crc": 140068214,
+            "state": "ADD",
+            "md5": "a8f985d1551f62b629a15e773923ab61",
+            "objectName": "2rRhHV",
+            "uploadVersionId": 205000
+        },
+        {
+            "id": 14018,
+            "name": "mdl_chr_hmsz-cstm-0110_body",
+            "size": 6172243,
+            "crc": 4069937125,
+            "dependencies": [
+                2071
+            ],
+            "state": "ADD",
+            "md5": "f9ee471265afdfe84a8355327c9f0e2d",
+            "objectName": "0ttDRb",
+            "uploadVersionId": 205000
+        },
+        {
+            "id": 14019,
+            "name": "img_cos_hmsz-cstm-0110_body",
+            "size": 55983,
+            "crc": 2147190419,
+            "state": "ADD",
+            "md5": "baab764caf3d1c2c2028f155c34133f5",
+            "objectName": "0c5SGQ",
             "uploadVersionId": 205000
         }
     ],
@@ -114317,6 +114360,24 @@
             "state": "ADD",
             "md5": "f0d2b81fca659d47d0b57006a98b80c8",
             "objectName": "ukIKZP",
+            "uploadVersionId": 205000
+        },
+        {
+            "id": 14605,
+            "name": "sud_vo_system_hmsz-cstm-0110_01.acb",
+            "size": 67328,
+            "state": "ADD",
+            "md5": "b8202fd793c7b5d1026bfd29eefd4573",
+            "objectName": "wIvUuv",
+            "uploadVersionId": 205000
+        },
+        {
+            "id": 14606,
+            "name": "sud_vo_system_hmsz-cstm-0110_02.acb",
+            "size": 86752,
+            "state": "ADD",
+            "md5": "567c17cabb035069d1e22a1c8316144f",
+            "objectName": "3TJODC",
             "uploadVersionId": 205000
         }
     ],

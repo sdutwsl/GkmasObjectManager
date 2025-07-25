@@ -1,9 +1,48 @@
 {
     "revision": [
-        84,
+        86,
         81
     ],
     "assetBundleList": [
+        {
+            "id": 10886,
+            "name": "mdl_chr_hmsz-cstm-0000_body",
+            "size": 9461329,
+            "crc": 1814127968,
+            "dependencies": [
+                8213
+            ],
+            "state": "UPDATE",
+            "md5": "1e548fd86fe1f2d96f00844312dc6cd4",
+            "objectName": "W56baa",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 13407,
+            "name": "mdl_chr_hmsz-cstm-0073_body",
+            "size": 9131148,
+            "crc": 1077469709,
+            "dependencies": [
+                8213
+            ],
+            "state": "UPDATE",
+            "md5": "49b758cb1f0ddde4800ee244da55f16e",
+            "objectName": "6H0eI6",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 13411,
+            "name": "mdl_chr_hmsz-cstm-0072_body",
+            "size": 7329948,
+            "crc": 3882433978,
+            "dependencies": [
+                8213
+            ],
+            "state": "UPDATE",
+            "md5": "fb80dff6ff628f8e31bfd52b78275229",
+            "objectName": "MFIfIU",
+            "uploadVersionId": 705000
+        },
         {
             "id": 13944,
             "name": "mdl_chr_kcna-cstm-0111_body",
@@ -258,6 +297,49 @@
             "state": "ADD",
             "md5": "481f379fe721458cd2657cbb46c6aed0",
             "objectName": "qQeoIG",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 13966,
+            "name": "img_notice_notice-list_tower-010_banner-001-large",
+            "size": 456240,
+            "crc": 433001546,
+            "state": "ADD",
+            "md5": "e22d3513ff73964e350d1f73c76febce",
+            "objectName": "juPfqu",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 13967,
+            "name": "mdl_chr_hmsz-cstm-0110_body",
+            "size": 7814246,
+            "crc": 3837005295,
+            "dependencies": [
+                8213
+            ],
+            "state": "ADD",
+            "md5": "797760295a0bbb7ca12562c5ac210270",
+            "objectName": "6TR5kU",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 13968,
+            "name": "img_cos_hmsz-cstm-0110_body",
+            "size": 146414,
+            "crc": 229082865,
+            "state": "ADD",
+            "md5": "74739539545ae10424d64098afbc1683",
+            "objectName": "4xCxbh",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 13969,
+            "name": "img_notice_event_tower-010",
+            "size": 1604561,
+            "crc": 3365146691,
+            "state": "ADD",
+            "md5": "8798d62467f417fc733a5ef4eddc0a93",
+            "objectName": "ocelYa",
             "uploadVersionId": 705000
         }
     ],
@@ -548,6 +630,24 @@
             "state": "ADD",
             "md5": "bbdbf6eee37f647407ef82defcabb077",
             "objectName": "stzYLL",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 14583,
+            "name": "sud_vo_system_hmsz-cstm-0110_02.acb",
+            "size": 86752,
+            "state": "ADD",
+            "md5": "567c17cabb035069d1e22a1c8316144f",
+            "objectName": "0wMQlO",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 14584,
+            "name": "sud_vo_system_hmsz-cstm-0110_01.acb",
+            "size": 67328,
+            "state": "ADD",
+            "md5": "b8202fd793c7b5d1026bfd29eefd4573",
+            "objectName": "TRjFYV",
             "uploadVersionId": 705000
         }
     ],
