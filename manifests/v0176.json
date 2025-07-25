@@ -1,6 +1,6 @@
 {
     "revision": [
-        279,
+        281,
         176
     ],
     "assetBundleList": [
@@ -42525,6 +42525,262 @@
             "md5": "4e61f63802e416c94e884b97ff33c3ea",
             "objectName": "RKuYiq",
             "uploadVersionId": 205000
+        },
+        {
+            "id": 13994,
+            "name": "mdl_chr_ttmr-cstm-0111_body",
+            "size": 4931505,
+            "crc": 1661261049,
+            "dependencies": [
+                2071
+            ],
+            "state": "ADD",
+            "md5": "d4ad1a0740d1a7ccd97bb376344d67d6",
+            "objectName": "xoN1KD",
+            "uploadVersionId": 205000
+        },
+        {
+            "id": 13995,
+            "name": "mdl_chr_hrnm-cstm-0111_body",
+            "size": 4928238,
+            "crc": 4041022637,
+            "dependencies": [
+                2071
+            ],
+            "state": "ADD",
+            "md5": "fd26e6346ed33f49f8f68502f3226d1b",
+            "objectName": "ovDD5n",
+            "uploadVersionId": 205000
+        },
+        {
+            "id": 13996,
+            "name": "img_general_shop_pack_0049-large",
+            "size": 154393,
+            "crc": 4152653798,
+            "state": "ADD",
+            "md5": "b880065e68f33327535b0da4524a7a1c",
+            "objectName": "bTnRvM",
+            "uploadVersionId": 205000
+        },
+        {
+            "id": 13997,
+            "name": "mdl_chr_amao-cstm-0111_body",
+            "size": 4937230,
+            "crc": 3026337549,
+            "dependencies": [
+                2071
+            ],
+            "state": "ADD",
+            "md5": "a229b4ef926d1bc58a5fd7103490713a",
+            "objectName": "p5HUde",
+            "uploadVersionId": 205000
+        },
+        {
+            "id": 13998,
+            "name": "mdl_chr_jsna-cstm-0111_body",
+            "size": 5009072,
+            "crc": 2518427049,
+            "dependencies": [
+                2071
+            ],
+            "state": "ADD",
+            "md5": "dfeb0839ae51e221851637e53aba9f7a",
+            "objectName": "pohIGp",
+            "uploadVersionId": 205000
+        },
+        {
+            "id": 13999,
+            "name": "mdl_chr_kcna-cstm-0111_body",
+            "size": 4917062,
+            "crc": 4267582832,
+            "dependencies": [
+                2071
+            ],
+            "state": "ADD",
+            "md5": "b97adfc6b95c9905afe48fa3afec1005",
+            "objectName": "RsxvpW",
+            "uploadVersionId": 205000
+        },
+        {
+            "id": 14000,
+            "name": "mdl_chr_hski-cstm-0111_body",
+            "size": 4967353,
+            "crc": 3497315743,
+            "dependencies": [
+                2071
+            ],
+            "state": "ADD",
+            "md5": "1f35ee5880225e0f60148af1dc1cfe7d",
+            "objectName": "G0zaC6",
+            "uploadVersionId": 205000
+        },
+        {
+            "id": 14001,
+            "name": "mdl_chr_ssmk-cstm-0111_body",
+            "size": 4948851,
+            "crc": 3835289729,
+            "dependencies": [
+                2071
+            ],
+            "state": "ADD",
+            "md5": "189e6b804676cef6fecef8e082e5c2b4",
+            "objectName": "CCxwUc",
+            "uploadVersionId": 205000
+        },
+        {
+            "id": 14002,
+            "name": "img_notice_notice-list_shop_costume_0002",
+            "size": 96793,
+            "crc": 3607799322,
+            "state": "ADD",
+            "md5": "14f3d5fe918b684de368fdaf49b64376",
+            "objectName": "hAZssR",
+            "uploadVersionId": 205000
+        },
+        {
+            "id": 14003,
+            "name": "img_notice_shop_pack_item-0049",
+            "size": 361254,
+            "crc": 1749853769,
+            "state": "ADD",
+            "md5": "9d4ff098964ec6fe1fcdf3145b3ee4ea",
+            "objectName": "7JuWh9",
+            "uploadVersionId": 205000
+        },
+        {
+            "id": 14004,
+            "name": "mdl_chr_hmsz-cstm-0111_body",
+            "size": 4924577,
+            "crc": 1635625784,
+            "dependencies": [
+                2071
+            ],
+            "state": "ADD",
+            "md5": "8c6d5852f6570bb69f97e75b166c9138",
+            "objectName": "VTB5pN",
+            "uploadVersionId": 205000
+        },
+        {
+            "id": 14005,
+            "name": "img_general_home_shop_pack_item-0049",
+            "size": 13976,
+            "crc": 2722890869,
+            "state": "ADD",
+            "md5": "088bc4e6b5710c444fe14402169371e0",
+            "objectName": "QW8BFY",
+            "uploadVersionId": 205000
+        },
+        {
+            "id": 14006,
+            "name": "img_notice_shop_costume_item-0002",
+            "size": 370676,
+            "crc": 3230033485,
+            "state": "ADD",
+            "md5": "be013cbf5dc4039463684f4e9a7cb979",
+            "objectName": "aZSU8d",
+            "uploadVersionId": 205000
+        },
+        {
+            "id": 14007,
+            "name": "img_notice_notice-list_shop_pack_0049",
+            "size": 95851,
+            "crc": 1923349536,
+            "state": "ADD",
+            "md5": "d9f9aaafa7a5b0e2a701f0e766c0c484",
+            "objectName": "WjkTxm",
+            "uploadVersionId": 205000
+        },
+        {
+            "id": 14008,
+            "name": "img_general_home_shop_costume-0002",
+            "size": 13692,
+            "crc": 1808803282,
+            "state": "ADD",
+            "md5": "15f3a54b496c2add900df3bbe06ef752",
+            "objectName": "FLMR2h",
+            "uploadVersionId": 205000
+        },
+        {
+            "id": 14009,
+            "name": "mdl_chr_kllj-cstm-0111_body",
+            "size": 4940774,
+            "crc": 774563530,
+            "dependencies": [
+                2071
+            ],
+            "state": "ADD",
+            "md5": "a0b3145c7c95b79c2112be5b8d6281f9",
+            "objectName": "FadI4t",
+            "uploadVersionId": 205000
+        },
+        {
+            "id": 14010,
+            "name": "mdl_chr_shro-cstm-0111_body",
+            "size": 4963687,
+            "crc": 1749950473,
+            "dependencies": [
+                2071
+            ],
+            "state": "ADD",
+            "md5": "f6e8a87b8ec0e6fc875b2de8ef8c5ea2",
+            "objectName": "OLVpfD",
+            "uploadVersionId": 205000
+        },
+        {
+            "id": 14011,
+            "name": "img_cos_cmmn-cstm-0111_body",
+            "size": 20929,
+            "crc": 914206716,
+            "state": "ADD",
+            "md5": "01ec122f1f837a7761a85dc41f1d9cf4",
+            "objectName": "sIidfD",
+            "uploadVersionId": 205000
+        },
+        {
+            "id": 14012,
+            "name": "mdl_chr_fktn-cstm-0111_body",
+            "size": 4941756,
+            "crc": 1803247082,
+            "dependencies": [
+                2071
+            ],
+            "state": "ADD",
+            "md5": "de34aa28f8fc9d5dcb0c88b7d092a1b4",
+            "objectName": "an9MMW",
+            "uploadVersionId": 205000
+        },
+        {
+            "id": 14013,
+            "name": "img_notice_notice-list_pr_20th-anniversary",
+            "size": 361922,
+            "crc": 4168324302,
+            "state": "ADD",
+            "md5": "bcb9ea56c9a33df246f4fb1994cceb5a",
+            "objectName": "3zVwU3",
+            "uploadVersionId": 205000
+        },
+        {
+            "id": 14014,
+            "name": "mdl_chr_hume-cstm-0111_body",
+            "size": 4958527,
+            "crc": 852824638,
+            "dependencies": [
+                2071
+            ],
+            "state": "ADD",
+            "md5": "4efa1662f3a59ee0692ab5332570fe73",
+            "objectName": "o1ZtPH",
+            "uploadVersionId": 205000
+        },
+        {
+            "id": 14015,
+            "name": "img_general_shop_pack_0049-small",
+            "size": 38861,
+            "crc": 3141906469,
+            "state": "ADD",
+            "md5": "7fa9f975cc1cf8b5d27dde174e155832",
+            "objectName": "RLyviY",
+            "uploadVersionId": 205000
         }
     ],
     "resourceList": [
@@ -72298,6 +72554,222 @@
             "state": "ADD",
             "md5": "348627bf985822fd61e152bfc1c5a9e5",
             "objectName": "IXG135",
+            "uploadVersionId": 205000
+        },
+        {
+            "id": 14581,
+            "name": "sud_vo_system_jsna-cstm-0111_01.acb",
+            "size": 56736,
+            "state": "ADD",
+            "md5": "6ad0acb9aab1ebe2c35ca39d2c967060",
+            "objectName": "cMGRGg",
+            "uploadVersionId": 205000
+        },
+        {
+            "id": 14582,
+            "name": "sud_vo_system_kcna-cstm-0111_01.acb",
+            "size": 64576,
+            "state": "ADD",
+            "md5": "f0d5bcfcd999437e5b0eac76a4cb5aa9",
+            "objectName": "lsBKrS",
+            "uploadVersionId": 205000
+        },
+        {
+            "id": 14583,
+            "name": "sud_vo_system_ttmr-cstm-0111_01.acb",
+            "size": 76192,
+            "state": "ADD",
+            "md5": "825999064a230f01a5ecc91249bb4fe5",
+            "objectName": "ZpMuBG",
+            "uploadVersionId": 205000
+        },
+        {
+            "id": 14584,
+            "name": "sud_vo_system_ssmk-cstm-0111_01.acb",
+            "size": 72096,
+            "state": "ADD",
+            "md5": "68b269aa84405d6a142546c57f708a7d",
+            "objectName": "flcfwS",
+            "uploadVersionId": 205000
+        },
+        {
+            "id": 14585,
+            "name": "sud_vo_system_amao-cstm-0111_01.acb",
+            "size": 59136,
+            "state": "ADD",
+            "md5": "aa076d7a58f3b051f3b20eef618bed5e",
+            "objectName": "X9mocP",
+            "uploadVersionId": 205000
+        },
+        {
+            "id": 14586,
+            "name": "sud_vo_system_hrnm-cstm-0111_02.acb",
+            "size": 49568,
+            "state": "ADD",
+            "md5": "dab6220f5a27d9a31518079284fd65d6",
+            "objectName": "Z2eA6x",
+            "uploadVersionId": 205000
+        },
+        {
+            "id": 14587,
+            "name": "sud_vo_system_hski-cstm-0111_01.acb",
+            "size": 56416,
+            "state": "ADD",
+            "md5": "6538c8710238bbc1dfe8d492ff10f09d",
+            "objectName": "UEAj9Q",
+            "uploadVersionId": 205000
+        },
+        {
+            "id": 14588,
+            "name": "sud_vo_system_hski-cstm-0111_02.acb",
+            "size": 50944,
+            "state": "ADD",
+            "md5": "964044700db41949fbb7dc4d1ee8f8e8",
+            "objectName": "Z2CRm6",
+            "uploadVersionId": 205000
+        },
+        {
+            "id": 14589,
+            "name": "sud_vo_system_hrnm-cstm-0111_01.acb",
+            "size": 69024,
+            "state": "ADD",
+            "md5": "7eeb3780b61ef00b2f33181ad2d58ca1",
+            "objectName": "BWl60U",
+            "uploadVersionId": 205000
+        },
+        {
+            "id": 14590,
+            "name": "sud_vo_system_shro-cstm-0111_01.acb",
+            "size": 41408,
+            "state": "ADD",
+            "md5": "8bafe466d02f1e38e3e09c633078bd5f",
+            "objectName": "qhlLWF",
+            "uploadVersionId": 205000
+        },
+        {
+            "id": 14591,
+            "name": "sud_vo_system_hmsz-cstm-0111_02.acb",
+            "size": 81984,
+            "state": "ADD",
+            "md5": "6aff4d3016121d0c668707e5e898da2e",
+            "objectName": "VtHgon",
+            "uploadVersionId": 205000
+        },
+        {
+            "id": 14592,
+            "name": "sud_vo_system_fktn-cstm-0111_02.acb",
+            "size": 79264,
+            "state": "ADD",
+            "md5": "3c4ac5d7e8f8ce9a28d3ceb776471cac",
+            "objectName": "FPa6y6",
+            "uploadVersionId": 205000
+        },
+        {
+            "id": 14593,
+            "name": "sud_vo_system_ssmk-cstm-0111_02.acb",
+            "size": 79264,
+            "state": "ADD",
+            "md5": "63e50a35a16b1c2109616247fb078ee7",
+            "objectName": "xze9ZJ",
+            "uploadVersionId": 205000
+        },
+        {
+            "id": 14594,
+            "name": "sud_vo_system_ttmr-cstm-0111_02.acb",
+            "size": 65952,
+            "state": "ADD",
+            "md5": "bbdbf6eee37f647407ef82defcabb077",
+            "objectName": "iui1i3",
+            "uploadVersionId": 205000
+        },
+        {
+            "id": 14595,
+            "name": "sud_vo_system_kllj-cstm-0111_01.acb",
+            "size": 82656,
+            "state": "ADD",
+            "md5": "3da2e690e173944faf41537f38c06436",
+            "objectName": "4f4sl4",
+            "uploadVersionId": 205000
+        },
+        {
+            "id": 14596,
+            "name": "sud_vo_system_fktn-cstm-0111_01.acb",
+            "size": 94240,
+            "state": "ADD",
+            "md5": "aa6cb202b178c75ae04c2a44b95f8ece",
+            "objectName": "4boIUR",
+            "uploadVersionId": 205000
+        },
+        {
+            "id": 14597,
+            "name": "sud_vo_system_hmsz-cstm-0111_01.acb",
+            "size": 57088,
+            "state": "ADD",
+            "md5": "5780ff82b26943db41711b4e4fa9941b",
+            "objectName": "5ZqxWj",
+            "uploadVersionId": 205000
+        },
+        {
+            "id": 14598,
+            "name": "sud_vo_system_hume-cstm-0111_02.acb",
+            "size": 50272,
+            "state": "ADD",
+            "md5": "7455077028ce5006089da3ca0520bf5b",
+            "objectName": "MzqgA2",
+            "uploadVersionId": 205000
+        },
+        {
+            "id": 14599,
+            "name": "sud_vo_system_jsna-cstm-0111_02.acb",
+            "size": 81312,
+            "state": "ADD",
+            "md5": "63aa7123513e67feb128122f43ee70c9",
+            "objectName": "PRF1Pn",
+            "uploadVersionId": 205000
+        },
+        {
+            "id": 14600,
+            "name": "sud_vo_system_kcna-cstm-0111_02.acb",
+            "size": 61504,
+            "state": "ADD",
+            "md5": "ab67fa27b3e490bba6994a8bd283f6ce",
+            "objectName": "xmvcvb",
+            "uploadVersionId": 205000
+        },
+        {
+            "id": 14601,
+            "name": "sud_vo_system_kllj-cstm-0111_02.acb",
+            "size": 60480,
+            "state": "ADD",
+            "md5": "46911e4ccf9009f24ee33512324240d5",
+            "objectName": "Kzsi1W",
+            "uploadVersionId": 205000
+        },
+        {
+            "id": 14602,
+            "name": "sud_vo_system_shro-cstm-0111_02.acb",
+            "size": 41728,
+            "state": "ADD",
+            "md5": "f6e75498d295693b2a57c919e7d89980",
+            "objectName": "dWf5Ew",
+            "uploadVersionId": 205000
+        },
+        {
+            "id": 14603,
+            "name": "sud_vo_system_amao-cstm-0111_02.acb",
+            "size": 49248,
+            "state": "ADD",
+            "md5": "9e9b6f97c4aa038525ec8a307c04c7e6",
+            "objectName": "82DBkY",
+            "uploadVersionId": 205000
+        },
+        {
+            "id": 14604,
+            "name": "sud_vo_system_hume-cstm-0111_01.acb",
+            "size": 56416,
+            "state": "ADD",
+            "md5": "f0d2b81fca659d47d0b57006a98b80c8",
+            "objectName": "ukIKZP",
             "uploadVersionId": 205000
         }
     ],
