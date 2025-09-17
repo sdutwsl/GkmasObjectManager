@@ -1,6 +1,6 @@
 {
     "revision": [
-        307,
+        309,
         43
     ],
     "assetBundleList": [
@@ -111575,31 +111575,31 @@
         {
             "id": 14961,
             "name": "tln_live_hrnm-004",
-            "size": 18924046,
-            "crc": 1563788449,
+            "size": 18924172,
+            "crc": 3841757490,
             "dependencies": [
-                4319,
-                2474,
-                14941,
                 10468,
-                3117,
-                1654,
                 4075,
-                14996,
-                3225,
-                4105,
-                2144,
-                2952,
-                14943,
-                1709,
-                14937,
                 902,
+                1709,
+                2403,
+                4319,
+                2144,
+                3225,
+                14941,
                 821,
-                2403
+                1654,
+                3117,
+                2474,
+                2952,
+                14996,
+                14943,
+                4105,
+                14937
             ],
-            "state": "ADD",
-            "md5": "b861ddc40f059ef54d5728a9ac9aa842",
-            "objectName": "EI4D2w",
+            "state": "UPDATE",
+            "md5": "35b2f06b0322c7d0b8d17265dba8d487",
+            "objectName": "0N9ccn",
             "uploadVersionId": 205000
         },
         {
@@ -197338,10 +197338,10 @@
         {
             "id": 15321,
             "name": "sud_music_general_hrnm-004-hrnm_game.acb",
-            "size": 4188992,
-            "state": "ADD",
-            "md5": "c5148650876e38312bf5d63a796c65e6",
-            "objectName": "NNEWQc",
+            "size": 10720,
+            "state": "UPDATE",
+            "md5": "6f6fbd7c1808ae2a24506bb000e7e48e",
+            "objectName": "TFEmcz",
             "uploadVersionId": 205000
         },
         {
@@ -197387,6 +197387,15 @@
             "state": "ADD",
             "md5": "025e0508b2c0f70a7306a83f442660ca",
             "objectName": "ZmmMss",
+            "uploadVersionId": 205000
+        },
+        {
+            "id": 15327,
+            "name": "sud_music_general_hrnm-004-hrnm_game.awb",
+            "size": 4184198,
+            "state": "ADD",
+            "md5": "23318d2d36667684ea72f7803d00a115",
+            "objectName": "1dkflW",
             "uploadVersionId": 205000
         }
     ],
