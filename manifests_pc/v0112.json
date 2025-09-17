@@ -1,7 +1,7 @@
 {
     "revision": [
         113,
-        110
+        112
     ],
     "assetBundleList": [
         {
@@ -125,36 +125,6 @@
             "uploadVersionId": 705000
         },
         {
-            "id": 14843,
-            "name": "tln_live_hrnm-004",
-            "size": 22879098,
-            "crc": 4038574425,
-            "dependencies": [
-                940,
-                10535,
-                4755,
-                7710,
-                4081,
-                14890,
-                9048,
-                14850,
-                2826,
-                8772,
-                5165,
-                6190,
-                14883,
-                4042,
-                2421,
-                9615,
-                10284,
-                14924
-            ],
-            "state": "UPDATE",
-            "md5": "bdc639bb64555e5ddc27c46e8c6a629c",
-            "objectName": "kvOHZr",
-            "uploadVersionId": 705000
-        },
-        {
             "id": 14948,
             "name": "img_notice_notice-list_pr_cultural-festival-mileage",
             "size": 1908738,
@@ -165,25 +135,6 @@
             "uploadVersionId": 705000
         }
     ],
-    "resourceList": [
-        {
-            "id": 15217,
-            "name": "sud_music_general_hrnm-004-hrnm_game.acb",
-            "size": 10720,
-            "state": "UPDATE",
-            "md5": "6f6fbd7c1808ae2a24506bb000e7e48e",
-            "objectName": "8Fe4pl",
-            "uploadVersionId": 705000
-        },
-        {
-            "id": 15305,
-            "name": "sud_music_general_hrnm-004-hrnm_game.awb",
-            "size": 4184198,
-            "state": "ADD",
-            "md5": "23318d2d36667684ea72f7803d00a115",
-            "objectName": "EpVG3q",
-            "uploadVersionId": 705000
-        }
-    ],
+    "resourceList": [],
     "urlFormat": "https://object.asset.game-gakuen-idolmaster.jp/{o}"
 }
