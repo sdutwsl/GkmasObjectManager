@@ -1,6 +1,6 @@
 {
     "revision": [
-        114,
+        116,
         83
     ],
     "assetBundleList": [
@@ -312,6 +312,16 @@
             "state": "UPDATE",
             "md5": "b166a61974920a2631dbd4e86702cb8d",
             "objectName": "lvtlzG",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 8987,
+            "name": "img_general_shop_pack_0002-large",
+            "size": 458069,
+            "crc": 3915744118,
+            "state": "UPDATE",
+            "md5": "9d681108e92104b813d2360a821cdc89",
+            "objectName": "IruNNF",
             "uploadVersionId": 705000
         },
         {
@@ -646,6 +656,16 @@
             "uploadVersionId": 705000
         },
         {
+            "id": 12569,
+            "name": "img_general_shop_pack_0046-large",
+            "size": 480036,
+            "crc": 3636576439,
+            "state": "UPDATE",
+            "md5": "1bbf457073427ab7714a98eed2898586",
+            "objectName": "FMRSz9",
+            "uploadVersionId": 705000
+        },
+        {
             "id": 12799,
             "name": "mdl_chr_hmsz-hair-0007_hair",
             "size": 5860615,
@@ -731,6 +751,26 @@
             "state": "UPDATE",
             "md5": "3921509b450e460e8ec65e3a7335d111",
             "objectName": "xwunKX",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 13842,
+            "name": "img_general_shop_costume_0033-large",
+            "size": 336206,
+            "crc": 1310470834,
+            "state": "UPDATE",
+            "md5": "a33eba16efd22a111ca037dabeecfb74",
+            "objectName": "Xf59UN",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 13843,
+            "name": "img_general_shop_costume_0034-large",
+            "size": 307488,
+            "crc": 3905247546,
+            "state": "UPDATE",
+            "md5": "b18b8e26f37680506716c326c4487401",
+            "objectName": "b0c7Nu",
             "uploadVersionId": 705000
         },
         {
@@ -11137,6 +11177,16 @@
             "md5": "c67138945d1b21ea27466780b34c2eb8",
             "objectName": "6BL0CN",
             "uploadVersionId": 705000
+        },
+        {
+            "id": 14951,
+            "name": "img_notice_notice-list_pr_ssmk-shro-fktn-hrnm-third-single",
+            "size": 3893151,
+            "crc": 4092730715,
+            "state": "ADD",
+            "md5": "0940b5fd8a9871116f132b6085674dc8",
+            "objectName": "wJQPkY",
+            "uploadVersionId": 705000
         }
     ],
     "resourceList": [
@@ -17897,6 +17947,24 @@
             "state": "ADD",
             "md5": "23318d2d36667684ea72f7803d00a115",
             "objectName": "EpVG3q",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 15306,
+            "name": "sud_bgm_general_producerranking-001.acb",
+            "size": 15104,
+            "state": "ADD",
+            "md5": "164f23d7ea6097ecc70f931492ded855",
+            "objectName": "e0QXdk",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 15307,
+            "name": "sud_bgm_general_producerranking-001.awb",
+            "size": 2686656,
+            "state": "ADD",
+            "md5": "4106401ba9883a2e148099aba905b38d",
+            "objectName": "7NpK43",
             "uploadVersionId": 705000
         }
     ],

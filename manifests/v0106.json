@@ -1,6 +1,6 @@
 {
     "revision": [
-        311,
+        313,
         106
     ],
     "assetBundleList": [
@@ -777,6 +777,16 @@
             "state": "UPDATE",
             "md5": "eef8be8a018a2999feafd18ea5dc2db6",
             "objectName": "XQsfn2",
+            "uploadVersionId": 205000
+        },
+        {
+            "id": 951,
+            "name": "img_general_shop_pack_0002-large",
+            "size": 171506,
+            "crc": 517714047,
+            "state": "UPDATE",
+            "md5": "d344a9fa463e14901b40fdbbc1fda2f4",
+            "objectName": "WESOoW",
             "uploadVersionId": 205000
         },
         {
@@ -52973,11 +52983,11 @@
         {
             "id": 12291,
             "name": "img_general_shop_pack_0046-large",
-            "size": 186194,
-            "crc": 2161269228,
-            "state": "ADD",
-            "md5": "4dbe7bb610847fef77a9cd5daa2ade51",
-            "objectName": "mDUEOw",
+            "size": 181007,
+            "crc": 36301886,
+            "state": "UPDATE",
+            "md5": "39ff30fe37d7b54645761ac754fb90e1",
+            "objectName": "5m0y4T",
             "uploadVersionId": 205000
         },
         {
@@ -69566,11 +69576,11 @@
         {
             "id": 13887,
             "name": "img_general_shop_costume_0033-large",
-            "size": 123486,
-            "crc": 14654336,
-            "state": "ADD",
-            "md5": "aa519758948d62b87a2b822f9382de23",
-            "objectName": "mhtaBd",
+            "size": 122454,
+            "crc": 1640937857,
+            "state": "UPDATE",
+            "md5": "77116b2a77aeef0a4f0c0e198b0d3479",
+            "objectName": "Z6VMkf",
             "uploadVersionId": 205000
         },
         {
@@ -69616,11 +69626,11 @@
         {
             "id": 13892,
             "name": "img_general_shop_costume_0034-large",
-            "size": 111369,
-            "crc": 2168234896,
-            "state": "ADD",
-            "md5": "b76bebdb8a0254bc7803aaa53e10c5b6",
-            "objectName": "XBhDVs",
+            "size": 111658,
+            "crc": 4014641334,
+            "state": "UPDATE",
+            "md5": "de7bf06eb4d3e827d66c06574dd74f0a",
+            "objectName": "MoyI6B",
             "uploadVersionId": 205000
         },
         {
@@ -81343,6 +81353,16 @@
             "state": "ADD",
             "md5": "878008d2c2b38e72782e9a7251628c05",
             "objectName": "c4u1Mx",
+            "uploadVersionId": 205000
+        },
+        {
+            "id": 15001,
+            "name": "img_notice_notice-list_pr_ssmk-shro-fktn-hrnm-third-single",
+            "size": 432354,
+            "crc": 3467392994,
+            "state": "ADD",
+            "md5": "6655405b1ae52b7974c0d170c848c3df",
+            "objectName": "Zgd2fA",
             "uploadVersionId": 205000
         }
     ],
@@ -150960,6 +150980,24 @@
             "state": "ADD",
             "md5": "23318d2d36667684ea72f7803d00a115",
             "objectName": "1dkflW",
+            "uploadVersionId": 205000
+        },
+        {
+            "id": 15328,
+            "name": "sud_bgm_general_producerranking-001.acb",
+            "size": 15104,
+            "state": "ADD",
+            "md5": "164f23d7ea6097ecc70f931492ded855",
+            "objectName": "KMyEjF",
+            "uploadVersionId": 205000
+        },
+        {
+            "id": 15329,
+            "name": "sud_bgm_general_producerranking-001.awb",
+            "size": 2686656,
+            "state": "ADD",
+            "md5": "4106401ba9883a2e148099aba905b38d",
+            "objectName": "nIiqtV",
             "uploadVersionId": 205000
         }
     ],
