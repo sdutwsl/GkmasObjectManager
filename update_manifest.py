@@ -4,13 +4,18 @@ Script to fetch latest manifest and diff from server,
 compatible with 'Update Manifest' workflow.
 """
 
+import asyncio
 import sys
 from pathlib import Path
 
 import GkmasObjectManager as gom
 
 
-def do_update(path: str, pc: bool = False) -> bool:
+def fetch_one(rev: int, pc: bool):
+    gom.fetch(rev, pc=pc).export(f"manifests/v{rev:04}.json", force_overwrite=True)
+
+
+async def do_update(path: str, pc: bool = False) -> bool:
     """Check for manifest update from server and optionally update all diff revisions."""
 
     path = Path(path)
@@ -27,13 +32,14 @@ def do_update(path: str, pc: bool = False) -> bool:
     (path / "LATEST_REVISION").write_text(str(rev_remote))
 
     m_remote.export(path / "v0000.json", force_overwrite=True)
-    for i in range(1, rev_remote):
-        gom.fetch(i, pc=pc).export(path / f"v{i:04}.json", force_overwrite=True)
+    await asyncio.gather(
+        *[asyncio.to_thread(fetch_one, i, pc) for i in range(1, rev_remote)]
+    )
 
     return True
 
 
 if __name__ == "__main__":
-    HAS_UPDATE = do_update("manifests")
-    HAS_UPDATE_PC = do_update("manifests_pc", pc=True)
+    HAS_UPDATE = asyncio.run(do_update("manifests"))
+    HAS_UPDATE_PC = asyncio.run(do_update("manifests_pc", pc=True))
     sys.exit(not (HAS_UPDATE or HAS_UPDATE_PC))  # avoids short-circuiting
