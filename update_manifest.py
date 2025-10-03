@@ -11,8 +11,8 @@ from pathlib import Path
 import GkmasObjectManager as gom
 
 
-def fetch_one(rev: int, pc: bool):
-    gom.fetch(rev, pc=pc).export(f"manifests/v{rev:04}.json", force_overwrite=True)
+def fetch_one(path: Path, rev: int, pc: bool):
+    gom.fetch(rev, pc=pc).export(path / f"v{rev:04}.json", force_overwrite=True)
 
 
 async def do_update(path: str, pc: bool = False) -> bool:
@@ -33,7 +33,7 @@ async def do_update(path: str, pc: bool = False) -> bool:
 
     m_remote.export(path / "v0000.json", force_overwrite=True)
     await asyncio.gather(
-        *[asyncio.to_thread(fetch_one, i, pc) for i in range(1, rev_remote)]
+        *[asyncio.to_thread(fetch_one, path, i, pc) for i in range(1, rev_remote)]
     )
 
     return True
