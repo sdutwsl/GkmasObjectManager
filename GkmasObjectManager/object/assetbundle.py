@@ -3,12 +3,6 @@ assetbundle.py
 Unity asset bundle downloading, deobfuscation, and media extraction.
 """
 
-from ..const import UNITY_SIGNATURE
-from ..media import GkmasDummyMedia
-from ..media.audio import GkmasUnityAudio
-from ..media.image import GkmasUnityImage
-from ..rich import ProgressReporter
-from .deobfuscate import GkmasAssetBundleDeobfuscator
 from .resource import GkmasResource
 
 
@@ -45,8 +39,6 @@ class GkmasAssetBundle(GkmasResource):
         super().__init__(info, url_template)
         self.name += ".unity3d"
         self._idname = f"AB[{self.id:05}] '{self.name}'"
-        self._reporter = ProgressReporter(title=self._idname, total=self.size)
-        # need to re-instantiate since self._idname has changed
 
     def __repr__(self) -> str:
         return f"<GkmasAssetBundle {self._idname}>"
@@ -56,34 +48,3 @@ class GkmasAssetBundle(GkmasResource):
         canon = super().canon_repr
         canon["name"] = canon["name"].replace(".unity3d", "")
         return canon
-
-    @property
-    def _media_class(self) -> type:
-        if self.name.startswith("img_"):
-            return GkmasUnityImage
-        elif self.name.startswith("sud_"):
-            return GkmasUnityAudio
-        else:
-            return GkmasDummyMedia
-
-    def _download_bytes(self) -> dict:
-        """
-        [INTERNAL] Downloads, and optionally deobfuscates, the assetbundle as raw bytes.
-        Sanity checks are implemented in parent class GkmasResource.
-        """
-
-        data = super()._download_bytes()
-        _bytes, _mtime = data["bytes"], data["mtime"]
-
-        if not _bytes.startswith(UNITY_SIGNATURE):
-            self._reporter.update("Deobfuscating")
-            _bytes = GkmasAssetBundleDeobfuscator(self.name).process(_bytes)
-            if not _bytes.startswith(UNITY_SIGNATURE):
-                self._reporter.warning("Downloaded but LEFT OBFUSCATED")
-                # Unexpected things may happen...
-                # So unlike _download_bytes(), here we don't raise an error and abort.
-
-        return {
-            "bytes": _bytes,
-            "mtime": _mtime,
-        }
