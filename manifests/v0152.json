@@ -1,6 +1,6 @@
 {
     "revision": [
-        322,
+        323,
         152
     ],
     "assetBundleList": [
@@ -3315,6 +3315,19 @@
             "uploadVersionId": 205000
         },
         {
+            "id": 7594,
+            "name": "mdl_chr_amao-cstm-0065_body",
+            "size": 6913613,
+            "crc": 2668276618,
+            "dependencies": [
+                2071
+            ],
+            "state": "UPDATE",
+            "md5": "d652c45ae93d3c3673fa9a07da48e583",
+            "objectName": "BtJp2C",
+            "uploadVersionId": 205000
+        },
+        {
             "id": 7858,
             "name": "img_general_meishi_illust_stamp-hume-03-full",
             "size": 38993,
@@ -4597,27 +4610,27 @@
         {
             "id": 9475,
             "name": "mdl_chr_amao-cstm-0053_body",
-            "size": 7897652,
-            "crc": 700394710,
+            "size": 7900417,
+            "crc": 2899571316,
             "dependencies": [
                 2071
             ],
             "state": "UPDATE",
-            "md5": "9bdc22cad6473030e2d1ed019d283448",
-            "objectName": "9arbpn",
+            "md5": "4d5d88a9b10baea4ddfc0198aa803e02",
+            "objectName": "JIvQwV",
             "uploadVersionId": 205000
         },
         {
             "id": 9537,
             "name": "mdl_chr_ttmr-cstm-0053_body",
-            "size": 7911120,
-            "crc": 3591289153,
+            "size": 7904512,
+            "crc": 3082905725,
             "dependencies": [
                 2071
             ],
             "state": "UPDATE",
-            "md5": "4f03e8f4b52f9d26faeff208ea904c8b",
-            "objectName": "APIU7c",
+            "md5": "013b6d2bf242e8dfa8d83500f69bab56",
+            "objectName": "eHIjPF",
             "uploadVersionId": 205000
         },
         {
@@ -4785,14 +4798,14 @@
         {
             "id": 9794,
             "name": "mdl_chr_amao-cstm-0054_body",
-            "size": 7987275,
-            "crc": 577740746,
+            "size": 7987897,
+            "crc": 3679467490,
             "dependencies": [
                 2071
             ],
             "state": "UPDATE",
-            "md5": "0b6b7819d7d0ad08c2c464d7013ef889",
-            "objectName": "af4BvU",
+            "md5": "d4a6c2d1c47f9e2a6765f5349ad5aa07",
+            "objectName": "fOWi6x",
             "uploadVersionId": 205000
         },
         {
@@ -4821,14 +4834,14 @@
         {
             "id": 9921,
             "name": "mdl_chr_ttmr-cstm-0054_body",
-            "size": 7837613,
-            "crc": 1447411764,
+            "size": 7837302,
+            "crc": 1864189720,
             "dependencies": [
                 2071
             ],
             "state": "UPDATE",
-            "md5": "efb102030ca9c85dc8368d0d03f7a123",
-            "objectName": "rDB6IP",
+            "md5": "8331efc5d38ea0b20b0a4eaa9cf4562d",
+            "objectName": "Y25a9y",
             "uploadVersionId": 205000
         },
         {
@@ -4897,14 +4910,14 @@
         {
             "id": 9997,
             "name": "mdl_chr_shro-cstm-0053_body",
-            "size": 7844334,
-            "crc": 2162059524,
+            "size": 7845093,
+            "crc": 129271559,
             "dependencies": [
                 2071
             ],
             "state": "UPDATE",
-            "md5": "78eddfd5299e4ea93a0f161526e83944",
-            "objectName": "QjsaZe",
+            "md5": "581eac54e9d172b0894d8d6cc0ae94f0",
+            "objectName": "ez891O",
             "uploadVersionId": 205000
         },
         {
@@ -5529,14 +5542,14 @@
         {
             "id": 10134,
             "name": "mdl_chr_shro-cstm-0054_body",
-            "size": 7768223,
-            "crc": 1178775431,
+            "size": 7768930,
+            "crc": 273594500,
             "dependencies": [
                 2071
             ],
             "state": "UPDATE",
-            "md5": "a3872b1c97f487bdcb66a21bdc5c1f58",
-            "objectName": "ma1uLd",
+            "md5": "446079962b74ea3d32d73ea563e25a49",
+            "objectName": "PtR0NY",
             "uploadVersionId": 205000
         },
         {
@@ -42171,14 +42184,14 @@
         {
             "id": 13606,
             "name": "mdl_chr_hmsz-cstm-0054_body",
-            "size": 7972837,
-            "crc": 585293376,
+            "size": 7974148,
+            "crc": 591425077,
             "dependencies": [
                 2071
             ],
-            "state": "ADD",
-            "md5": "c88e4b8ed325eecfb754b970fdb462a7",
-            "objectName": "Oi2XZJ",
+            "state": "UPDATE",
+            "md5": "b3f4dd74c335e8c61e9a87c1f1e91dbf",
+            "objectName": "dobqS5",
             "uploadVersionId": 205000
         },
         {
@@ -43556,14 +43569,14 @@
         {
             "id": 13741,
             "name": "mdl_chr_hmsz-cstm-0053_body",
-            "size": 8006656,
-            "crc": 1211509079,
+            "size": 8011286,
+            "crc": 1805940867,
             "dependencies": [
                 2071
             ],
-            "state": "ADD",
-            "md5": "6cb3bca434a6b181a218f214d8b9fae8",
-            "objectName": "O16pm5",
+            "state": "UPDATE",
+            "md5": "3472735d70963fa918669e85b12796c7",
+            "objectName": "ehTl4G",
             "uploadVersionId": 205000
         },
         {
