@@ -1,6 +1,6 @@
 {
     "revision": [
-        325,
+        327,
         84
     ],
     "assetBundleList": [
@@ -96436,11 +96436,11 @@
         {
             "id": 15689,
             "name": "img_notice_shop_costume_item-0054",
-            "size": 351584,
-            "crc": 182790892,
-            "state": "ADD",
-            "md5": "42b8dbc4107f88116bf125183027a283",
-            "objectName": "JnZ2EE",
+            "size": 351194,
+            "crc": 1751531034,
+            "state": "UPDATE",
+            "md5": "1ff4b5cde75732fbf54774a8d6f429d0",
+            "objectName": "Cz0URy",
             "uploadVersionId": 205000
         },
         {
@@ -174035,6 +174035,24 @@
             "state": "ADD",
             "md5": "c42e42c6d8e6bab99c759ea6df101a59",
             "objectName": "hd0DlE",
+            "uploadVersionId": 205000
+        },
+        {
+            "id": 15686,
+            "name": "sud_music_general_kcna-004-kcna_game-inst.acb",
+            "size": 10720,
+            "state": "ADD",
+            "md5": "b11d0c1da0e94426686fbfc9c850469b",
+            "objectName": "ysBeVH",
+            "uploadVersionId": 205000
+        },
+        {
+            "id": 15687,
+            "name": "sud_music_general_kcna-004-kcna_game-inst.awb",
+            "size": 4477458,
+            "state": "ADD",
+            "md5": "ec445b6a2f2c32d4eefb02d1226f6323",
+            "objectName": "jGhwpK",
             "uploadVersionId": 205000
         }
     ],
