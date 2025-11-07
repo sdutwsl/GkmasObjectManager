@@ -1,9 +1,23 @@
 {
     "revision": [
-        134,
+        135,
         133
     ],
-    "assetBundleList": [],
+    "assetBundleList": [
+        {
+            "id": 15810,
+            "name": "mdl_chr_ssmk-casl-0002_body",
+            "size": 13564144,
+            "crc": 102548178,
+            "dependencies": [
+                8213
+            ],
+            "state": "UPDATE",
+            "md5": "5b9c646ee8fc75b35fdd0e3c685aa031",
+            "objectName": "Y69oJL",
+            "uploadVersionId": 705000
+        }
+    ],
     "resourceList": [
         {
             "id": 15504,
