@@ -1,6 +1,6 @@
 {
     "revision": [
-        334,
+        336,
         139
     ],
     "assetBundleList": [
@@ -76047,6 +76047,113 @@
             "md5": "d982f935310e034c118f22ece3937ae2",
             "objectName": "KhnvwI",
             "uploadVersionId": 205000
+        },
+        {
+            "id": 15924,
+            "name": "img_general_report_photo-name_atbm-001",
+            "size": 24705,
+            "crc": 3847786565,
+            "state": "ADD",
+            "md5": "2f2697a51884ac410c6ba9d0a2e61beb",
+            "objectName": "3IUXNn",
+            "uploadVersionId": 205000
+        },
+        {
+            "id": 15925,
+            "name": "mot_all_chr_atbm_facial-all-unique-ikari1_in",
+            "size": 8972,
+            "crc": 3394310800,
+            "state": "ADD",
+            "md5": "0bb5c5cad9d2f69fdb6f186ee0a786d8",
+            "objectName": "mtJkB3",
+            "uploadVersionId": 205000
+        },
+        {
+            "id": 15926,
+            "name": "img_general_report_bg_graph_atbm-000",
+            "size": 18806,
+            "crc": 3285193782,
+            "state": "ADD",
+            "md5": "8f215a7311b36d6cd6fdf38a0e6ea6e6",
+            "objectName": "uiZpQi",
+            "uploadVersionId": 205000
+        },
+        {
+            "id": 15927,
+            "name": "ttn_adv_atbm_episode_0_report",
+            "size": 575458,
+            "crc": 272127320,
+            "dependencies": [
+                3103,
+                4043,
+                15924,
+                2224,
+                15926
+            ],
+            "state": "ADD",
+            "md5": "0b93b91b7645c956246cce02f36cae15",
+            "objectName": "Ccjy8n",
+            "uploadVersionId": 205000
+        },
+        {
+            "id": 15928,
+            "name": "mot_all_chr_atbm_no-002_in",
+            "size": 40484,
+            "crc": 2341301927,
+            "state": "ADD",
+            "md5": "9b5e2450b7b575d4a9b87a657dd0d705",
+            "objectName": "x7uYfC",
+            "uploadVersionId": 205000
+        },
+        {
+            "id": 15929,
+            "name": "mot_all_chr_atbm_facial-all-unique-egao1_in",
+            "size": 8935,
+            "crc": 980771653,
+            "state": "ADD",
+            "md5": "efbad9555efcc9ffc3417841ccf00be9",
+            "objectName": "0bx7kI",
+            "uploadVersionId": 205000
+        },
+        {
+            "id": 15930,
+            "name": "mot_all_chr_atbm_angry-001_in",
+            "size": 42129,
+            "crc": 1537361096,
+            "state": "ADD",
+            "md5": "54caa2a2e07f50a4f208d9146e2095db",
+            "objectName": "IoEtcD",
+            "uploadVersionId": 205000
+        },
+        {
+            "id": 15931,
+            "name": "mot_all_chr_atbm_angry-002_in",
+            "size": 38027,
+            "crc": 2594689727,
+            "state": "ADD",
+            "md5": "6fe771ef46249d4dc02e2cefbcff4cf6",
+            "objectName": "Iclrfc",
+            "uploadVersionId": 205000
+        },
+        {
+            "id": 15932,
+            "name": "img_general_event_dearness_atbm-story-header-01",
+            "size": 217980,
+            "crc": 770505123,
+            "state": "ADD",
+            "md5": "be64d401bfe43e1a6402ae3e4c51b8a7",
+            "objectName": "zaGaRO",
+            "uploadVersionId": 205000
+        },
+        {
+            "id": 15933,
+            "name": "img_general_event_dearness_atbm-story-banner-01",
+            "size": 25102,
+            "crc": 961624636,
+            "state": "ADD",
+            "md5": "5991ad21a31b4e433baefb0f8f3cd499",
+            "objectName": "fVdVra",
+            "uploadVersionId": 205000
         }
     ],
     "resourceList": [
@@ -76894,6 +77001,15 @@
             "state": "UPDATE",
             "md5": "4d23332ec2ad0f09e8a2f3a2cc54b74e",
             "objectName": "F0SnlD",
+            "uploadVersionId": 205000
+        },
+        {
+            "id": 5240,
+            "name": "adv_event_001_main-02.txt",
+            "size": 277853,
+            "state": "UPDATE",
+            "md5": "b2268036c1f12ef5624675240a934ad4",
+            "objectName": "sZWfXs",
             "uploadVersionId": 205000
         },
         {
@@ -125841,10 +125957,10 @@
         {
             "id": 14307,
             "name": "adv_dear_hmsz_014.txt",
-            "size": 180589,
-            "state": "ADD",
-            "md5": "e27d1b13a7e629ba257d78959913affc",
-            "objectName": "KVAwRn",
+            "size": 180703,
+            "state": "UPDATE",
+            "md5": "0ec9af266bf320a4451c4d27b69bc36d",
+            "objectName": "Zee9uu",
             "uploadVersionId": 205000
         },
         {
@@ -139957,6 +140073,24 @@
             "state": "ADD",
             "md5": "5ccff390975956503a388a6ed3cf7515",
             "objectName": "uvqceC",
+            "uploadVersionId": 205000
+        },
+        {
+            "id": 15876,
+            "name": "adv_dear_atbm_000.txt",
+            "size": 333539,
+            "state": "ADD",
+            "md5": "a8d8d7f2c4892e27bc0fd22a0f844513",
+            "objectName": "aPg8S8",
+            "uploadVersionId": 205000
+        },
+        {
+            "id": 15877,
+            "name": "sud_vo_adv_dear_atbm_000.acb",
+            "size": 2378528,
+            "state": "ADD",
+            "md5": "a47b991b4b0f1f0d66eea6d9f14d6fc5",
+            "objectName": "UkpkBT",
             "uploadVersionId": 205000
         }
     ],

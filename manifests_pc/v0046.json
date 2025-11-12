@@ -1,6 +1,6 @@
 {
     "revision": [
-        137,
+        139,
         46
     ],
     "assetBundleList": [
@@ -35661,6 +35661,113 @@
             "md5": "6cdc3a3d1767ffbfa3cad021874bc0a8",
             "objectName": "0IxIvN",
             "uploadVersionId": 705000
+        },
+        {
+            "id": 15874,
+            "name": "mot_all_chr_atbm_angry-001_in",
+            "size": 42129,
+            "crc": 2756086565,
+            "state": "ADD",
+            "md5": "3fe71b09a61fac274687386363eda236",
+            "objectName": "EVzbgT",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 15875,
+            "name": "img_general_report_bg_graph_atbm-000",
+            "size": 40693,
+            "crc": 213501743,
+            "state": "ADD",
+            "md5": "770094e9ed1ccb9856fc0cc2d7f5cbb9",
+            "objectName": "wf0sjo",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 15876,
+            "name": "img_general_event_dearness_atbm-story-header-01",
+            "size": 553492,
+            "crc": 2834565404,
+            "state": "ADD",
+            "md5": "ab21cea59075439091af4c981e90d272",
+            "objectName": "dvbgJJ",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 15877,
+            "name": "mot_all_chr_atbm_facial-all-unique-egao1_in",
+            "size": 8935,
+            "crc": 4191413973,
+            "state": "ADD",
+            "md5": "0d8fccbe699fbd84ff98dc4ca7006096",
+            "objectName": "M0IJ1Z",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 15878,
+            "name": "ttn_adv_atbm_episode_0_report",
+            "size": 966262,
+            "crc": 2209915654,
+            "dependencies": [
+                15881,
+                5583,
+                15875,
+                254,
+                8323
+            ],
+            "state": "ADD",
+            "md5": "a2a0ad4e2895222dc031de5e9d221705",
+            "objectName": "Ul0kbz",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 15879,
+            "name": "mot_all_chr_atbm_angry-002_in",
+            "size": 38028,
+            "crc": 3921997780,
+            "state": "ADD",
+            "md5": "123749f2ee04f430093bf66cc6187399",
+            "objectName": "Ix8Ugh",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 15880,
+            "name": "mot_all_chr_atbm_facial-all-unique-ikari1_in",
+            "size": 8973,
+            "crc": 167220992,
+            "state": "ADD",
+            "md5": "8da6c846a92e23e3a356e274b9732f3f",
+            "objectName": "iY0s4V",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 15881,
+            "name": "img_general_report_photo-name_atbm-001",
+            "size": 62614,
+            "crc": 2412689842,
+            "state": "ADD",
+            "md5": "c7a4ac2a6d24b73b77bc5bdf983bc721",
+            "objectName": "sLVYjV",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 15882,
+            "name": "mot_all_chr_atbm_no-002_in",
+            "size": 40484,
+            "crc": 3341198049,
+            "state": "ADD",
+            "md5": "644e1a4f062912f17523096bbf1196e0",
+            "objectName": "FpIeiA",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 15883,
+            "name": "img_general_event_dearness_atbm-story-banner-01",
+            "size": 63398,
+            "crc": 3791454183,
+            "state": "ADD",
+            "md5": "7b3af4763b99098d6327fcb3e0a0050b",
+            "objectName": "S2yBnE",
+            "uploadVersionId": 705000
         }
     ],
     "resourceList": [
@@ -35698,6 +35805,15 @@
             "state": "UPDATE",
             "md5": "e239fca9fd766a836354f81060144346",
             "objectName": "m3Gjro",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 6100,
+            "name": "adv_event_001_main-02.txt",
+            "size": 277853,
+            "state": "UPDATE",
+            "md5": "b2268036c1f12ef5624675240a934ad4",
+            "objectName": "XjA85d",
             "uploadVersionId": 705000
         },
         {
@@ -40113,10 +40229,10 @@
         {
             "id": 14203,
             "name": "adv_dear_hmsz_014.txt",
-            "size": 180589,
-            "state": "ADD",
-            "md5": "e27d1b13a7e629ba257d78959913affc",
-            "objectName": "8i4tlV",
+            "size": 180703,
+            "state": "UPDATE",
+            "md5": "0ec9af266bf320a4451c4d27b69bc36d",
+            "objectName": "jkTUGM",
             "uploadVersionId": 705000
         },
         {
@@ -54967,6 +55083,24 @@
             "state": "ADD",
             "md5": "eb5245cc95af0c47280e22bf4dbad18d",
             "objectName": "2ktA9g",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 15854,
+            "name": "sud_vo_adv_dear_atbm_000.acb",
+            "size": 2378528,
+            "state": "ADD",
+            "md5": "a47b991b4b0f1f0d66eea6d9f14d6fc5",
+            "objectName": "ARzlMs",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 15855,
+            "name": "adv_dear_atbm_000.txt",
+            "size": 333539,
+            "state": "ADD",
+            "md5": "a8d8d7f2c4892e27bc0fd22a0f844513",
+            "objectName": "5brDAN",
             "uploadVersionId": 705000
         }
     ],
