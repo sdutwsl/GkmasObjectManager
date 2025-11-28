@@ -1,6 +1,6 @@
 {
     "revision": [
-        346,
+        347,
         235
     ],
     "assetBundleList": [
@@ -52320,27 +52320,27 @@
         {
             "id": 16537,
             "name": "env_3d_live_hume002-00-noon",
-            "size": 5236752,
-            "crc": 1189385642,
+            "size": 5236734,
+            "crc": 502522850,
             "dependencies": [
-                1654,
                 3642,
-                3231,
-                4481,
-                3624,
-                16518,
-                4143,
-                1646,
-                2403,
                 2043,
-                1154,
                 4524,
+                3231,
+                1646,
+                4481,
+                4319,
+                1654,
+                4143,
+                16518,
+                3624,
                 3492,
-                4319
+                2403,
+                1154
             ],
-            "state": "ADD",
-            "md5": "a53465b5edee5fea4a2686894c9c4229",
-            "objectName": "c3Y9Fy",
+            "state": "UPDATE",
+            "md5": "ff2d72a2cc80ab3a8f457897ae1b8cc7",
+            "objectName": "6grGVG",
             "uploadVersionId": 205000
         },
         {
@@ -52798,6 +52798,56 @@
             "state": "ADD",
             "md5": "ab10de3e230c56fb11fb599cbae982ec",
             "objectName": "UuVtEg",
+            "uploadVersionId": 205000
+        },
+        {
+            "id": 16581,
+            "name": "img_gasha_banner_gasha-00640-pickup-002-select-s",
+            "size": 29343,
+            "crc": 2579109821,
+            "state": "ADD",
+            "md5": "60e755c8fd88ac5b1c740f10623919a5",
+            "objectName": "O8b3tL",
+            "uploadVersionId": 205000
+        },
+        {
+            "id": 16582,
+            "name": "img_gasha_banner_gasha-00640-pickup-002-logo",
+            "size": 11777,
+            "crc": 2158955496,
+            "state": "ADD",
+            "md5": "13ba52707b899067f616990ad9657805",
+            "objectName": "3s7c6J",
+            "uploadVersionId": 205000
+        },
+        {
+            "id": 16583,
+            "name": "img_general_home_gasha_gasha-00640-pickup-002",
+            "size": 15700,
+            "crc": 3176054022,
+            "state": "ADD",
+            "md5": "f71f2b7405e213835a077ca927bbf91a",
+            "objectName": "vt3y1N",
+            "uploadVersionId": 205000
+        },
+        {
+            "id": 16584,
+            "name": "img_notice_gasha_gasha-00640-pickup-002",
+            "size": 469836,
+            "crc": 199412077,
+            "state": "ADD",
+            "md5": "171758b46edb479fa469760368979d5f",
+            "objectName": "mGTu90",
+            "uploadVersionId": 205000
+        },
+        {
+            "id": 16585,
+            "name": "img_gasha_banner_gasha-00640-pickup-002-select-m",
+            "size": 57168,
+            "crc": 331079906,
+            "state": "ADD",
+            "md5": "85e35a06e1b263de556bea25819dc714",
+            "objectName": "7ebQ4u",
             "uploadVersionId": 205000
         }
     ],
