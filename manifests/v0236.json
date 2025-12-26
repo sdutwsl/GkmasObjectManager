@@ -1,6 +1,6 @@
 {
     "revision": [
-        365,
+        367,
         236
     ],
     "assetBundleList": [
@@ -57511,11 +57511,11 @@
         {
             "id": 17283,
             "name": "img_notice_gasha_gasha-00680-continuous-001",
-            "size": 361118,
-            "crc": 554233104,
-            "state": "ADD",
-            "md5": "a95cee441ca0a8bc0cb949dbc5163396",
-            "objectName": "Cug4wO",
+            "size": 361297,
+            "crc": 309447950,
+            "state": "UPDATE",
+            "md5": "e3c7e0ce7a6b94bb0ba67f5946cb8e94",
+            "objectName": "DkxsIw",
             "uploadVersionId": 205000
         },
         {
@@ -65029,11 +65029,11 @@
         {
             "id": 18023,
             "name": "img_notice_campaign_produce-006-add",
-            "size": 350855,
-            "crc": 2853183121,
-            "state": "ADD",
-            "md5": "f9417467d57528bd36bd497e77a2116c",
-            "objectName": "LTkbp5",
+            "size": 350884,
+            "crc": 159433147,
+            "state": "UPDATE",
+            "md5": "ecc6c9329bf9e062c2fde3a53d42bc0b",
+            "objectName": "smSjS3",
             "uploadVersionId": 205000
         },
         {
@@ -67303,6 +67303,511 @@
             "state": "ADD",
             "md5": "b047b1e69ef0b49da2ba61f3a71cb02b",
             "objectName": "28W1DB",
+            "uploadVersionId": 205000
+        },
+        {
+            "id": 18248,
+            "name": "img_gasha_banner_gasha-ticket-ssr-idol-seasons-260101-logo",
+            "size": 12906,
+            "crc": 2392345095,
+            "state": "ADD",
+            "md5": "ae13df53e0240b73abd246636eea6155",
+            "objectName": "hN8IPC",
+            "uploadVersionId": 205000
+        },
+        {
+            "id": 18249,
+            "name": "mdl_chr_ssmk-hair-0009_hair",
+            "size": 3305484,
+            "crc": 3631009801,
+            "dependencies": [
+                2071
+            ],
+            "state": "ADD",
+            "md5": "5f30bc56f2d96e763c5bf9aec63c2467",
+            "objectName": "zIogws",
+            "uploadVersionId": 205000
+        },
+        {
+            "id": 18250,
+            "name": "img_general_shop_pack_0060-large",
+            "size": 165945,
+            "crc": 3428572028,
+            "state": "ADD",
+            "md5": "9ebd931f0c253fb3c9d175168f8a6d84",
+            "objectName": "hT02Qy",
+            "uploadVersionId": 205000
+        },
+        {
+            "id": 18251,
+            "name": "img_general_shop_pass_0021-medium",
+            "size": 83696,
+            "crc": 2151452142,
+            "state": "ADD",
+            "md5": "47ec1f361aca5e9029e7ba59d1d08435",
+            "objectName": "oas92o",
+            "uploadVersionId": 205000
+        },
+        {
+            "id": 18252,
+            "name": "img_notice_notice-list_shop_pack_0059",
+            "size": 98407,
+            "crc": 3319172844,
+            "state": "ADD",
+            "md5": "154dfa0ade6960827b875afde9baec93",
+            "objectName": "7NBnpI",
+            "uploadVersionId": 205000
+        },
+        {
+            "id": 18253,
+            "name": "img_notice_notice-list_mission_pass-0021-banner-01-large",
+            "size": 114646,
+            "crc": 3008677694,
+            "state": "ADD",
+            "md5": "70c00bb4a53cfe30ce69733889ece994",
+            "objectName": "GXHDsk",
+            "uploadVersionId": 205000
+        },
+        {
+            "id": 18254,
+            "name": "img_general_music_jacket_char-hmsz-002",
+            "size": 438431,
+            "crc": 3799476287,
+            "state": "ADD",
+            "md5": "90636e96937a3e30f1c7bec9fc00d48c",
+            "objectName": "p4Odnf",
+            "uploadVersionId": 205000
+        },
+        {
+            "id": 18255,
+            "name": "img_general_shop_pack_0059-small",
+            "size": 50812,
+            "crc": 1497550544,
+            "state": "ADD",
+            "md5": "1df31c561d5b0e26cb7c3baecf373c88",
+            "objectName": "BH7urs",
+            "uploadVersionId": 205000
+        },
+        {
+            "id": 18256,
+            "name": "mdl_env_grp_home_boards_newyear-01",
+            "size": 1375097,
+            "crc": 3427857299,
+            "dependencies": [
+                1655,
+                1654
+            ],
+            "state": "ADD",
+            "md5": "773e7da034dad1c814b521bc1e43346c",
+            "objectName": "t23vKD",
+            "uploadVersionId": 205000
+        },
+        {
+            "id": 18257,
+            "name": "img_general_missionpass_header_021",
+            "size": 110055,
+            "crc": 3074999441,
+            "state": "ADD",
+            "md5": "221245d39e639ee1eb6ec542c04cc874",
+            "objectName": "rDBV6Q",
+            "uploadVersionId": 205000
+        },
+        {
+            "id": 18258,
+            "name": "img_general_comic4_0119-thumb",
+            "size": 27130,
+            "crc": 1986242800,
+            "state": "ADD",
+            "md5": "76079d3fc29f823873e2a0886f532cb8",
+            "objectName": "y2mTjR",
+            "uploadVersionId": 205000
+        },
+        {
+            "id": 18259,
+            "name": "img_notice_shop_pack_item-0059",
+            "size": 294046,
+            "crc": 4270590984,
+            "state": "ADD",
+            "md5": "f27e477a86b72c3522ccdd8248814d7b",
+            "objectName": "HN1K5Z",
+            "uploadVersionId": 205000
+        },
+        {
+            "id": 18260,
+            "name": "img_general_home_shop_pack_item-0059",
+            "size": 15126,
+            "crc": 3928462974,
+            "state": "ADD",
+            "md5": "f7a6cad24e9cb6e4f2e41388cfe6ee6c",
+            "objectName": "6IEFxK",
+            "uploadVersionId": 205000
+        },
+        {
+            "id": 18261,
+            "name": "mdl_chr_kllj-hair-0009_hair",
+            "size": 3880737,
+            "crc": 741759559,
+            "dependencies": [
+                2071
+            ],
+            "state": "ADD",
+            "md5": "24f51db8734d2be91d116d78b7db5211",
+            "objectName": "twXaTJ",
+            "uploadVersionId": 205000
+        },
+        {
+            "id": 18262,
+            "name": "img_cos_costume_head_ssmk-hair-0009_head",
+            "size": 39615,
+            "crc": 2895418720,
+            "state": "ADD",
+            "md5": "cd22e9ea4429ffc9831b8ee3a40e4825",
+            "objectName": "TbLcRd",
+            "uploadVersionId": 205000
+        },
+        {
+            "id": 18263,
+            "name": "img_general_live_music-char-hmsz-002_true-end",
+            "size": 230835,
+            "crc": 4130514092,
+            "state": "ADD",
+            "md5": "6bac8632857a3ef58836c986f60b4537",
+            "objectName": "d4muJY",
+            "uploadVersionId": 205000
+        },
+        {
+            "id": 18264,
+            "name": "mdl_env_grp_home_objects_newyear-00_paperbag-00",
+            "size": 3295,
+            "crc": 2846796087,
+            "dependencies": [
+                1654,
+                18272
+            ],
+            "state": "ADD",
+            "md5": "df07d53885b1095b7833d8e00cc8a62f",
+            "objectName": "2CYMNP",
+            "uploadVersionId": 205000
+        },
+        {
+            "id": 18265,
+            "name": "img_gasha_banner_gasha-ticket-ssr-support-seasons-260101-select-m",
+            "size": 56038,
+            "crc": 2153366199,
+            "state": "ADD",
+            "md5": "350ff997b5590113fa2b3266ff95a6e4",
+            "objectName": "f0NBTb",
+            "uploadVersionId": 205000
+        },
+        {
+            "id": 18266,
+            "name": "img_gasha_text_gasha-ticket-ssr-idol-seasons-260101",
+            "size": 24242,
+            "crc": 2246599384,
+            "state": "ADD",
+            "md5": "9dadcfc321f0a358afe939b3b4573685",
+            "objectName": "7kbwvX",
+            "uploadVersionId": 205000
+        },
+        {
+            "id": 18267,
+            "name": "img_login_title_event2d-015",
+            "size": 53430,
+            "crc": 3181608056,
+            "state": "ADD",
+            "md5": "c988a864465da9930cb26c497f1839c2",
+            "objectName": "24HpDv",
+            "uploadVersionId": 205000
+        },
+        {
+            "id": 18268,
+            "name": "img_notice_notice-list_event_story_event-story-022-banner-pre",
+            "size": 93055,
+            "crc": 3966541649,
+            "state": "ADD",
+            "md5": "bd8353d10961f5da7a4edba32a2d200e",
+            "objectName": "385HZ7",
+            "uploadVersionId": 205000
+        },
+        {
+            "id": 18269,
+            "name": "img_notice_campaign_campaign_akeome-01_banner-01-small",
+            "size": 74940,
+            "crc": 1970169622,
+            "state": "ADD",
+            "md5": "18b3e2b022629b36bd4ba210af09673a",
+            "objectName": "77c5IE",
+            "uploadVersionId": 205000
+        },
+        {
+            "id": 18270,
+            "name": "img_general_gasha_bg_gasha_ssr-idol-season-only-01",
+            "size": 661615,
+            "crc": 44446748,
+            "state": "ADD",
+            "md5": "f97d4e01866f75a90702f857fa42af54",
+            "objectName": "oGDPHw",
+            "uploadVersionId": 205000
+        },
+        {
+            "id": 18271,
+            "name": "img_notice_gasha_gasha-00700-pickup-001-banner-01-large-pre",
+            "size": 127931,
+            "crc": 3526820444,
+            "state": "ADD",
+            "md5": "2f76ae9ea20ccd9523ead93d790be4d9",
+            "objectName": "7EXexo",
+            "uploadVersionId": 205000
+        },
+        {
+            "id": 18272,
+            "name": "fbx_mdl_env_cmn-parts_homeobjects-newyear-00",
+            "size": 3742773,
+            "crc": 178485004,
+            "dependencies": [
+                1654
+            ],
+            "state": "ADD",
+            "md5": "e8e034ebc0ca8b0d0568af81022da42e",
+            "objectName": "6705fw",
+            "uploadVersionId": 205000
+        },
+        {
+            "id": 18273,
+            "name": "mdl_env_grp_home_objects_newyear-00_maintable-00",
+            "size": 23358,
+            "crc": 3240766386,
+            "dependencies": [
+                2398,
+                4391,
+                4169,
+                18272,
+                1812,
+                2559,
+                2560,
+                1654,
+                2088
+            ],
+            "state": "ADD",
+            "md5": "9db62aec06d57751b5fd53d7549e78de",
+            "objectName": "l0IFid",
+            "uploadVersionId": 205000
+        },
+        {
+            "id": 18274,
+            "name": "mdl_env_grp_home_objects_newyear-00_extra-00",
+            "size": 138159,
+            "crc": 3786593346,
+            "dependencies": [
+                18272,
+                1654
+            ],
+            "state": "ADD",
+            "md5": "4082b41e1e12d5d63f5383106889251b",
+            "objectName": "jIOyeE",
+            "uploadVersionId": 205000
+        },
+        {
+            "id": 18275,
+            "name": "img_general_item_gacha-ticket-ssr-supportcard-seasononly-01",
+            "size": 15748,
+            "crc": 3901873802,
+            "state": "ADD",
+            "md5": "334d478e08453c2e4d8649228eb38d0f",
+            "objectName": "03k94Q",
+            "uploadVersionId": 205000
+        },
+        {
+            "id": 18276,
+            "name": "mdl_chr_hmsz-hair-0009_hair",
+            "size": 4975582,
+            "crc": 4248804341,
+            "dependencies": [
+                2071
+            ],
+            "state": "ADD",
+            "md5": "dc92550b281120320c118299d4e31069",
+            "objectName": "Gu2ZWX",
+            "uploadVersionId": 205000
+        },
+        {
+            "id": 18277,
+            "name": "img_gasha_banner_gasha-ticket-ssr-idol-seasons-260101-select-s",
+            "size": 29175,
+            "crc": 3444547225,
+            "state": "ADD",
+            "md5": "1b0bcbb40a38f99e7841ffd99d4dffe9",
+            "objectName": "PpIB6p",
+            "uploadVersionId": 205000
+        },
+        {
+            "id": 18278,
+            "name": "img_general_item_gacha-ticket-ssr-idol-seasononly-01",
+            "size": 15190,
+            "crc": 3189798689,
+            "state": "ADD",
+            "md5": "72232ea9c64c10e9acbe4ce2f9a42e9e",
+            "objectName": "eGJV25",
+            "uploadVersionId": 205000
+        },
+        {
+            "id": 18279,
+            "name": "img_general_shop_pack_0060-small",
+            "size": 46764,
+            "crc": 4193557090,
+            "state": "ADD",
+            "md5": "726d04291f2f292113fe8c3025a16830",
+            "objectName": "doxFrK",
+            "uploadVersionId": 205000
+        },
+        {
+            "id": 18280,
+            "name": "img_gasha_text_gasha-ticket-ssr-support-seasons-260101",
+            "size": 22338,
+            "crc": 1285179035,
+            "state": "ADD",
+            "md5": "255e675d8edf33deeffc242ab46201e2",
+            "objectName": "uCys9i",
+            "uploadVersionId": 205000
+        },
+        {
+            "id": 18281,
+            "name": "img_general_shop_pass_0021-large",
+            "size": 163256,
+            "crc": 1665775456,
+            "state": "ADD",
+            "md5": "d9098b2acf48f95855fb55140c60792e",
+            "objectName": "T8OXXO",
+            "uploadVersionId": 205000
+        },
+        {
+            "id": 18282,
+            "name": "img_notice_notice-list_plv-add-001_banner-01-large-pre",
+            "size": 103417,
+            "crc": 2656932028,
+            "state": "ADD",
+            "md5": "ceb60b9fec135f307fc14dd1f6dc2f47",
+            "objectName": "mSIaeB",
+            "uploadVersionId": 205000
+        },
+        {
+            "id": 18283,
+            "name": "img_general_shop_coin-gasha_newyear-002",
+            "size": 89897,
+            "crc": 168367889,
+            "state": "ADD",
+            "md5": "3a49c399993007f0f7065e930b53e8d4",
+            "objectName": "wIgcvt",
+            "uploadVersionId": 205000
+        },
+        {
+            "id": 18284,
+            "name": "img_cos_costume_head_kllj-hair-0009_head",
+            "size": 34577,
+            "crc": 2757525406,
+            "state": "ADD",
+            "md5": "dfd3358dcc64943315ee0ea0d38d7b56",
+            "objectName": "1Potfy",
+            "uploadVersionId": 205000
+        },
+        {
+            "id": 18285,
+            "name": "img_general_gasha_bg_gasha_ssr-support-season-only-01",
+            "size": 610425,
+            "crc": 312324737,
+            "state": "ADD",
+            "md5": "accf28a83db1fcad1861ef1c3cdb8934",
+            "objectName": "lpwakC",
+            "uploadVersionId": 205000
+        },
+        {
+            "id": 18286,
+            "name": "img_gasha_banner_gasha-ticket-ssr-idol-seasons-260101-select-m",
+            "size": 55066,
+            "crc": 3977458625,
+            "state": "ADD",
+            "md5": "4f0b13db501cbee7ed694010c0dde88c",
+            "objectName": "Vw8ifl",
+            "uploadVersionId": 205000
+        },
+        {
+            "id": 18287,
+            "name": "img_gasha_banner_gasha-ticket-ssr-support-seasons-260101-logo",
+            "size": 12978,
+            "crc": 2589687676,
+            "state": "ADD",
+            "md5": "fb426888dd6f732abe0ecac2db9fca1b",
+            "objectName": "HnbcH7",
+            "uploadVersionId": 205000
+        },
+        {
+            "id": 18288,
+            "name": "img_notice_campaign_produce_week-008",
+            "size": 218135,
+            "crc": 2020251377,
+            "state": "ADD",
+            "md5": "a8a7f9216d4c78bd1a97083332cffd9e",
+            "objectName": "KwmBKN",
+            "uploadVersionId": 205000
+        },
+        {
+            "id": 18289,
+            "name": "img_notice_notice-list_shop_costume_costume-head-add-009",
+            "size": 106774,
+            "crc": 995271802,
+            "state": "ADD",
+            "md5": "4f792e2d1f0451c8efbe0c2f0ba507e3",
+            "objectName": "mUBlq6",
+            "uploadVersionId": 205000
+        },
+        {
+            "id": 18290,
+            "name": "img_cos_costume_head_hmsz-hair-0009_head",
+            "size": 33488,
+            "crc": 187820202,
+            "state": "ADD",
+            "md5": "47c98fae01001d47c65165d5c570a4f4",
+            "objectName": "CeMSzS",
+            "uploadVersionId": 205000
+        },
+        {
+            "id": 18291,
+            "name": "img_general_comic4_0119",
+            "size": 230547,
+            "crc": 4288639242,
+            "state": "ADD",
+            "md5": "2797225bc44c8119197a0b188dfdd349",
+            "objectName": "H8WKiR",
+            "uploadVersionId": 205000
+        },
+        {
+            "id": 18292,
+            "name": "img_notice_event_event-panel-mission-005",
+            "size": 364970,
+            "crc": 1662562137,
+            "state": "ADD",
+            "md5": "c25cd8a4a119b9a0644690b22a18956c",
+            "objectName": "QUy2No",
+            "uploadVersionId": 205000
+        },
+        {
+            "id": 18293,
+            "name": "img_general_shop_pack_0059-large",
+            "size": 173638,
+            "crc": 2968167746,
+            "state": "ADD",
+            "md5": "e17de0000199886f1a9d701fe918224e",
+            "objectName": "CE6U6W",
+            "uploadVersionId": 205000
+        },
+        {
+            "id": 18294,
+            "name": "img_gasha_banner_gasha-ticket-ssr-support-seasons-260101-select-s",
+            "size": 29514,
+            "crc": 636980267,
+            "state": "ADD",
+            "md5": "ab06bd0c9790427fc5e7984735bb9e05",
+            "objectName": "mDJHbM",
             "uploadVersionId": 205000
         }
     ],
@@ -105876,9 +106381,9 @@
             "id": 16867,
             "name": "adv_dear_atbm_020.txt",
             "size": 190037,
-            "state": "ADD",
-            "md5": "ec2a1b323e92588988ea3ba79c3afa9f",
-            "objectName": "sPHMHo",
+            "state": "UPDATE",
+            "md5": "0d5b57a7b1e7a75cd5787dbfef85b570",
+            "objectName": "qrQkk2",
             "uploadVersionId": 205000
         },
         {
