@@ -1,9 +1,36 @@
 {
     "revision": [
-        371,
+        372,
         370
     ],
-    "assetBundleList": [],
+    "assetBundleList": [
+        {
+            "id": 18382,
+            "name": "mdl_chr_ttmr-cstm-0084_body",
+            "size": 6237968,
+            "crc": 750676847,
+            "dependencies": [
+                2071
+            ],
+            "state": "UPDATE",
+            "md5": "cd7d125fd0bef62cd9e4ce1723919044",
+            "objectName": "u5OR5D",
+            "uploadVersionId": 205000
+        },
+        {
+            "id": 18420,
+            "name": "mdl_chr_ttmr-cstm-0085_body",
+            "size": 5822241,
+            "crc": 1675043852,
+            "dependencies": [
+                2071
+            ],
+            "state": "UPDATE",
+            "md5": "8a955d00f3048a1940446e5bcff69dd5",
+            "objectName": "tTqj0c",
+            "uploadVersionId": 205000
+        }
+    ],
     "resourceList": [
         {
             "id": 9047,
