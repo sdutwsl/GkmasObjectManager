@@ -1,6 +1,6 @@
 {
     "revision": [
-        210,
+        213,
         137
     ],
     "assetBundleList": [
@@ -733,6 +733,19 @@
             "state": "UPDATE",
             "md5": "0b93a06007cf321141dad383adb8a626",
             "objectName": "Wkfx08",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 11180,
+            "name": "mdl_chr_nasr-cstm-0081_body",
+            "size": 9710406,
+            "crc": 249737217,
+            "dependencies": [
+                8213
+            ],
+            "state": "UPDATE",
+            "md5": "7cf7e93fa9dd8713bd097bb8a01f8c28",
+            "objectName": "wT2hiZ",
             "uploadVersionId": 705000
         },
         {
@@ -45784,11 +45797,11 @@
         {
             "id": 20137,
             "name": "img_notice_event_dearness-event_000-rev-004",
-            "size": 3865168,
-            "crc": 3589186993,
-            "state": "ADD",
-            "md5": "37b55d028a3b6ed03256d8e8c1277736",
-            "objectName": "gdl4LD",
+            "size": 3807698,
+            "crc": 747895234,
+            "state": "UPDATE",
+            "md5": "4e0c7ab372ce7c08abab7c49ce412974",
+            "objectName": "GdrMyt",
             "uploadVersionId": 705000
         },
         {
@@ -47141,6 +47154,1928 @@
             "state": "ADD",
             "md5": "a79a7e67fc678a73fc396ffc5b2aba03",
             "objectName": "koLVtJ",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 20266,
+            "name": "img_general_skillcard_men-2_060-nasr",
+            "size": 105765,
+            "crc": 694827910,
+            "state": "ADD",
+            "md5": "24afef4c2a9ec1a812c3ab5ad22865d1",
+            "objectName": "VI1qDC",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 20267,
+            "name": "img_general_event_aprilfool_aprilfool-tips03-2026",
+            "size": 293776,
+            "crc": 739045304,
+            "state": "ADD",
+            "md5": "2adaf5ae6f0b88a4935c042124808b27",
+            "objectName": "yRLUmU",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 20268,
+            "name": "img_general_skillcard_men-2_111-nasr",
+            "size": 99578,
+            "crc": 219947929,
+            "state": "ADD",
+            "md5": "5cb99a8a2a9f22e2f839cb3217036d1a",
+            "objectName": "Cu10GB",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 20269,
+            "name": "img_general_skillcard_act-2_045-nasr",
+            "size": 81793,
+            "crc": 4192669154,
+            "state": "ADD",
+            "md5": "9e430b9c903629a13e010f0e0e729b64",
+            "objectName": "w4jDNY",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 20270,
+            "name": "img_general_skillcard_act-3_001-nasr",
+            "size": 64362,
+            "crc": 1803797594,
+            "state": "ADD",
+            "md5": "b6dd3bc999ff8de2c55ca9795c61a96d",
+            "objectName": "pp1W2L",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 20271,
+            "name": "img_general_skillcard_act-3_186-nasr",
+            "size": 115117,
+            "crc": 1980380820,
+            "state": "ADD",
+            "md5": "e010d9c58b07b9ce8fe31b0a6d47aae0",
+            "objectName": "cJVp3s",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 20272,
+            "name": "img_general_skillcard_act-3_049-nasr",
+            "size": 219319,
+            "crc": 498052171,
+            "state": "ADD",
+            "md5": "5dc1d344b0305ee4949d7eb3c917cd72",
+            "objectName": "jiLSOj",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 20273,
+            "name": "img_general_skillcard_men-2_058-nasr",
+            "size": 62210,
+            "crc": 244610360,
+            "state": "ADD",
+            "md5": "6ea989f323163b736be9fa903efffe1d",
+            "objectName": "soQhAM",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 20274,
+            "name": "img_general_skillcard_act-2_009-nasr",
+            "size": 94189,
+            "crc": 1430574628,
+            "state": "ADD",
+            "md5": "0847727f0a424eb9bd7115fb1cd0f995",
+            "objectName": "qAuJBH",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 20275,
+            "name": "img_general_skillcard_act-2_049-nasr",
+            "size": 91946,
+            "crc": 3105010079,
+            "state": "ADD",
+            "md5": "611f835ecdb6130a9db5b2463b8981ec",
+            "objectName": "zUBTtN",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 20276,
+            "name": "img_notice_event_tour-005",
+            "size": 3240502,
+            "crc": 2258790960,
+            "state": "ADD",
+            "md5": "d9b921e56cd68027a7e98e5499b5d0af",
+            "objectName": "Bq68Je",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 20277,
+            "name": "img_general_shop_costume_0059-large",
+            "size": 278526,
+            "crc": 1107402546,
+            "state": "ADD",
+            "md5": "32ca7753a6c84a61268fb2710988bedb",
+            "objectName": "tD4vJx",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 20278,
+            "name": "img_general_skillcard_men-2_110-nasr",
+            "size": 142261,
+            "crc": 1456001621,
+            "state": "ADD",
+            "md5": "5ba555acdcc0f2170e1c96a17183f1a1",
+            "objectName": "Wu9epj",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 20279,
+            "name": "loa_angya_angya-001_animate-00",
+            "size": 63581,
+            "crc": 2425916046,
+            "state": "ADD",
+            "md5": "ee788c10233a99641dac0b5a2d264b94",
+            "objectName": "ZrXiHq",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 20280,
+            "name": "mdl_chr_nasr-hair-0007_hair",
+            "size": 3545242,
+            "crc": 571018400,
+            "dependencies": [
+                8213
+            ],
+            "state": "ADD",
+            "md5": "92e7d5ecc6b50209abb5acacc1e93154",
+            "objectName": "TGlu1r",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 20281,
+            "name": "img_general_skillcard_act-2_002-nasr",
+            "size": 73352,
+            "crc": 955932696,
+            "state": "ADD",
+            "md5": "62065223a6d9be1d64c4dd00605d12ce",
+            "objectName": "YpTbRw",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 20282,
+            "name": "img_general_skillcard_ido-3_192",
+            "size": 300444,
+            "crc": 2193417935,
+            "state": "ADD",
+            "md5": "8ec4ede8349ad007ed9a5b503ba7ee0b",
+            "objectName": "fSIjba",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 20283,
+            "name": "img_general_event_tour_tour-005-map",
+            "size": 1918128,
+            "crc": 805290467,
+            "state": "ADD",
+            "md5": "f9afef4c58731d03f9d86d65396e8e4e",
+            "objectName": "y3GOpl",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 20284,
+            "name": "img_general_music_jacket_all-nasr-008",
+            "size": 859605,
+            "crc": 2949249635,
+            "state": "ADD",
+            "md5": "9fcca3ac9ac0b2ab7e0faa3e1df43049",
+            "objectName": "C9g9Hz",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 20285,
+            "name": "img_general_skillcard_act-3_032-nasr",
+            "size": 144737,
+            "crc": 4145714477,
+            "state": "ADD",
+            "md5": "8d33742b6b19afa369bdb8a9954f95ea",
+            "objectName": "lKH9GB",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 20286,
+            "name": "img_general_skillcard_men-2_004-nasr",
+            "size": 218267,
+            "crc": 2126489121,
+            "state": "ADD",
+            "md5": "48d6f3f052efec6ccc624f45a586c38b",
+            "objectName": "C9zhgs",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 20287,
+            "name": "img_general_shop_costume_0059-small",
+            "size": 43286,
+            "crc": 3087594319,
+            "state": "ADD",
+            "md5": "b1bef6b90bca187427b9dc4be68e8f41",
+            "objectName": "9ndGsd",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 20288,
+            "name": "img_general_skillcard_men-2_036-nasr",
+            "size": 100772,
+            "crc": 560061175,
+            "state": "ADD",
+            "md5": "af3802378f5089c46a59788d3aac8bd6",
+            "objectName": "s5vUXo",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 20289,
+            "name": "img_general_skillcard_act-3_189-nasr",
+            "size": 98675,
+            "crc": 3614423855,
+            "state": "ADD",
+            "md5": "d76b1bab9527942c071c669ee65fb43f",
+            "objectName": "IVtF5H",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 20290,
+            "name": "img_general_skillcard_act-2_033-nasr",
+            "size": 68080,
+            "crc": 677764222,
+            "state": "ADD",
+            "md5": "aa546a84728d90e776cbd734e1767a56",
+            "objectName": "CgCJGD",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 20291,
+            "name": "img_general_shop_costume_0060-large",
+            "size": 320417,
+            "crc": 3324557688,
+            "state": "ADD",
+            "md5": "b1524e753033098f11e80d66cc6f9b36",
+            "objectName": "QMuU6u",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 20292,
+            "name": "img_general_skillcard_act-3_031-nasr",
+            "size": 74662,
+            "crc": 1460617094,
+            "state": "ADD",
+            "md5": "fdb0d85d65e1b797437404097d0c34b2",
+            "objectName": "zKBqFK",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 20293,
+            "name": "img_general_shop_costume_0056-small",
+            "size": 56976,
+            "crc": 591590444,
+            "state": "ADD",
+            "md5": "02b151cdb927d262cb9505e0e3f779ef",
+            "objectName": "uHiWQj",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 20294,
+            "name": "img_general_event_aprilfool_aprilfool-2026-01-story-header",
+            "size": 1257276,
+            "crc": 2771243454,
+            "state": "ADD",
+            "md5": "6a71db7ff3764c16c5bff079df8d7b65",
+            "objectName": "MMhwpf",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 20295,
+            "name": "img_general_skillcard_men-2_052-nasr",
+            "size": 92398,
+            "crc": 3064730174,
+            "state": "ADD",
+            "md5": "1fd98b471dcfd6f6dc55f93f38805289",
+            "objectName": "Yznuqm",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 20296,
+            "name": "img_general_skillcard_act-2_071-nasr",
+            "size": 98941,
+            "crc": 3143710025,
+            "state": "ADD",
+            "md5": "8070a235266f3d465c5bc753da90c9db",
+            "objectName": "NQzhzB",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 20297,
+            "name": "img_general_shop_costume_0057-large",
+            "size": 317012,
+            "crc": 2234094059,
+            "state": "ADD",
+            "md5": "0538aaf4ad7d83513a42059a0a6760e8",
+            "objectName": "UizEX2",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 20298,
+            "name": "img_general_skillcard_act-2_063-nasr",
+            "size": 201188,
+            "crc": 3268201404,
+            "state": "ADD",
+            "md5": "0ba4859bb26cd7fa0dd045cbddffe2ba",
+            "objectName": "ufonOh",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 20299,
+            "name": "mdl_env_grp_home_objects_april2026-00_maintable-00",
+            "size": 21398,
+            "crc": 2020607251,
+            "dependencies": [
+                2638,
+                10614,
+                20318,
+                9340,
+                7397,
+                9969,
+                2421,
+                1094,
+                3039,
+                3901
+            ],
+            "state": "ADD",
+            "md5": "4c10760cc4473b51911fa59fe4e982a8",
+            "objectName": "AupvbW",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 20300,
+            "name": "img_notice_notice-list_event_tour_tour-005-banner",
+            "size": 659015,
+            "crc": 2452554615,
+            "state": "ADD",
+            "md5": "eaba37c8936ddc9504c190acf44dec3c",
+            "objectName": "txXmOX",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 20301,
+            "name": "img_general_skillcard_men-3_002-nasr",
+            "size": 239706,
+            "crc": 30020016,
+            "state": "ADD",
+            "md5": "414ca469f2b67370c0d5b87e5bb4a472",
+            "objectName": "RBPkCX",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 20302,
+            "name": "img_general_skillcard_men-2_055-nasr",
+            "size": 56041,
+            "crc": 2432492159,
+            "state": "ADD",
+            "md5": "57c0a7126af0b92545bdee2b5a819470",
+            "objectName": "Ym4l4H",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 20303,
+            "name": "img_general_skillcard_act-3_010-nasr",
+            "size": 131333,
+            "crc": 1475559478,
+            "state": "ADD",
+            "md5": "f8cb032e8ba44e020e224f5093d0a020",
+            "objectName": "mJQQv2",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 20304,
+            "name": "img_general_skillcard_men-2_074-nasr",
+            "size": 94730,
+            "crc": 3139504749,
+            "state": "ADD",
+            "md5": "3ec7f069e5ec7b52493840e1aeaa24bd",
+            "objectName": "wW18aG",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 20305,
+            "name": "img_general_skillcard_act-2_048-nasr",
+            "size": 85780,
+            "crc": 2689363574,
+            "state": "ADD",
+            "md5": "c3c03756d9982de2f7deae35de58ebbd",
+            "objectName": "qxmrVH",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 20306,
+            "name": "img_general_skillcard_men-2_098-nasr",
+            "size": 136346,
+            "crc": 2233484653,
+            "state": "ADD",
+            "md5": "d84e56ef8c0f1a6d8c42f934cd3d858f",
+            "objectName": "VmnqQa",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 20307,
+            "name": "img_general_skillcard_men-3_005-nasr",
+            "size": 76847,
+            "crc": 540722013,
+            "state": "ADD",
+            "md5": "2cb96689f68305ddcef566b902006e12",
+            "objectName": "pljncg",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 20308,
+            "name": "img_general_skillcard_men-2_011-nasr",
+            "size": 173877,
+            "crc": 38365407,
+            "state": "ADD",
+            "md5": "c8b59e2c7e954071eec3d2b877e1e206",
+            "objectName": "LxEbKk",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 20309,
+            "name": "img_general_skillcard_act-2_061-nasr",
+            "size": 160782,
+            "crc": 969288780,
+            "state": "ADD",
+            "md5": "6ac14388cdf145251d7ee215677e83a4",
+            "objectName": "Zrb1e0",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 20310,
+            "name": "img_cos_costume_head_nasr-hair-0004_head",
+            "size": 81868,
+            "crc": 893500806,
+            "state": "ADD",
+            "md5": "6748e0a115d2093a8bd84168181fc107",
+            "objectName": "THMsUS",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 20311,
+            "name": "img_general_skillcard_act-3_054-nasr",
+            "size": 275684,
+            "crc": 1109950760,
+            "state": "ADD",
+            "md5": "3ea4d299057a56e16af53b6845bfd48b",
+            "objectName": "KnqSsP",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 20312,
+            "name": "img_general_pitem_3-325",
+            "size": 261357,
+            "crc": 986986665,
+            "state": "ADD",
+            "md5": "df8e9c7ceabc2ad5b6d54f504f1261f8",
+            "objectName": "p1uSlp",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 20313,
+            "name": "img_general_skillcard_act-2_062-nasr",
+            "size": 124083,
+            "crc": 3895087168,
+            "state": "ADD",
+            "md5": "53eb0e8bc79256a33dee54cfa08931ca",
+            "objectName": "ltifhq",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 20314,
+            "name": "img_general_skillcard_men-3_034-nasr",
+            "size": 138463,
+            "crc": 1477491273,
+            "state": "ADD",
+            "md5": "17e369a7c05af15fe8631886d38b1d30",
+            "objectName": "lWBYrS",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 20315,
+            "name": "img_tutorial_event_tour_tour-005-02",
+            "size": 487193,
+            "crc": 680851786,
+            "state": "ADD",
+            "md5": "f56593ce2a98a479d3bbcb473d0a1258",
+            "objectName": "aLEIRg",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 20316,
+            "name": "img_general_meishi_base_common-aprilfool2026-001-full",
+            "size": 501643,
+            "crc": 299922242,
+            "state": "ADD",
+            "md5": "af169513d73ac345aa8f992c3ecede7c",
+            "objectName": "UEtr5L",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 20317,
+            "name": "img_general_skillcard_men-3_058-nasr",
+            "size": 207896,
+            "crc": 27607171,
+            "state": "ADD",
+            "md5": "553122ea5fc04dba98c91f495841b38b",
+            "objectName": "KdjTs3",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 20318,
+            "name": "fbx_mdl_env_cmn-parts_homeobjects-april2026-00",
+            "size": 5852786,
+            "crc": 345693484,
+            "dependencies": [
+                2421
+            ],
+            "state": "ADD",
+            "md5": "9896a849785d7a12c62aea33b8c1b63a",
+            "objectName": "TVY2NY",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 20319,
+            "name": "img_general_skillcard_act-2_070-nasr",
+            "size": 219055,
+            "crc": 1154146407,
+            "state": "ADD",
+            "md5": "1d1dcc001af96ef1bc60d4f88042ff91",
+            "objectName": "5YMUGw",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 20320,
+            "name": "img_general_skillcard_men-2_037-nasr",
+            "size": 106372,
+            "crc": 3499568187,
+            "state": "ADD",
+            "md5": "2b6c3833e4b95a4cd8d0f31c9a80bc3b",
+            "objectName": "J7ehlp",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 20321,
+            "name": "img_general_media_birthday-live-2026-hume",
+            "size": 2212873,
+            "crc": 2151547389,
+            "state": "ADD",
+            "md5": "c2675c6409a8c7a78d77e2ffb2b8d1ac",
+            "objectName": "AYtszG",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 20322,
+            "name": "img_general_event_aprilfool_aprilfool-tips02-2026",
+            "size": 1049096,
+            "crc": 36086022,
+            "state": "ADD",
+            "md5": "0aac48a5052932730d249f05be346781",
+            "objectName": "mhiVRu",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 20323,
+            "name": "img_general_skillcard_act-1_022-nasr",
+            "size": 61953,
+            "crc": 1063625489,
+            "state": "ADD",
+            "md5": "216a32b0d982057dd02edf2e59803482",
+            "objectName": "1ofRuG",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 20324,
+            "name": "img_general_shop_costume_0060-small",
+            "size": 50539,
+            "crc": 780568230,
+            "state": "ADD",
+            "md5": "741e9bbe3ead01cbd89cfa47facf126d",
+            "objectName": "ZBFmHk",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 20325,
+            "name": "img_general_skillcard_act-3_053-nasr",
+            "size": 157825,
+            "crc": 3515646604,
+            "state": "ADD",
+            "md5": "53d69b9da1bcf66e5eea3e59b81f5be2",
+            "objectName": "LWgjW7",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 20326,
+            "name": "img_general_skillcard_act-3_057-nasr",
+            "size": 154086,
+            "crc": 1820162011,
+            "state": "ADD",
+            "md5": "15babb30256fc51491cc100fe9f86205",
+            "objectName": "xb2IHM",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 20327,
+            "name": "img_general_skillcard_men-2_051-nasr",
+            "size": 60342,
+            "crc": 2238214414,
+            "state": "ADD",
+            "md5": "45932fba2527b38efd9fde55244f70e9",
+            "objectName": "0o1NBG",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 20328,
+            "name": "img_general_skillcard_act-3_039-nasr",
+            "size": 312587,
+            "crc": 1749117130,
+            "state": "ADD",
+            "md5": "c857faa98db0bd27e575a3347af4d918",
+            "objectName": "5gB4H2",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 20329,
+            "name": "img_notice_shop_costume_item-0069",
+            "size": 1341544,
+            "crc": 3891167837,
+            "state": "ADD",
+            "md5": "dfcce135c2221f006d910964279548f4",
+            "objectName": "arB9nt",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 20330,
+            "name": "img_general_skillcard_men-2_076-nasr",
+            "size": 77313,
+            "crc": 3602433694,
+            "state": "ADD",
+            "md5": "17e3651908dab937c2106ac765e8a855",
+            "objectName": "2g1px8",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 20331,
+            "name": "img_general_skillcard_act-2_068-nasr",
+            "size": 142371,
+            "crc": 2314712572,
+            "state": "ADD",
+            "md5": "2bc1da29f8d2333cfe2d63a72f783a69",
+            "objectName": "qdffuN",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 20332,
+            "name": "img_general_skillcard_men-3_035-nasr",
+            "size": 99550,
+            "crc": 194367055,
+            "state": "ADD",
+            "md5": "d4dbe8dd9d8ef5cd73601796c19ffee5",
+            "objectName": "F71rLw",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 20333,
+            "name": "img_general_skillcard_men-2_066-nasr",
+            "size": 86447,
+            "crc": 3055377492,
+            "state": "ADD",
+            "md5": "93c5d351332e73628f0c015ed447fb09",
+            "objectName": "jDcxre",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 20334,
+            "name": "img_general_live_music-all-nasr-008_true-end",
+            "size": 611159,
+            "crc": 101644670,
+            "state": "ADD",
+            "md5": "7ac84f4c05af95cae214f5686c66f4b6",
+            "objectName": "Oxo13x",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 20335,
+            "name": "img_general_skillcard_men-3_003-nasr",
+            "size": 161696,
+            "crc": 3392841592,
+            "state": "ADD",
+            "md5": "44e5422788d5fccceeb73b6fe037386c",
+            "objectName": "vmYQM6",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 20336,
+            "name": "mdl_chr_nasr-cstm-0111_body",
+            "size": 6444807,
+            "crc": 1737903501,
+            "dependencies": [
+                8213
+            ],
+            "state": "ADD",
+            "md5": "d1f06e8a88bc675044ca01117ba20943",
+            "objectName": "uN5VaR",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 20337,
+            "name": "img_general_skillcard_act-3_030-nasr",
+            "size": 209685,
+            "crc": 147263305,
+            "state": "ADD",
+            "md5": "e5dc1826babbdddd715f54a453995f4f",
+            "objectName": "GWpN5u",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 20338,
+            "name": "img_general_skillcard_men-2_103-nasr",
+            "size": 93924,
+            "crc": 965526212,
+            "state": "ADD",
+            "md5": "85254b707508e22855ba604cad6c1ee7",
+            "objectName": "IhfZyw",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 20339,
+            "name": "img_general_skillcard_act-2_003-nasr",
+            "size": 66562,
+            "crc": 558641847,
+            "state": "ADD",
+            "md5": "f0f72e3dccf1a7a1fc3f3abecdf111d9",
+            "objectName": "Glv94b",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 20340,
+            "name": "img_general_skillcard_act-2_032-nasr",
+            "size": 83079,
+            "crc": 373671127,
+            "state": "ADD",
+            "md5": "d407bb11b9fe0f545520a13169471791",
+            "objectName": "ZOV47A",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 20341,
+            "name": "img_general_skillcard_men-3_043-nasr",
+            "size": 62750,
+            "crc": 3253182199,
+            "state": "ADD",
+            "md5": "f876605185ec1f0a725651554a71d400",
+            "objectName": "2h1dZa",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 20342,
+            "name": "img_general_item_event-aprilfool-001-playresource",
+            "size": 42526,
+            "crc": 845051322,
+            "state": "ADD",
+            "md5": "943e29e5c10ded7a612c302618e8d31e",
+            "objectName": "pJ97eQ",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 20343,
+            "name": "img_general_event_aprilfool_aprilfool-tips01-2026",
+            "size": 908954,
+            "crc": 2419802813,
+            "state": "ADD",
+            "md5": "f2700be727d9c2ddf07ddcb174f60488",
+            "objectName": "dsfl0C",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 20344,
+            "name": "img_general_skillcard_men-2_008-nasr",
+            "size": 93264,
+            "crc": 429221993,
+            "state": "ADD",
+            "md5": "f1638f41a9b0b8760e8d9cc0e8cfa483",
+            "objectName": "C4j4Ld",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 20345,
+            "name": "img_general_skillcard_men-2_056-nasr",
+            "size": 53177,
+            "crc": 2965166412,
+            "state": "ADD",
+            "md5": "e5ed65d3384408acd32170a3578b0d53",
+            "objectName": "nJ3JUZ",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 20346,
+            "name": "img_general_skillcard_act-3_056-nasr",
+            "size": 153946,
+            "crc": 2739178782,
+            "state": "ADD",
+            "md5": "4cdc68b0ce6978b3c60470e36356c1ee",
+            "objectName": "1g4en5",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 20347,
+            "name": "img_general_skillcard_act-2_106-nasr",
+            "size": 66012,
+            "crc": 615546585,
+            "state": "ADD",
+            "md5": "daf0ba615f1bc037edf11e44739b4135",
+            "objectName": "4jdtJp",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 20348,
+            "name": "img_general_skillcard_men-2_041-nasr",
+            "size": 137620,
+            "crc": 4098676065,
+            "state": "ADD",
+            "md5": "efa37b95915a1c082dbe3d5f9a1e202b",
+            "objectName": "tRz4F9",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 20349,
+            "name": "img_general_skillcard_men-2_053-nasr",
+            "size": 64188,
+            "crc": 875200799,
+            "state": "ADD",
+            "md5": "dedf3aae0defcee504c6ebbef3c9d447",
+            "objectName": "KCliqD",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 20350,
+            "name": "img_notice_notice-list_shop_costume_item-0069",
+            "size": 392088,
+            "crc": 237231900,
+            "state": "ADD",
+            "md5": "08b99f044ff1575a9a3b3d56f58b0dc3",
+            "objectName": "1uMw8K",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 20351,
+            "name": "img_general_home_shop_costume_item-0069",
+            "size": 40665,
+            "crc": 2441229298,
+            "state": "ADD",
+            "md5": "c70f4e7cbeebab4c7f8070587e83f3d8",
+            "objectName": "9WpH1B",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 20352,
+            "name": "img_general_meishi_illust_common-aprilfool2026-001-full",
+            "size": 112721,
+            "crc": 3517028470,
+            "state": "ADD",
+            "md5": "567f43da171a6b4d037cf4a80ae88888",
+            "objectName": "2Q0JmZ",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 20353,
+            "name": "img_general_skillcard_act-2_082-nasr",
+            "size": 107422,
+            "crc": 1777571983,
+            "state": "ADD",
+            "md5": "75aa7b3fb1a4817e9f15e674711da74a",
+            "objectName": "1N3dOn",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 20354,
+            "name": "img_general_skillcard_act-2_067-nasr",
+            "size": 92026,
+            "crc": 3185851700,
+            "state": "ADD",
+            "md5": "d01de6863988819ed3024f015520f7f8",
+            "objectName": "e3gx3v",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 20355,
+            "name": "img_general_skillcard_men-3_061-nasr",
+            "size": 104236,
+            "crc": 87688529,
+            "state": "ADD",
+            "md5": "9ab1cfc74aeb33b8d3d6238d38871d48",
+            "objectName": "sUhCbp",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 20356,
+            "name": "img_general_skillcard_act-2_072-nasr",
+            "size": 98161,
+            "crc": 1814829806,
+            "state": "ADD",
+            "md5": "601a30e04514203915d61a56a2fa5f6e",
+            "objectName": "RaLO5J",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 20357,
+            "name": "img_general_skillcard_men-2_080-nasr",
+            "size": 107708,
+            "crc": 3186276533,
+            "state": "ADD",
+            "md5": "67e0cdd4dda5a54b281ea838e69d9ac7",
+            "objectName": "9vC9a9",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 20358,
+            "name": "img_general_skillcard_act-3_051-nasr",
+            "size": 233920,
+            "crc": 2785198271,
+            "state": "ADD",
+            "md5": "fa48c27f7ec271c34960f9956e7021ad",
+            "objectName": "43ATj8",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 20359,
+            "name": "img_general_event_tour_tour-005-stage-01",
+            "size": 593057,
+            "crc": 711549874,
+            "state": "ADD",
+            "md5": "dd705b07d23cebbab537c870b60f592f",
+            "objectName": "stXMNi",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 20360,
+            "name": "img_general_meishi_base_common-aprilfool2026-001-thumb",
+            "size": 27796,
+            "crc": 2428043388,
+            "state": "ADD",
+            "md5": "d50bfb6f888fdc1334f278c53368a6a0",
+            "objectName": "nWPedP",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 20361,
+            "name": "img_general_skillcard_act-2_001-nasr",
+            "size": 96415,
+            "crc": 1346784003,
+            "state": "ADD",
+            "md5": "8abafe26cfbfccb26e05c9eadeb01245",
+            "objectName": "Ea01wk",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 20362,
+            "name": "img_general_shop_costume_0057-small",
+            "size": 55738,
+            "crc": 4057185209,
+            "state": "ADD",
+            "md5": "895576df8693c064cbbb3cb1f4803c2a",
+            "objectName": "4Jxap1",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 20363,
+            "name": "img_general_shop_costume_0056-large",
+            "size": 298187,
+            "crc": 2019357321,
+            "state": "ADD",
+            "md5": "c584e6cb69527a79f8932ee69166602f",
+            "objectName": "09Xi9x",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 20364,
+            "name": "img_general_event_tour_tour-005-story-banner",
+            "size": 66682,
+            "crc": 1981864876,
+            "state": "ADD",
+            "md5": "ab7d737df326445904398941263f0c3a",
+            "objectName": "F8frJ3",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 20365,
+            "name": "img_general_skillcard_act-3_045-nasr",
+            "size": 193700,
+            "crc": 720982705,
+            "state": "ADD",
+            "md5": "4c35e93970ee42e81894562316a3f064",
+            "objectName": "GdtDht",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 20366,
+            "name": "img_general_skillcard_men-2_050-nasr",
+            "size": 121869,
+            "crc": 1657430677,
+            "state": "ADD",
+            "md5": "358962b671c226effea857aa26bece96",
+            "objectName": "R8pp0d",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 20367,
+            "name": "img_general_skillcard_men-2_014-nasr",
+            "size": 76788,
+            "crc": 445131403,
+            "state": "ADD",
+            "md5": "b6da5f583a4b8040a23e4f6fd0130494",
+            "objectName": "3Lwy6o",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 20368,
+            "name": "img_general_skillcard_men-2_034-nasr",
+            "size": 64931,
+            "crc": 2815536655,
+            "state": "ADD",
+            "md5": "f05935da218480b8fa55471a8b3da350",
+            "objectName": "AfITdh",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 20369,
+            "name": "img_general_skillcard_men-2_077-nasr",
+            "size": 71556,
+            "crc": 1561553549,
+            "state": "ADD",
+            "md5": "af22f9b40b18e4326719b8009e61e055",
+            "objectName": "Iwxtu4",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 20370,
+            "name": "img_general_event_tour_tour-005-header",
+            "size": 1257246,
+            "crc": 83036130,
+            "state": "ADD",
+            "md5": "88fecce18b40036605800aee88c2074d",
+            "objectName": "1oHKgF",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 20371,
+            "name": "img_general_skillcard_men-2_078-nasr",
+            "size": 68800,
+            "crc": 171129547,
+            "state": "ADD",
+            "md5": "3284baacccb48799ae59dc97d36fd47e",
+            "objectName": "92q1m7",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 20372,
+            "name": "img_general_skillcard_men-2_099-nasr",
+            "size": 85502,
+            "crc": 2843207891,
+            "state": "ADD",
+            "md5": "57106b3391eb8a93e4f25a4eebe90dac",
+            "objectName": "4xFAYg",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 20373,
+            "name": "img_general_skillcard_act-2_047-nasr",
+            "size": 56184,
+            "crc": 3937193536,
+            "state": "ADD",
+            "md5": "1b66e311e8c82120ead1dfd73e45de0b",
+            "objectName": "WNdado",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 20374,
+            "name": "img_general_shop_costume_0058-small",
+            "size": 45991,
+            "crc": 1487028214,
+            "state": "ADD",
+            "md5": "f19a98d5591953a0664cead615ac1de1",
+            "objectName": "UZHzE9",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 20375,
+            "name": "img_general_skillcard_men-2_040-nasr",
+            "size": 65414,
+            "crc": 2343091418,
+            "state": "ADD",
+            "md5": "ce05d8bb03d973faa300452fa277b866",
+            "objectName": "f18Y6q",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 20376,
+            "name": "img_general_skillcard_men-2_054-nasr",
+            "size": 179019,
+            "crc": 4186293655,
+            "state": "ADD",
+            "md5": "d453067ed3e61fc820c7d97d47997271",
+            "objectName": "TuCK8M",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 20377,
+            "name": "img_general_skillcard_men-2_038-nasr",
+            "size": 182742,
+            "crc": 1433614794,
+            "state": "ADD",
+            "md5": "212c3ad984ecd2e51a86c628c0064561",
+            "objectName": "cUzXmR",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 20378,
+            "name": "img_general_skillcard_men-1_005-nasr",
+            "size": 77858,
+            "crc": 721580854,
+            "state": "ADD",
+            "md5": "35ba46eee9bdd948499d23a5b79c0fd8",
+            "objectName": "VoE8gA",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 20379,
+            "name": "img_general_skillcard_act-2_081-nasr",
+            "size": 168067,
+            "crc": 379665374,
+            "state": "ADD",
+            "md5": "9367fe372b4cb94d01fe0ea233f085dd",
+            "objectName": "Ztf4Vn",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 20380,
+            "name": "img_cos_nasr-cstm-0119_body",
+            "size": 97348,
+            "crc": 1118646032,
+            "state": "ADD",
+            "md5": "b9a0f885e41711ad839865afeb3b2c98",
+            "objectName": "B0kwwA",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 20381,
+            "name": "img_general_meishi_illust_common-aprilfool2026-001-thumb",
+            "size": 37514,
+            "crc": 368242318,
+            "state": "ADD",
+            "md5": "e2ffd5840d5091251e2b8619f109c405",
+            "objectName": "500MOa",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 20382,
+            "name": "img_general_shop_costume_0055-small",
+            "size": 52774,
+            "crc": 2322148655,
+            "state": "ADD",
+            "md5": "b8b586e7ab6514cba28ba109b8b42b5a",
+            "objectName": "NOr7xt",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 20383,
+            "name": "img_general_skillcard_act-2_059-nasr",
+            "size": 143005,
+            "crc": 3294319221,
+            "state": "ADD",
+            "md5": "28068cccf6d057df43bf5ac46e21ffe0",
+            "objectName": "0FbeTh",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 20384,
+            "name": "img_general_skillcard_act-3_187-nasr",
+            "size": 136884,
+            "crc": 490680750,
+            "state": "ADD",
+            "md5": "33acd1c1e24c71b54168f8637f8288c8",
+            "objectName": "yupUBX",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 20385,
+            "name": "img_general_skillcard_men-2_012-nasr",
+            "size": 109518,
+            "crc": 1237584822,
+            "state": "ADD",
+            "md5": "1a211d2ef7b5856982a096f6c6379c70",
+            "objectName": "EVQDHH",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 20386,
+            "name": "img_general_event_tour_tour-005-circle",
+            "size": 22747,
+            "crc": 2662870461,
+            "state": "ADD",
+            "md5": "ed157252144afb3a2bf5d1cdbbe2d16c",
+            "objectName": "YrPFFZ",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 20387,
+            "name": "img_general_shop_costume_0055-large",
+            "size": 296423,
+            "crc": 450278768,
+            "state": "ADD",
+            "md5": "e71df84c80c63eaf2824e0048b61aa31",
+            "objectName": "XjeTBQ",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 20388,
+            "name": "img_general_skillcard_men-2_075-nasr",
+            "size": 119666,
+            "crc": 2709363159,
+            "state": "ADD",
+            "md5": "fda7a724bb05504efc52c67b8dfa136b",
+            "objectName": "1yzGnd",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 20389,
+            "name": "img_general_skillcard_ido-3_191",
+            "size": 300444,
+            "crc": 2925286682,
+            "state": "ADD",
+            "md5": "2cef3b1af64fd55c8422f9837b33e928",
+            "objectName": "HHw4Im",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 20390,
+            "name": "img_general_skillcard_act-2_044-nasr",
+            "size": 80554,
+            "crc": 2261874364,
+            "state": "ADD",
+            "md5": "1625d0032cc76f0a1bb118fb1264edfc",
+            "objectName": "K4X2QK",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 20391,
+            "name": "img_tutorial_event_tour_tour-005-03",
+            "size": 528596,
+            "crc": 3590688502,
+            "state": "ADD",
+            "md5": "f20fb1de27ff8a28995dfa409a03c18d",
+            "objectName": "kw8Bwk",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 20392,
+            "name": "img_general_skillcard_act-3_050-nasr",
+            "size": 167545,
+            "crc": 4049451829,
+            "state": "ADD",
+            "md5": "ea7d9a1869b9fa37cac31a6eb5fffcf3",
+            "objectName": "toPBzp",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 20393,
+            "name": "img_general_skillcard_men-3_060-nasr",
+            "size": 175490,
+            "crc": 1153801388,
+            "state": "ADD",
+            "md5": "62d722e4bc5804e2cedf1ea30d092f42",
+            "objectName": "tHGRHQ",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 20394,
+            "name": "img_general_skillcard_men-3_006-nasr",
+            "size": 159270,
+            "crc": 1245267191,
+            "state": "ADD",
+            "md5": "883a338bb1973ca06f1ab98b45f0afae",
+            "objectName": "pZC06K",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 20395,
+            "name": "img_general_skillcard_men-3_063-nasr",
+            "size": 92859,
+            "crc": 538249054,
+            "state": "ADD",
+            "md5": "0867f3a05f706b0f2a774a5b740e4826",
+            "objectName": "xobmZa",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 20396,
+            "name": "mdl_env_grp_home_boards_april2026-00",
+            "size": 4174840,
+            "crc": 2506164270,
+            "dependencies": [
+                5817,
+                2421
+            ],
+            "state": "ADD",
+            "md5": "ed085d7fdf72a3e10ff58f1bd186d826",
+            "objectName": "SI1E1T",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 20397,
+            "name": "img_general_event_tour_tour-005-reward-banner",
+            "size": 85782,
+            "crc": 2258473024,
+            "state": "ADD",
+            "md5": "afc0d318410f6e16d62eb1310d0cd02c",
+            "objectName": "6ybWJD",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 20398,
+            "name": "img_general_event_tour_tour-005-banner",
+            "size": 221217,
+            "crc": 1159969169,
+            "state": "ADD",
+            "md5": "2618f7577f8f431ccf3e4182dcbaa010",
+            "objectName": "y9mpbR",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 20399,
+            "name": "mef_pfb_chr_nasr_eye-shiromaru-001_l",
+            "size": 94090,
+            "crc": 3327922212,
+            "dependencies": [
+                2421
+            ],
+            "state": "ADD",
+            "md5": "974d37329efa78d3b5df01ec740d307e",
+            "objectName": "47t7mC",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 20400,
+            "name": "mef_pfb_chr_nasr_eye-shiromaru-001_r",
+            "size": 94080,
+            "crc": 4048779292,
+            "dependencies": [
+                2421
+            ],
+            "state": "ADD",
+            "md5": "a032464a564d5c00359a14ed045aa6ad",
+            "objectName": "yHsjw9",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 20401,
+            "name": "img_general_skillcard_act-3_185-nasr",
+            "size": 223699,
+            "crc": 1834521049,
+            "state": "ADD",
+            "md5": "8dc235a98518956f2c33aa23c432d434",
+            "objectName": "4CXMux",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 20402,
+            "name": "img_general_skillcard_act-3_065-nasr",
+            "size": 188467,
+            "crc": 1171541036,
+            "state": "ADD",
+            "md5": "5384a3a58cbdaf0b39d7a4a40fc69873",
+            "objectName": "JTyIcZ",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 20403,
+            "name": "mdl_chr_nasr-cstm-0119_body",
+            "size": 10662023,
+            "crc": 1836518015,
+            "dependencies": [
+                8213
+            ],
+            "state": "ADD",
+            "md5": "a202a630526e509299d189359972c7e7",
+            "objectName": "hTTAuY",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 20404,
+            "name": "img_general_skillcard_men-3_033-nasr",
+            "size": 132037,
+            "crc": 117177608,
+            "state": "ADD",
+            "md5": "de53bcb65c660e628fd683319c200be4",
+            "objectName": "MHIgks",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 20405,
+            "name": "img_general_home_event_tour_tour-005",
+            "size": 34221,
+            "crc": 1646616426,
+            "state": "ADD",
+            "md5": "59ccb1d9810c5b825e443543bf9aef69",
+            "objectName": "Nkdp30",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 20406,
+            "name": "img_general_skillcard_men-3_044-nasr",
+            "size": 87371,
+            "crc": 637181184,
+            "state": "ADD",
+            "md5": "6173eb1ae606e95ec2438e0ecf181c1e",
+            "objectName": "S4oYNe",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 20407,
+            "name": "img_general_skillcard_act-2_102-nasr",
+            "size": 121783,
+            "crc": 550981841,
+            "state": "ADD",
+            "md5": "387028c743e0fcc70d8e38507dbace40",
+            "objectName": "M9A2Ep",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 20408,
+            "name": "img_tutorial_event_tour_tour-005-01",
+            "size": 635957,
+            "crc": 2741862777,
+            "state": "ADD",
+            "md5": "996b48d6ae31ac94e7fcc5cf05b6fd00",
+            "objectName": "S5ZsYp",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 20409,
+            "name": "sud_music_live_all-008-nasr_true-001",
+            "size": 2249456,
+            "crc": 1026075739,
+            "state": "ADD",
+            "md5": "91f4f8fda74964803ead1959ed5c73ba",
+            "objectName": "jP0Cl7",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 20410,
+            "name": "img_cos_costume_head_nasr-hair-0007_head",
+            "size": 80498,
+            "crc": 1645783235,
+            "state": "ADD",
+            "md5": "f7d96572646ce7a6ca3a40c32fba79d4",
+            "objectName": "laPZyQ",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 20411,
+            "name": "img_general_skillcard_men-3_036-nasr",
+            "size": 100769,
+            "crc": 1917258904,
+            "state": "ADD",
+            "md5": "646e87892e2d233fdb053ab78e34f39d",
+            "objectName": "aeHuC0",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 20412,
+            "name": "mot_live_chr_nasr_all-008_00_in",
+            "size": 1952412,
+            "crc": 3485593311,
+            "dependencies": [
+                2421,
+                20399,
+                20400
+            ],
+            "state": "ADD",
+            "md5": "46f8730609f99fab65709c37e62564c1",
+            "objectName": "0mrJgU",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 20413,
+            "name": "img_general_skillcard_men-3_040-nasr",
+            "size": 107932,
+            "crc": 2029056468,
+            "state": "ADD",
+            "md5": "fe34ac08c59193554cfeb6edf76d2f98",
+            "objectName": "ZXAygp",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 20414,
+            "name": "img_general_skillcard_act-2_030-nasr",
+            "size": 83014,
+            "crc": 1268811277,
+            "state": "ADD",
+            "md5": "35da69a2e7b9ccd9a3307c944d147ed0",
+            "objectName": "pQv7MX",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 20415,
+            "name": "img_general_skillcard_act-2_073-nasr",
+            "size": 197370,
+            "crc": 1200015841,
+            "state": "ADD",
+            "md5": "c354319db1e93bf83c1ec243badd7479",
+            "objectName": "BroLIi",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 20416,
+            "name": "img_general_skillcard_men-2_079-nasr",
+            "size": 74285,
+            "crc": 4019078455,
+            "state": "ADD",
+            "md5": "204bed7098448e984a3cdf359431fed7",
+            "objectName": "ieJjxs",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 20417,
+            "name": "img_general_skillcard_men-2_100-nasr",
+            "size": 123279,
+            "crc": 735117534,
+            "state": "ADD",
+            "md5": "2ce935f34374f5a19a542ad31cc4fdf7",
+            "objectName": "aKqmDX",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 20418,
+            "name": "img_general_skillcard_men-3_011-nasr",
+            "size": 73213,
+            "crc": 2585439075,
+            "state": "ADD",
+            "md5": "d589e5e24a3e229569b8da055fb56e9a",
+            "objectName": "AtppP2",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 20419,
+            "name": "img_general_skillcard_men-3_012-nasr",
+            "size": 66253,
+            "crc": 909250640,
+            "state": "ADD",
+            "md5": "e061fa29d86ac90597894044e4fc244a",
+            "objectName": "RG3MQf",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 20420,
+            "name": "img_general_skillcard_men-2_043-nasr",
+            "size": 92648,
+            "crc": 3558324495,
+            "state": "ADD",
+            "md5": "0973e0ab4f7467ff614b76ed125462d5",
+            "objectName": "6CsKAS",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 20421,
+            "name": "img_general_skillcard_act-2_031-nasr",
+            "size": 78365,
+            "crc": 215911545,
+            "state": "ADD",
+            "md5": "6bbc1d13a20fde9f65db59685e35d610",
+            "objectName": "8JKDl9",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 20422,
+            "name": "img_general_skillcard_men-2_057-nasr",
+            "size": 76435,
+            "crc": 1751107116,
+            "state": "ADD",
+            "md5": "4c161b8ea814148b23a964cb7709c721",
+            "objectName": "EG7djt",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 20423,
+            "name": "img_general_shop_costume_0058-large",
+            "size": 298321,
+            "crc": 399099212,
+            "state": "ADD",
+            "md5": "3ab7b4118ad1d149b39f254a38d927a6",
+            "objectName": "ChZjm9",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 20424,
+            "name": "img_general_skillcard_men-3_042-nasr",
+            "size": 275858,
+            "crc": 2595786732,
+            "state": "ADD",
+            "md5": "a32812b02f245f5dc2d96feddf8906fd",
+            "objectName": "hXRA7U",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 20425,
+            "name": "img_general_skillcard_act-3_188-nasr",
+            "size": 185194,
+            "crc": 584871344,
+            "state": "ADD",
+            "md5": "8babb781d2798a81fb22d46728813806",
+            "objectName": "tZlliU",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 20426,
+            "name": "img_general_skillcard_men-3_062-nasr",
+            "size": 175692,
+            "crc": 647594833,
+            "state": "ADD",
+            "md5": "0ccd8416e94d3945c6fd8e4aa19ebd85",
+            "objectName": "EBe1k9",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 20427,
+            "name": "img_general_skillcard_act-3_029-nasr",
+            "size": 128131,
+            "crc": 1925458848,
+            "state": "ADD",
+            "md5": "b6583a87e5906caf9ca51e3d71957d83",
+            "objectName": "nqshMd",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 20428,
+            "name": "img_general_ui_april_chr-nasr-00-thumb-square",
+            "size": 23193,
+            "crc": 2986265303,
+            "state": "ADD",
+            "md5": "4db5303bd16c31d005983e46195d47e3",
+            "objectName": "Iqryc5",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 20429,
+            "name": "img_general_skillcard_act-2_065-nasr",
+            "size": 245025,
+            "crc": 1486532192,
+            "state": "ADD",
+            "md5": "f41b55cf2245cda8e43ad5b89d885219",
+            "objectName": "FLmyAC",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 20430,
+            "name": "img_general_skillcard_men-2_101-nasr",
+            "size": 104279,
+            "crc": 2855858827,
+            "state": "ADD",
+            "md5": "b866a2567201f60db25761a4d2243dc1",
+            "objectName": "vWCBqP",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 20431,
+            "name": "img_general_skillcard_act-2_046-nasr",
+            "size": 98263,
+            "crc": 3511086204,
+            "state": "ADD",
+            "md5": "14f4497018f890ec5dcd3ad8ba2036e6",
+            "objectName": "FUOcxJ",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 20432,
+            "name": "img_general_skillcard_ido-3_193",
+            "size": 300444,
+            "crc": 143438510,
+            "state": "ADD",
+            "md5": "2334c501cceeffd592d8c98c84b0b6e0",
+            "objectName": "wXZMN7",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 20433,
+            "name": "img_general_skillcard_act-3_055-nasr",
+            "size": 328676,
+            "crc": 2297189735,
+            "state": "ADD",
+            "md5": "934ccd73151b8266b77d2e420f9b4072",
+            "objectName": "dvFark",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 20434,
+            "name": "img_general_skillcard_act-3_052-nasr",
+            "size": 149873,
+            "crc": 2881383272,
+            "state": "ADD",
+            "md5": "5293b9756dfb4658a7d6c07e6ecbcc3f",
+            "objectName": "6wT75Z",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 20435,
+            "name": "img_general_skillcard_act-1_074-nasr",
+            "size": 120762,
+            "crc": 2151838921,
+            "state": "ADD",
+            "md5": "26406e83751b3994fcee5e2a38e5d9c2",
+            "objectName": "yl6hkV",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 20436,
+            "name": "img_general_skillcard_men-2_112-nasr",
+            "size": 115282,
+            "crc": 2438949001,
+            "state": "ADD",
+            "md5": "7688ad1315d2d43e3057d93866b78177",
+            "objectName": "GbqGkz",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 20437,
+            "name": "img_general_skillcard_act-3_184-nasr",
+            "size": 96922,
+            "crc": 2131036792,
+            "state": "ADD",
+            "md5": "9c19590fc0da9d60425ddc3ca2db6c09",
+            "objectName": "9Zi8Zh",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 20438,
+            "name": "img_general_skillcard_men-2_104-nasr",
+            "size": 86199,
+            "crc": 2062468172,
+            "state": "ADD",
+            "md5": "7a7eafcb842beb708529d589954d43ca",
+            "objectName": "UmeDZ8",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 20439,
+            "name": "mdl_chr_nasr-hair-0004_hair",
+            "size": 3861021,
+            "crc": 116670940,
+            "dependencies": [
+                8213
+            ],
+            "state": "ADD",
+            "md5": "c11512bb505f23dd095c2e493df16a3a",
+            "objectName": "uM43yf",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 20440,
+            "name": "img_general_skillcard_act-3_038-nasr",
+            "size": 98105,
+            "crc": 1176346768,
+            "state": "ADD",
+            "md5": "3264f5fb4f2992001a40e41168ff5f8f",
+            "objectName": "NnAYVr",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 20441,
+            "name": "img_general_event_tour_tour-005-logo",
+            "size": 42283,
+            "crc": 4204585491,
+            "state": "ADD",
+            "md5": "da1cc25b3060b4e8e2d5c7f99ff9a409",
+            "objectName": "easLKp",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 20442,
+            "name": "img_general_skillcard_men-3_004-nasr",
+            "size": 243951,
+            "crc": 2682092892,
+            "state": "ADD",
+            "md5": "b78e5f15060ff45dabab063021c5cab0",
+            "objectName": "43z8lP",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 20443,
+            "name": "img_tutorial_event_tour_tour-005-04",
+            "size": 450317,
+            "crc": 789021881,
+            "state": "ADD",
+            "md5": "36e47d6d2720855c683a85f112e5ece0",
+            "objectName": "UmkIIP",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 20444,
+            "name": "img_general_skillcard_men-2_035-nasr",
+            "size": 61443,
+            "crc": 267273272,
+            "state": "ADD",
+            "md5": "ea5cb6a467f67bdb0a9984e6d38e2c30",
+            "objectName": "uOr6L6",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 20445,
+            "name": "img_general_skillcard_men-3_041-nasr",
+            "size": 98548,
+            "crc": 3561894094,
+            "state": "ADD",
+            "md5": "f2877c18cfedff6982c0b01969f7451c",
+            "objectName": "swVA6R",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 20446,
+            "name": "img_general_event_tour_tour-005-stage-01-logo",
+            "size": 16511,
+            "crc": 1274131243,
+            "state": "ADD",
+            "md5": "1c85f5af242f438908eacb1ce81efcc7",
+            "objectName": "MvOO6V",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 20447,
+            "name": "img_general_skillcard_act-2_069-nasr",
+            "size": 80637,
+            "crc": 582811411,
+            "state": "ADD",
+            "md5": "b8c06178309ec16c39d7ffa39885af59",
+            "objectName": "Lcgi7Q",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 20448,
+            "name": "img_general_skillcard_men-2_039-nasr",
+            "size": 107557,
+            "crc": 1268463591,
+            "state": "ADD",
+            "md5": "c0311d7fee3d3deefe6c5fd09fb487dd",
+            "objectName": "KSFTNV",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 20449,
+            "name": "img_general_skillcard_act-2_042-nasr",
+            "size": 78279,
+            "crc": 3296422705,
+            "state": "ADD",
+            "md5": "61622aa6506f1fa2456d2370f6541ac3",
+            "objectName": "7228BD",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 20450,
+            "name": "img_general_home_shop_costume_item-0070",
+            "size": 38543,
+            "crc": 568153732,
+            "state": "ADD",
+            "md5": "048c611ea1b39c3d86673e0eca0393d8",
+            "objectName": "03tFBv",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 20451,
+            "name": "img_general_skillcard_men-2_064-nasr",
+            "size": 79465,
+            "crc": 1894816694,
+            "state": "ADD",
+            "md5": "3d313317a5d2a2148f9b962c5cbde509",
+            "objectName": "GPwgBd",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 20452,
+            "name": "img_general_home_event_tour_tour-005-pre",
+            "size": 39045,
+            "crc": 3360954645,
+            "state": "ADD",
+            "md5": "685347d5af297876ef7e1b4ee350f954",
+            "objectName": "oDigGC",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 20453,
+            "name": "img_notice_notice-list_event_tour_tour-005-banner-pre",
+            "size": 298210,
+            "crc": 2655470416,
+            "state": "ADD",
+            "md5": "24ea2de3f4335b8c52c38d9297e2f1f3",
+            "objectName": "WKvkQZ",
             "uploadVersionId": 705000
         }
     ],
@@ -67798,6 +69733,330 @@
             "state": "ADD",
             "md5": "2f5ea681265bb03fdc5c2b25651400cd",
             "objectName": "Da7LPP",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 18085,
+            "name": "sud_vo_adv_startup_2026_ef-01_cmmn-02.acb",
+            "size": 783520,
+            "state": "ADD",
+            "md5": "d3b25ace1d7c2ebcbc6f545bb077b226",
+            "objectName": "TnLczT",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 18086,
+            "name": "sud_vo_system_nasr_cmmn_event-06.acb",
+            "size": 123616,
+            "state": "ADD",
+            "md5": "636138b8bdd14c0a1e6fadbd226fa38b",
+            "objectName": "sbXR53",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 18087,
+            "name": "adv_startup_2026_ef-01_cmmn-01.txt",
+            "size": 67370,
+            "state": "ADD",
+            "md5": "0d9010b7bd6fbcc5075ce4a5672f07dc",
+            "objectName": "nD5xAb",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 18088,
+            "name": "sud_music_general_all-008-nasr_game.mp3",
+            "size": 1766252,
+            "state": "ADD",
+            "md5": "8e1ca0045caf8f3fbdfa0edd94663200",
+            "objectName": "HTJ1Xg",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 18089,
+            "name": "sud_vo_system_nasr_cmmn_title-call-01.acb",
+            "size": 34272,
+            "state": "ADD",
+            "md5": "192b6a92adf56e9b0c6ef0897f662838",
+            "objectName": "EYfXL9",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 18090,
+            "name": "sud_vo_system_nasr_produce_lesson-cmmn-03.acb",
+            "size": 52000,
+            "state": "ADD",
+            "md5": "ba7b9421f8eace9849c432aec6497a21",
+            "objectName": "BNTSTd",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 18091,
+            "name": "sud_vo_system_nasr_produce_buff-01.acb",
+            "size": 22688,
+            "state": "ADD",
+            "md5": "52c552a12c9fdbcda14601b0a6cec4e8",
+            "objectName": "Pbq3Jt",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 18092,
+            "name": "sud_vo_general_part_nasr_134.acb",
+            "size": 57760,
+            "state": "ADD",
+            "md5": "91844a622a1da87452dd675cb1df0d4d",
+            "objectName": "Whuj4N",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 18093,
+            "name": "sud_vo_adv_event_029_main-02.acb",
+            "size": 2069920,
+            "state": "ADD",
+            "md5": "916a5b893b03a67b8a3e1c1941fa4546",
+            "objectName": "Vksl2h",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 18094,
+            "name": "sud_vo_adv_event_029_main-03.acb",
+            "size": 1301664,
+            "state": "ADD",
+            "md5": "651163e54beb169976f06a58381665e0",
+            "objectName": "nvPKYv",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 18095,
+            "name": "sud_vo_system_nasr_produce_lesson-cmmn-04.acb",
+            "size": 53024,
+            "state": "ADD",
+            "md5": "e33ad65e46d279314e4143d33d4f0691",
+            "objectName": "ViEYAy",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 18096,
+            "name": "sud_vo_system_nasr_produce_debuff-01.acb",
+            "size": 30848,
+            "state": "ADD",
+            "md5": "ec506280fb482dafce28a9fa9e4f6b48",
+            "objectName": "ZCGUTG",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 18097,
+            "name": "sud_vo_system_nasr_produce_energy-up-01.acb",
+            "size": 20640,
+            "state": "ADD",
+            "md5": "d86f4cb95b5e3ccf3e42955df7607f3e",
+            "objectName": "Bn9kFh",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 18098,
+            "name": "sud_vo_system_nasr-cstm-0119_02.acb",
+            "size": 76896,
+            "state": "ADD",
+            "md5": "f7c52f2abc1c9d34e831bc4c7e544c54",
+            "objectName": "pwFXOz",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 18099,
+            "name": "sud_vo_system_nasr_produce_lesson-cmmn-01.acb",
+            "size": 50304,
+            "state": "ADD",
+            "md5": "86d8c69d6ae2ad52f96b5e77eae3de1c",
+            "objectName": "7p0UFR",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 18100,
+            "name": "adv_event_029_main-04.txt",
+            "size": 118518,
+            "state": "ADD",
+            "md5": "ab0b3f0dc34d727fe248edea33f23b6d",
+            "objectName": "rQzkct",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 18101,
+            "name": "sud_vo_system_nasr_produce_buff-02.acb",
+            "size": 29152,
+            "state": "ADD",
+            "md5": "5a2abfadf614ed71be39054432d3c740",
+            "objectName": "tMCKq5",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 18102,
+            "name": "sud_vo_system_nasr_produce_lesson-cmmn-02.acb",
+            "size": 49280,
+            "state": "ADD",
+            "md5": "f1e93b01728721bd8c7f8ac52a3dbf8c",
+            "objectName": "mjjaSe",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 18103,
+            "name": "adv_event_029_main-02.txt",
+            "size": 127209,
+            "state": "ADD",
+            "md5": "ed5d62644f5dd1d920f7bed65eb43571",
+            "objectName": "PzZ8Fa",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 18104,
+            "name": "sud_vo_adv_event_029_main-01.acb",
+            "size": 2246016,
+            "state": "ADD",
+            "md5": "207e2f1c22dd1cf89669494e54f15afb",
+            "objectName": "Hn5655",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 18105,
+            "name": "sud_vo_system_nasr-cstm-0119_01.acb",
+            "size": 71424,
+            "state": "ADD",
+            "md5": "ea9fd75d359f11e12c934903a81d6df9",
+            "objectName": "c9q9Xd",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 18106,
+            "name": "sud_music_general_all-008-nasr_game.awb",
+            "size": 3527432,
+            "state": "ADD",
+            "md5": "f38390358af9b9547fae1fc52458d52a",
+            "objectName": "gPWopE",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 18107,
+            "name": "adv_startup_2026_ef-01_cmmn-02.txt",
+            "size": 70507,
+            "state": "ADD",
+            "md5": "8d4f09f13db300943703b9bd501c2a65",
+            "objectName": "jaoUXz",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 18108,
+            "name": "sud_vo_system_nasr_produce_energy-up-02.acb",
+            "size": 28480,
+            "state": "ADD",
+            "md5": "d7486061f1e3e89d950668896b3e94ff",
+            "objectName": "FgqZMp",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 18109,
+            "name": "sud_music_general_all-008-nasr_game.acb",
+            "size": 10752,
+            "state": "ADD",
+            "md5": "6753451b60f33816dd6d49ce3e85454e",
+            "objectName": "aPTEAY",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 18110,
+            "name": "mov_general_media_birthday-live-2026-hume.usm",
+            "size": 712549056,
+            "state": "ADD",
+            "md5": "a63324bb962a187df59b555b91bf70d3",
+            "objectName": "XUsDRt",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 18111,
+            "name": "sud_vo_system_nasr_cmmn_event-07.acb",
+            "size": 117824,
+            "state": "ADD",
+            "md5": "befdb3d6897f9b9e37d9474f85812574",
+            "objectName": "e3gvwD",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 18112,
+            "name": "sud_vo_system_nasr-cstm-0111_01.acb",
+            "size": 69728,
+            "state": "ADD",
+            "md5": "ccf86df3bac46099c3f49c0a2113ad66",
+            "objectName": "Zizvp6",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 18113,
+            "name": "sud_vo_system_nasr_produce_skillcard-01.acb",
+            "size": 28800,
+            "state": "ADD",
+            "md5": "b4b41cfb11acee706be5b5b69071f318",
+            "objectName": "bMDHlX",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 18114,
+            "name": "adv_event_029_main-01.txt",
+            "size": 148124,
+            "state": "ADD",
+            "md5": "f26435a5f0de8849872d1f0387341ad7",
+            "objectName": "cH9BKB",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 18115,
+            "name": "img_general_music_jacket_all-nasr-008.png",
+            "size": 920207,
+            "state": "ADD",
+            "md5": "98f186e83d741d566c875387f809e08b",
+            "objectName": "ghYmbE",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 18116,
+            "name": "mov_general_monitor_06.usm",
+            "size": 38895904,
+            "state": "ADD",
+            "md5": "61df62a38565f5a7c7cf5a3baf1d08e1",
+            "objectName": "yXCDXT",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 18117,
+            "name": "sud_vo_system_nasr-cstm-0111_02.acb",
+            "size": 92576,
+            "state": "ADD",
+            "md5": "7e0d90f4019ab20eca89777e7bec92ed",
+            "objectName": "WabmWf",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 18118,
+            "name": "adv_event_029_main-03.txt",
+            "size": 83112,
+            "state": "ADD",
+            "md5": "b5e1bf600113a4ef8288cc2d4f697591",
+            "objectName": "avZlwU",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 18119,
+            "name": "sud_vo_adv_event_029_main-04.acb",
+            "size": 1733248,
+            "state": "ADD",
+            "md5": "320faa41143228dd2c80b5bb2302b23f",
+            "objectName": "niYemQ",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 18120,
+            "name": "sud_vo_adv_startup_2026_ef-01_cmmn-01.acb",
+            "size": 474912,
+            "state": "ADD",
+            "md5": "220933655b9fcc589b8e268043c83674",
+            "objectName": "ldfZqP",
             "uploadVersionId": 705000
         }
     ],
