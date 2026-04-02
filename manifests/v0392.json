@@ -1,6 +1,6 @@
 {
     "revision": [
-        412,
+        414,
         392
     ],
     "assetBundleList": [
@@ -13647,6 +13647,36 @@
             "md5": "d6469437d9e0e7aba10add24aa9132b8",
             "objectName": "b11sOO",
             "uploadVersionId": 205000
+        },
+        {
+            "id": 20511,
+            "name": "img_general_media_pv_hif-thumb",
+            "size": 577636,
+            "crc": 2690274248,
+            "state": "ADD",
+            "md5": "f1e5c18e76a52e722ec3eafe2d792d4c",
+            "objectName": "OXms4W",
+            "uploadVersionId": 205000
+        },
+        {
+            "id": 20512,
+            "name": "img_notice_campaign_produce3-00822-advance-001",
+            "size": 439716,
+            "crc": 1914728035,
+            "state": "ADD",
+            "md5": "0d45b107dc704bdb0d10744b0c92856f",
+            "objectName": "u8SRdI",
+            "uploadVersionId": 205000
+        },
+        {
+            "id": 20513,
+            "name": "img_notice_notice-list_campaign_produce3-00822-advance-banner-001",
+            "size": 129086,
+            "crc": 3911506189,
+            "state": "ADD",
+            "md5": "b689ed90758067b11fbb4a7cf2d5b57c",
+            "objectName": "VbcAPV",
+            "uploadVersionId": 205000
         }
     ],
     "resourceList": [
@@ -17005,6 +17035,15 @@
             "state": "ADD",
             "md5": "3016cb304cd52a2c0f0281b1393064cb",
             "objectName": "saOP6J",
+            "uploadVersionId": 205000
+        },
+        {
+            "id": 18151,
+            "name": "mov_general_media_pv_hif-2026.usm",
+            "size": 101502176,
+            "state": "ADD",
+            "md5": "eff2dc17354b9f41c413c0eda98e5ba5",
+            "objectName": "WNgdsn",
             "uploadVersionId": 205000
         }
     ],

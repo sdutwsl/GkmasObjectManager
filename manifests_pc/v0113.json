@@ -1,6 +1,6 @@
 {
     "revision": [
-        216,
+        218,
         113
     ],
     "assetBundleList": [
@@ -59131,6 +59131,36 @@
             "md5": "8d6b5bf98a7c5188822508afb1abdc2b",
             "objectName": "lC4nUu",
             "uploadVersionId": 705000
+        },
+        {
+            "id": 20461,
+            "name": "img_notice_campaign_produce3-00822-advance-001",
+            "size": 3697288,
+            "crc": 3253037077,
+            "state": "ADD",
+            "md5": "aabe15b9694c17b88b2fc77dc4e2f1b8",
+            "objectName": "kph9mn",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 20462,
+            "name": "img_notice_notice-list_campaign_produce3-00822-advance-banner-001",
+            "size": 1061498,
+            "crc": 748544817,
+            "state": "ADD",
+            "md5": "df5a6528e1e7571bb0b33e2eb41b1988",
+            "objectName": "EhBnvH",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 20463,
+            "name": "img_general_media_pv_hif-thumb",
+            "size": 1608707,
+            "crc": 329927866,
+            "state": "ADD",
+            "md5": "0ae9fe99154b983398855ae2ca80e698",
+            "objectName": "pAzvxd",
+            "uploadVersionId": 705000
         }
     ],
     "resourceList": [
@@ -85088,6 +85118,15 @@
             "state": "ADD",
             "md5": "5c5e71a2d405e92cacf6350d11bfeeb7",
             "objectName": "lAfchT",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 18129,
+            "name": "mov_general_media_pv_hif-2026.usm",
+            "size": 101502176,
+            "state": "ADD",
+            "md5": "eff2dc17354b9f41c413c0eda98e5ba5",
+            "objectName": "RM1evO",
             "uploadVersionId": 705000
         }
     ],
