@@ -1,6 +1,6 @@
 {
     "revision": [
-        427,
+        429,
         211
     ],
     "assetBundleList": [
@@ -262,6 +262,19 @@
             "uploadVersionId": 205000
         },
         {
+            "id": 690,
+            "name": "mdl_chr_nasr-base-0000_hair",
+            "size": 2936305,
+            "crc": 479988596,
+            "dependencies": [
+                2071
+            ],
+            "state": "UPDATE",
+            "md5": "3442c2e1ffcd65653399b2e38d44f7ab",
+            "objectName": "alGUZG",
+            "uploadVersionId": 205000
+        },
+        {
             "id": 720,
             "name": "mdl_chr_ttmr-trng-0000_body",
             "size": 6323965,
@@ -391,6 +404,19 @@
             "state": "UPDATE",
             "md5": "3830d05adc5f5a5536f1d1550b1d6ed4",
             "objectName": "lVlozf",
+            "uploadVersionId": 205000
+        },
+        {
+            "id": 1135,
+            "name": "mdl_chr_ttmr-cstm-0003_hair",
+            "size": 3154857,
+            "crc": 2747892382,
+            "dependencies": [
+                2071
+            ],
+            "state": "UPDATE",
+            "md5": "3e6979e865d7f92865f4357752505116",
+            "objectName": "KUjzdv",
             "uploadVersionId": 205000
         },
         {
@@ -1187,6 +1213,19 @@
             "state": "UPDATE",
             "md5": "d7af9922bc730c0263a2804bc126dc5e",
             "objectName": "jgivLh",
+            "uploadVersionId": 205000
+        },
+        {
+            "id": 4571,
+            "name": "mdl_chr_ttmr-cstm-0025_hair",
+            "size": 3872019,
+            "crc": 1197623224,
+            "dependencies": [
+                2071
+            ],
+            "state": "UPDATE",
+            "md5": "a7b8a0cef838f1b630d87f444fff3f22",
+            "objectName": "YwR01c",
             "uploadVersionId": 205000
         },
         {
@@ -2349,6 +2388,19 @@
             "uploadVersionId": 205000
         },
         {
+            "id": 7864,
+            "name": "mdl_chr_hski-cstm-0070_hair",
+            "size": 3141479,
+            "crc": 1894060062,
+            "dependencies": [
+                2071
+            ],
+            "state": "UPDATE",
+            "md5": "f88c323600ce80b23d44db62d3b402a0",
+            "objectName": "xhWZVS",
+            "uploadVersionId": 205000
+        },
+        {
             "id": 7870,
             "name": "tln_angya_angya-001_battle-noon",
             "size": 1758705,
@@ -3051,6 +3103,32 @@
             "uploadVersionId": 205000
         },
         {
+            "id": 9344,
+            "name": "mdl_chr_hume-cstm-0053_hair",
+            "size": 3955922,
+            "crc": 2356824372,
+            "dependencies": [
+                2071
+            ],
+            "state": "UPDATE",
+            "md5": "20219150f30fa67e5cb35acaa80fbf7f",
+            "objectName": "NzAgZ2",
+            "uploadVersionId": 205000
+        },
+        {
+            "id": 9432,
+            "name": "mdl_chr_nasr-hair-0005_hair",
+            "size": 3138277,
+            "crc": 319110312,
+            "dependencies": [
+                2071
+            ],
+            "state": "UPDATE",
+            "md5": "37d133564cb82219e8b4c20ae5d98dec",
+            "objectName": "Lncl61",
+            "uploadVersionId": 205000
+        },
+        {
             "id": 9475,
             "name": "mdl_chr_amao-cstm-0053_body",
             "size": 7900417,
@@ -3126,6 +3204,19 @@
             "uploadVersionId": 205000
         },
         {
+            "id": 9761,
+            "name": "mdl_chr_hski-cstm-0053_hair",
+            "size": 2998741,
+            "crc": 926879814,
+            "dependencies": [
+                2071
+            ],
+            "state": "UPDATE",
+            "md5": "5bcb6e1af1a167875c23ebda495015ea",
+            "objectName": "4sHtk3",
+            "uploadVersionId": 205000
+        },
+        {
             "id": 9794,
             "name": "mdl_chr_amao-cstm-0054_body",
             "size": 7987897,
@@ -3149,6 +3240,19 @@
             "state": "UPDATE",
             "md5": "8331efc5d38ea0b20b0a4eaa9cf4562d",
             "objectName": "Y25a9y",
+            "uploadVersionId": 205000
+        },
+        {
+            "id": 9979,
+            "name": "mdl_chr_hski-cstm-0054_hair",
+            "size": 3002799,
+            "crc": 2974261810,
+            "dependencies": [
+                2071
+            ],
+            "state": "UPDATE",
+            "md5": "bfe07b6d22ea2af2db69a5dfc9868fc1",
+            "objectName": "MdftKq",
             "uploadVersionId": 205000
         },
         {
@@ -3224,6 +3328,19 @@
             "state": "UPDATE",
             "md5": "446079962b74ea3d32d73ea563e25a49",
             "objectName": "PtR0NY",
+            "uploadVersionId": 205000
+        },
+        {
+            "id": 10203,
+            "name": "mdl_chr_hume-cstm-0054_hair",
+            "size": 3960890,
+            "crc": 1241713442,
+            "dependencies": [
+                2071
+            ],
+            "state": "UPDATE",
+            "md5": "a087e0e7d23f0cb76ccef88759fb5097",
+            "objectName": "p1TIpn",
             "uploadVersionId": 205000
         },
         {
@@ -11519,14 +11636,14 @@
         {
             "id": 12119,
             "name": "mdl_chr_hmsz-cstm-0023_hair",
-            "size": 3994539,
-            "crc": 3011957553,
+            "size": 3993330,
+            "crc": 3933492061,
             "dependencies": [
                 2071
             ],
             "state": "UPDATE",
-            "md5": "fd0303004f599213c0e6747abd46ffe7",
-            "objectName": "wbalyO",
+            "md5": "6b27d02156660fc152c69a48609b1b06",
+            "objectName": "5yZ2Re",
             "uploadVersionId": 205000
         },
         {
@@ -17442,14 +17559,14 @@
         {
             "id": 12692,
             "name": "mdl_chr_hmsz-cstm-0011_hair",
-            "size": 4009445,
-            "crc": 3835241559,
+            "size": 4008381,
+            "crc": 516483624,
             "dependencies": [
                 2071
             ],
             "state": "UPDATE",
-            "md5": "422822326e88e5b06b4cd7d9d0ca943b",
-            "objectName": "wXddG5",
+            "md5": "e909acd103d98c4db684cfbfe3b43805",
+            "objectName": "jMll1N",
             "uploadVersionId": 205000
         },
         {
@@ -94885,13 +95002,13 @@
             "id": 20098,
             "name": "mdl_chr_hski-hair-0027_hair",
             "size": 4515571,
-            "crc": 1188396644,
+            "crc": 1223956534,
             "dependencies": [
                 2071
             ],
-            "state": "ADD",
-            "md5": "e5029045ff541ac982a70d4e9fb79205",
-            "objectName": "gXCyUt",
+            "state": "UPDATE",
+            "md5": "f3e68d26d1b491fa08e81d80230c6b1d",
+            "objectName": "YlXz7W",
             "uploadVersionId": 205000
         },
         {
@@ -97369,14 +97486,14 @@
         {
             "id": 20331,
             "name": "mdl_chr_nasr-hair-0004_hair",
-            "size": 3275941,
-            "crc": 1922501055,
+            "size": 3275980,
+            "crc": 3413626270,
             "dependencies": [
                 2071
             ],
-            "state": "ADD",
-            "md5": "83aba118e628581207cc423924dee317",
-            "objectName": "z4ux3Y",
+            "state": "UPDATE",
+            "md5": "ebc26a5aaa45d27a944b0d6c57771255",
+            "objectName": "saxk4T",
             "uploadVersionId": 205000
         },
         {
@@ -97522,14 +97639,14 @@
         {
             "id": 20346,
             "name": "mdl_chr_nasr-hair-0007_hair",
-            "size": 3083453,
-            "crc": 2176554422,
+            "size": 3083479,
+            "crc": 206911785,
             "dependencies": [
                 2071
             ],
-            "state": "ADD",
-            "md5": "ad738d11264cb0630125f8ac92042588",
-            "objectName": "Qlc44A",
+            "state": "UPDATE",
+            "md5": "951ef0d1f8da9e00c1e6793f15d44c48",
+            "objectName": "qiCcoV",
             "uploadVersionId": 205000
         },
         {
@@ -99199,11 +99316,11 @@
         {
             "id": 20511,
             "name": "img_general_media_pv_hif-thumb",
-            "size": 577636,
-            "crc": 2690274248,
-            "state": "ADD",
-            "md5": "f1e5c18e76a52e722ec3eafe2d792d4c",
-            "objectName": "OXms4W",
+            "size": 560711,
+            "crc": 570752035,
+            "state": "UPDATE",
+            "md5": "ead072cc3b10b5dd385abb8abaaea384",
+            "objectName": "Gf8SCJ",
             "uploadVersionId": 205000
         },
         {
@@ -104130,6 +104247,249 @@
             "state": "ADD",
             "md5": "c9d055ba5f438397b13a6de86ef4c684",
             "objectName": "p9BJ2b",
+            "uploadVersionId": 205000
+        },
+        {
+            "id": 20987,
+            "name": "img_notice_gasha_gasha-00875-select-pickup-002-banner-01-large-pre",
+            "size": 111989,
+            "crc": 2102081756,
+            "state": "ADD",
+            "md5": "e262dc268d9cd52aee2b3834e27d064e",
+            "objectName": "4EsTR6",
+            "uploadVersionId": 205000
+        },
+        {
+            "id": 20988,
+            "name": "mdl_env_grp_home_objects_anniversary2026-00_maintable-00",
+            "size": 19980,
+            "crc": 78606180,
+            "dependencies": [
+                3367,
+                1654,
+                4169,
+                2560,
+                2559,
+                2088,
+                20996,
+                1812,
+                4391,
+                2398
+            ],
+            "state": "ADD",
+            "md5": "b861879ef1c8d5afc819e3e910ec73b4",
+            "objectName": "iZhwHy",
+            "uploadVersionId": 205000
+        },
+        {
+            "id": 20989,
+            "name": "img_general_comic4_0138-thumb",
+            "size": 24737,
+            "crc": 926845612,
+            "state": "ADD",
+            "md5": "ec42eebf09c7b5134bb2701b28836bf6",
+            "objectName": "4ju9kS",
+            "uploadVersionId": 205000
+        },
+        {
+            "id": 20990,
+            "name": "img_general_item_selection-ticket-005",
+            "size": 14698,
+            "crc": 2969787803,
+            "state": "ADD",
+            "md5": "e226c470653040b4fa9e77197ce93cf8",
+            "objectName": "DoglaU",
+            "uploadVersionId": 205000
+        },
+        {
+            "id": 20991,
+            "name": "img_notice_notice-list_login_login-2-anniversary-01",
+            "size": 115115,
+            "crc": 3306051159,
+            "state": "ADD",
+            "md5": "6c45e3a4c21633acc2c1e1c3f23efbfa",
+            "objectName": "5s634L",
+            "uploadVersionId": 205000
+        },
+        {
+            "id": 20992,
+            "name": "img_login_title_event2d-020",
+            "size": 63280,
+            "crc": 688402097,
+            "state": "ADD",
+            "md5": "7bbbbc88942c1a8fe912da0ab6c69c5e",
+            "objectName": "x490SG",
+            "uploadVersionId": 205000
+        },
+        {
+            "id": 20993,
+            "name": "img_general_home_shop_pack_item-0066",
+            "size": 14521,
+            "crc": 154773427,
+            "state": "ADD",
+            "md5": "91366a5ef7210914f6ccb8495fc26f29",
+            "objectName": "gGvDbl",
+            "uploadVersionId": 205000
+        },
+        {
+            "id": 20994,
+            "name": "img_login_bg_event2d-029",
+            "size": 862946,
+            "crc": 1017465755,
+            "state": "ADD",
+            "md5": "acefc11c59d784eb0a2166c0366e1f5f",
+            "objectName": "Yl7myj",
+            "uploadVersionId": 205000
+        },
+        {
+            "id": 20995,
+            "name": "img_gasha_banner_gasha-00875-select-pickup-002-logo",
+            "size": 14212,
+            "crc": 495962359,
+            "state": "ADD",
+            "md5": "e93ff4c92c3769338e17af2d8cb3690d",
+            "objectName": "9N3JeA",
+            "uploadVersionId": 205000
+        },
+        {
+            "id": 20996,
+            "name": "fbx_mdl_env_cmn-parts_homeobjects-anniversary2026-00",
+            "size": 678284,
+            "crc": 111824733,
+            "dependencies": [
+                1654
+            ],
+            "state": "ADD",
+            "md5": "4d406b80aea7dfe97461c0182bfe52af",
+            "objectName": "dYCiPu",
+            "uploadVersionId": 205000
+        },
+        {
+            "id": 20997,
+            "name": "mdl_env_grp_home_objects_normal-00_hatsumi-01",
+            "size": 11507,
+            "crc": 1899559393,
+            "dependencies": [
+                12014,
+                1654
+            ],
+            "state": "ADD",
+            "md5": "e7244655d753e560fd2f78ceb612a663",
+            "objectName": "PpzzWB",
+            "uploadVersionId": 205000
+        },
+        {
+            "id": 20998,
+            "name": "img_general_home_gasha_gasha-00875-select-pickup-002",
+            "size": 15915,
+            "crc": 4292327129,
+            "state": "ADD",
+            "md5": "139669b178db75c8f9d52f0a79a66b30",
+            "objectName": "9UCVHB",
+            "uploadVersionId": 205000
+        },
+        {
+            "id": 20999,
+            "name": "img_notice_gasha_gasha-00875-select-pickup-002",
+            "size": 461737,
+            "crc": 1392127936,
+            "state": "ADD",
+            "md5": "889e672f59c0ca73c58ce8252f3fba90",
+            "objectName": "C6MR4G",
+            "uploadVersionId": 205000
+        },
+        {
+            "id": 21000,
+            "name": "img_notice_notice-list_shop_pack_0066",
+            "size": 103323,
+            "crc": 4029774634,
+            "state": "ADD",
+            "md5": "7fe7bdec376f3219b7091f9caac8ad85",
+            "objectName": "N69v4Y",
+            "uploadVersionId": 205000
+        },
+        {
+            "id": 21001,
+            "name": "mdl_env_grp_home_boards_anniversary2026-00",
+            "size": 1179770,
+            "crc": 3573532484,
+            "dependencies": [
+                1655,
+                1654
+            ],
+            "state": "ADD",
+            "md5": "71ce7cc540005ab0d80f4332693b7af9",
+            "objectName": "UIYRTS",
+            "uploadVersionId": 205000
+        },
+        {
+            "id": 21002,
+            "name": "img_general_shop_pack_0066-small",
+            "size": 42395,
+            "crc": 1948220741,
+            "state": "ADD",
+            "md5": "88518b5d81c282fb2d23bc14f1d01e16",
+            "objectName": "k1CM7w",
+            "uploadVersionId": 205000
+        },
+        {
+            "id": 21003,
+            "name": "img_general_shop_pack_0066-large",
+            "size": 163687,
+            "crc": 629590027,
+            "state": "ADD",
+            "md5": "cbbc06d0a16bda56998dfbc3bb8cdf20",
+            "objectName": "49W3Bj",
+            "uploadVersionId": 205000
+        },
+        {
+            "id": 21004,
+            "name": "img_general_comic4_0138",
+            "size": 224041,
+            "crc": 4108016957,
+            "state": "ADD",
+            "md5": "a35d08d679f86351f592cd7b61f59a41",
+            "objectName": "4s6htd",
+            "uploadVersionId": 205000
+        },
+        {
+            "id": 21005,
+            "name": "img_gasha_banner_gasha-00875-select-pickup-002-select-s",
+            "size": 29657,
+            "crc": 4263865579,
+            "state": "ADD",
+            "md5": "94278bd34a859ac22a104df4278f7b06",
+            "objectName": "6jZh9c",
+            "uploadVersionId": 205000
+        },
+        {
+            "id": 21006,
+            "name": "img_notice_gasha_gasha-00875-select-pickup-002-banner-01-large",
+            "size": 112325,
+            "crc": 1743258534,
+            "state": "ADD",
+            "md5": "a768ebaf6b34daad7b5cd7e8c52390ad",
+            "objectName": "mJI31N",
+            "uploadVersionId": 205000
+        },
+        {
+            "id": 21007,
+            "name": "img_gasha_banner_gasha-00875-select-pickup-002-select-m",
+            "size": 54610,
+            "crc": 784581830,
+            "state": "ADD",
+            "md5": "cb86afe6811e0aa9858c60220e9e2f17",
+            "objectName": "0HmkjT",
+            "uploadVersionId": 205000
+        },
+        {
+            "id": 21008,
+            "name": "img_notice_shop_pack_item-0066",
+            "size": 350562,
+            "crc": 835063060,
+            "state": "ADD",
+            "md5": "e9118611bd21a0f8dbe7ecc0329eb708",
+            "objectName": "HqnowI",
             "uploadVersionId": 205000
         }
     ],
@@ -159469,10 +159829,10 @@
         {
             "id": 18151,
             "name": "mov_general_media_pv_hif-2026.usm",
-            "size": 101502176,
-            "state": "ADD",
-            "md5": "eff2dc17354b9f41c413c0eda98e5ba5",
-            "objectName": "WNgdsn",
+            "size": 101164064,
+            "state": "UPDATE",
+            "md5": "3f5ad5b599e109ab17775cbc2e941f48",
+            "objectName": "8sbnBH",
             "uploadVersionId": 205000
         },
         {
