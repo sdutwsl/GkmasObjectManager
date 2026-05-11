@@ -1,6 +1,6 @@
 {
     "revision": [
-        234,
+        235,
         19
     ],
     "assetBundleList": [
@@ -61840,11 +61840,11 @@
         {
             "id": 16831,
             "name": "img_general_icon_produce-rank-small_ssss",
-            "size": 9761,
-            "crc": 1287102182,
-            "state": "ADD",
-            "md5": "9b9cd9d754486e1d096745e3897236f9",
-            "objectName": "P2OIxF",
+            "size": 17123,
+            "crc": 406755401,
+            "state": "UPDATE",
+            "md5": "809de121171f03b23343ff7f4d38441a",
+            "objectName": "CKTRxZ",
             "uploadVersionId": 705000
         },
         {
@@ -68229,11 +68229,11 @@
         {
             "id": 17461,
             "name": "img_general_icon_produce-rank-large_ssss",
-            "size": 97568,
-            "crc": 3983505940,
-            "state": "ADD",
-            "md5": "855ab8a06fd83821310d4c452e628035",
-            "objectName": "O1Kd1y",
+            "size": 137347,
+            "crc": 2758724790,
+            "state": "UPDATE",
+            "md5": "9f35c2b88d81ec3fed65786642c7ab84",
+            "objectName": "Y5AIQU",
             "uploadVersionId": 705000
         },
         {
@@ -104596,6 +104596,466 @@
             "state": "ADD",
             "md5": "06b8f2ee28570c199bb7d9026e8ce6cd",
             "objectName": "lg0Vrq",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 20962,
+            "name": "img_general_icon_exam-effect_examfullpowerpointadditivefix",
+            "size": 5166,
+            "crc": 3613263171,
+            "state": "ADD",
+            "md5": "c112b7811e8ba3a482a639b4e7395781",
+            "objectName": "xpo311",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 20963,
+            "name": "img_general_memory_hif-gift-009",
+            "size": 225643,
+            "crc": 1147698401,
+            "state": "ADD",
+            "md5": "bc5040f0bf3ff6d1614c6f98ec8a1a8c",
+            "objectName": "jB7fvs",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 20964,
+            "name": "img_general_comic4_0139-thumb",
+            "size": 51010,
+            "crc": 1549726897,
+            "state": "ADD",
+            "md5": "44ba93f54b55c5e0670cbe39a834a6b4",
+            "objectName": "GgCyW5",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 20965,
+            "name": "img_general_icon_produce-rank-large_sssss",
+            "size": 138645,
+            "crc": 1438901035,
+            "state": "ADD",
+            "md5": "1fa1d2e0d3985baf4c66837d1fa43721",
+            "objectName": "wZZs7O",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 20966,
+            "name": "img_general_icon_exam-effect_exammovegroweffect",
+            "size": 5327,
+            "crc": 1300852689,
+            "state": "ADD",
+            "md5": "21091509f13954bcbd5fa763bb52c6b8",
+            "objectName": "lxWs8w",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 20967,
+            "name": "img_general_icon_exam-effect_examstancelockconcentration",
+            "size": 5567,
+            "crc": 3990033059,
+            "state": "ADD",
+            "md5": "2157a24d432693dd337d19823628d7cb",
+            "objectName": "djb4Qq",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 20968,
+            "name": "img_general_memory_hif-gift-005",
+            "size": 219340,
+            "crc": 846810753,
+            "state": "ADD",
+            "md5": "d19b0f84c3262e35914264cfdcd4b0fe",
+            "objectName": "1r0lcx",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 20969,
+            "name": "img_general_icon_produce-rank-large_sssssplus",
+            "size": 156981,
+            "crc": 385914478,
+            "state": "ADD",
+            "md5": "85a7e5930f70960a8e73cc9844b5a03e",
+            "objectName": "1oYwUd",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 20970,
+            "name": "img_general_memory_hif-gift-004",
+            "size": 219340,
+            "crc": 1654409002,
+            "state": "ADD",
+            "md5": "553cfb29b4c068f893bd19fb72e51c77",
+            "objectName": "Awe1Qj",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 20971,
+            "name": "img_general_icon_produce-rank-large_ssssplus",
+            "size": 153360,
+            "crc": 2048855541,
+            "state": "ADD",
+            "md5": "572ca1b7708b4a981f138c1900bbb2b6",
+            "objectName": "ZmoC9E",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 20972,
+            "name": "img_general_memory_beginner-gift-002",
+            "size": 274672,
+            "crc": 268739430,
+            "state": "ADD",
+            "md5": "4f5fa108af5771897d6f882ebd673287",
+            "objectName": "eWK978",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 20973,
+            "name": "img_general_icon_exam-effect_examcardshuffledeckgrave",
+            "size": 6388,
+            "crc": 2937581314,
+            "state": "ADD",
+            "md5": "2a41f50f37895148582c80d10d1167b3",
+            "objectName": "o3vBqN",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 20974,
+            "name": "img_general_memory_hif-gift-008",
+            "size": 225631,
+            "crc": 1566882641,
+            "state": "ADD",
+            "md5": "db44e06d12b812f2c101794e47ca6a0a",
+            "objectName": "DTgXw3",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 20975,
+            "name": "img_notice_tips_login-first-001",
+            "size": 1731756,
+            "crc": 3590905537,
+            "state": "ADD",
+            "md5": "8425964bb60658929ff20156bfc3b6d9",
+            "objectName": "YCVyz4",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 20976,
+            "name": "img_notice_notice-list_campaign_2nd-anniversary-early-01",
+            "size": 1062135,
+            "crc": 3312928557,
+            "state": "ADD",
+            "md5": "2a1d9cfe148bd73d0f9d1d36d33a2578",
+            "objectName": "oY336J",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 20977,
+            "name": "img_general_icon_exam-effect_examparameterbuffadditivefix",
+            "size": 5442,
+            "crc": 876042259,
+            "state": "ADD",
+            "md5": "6e1e1584c9feaf72faff4057932a7c83",
+            "objectName": "euQydx",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 20978,
+            "name": "img_general_icon_produce-rank-small_sssssplus",
+            "size": 17736,
+            "crc": 2935262094,
+            "state": "ADD",
+            "md5": "9b3ac5d196a884e20a344687ceeffea4",
+            "objectName": "UXSKJn",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 20979,
+            "name": "img_general_icon_exam-effect_examaggressiveadditivefix",
+            "size": 5234,
+            "crc": 4109429081,
+            "state": "ADD",
+            "md5": "011613590ab32be41d003971ae655edb",
+            "objectName": "uclXDe",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 20980,
+            "name": "img_general_memory_hif-gift-002",
+            "size": 231406,
+            "crc": 1401912044,
+            "state": "ADD",
+            "md5": "ce6fdeba4692f67ec8aa051deb2709e4",
+            "objectName": "YXP6Cf",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 20981,
+            "name": "img_general_icon_produce-rank-small_ssssplus",
+            "size": 18233,
+            "crc": 291277026,
+            "state": "ADD",
+            "md5": "098be66a7a548b97b6d106cc46a62d27",
+            "objectName": "80M26v",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 20982,
+            "name": "img_general_icon_exam-effect_examenthusiasticturnadd",
+            "size": 5196,
+            "crc": 1864725023,
+            "state": "ADD",
+            "md5": "5bb9f5f0cdfc541fecd1385e4bdd91d2",
+            "objectName": "V57tHR",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 20983,
+            "name": "img_general_icon_exam-effect_examreviewadditivefix",
+            "size": 4717,
+            "crc": 2319564581,
+            "state": "ADD",
+            "md5": "2fe8d7c9665585a1ad168af8f6fa0915",
+            "objectName": "4mVE0A",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 20984,
+            "name": "img_general_memory_hif-gift-006",
+            "size": 219328,
+            "crc": 1383206232,
+            "state": "ADD",
+            "md5": "35f7696775e7d4306041f8fdffdedb03",
+            "objectName": "ke2Y6J",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 20985,
+            "name": "img_notice_tips_produce-first-audition-failure_hmsz",
+            "size": 576386,
+            "crc": 1298806381,
+            "state": "ADD",
+            "md5": "54fcb8d09fa83b15463558cc1263a066",
+            "objectName": "SfIceW",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 20986,
+            "name": "img_general_memory_hif-gift-010",
+            "size": 225631,
+            "crc": 3927472508,
+            "state": "ADD",
+            "md5": "acda26769bc0028a075b3f9356b20ca5",
+            "objectName": "eAjgbc",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 20987,
+            "name": "img_notice_notice-list_pr_music-video-collection",
+            "size": 3622453,
+            "crc": 220738223,
+            "state": "ADD",
+            "md5": "34635d1dea5e6df83d340e4948339f1c",
+            "objectName": "7ILisi",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 20988,
+            "name": "img_notice_campaign_sr-idol-present-001",
+            "size": 2546097,
+            "crc": 2657552096,
+            "state": "ADD",
+            "md5": "362b34c7381dba56dae9c0987e5d4983",
+            "objectName": "TWR1Ze",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 20989,
+            "name": "img_notice_notice-list_pr_jsna-hski-hume-hmsz-third-single",
+            "size": 4253371,
+            "crc": 2887461812,
+            "state": "ADD",
+            "md5": "7ce48d65b32e8eaaf8e748ebec70a12d",
+            "objectName": "Lk7WKd",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 20990,
+            "name": "img_general_comic4_0139",
+            "size": 468767,
+            "crc": 2504383550,
+            "state": "ADD",
+            "md5": "a4d56d2c037f780acb9582c9a2177490",
+            "objectName": "aeqTVm",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 20991,
+            "name": "img_general_memory_hif-gift-001",
+            "size": 231406,
+            "crc": 1105193841,
+            "state": "ADD",
+            "md5": "d3a2b1a09ee8ff9ddc17d1330d50d0ca",
+            "objectName": "wA1R17",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 20992,
+            "name": "img_general_memory_hif-gift-003",
+            "size": 219340,
+            "crc": 1097524521,
+            "state": "ADD",
+            "md5": "5fb59eacdc53edc2b3249aeaa065b5bd",
+            "objectName": "aGrPoV",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 20993,
+            "name": "img_general_icon_exam-effect_examlessonbuffadditivefix",
+            "size": 5549,
+            "crc": 2874996321,
+            "state": "ADD",
+            "md5": "bdcbfa247525512934a3b2eb091250f4",
+            "objectName": "MMErvL",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 20994,
+            "name": "img_general_icon_exam-effect_exambuffconsumptionadd",
+            "size": 4495,
+            "crc": 2410851278,
+            "state": "ADD",
+            "md5": "28807a901bbf853bd9ac691ea4857c77",
+            "objectName": "xdmLHH",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 20995,
+            "name": "img_general_memory_beginner-gift-001",
+            "size": 274672,
+            "crc": 1203041296,
+            "state": "ADD",
+            "md5": "eb4beb7be2c8005984d9fe2ff71e8130",
+            "objectName": "eiwhMo",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 20996,
+            "name": "img_general_memory_beginner-gift-003",
+            "size": 257815,
+            "crc": 2287531177,
+            "state": "ADD",
+            "md5": "630f6d371448bafc5fc78ba532cbd5fe",
+            "objectName": "izFoFR",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 20997,
+            "name": "img_general_icon_exam-effect_debuff",
+            "size": 4030,
+            "crc": 4084715106,
+            "state": "ADD",
+            "md5": "952d06f7ee8c74a7ae4fa2ffbdfcf4ed",
+            "objectName": "Zyczdg",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 20998,
+            "name": "img_general_memory_beginner-gift-005",
+            "size": 266550,
+            "crc": 2787560634,
+            "state": "ADD",
+            "md5": "5f5db5c823f2ffd84588ae85d5d77872",
+            "objectName": "Uo5ZUV",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 20999,
+            "name": "img_notice_tips_produce-first-audition-failure_jsna",
+            "size": 606572,
+            "crc": 840062483,
+            "state": "ADD",
+            "md5": "835985862d11e4fd8648b2ae3a6ebe78",
+            "objectName": "st4CG3",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 21000,
+            "name": "img_general_memory_beginner-gift-006",
+            "size": 266540,
+            "crc": 240759386,
+            "state": "ADD",
+            "md5": "0141326f39034fb47eab8c59d33780c3",
+            "objectName": "XTiK2u",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 21001,
+            "name": "img_general_memory_hif-gift-007",
+            "size": 225643,
+            "crc": 460828701,
+            "state": "ADD",
+            "md5": "3d6a9cfd4eb3aa910422b74730e3b0f0",
+            "objectName": "tg7kbF",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 21002,
+            "name": "img_general_icon_exam-effect_examstancelockpreservation",
+            "size": 5084,
+            "crc": 1599504133,
+            "state": "ADD",
+            "md5": "51ccbb645fd3aa9e749a5b9837172a6c",
+            "objectName": "nzuikD",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 21003,
+            "name": "img_general_memory_beginner-gift-004",
+            "size": 257815,
+            "crc": 737186904,
+            "state": "ADD",
+            "md5": "ad3997439c5f5541a401cd445818eafc",
+            "objectName": "HV9ulr",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 21004,
+            "name": "img_general_icon_exam-effect_examstancelockfullpower",
+            "size": 6877,
+            "crc": 1755052237,
+            "state": "ADD",
+            "md5": "4b6189f9076a7f3bb407b3b021d8e27b",
+            "objectName": "lTX96h",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 21005,
+            "name": "img_general_item_contest-challenge-right",
+            "size": 20218,
+            "crc": 62837716,
+            "state": "ADD",
+            "md5": "8f5171439b2cbb18cc1c45fa87e1fac6",
+            "objectName": "QnJDZR",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 21006,
+            "name": "img_notice_notice-list_produce_sr-idol-present-banner-01-large",
+            "size": 654632,
+            "crc": 2192595879,
+            "state": "ADD",
+            "md5": "5af3de383370d5c4f49a3ad9f29c08d0",
+            "objectName": "lUK3pc",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 21007,
+            "name": "img_general_icon_produce-rank-small_sssss",
+            "size": 16641,
+            "crc": 2199197585,
+            "state": "ADD",
+            "md5": "c180035dd847661a9487909740317736",
+            "objectName": "CP9rtI",
             "uploadVersionId": 705000
         }
     ],
