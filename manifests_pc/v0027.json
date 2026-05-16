@@ -1,6 +1,6 @@
 {
     "revision": [
-        239,
+        241,
         27
     ],
     "assetBundleList": [
@@ -3417,6 +3417,37 @@
             "uploadVersionId": 705000
         },
         {
+            "id": 10198,
+            "name": "env_3d_adv_rooftop-00-00-noon",
+            "size": 6046467,
+            "crc": 3143311471,
+            "dependencies": [
+                2398,
+                1300,
+                1330,
+                8129,
+                3581,
+                7805,
+                2421,
+                4572,
+                4047,
+                4093,
+                6175,
+                1795,
+                4559,
+                9248,
+                1545,
+                5248,
+                9149,
+                3258,
+                8535
+            ],
+            "state": "UPDATE",
+            "md5": "7a599ff5032709f1671b56678cccb6d1",
+            "objectName": "VEySTz",
+            "uploadVersionId": 705000
+        },
+        {
             "id": 10244,
             "name": "mdl_chr_hski-cstm-0072_body",
             "size": 6923695,
@@ -6764,32 +6795,32 @@
         {
             "id": 11767,
             "name": "env_3d_adv_rooftop-00-00-evening",
-            "size": 6403483,
-            "crc": 3401485353,
+            "size": 6116679,
+            "crc": 410301711,
             "dependencies": [
-                4559,
-                1330,
-                1300,
                 4572,
-                9248,
-                1545,
-                2398,
-                3258,
-                4047,
-                2421,
-                10626,
                 8129,
-                1795,
-                9149,
-                8535,
-                939,
-                3525,
+                10626,
+                9248,
+                3581,
+                2398,
                 4093,
-                3581
+                1330,
+                1545,
+                3258,
+                4559,
+                939,
+                4047,
+                1795,
+                1300,
+                9149,
+                3525,
+                8535,
+                2421
             ],
-            "state": "ADD",
-            "md5": "5d14c488daf7c958f64bf53b187a0987",
-            "objectName": "cqgfrO",
+            "state": "UPDATE",
+            "md5": "00b0eb16a0d8602bf438b0ea9837af14",
+            "objectName": "gnDDcg",
             "uploadVersionId": 705000
         },
         {
@@ -118741,6 +118772,26 @@
             "state": "ADD",
             "md5": "06d0fc54bf481543dbf822ae567d0f0d",
             "objectName": "fKTJl5",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 22407,
+            "name": "img_notice_campaign_store-no1-release-13",
+            "size": 2369725,
+            "crc": 4124397561,
+            "state": "ADD",
+            "md5": "323f61e2ef1141e3b6fa3218d1e41ff7",
+            "objectName": "mmHYey",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 22408,
+            "name": "img_notice_notice-list_campaign_store-no1-release-13",
+            "size": 2497726,
+            "crc": 767808908,
+            "state": "ADD",
+            "md5": "a7911b423aadd3ca2aa2cc681ac12e6b",
+            "objectName": "8RMAR9",
             "uploadVersionId": 705000
         }
     ],
