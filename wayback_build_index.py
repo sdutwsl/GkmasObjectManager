@@ -7,20 +7,20 @@ from GkmasObjectManager import GkmasManifest, fetch
 from GkmasObjectManager.const import WAYBACK_COMMITS_DATABASE, WAYBACK_IGNORED_FIELDS
 
 
-def fetch_one(version: int, prog: tqdm) -> GkmasManifest:
+def fetch_one_manifest(revision: int, prog: tqdm) -> GkmasManifest:
 
-    manifest = fetch(version)
+    manifest = fetch(revision)
     prog.update(1)
     return manifest
 
 
-async def fetch_all(commits: dict[str, str]) -> list[GkmasManifest]:
+async def fetch_all_manifests(commits: dict[str, str]) -> list[GkmasManifest]:
 
     with tqdm(total=len(commits), desc="Fetching manifests") as prog:
         return await asyncio.gather(
             *[
-                asyncio.to_thread(fetch_one, int(version), prog)
-                for version in commits.keys()
+                asyncio.to_thread(fetch_one_manifest, int(revision), prog)
+                for revision in list(commits.keys())[-3:]
             ]
         )
 
@@ -54,7 +54,7 @@ def main():
     with open(WAYBACK_COMMITS_DATABASE) as fin:
         commits = json.load(fin)
 
-    manifests = asyncio.run(fetch_all(commits))
+    manifests = asyncio.run(fetch_all_manifests(commits))
 
     index = {
         "latest_revision": manifests[-1].revision.canon_repr,

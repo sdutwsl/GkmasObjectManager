@@ -6,7 +6,7 @@ General-purpose utilities: hashing, decorators, etc.
 import requests
 from cryptography.hazmat.primitives import hashes
 
-from .const import REQUEST_TIMEOUT
+REQUEST_TIMEOUT = 10  # putting this in const.py causes circular imports
 
 
 def _rget(url: str, **kwargs) -> requests.Response:

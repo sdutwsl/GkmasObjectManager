@@ -58,17 +58,18 @@ def fetch(
             hash=commits[str(this_revision)],
             revision=base_revision,
         )
-        manifest = GkmasManifest(r.json())
+        manifest = GkmasManifest(_rget(url).json(), base_revision)
         assert manifest.revision.canon_repr == int(this_revision)
         return manifest
 
     url = urljoin(GKMAS_API_URL_PC if pc else GKMAS_API_URL, str(base_revision))
     req = _rget(url, headers=GKMAS_API_HEADER)
+
     enc = req.content
     dec = AESCBCDecryptor(
         GKMAS_ONLINEPDB_KEY_PC if pc else GKMAS_ONLINEPDB_KEY, enc[:16]
     ).process(enc[16:])
-    return GkmasManifest(pdbytes2dict(dec), base_revision=base_revision)
+    return GkmasManifest(pdbytes2dict(dec), base_revision)
 
 
 def load(src: PathArgtype, base_revision: int = 0) -> GkmasManifest:
@@ -87,11 +88,13 @@ def load(src: PathArgtype, base_revision: int = 0) -> GkmasManifest:
             **Must be manually specified if loading a diff genereated
             by GkmasObjectManager older than or equal to v0.4-beta.**
     """
+
     try:
         return GkmasManifest(
             json.loads(Path(src).read_text(encoding="utf-8")),
             base_revision,
         )
+
     except json.JSONDecodeError:
         enc = Path(src).read_bytes()
         try:
