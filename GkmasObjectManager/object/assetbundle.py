@@ -46,5 +46,5 @@ class GkmasAssetBundle(GkmasResource):
     @property
     def canon_repr(self) -> dict:
         canon = super().canon_repr
-        canon["name"] = canon["name"].replace(".unity3d", "")
+        canon["name"] = canon["name"].removesuffix(".unity3d")
         return canon
