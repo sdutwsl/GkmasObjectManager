@@ -3,21 +3,13 @@ import json
 
 from tqdm import tqdm
 
-from GkmasObjectManager import GkmasManifest
-from GkmasObjectManager.const import (
-    WAYBACK_COMMITS_DATABASE,
-    WAYBACK_IGNORED_FIELDS,
-    WAYBACK_MANIFEST_URL_TEMPLATE,
-)
-from GkmasObjectManager.utils import _rget
+from GkmasObjectManager import GkmasManifest, fetch
+from GkmasObjectManager.const import WAYBACK_COMMITS_DATABASE, WAYBACK_IGNORED_FIELDS
 
 
-def fetch_one(version: str, hash: str, prog: tqdm) -> GkmasManifest:
+def fetch_one(version: int, prog: tqdm) -> GkmasManifest:
 
-    r = _rget(WAYBACK_MANIFEST_URL_TEMPLATE.format(hash=hash, revision=int(version)))
-    manifest = GkmasManifest(r.json())
-    assert manifest.revision.canon_repr == int(version)
-
+    manifest = fetch(version)
     prog.update(1)
     return manifest
 
@@ -27,8 +19,8 @@ async def fetch_all(commits: dict[str, str]) -> list[GkmasManifest]:
     with tqdm(total=len(commits), desc="Fetching manifests") as prog:
         return await asyncio.gather(
             *[
-                asyncio.to_thread(fetch_one, version, hash, prog)
-                for version, hash in commits.items()
+                asyncio.to_thread(fetch_one, int(version), prog)
+                for version in commits.keys()
             ]
         )
 

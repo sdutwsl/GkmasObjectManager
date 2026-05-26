@@ -18,6 +18,8 @@ from ..const import (
     GKMAS_OCTOCACHE_KEY,
     GKMAS_ONLINEPDB_KEY,
     GKMAS_ONLINEPDB_KEY_PC,
+    WAYBACK_COMMITS_DATABASE,
+    WAYBACK_MANIFEST_URL_TEMPLATE,
     PathArgtype,
 )
 from ..utils import _rget
@@ -26,18 +28,40 @@ from .manifest import GkmasManifest
 from .octodb_pb2 import pdbytes2dict
 
 
-def fetch(base_revision: int = 0, pc: bool = False) -> GkmasManifest:
+def fetch(
+    this_revision: int = -1,
+    base_revision: int = 0,
+    pc: bool = False,
+) -> GkmasManifest:
     """
     Requests an online manifest by the specified revision.
     Algorithm courtesy of github.com/DreamGallery/HatsuboshiToolkit
 
     Args:
+        this_revision (int): The revision number of the manifest to fetch.
+            Defaults to -1 (latest).
+            Older revisions will be fetched from the commit history
+            of **this repository**, instead of the game server.
         base_revision (int): The "base" revision number of the manifest.
             This API return the *difference* between the specified base
             revision and the latest. Defaults to 0 (standalone latest).
         pc (bool): Whether to use the PC manifest API.
             Defaults to False (mobile).
     """
+
+    if this_revision != -1:
+
+        with open(WAYBACK_COMMITS_DATABASE) as fin:
+            commits = json.load(fin)
+
+        url = WAYBACK_MANIFEST_URL_TEMPLATE.format(
+            hash=commits[str(this_revision)],
+            revision=base_revision,
+        )
+        manifest = GkmasManifest(r.json())
+        assert manifest.revision.canon_repr == int(this_revision)
+        return manifest
+
     url = urljoin(GKMAS_API_URL_PC if pc else GKMAS_API_URL, str(base_revision))
     req = _rget(url, headers=GKMAS_API_HEADER)
     enc = req.content
