@@ -12,7 +12,9 @@ import GkmasObjectManager as gom
 
 
 def fetch_one(path: Path, rev: int, pc: bool):
-    gom.fetch(rev, pc=pc).export(path / f"v{rev:04}.json", force_overwrite=True)
+    gom.fetch(base_revision=rev, pc=pc).export(
+        path / f"v{rev:04}.json", force_overwrite=True
+    )
 
 
 async def do_update(path: str, pc: bool = False) -> bool:
