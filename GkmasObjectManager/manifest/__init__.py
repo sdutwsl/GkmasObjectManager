@@ -8,7 +8,6 @@ import json
 from pathlib import Path
 from urllib.parse import urljoin
 
-import requests
 from google.protobuf.message import DecodeError
 
 from ..const import (
@@ -21,6 +20,7 @@ from ..const import (
     GKMAS_ONLINEPDB_KEY_PC,
     PathArgtype,
 )
+from ..utils import _rget
 from .decrypt import AESCBCDecryptor
 from .manifest import GkmasManifest
 from .octodb_pb2 import pdbytes2dict
@@ -39,8 +39,7 @@ def fetch(base_revision: int = 0, pc: bool = False) -> GkmasManifest:
             Defaults to False (mobile).
     """
     url = urljoin(GKMAS_API_URL_PC if pc else GKMAS_API_URL, str(base_revision))
-    req = requests.get(url, headers=GKMAS_API_HEADER, timeout=10)
-    req.raise_for_status()  # Raise an error for bad responses
+    req = _rget(url, headers=GKMAS_API_HEADER)
     enc = req.content
     dec = AESCBCDecryptor(
         GKMAS_ONLINEPDB_KEY_PC if pc else GKMAS_ONLINEPDB_KEY, enc[:16]

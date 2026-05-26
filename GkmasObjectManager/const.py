@@ -12,6 +12,8 @@ from .utils import md5sum, sha256sum
 # argument type hints
 PathArgtype = Union[str, Path]
 
+REQUEST_TIMEOUT = 10
+
 # manifest request
 GKMAS_APPID = 400
 GKMAS_VERSION = 205000
