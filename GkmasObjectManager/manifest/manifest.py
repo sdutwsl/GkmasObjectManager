@@ -4,11 +4,10 @@ Manifest decryption, exporting, and object downloading.
 """
 
 import asyncio
-import json
 import re
 import subprocess
 from pathlib import Path
-from typing import Tuple, Union
+from typing import Tuple
 
 import pandas as pd
 import yaml
@@ -18,12 +17,12 @@ from rich.progress import BarColumn, Progress, TextColumn
 from ..const import CHARACTER_ABBREVS, CSV_COLUMNS, DEFAULT_DOWNLOAD_PATH, PathArgtype
 from ..object import GkmasAssetBundle, GkmasResource
 from ..rich import Logger
-from ..utils import nocache
+from ..utils import _json_dump, nocache
 from .listing import GkmasObjectList
 from .octodb_pb2 import dict2pdbytes
 from .revision import GkmasManifestRevision
 
-ObjectClass = Union[GkmasAssetBundle, GkmasResource]
+ObjectClass = GkmasAssetBundle | GkmasResource
 
 # The logger would better be a global variable in the
 # modular __init__.py, but Python won't allow me to
@@ -247,7 +246,7 @@ class GkmasManifest:
             logger.warning("Attempting to write JSON into a non-.json file")
 
         try:
-            path.write_text(json.dumps(self.canon_repr, indent=4))
+            _json_dump(self.canon_repr, path)
             logger.success(f"JSON has been written into {path}")
         except TypeError:  # non-JSON-serializable object in dict
             logger.error(f"Failed to write JSON into {path}")

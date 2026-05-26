@@ -4,13 +4,12 @@ Module-wide constants (macro equivalents).
 """
 
 from pathlib import Path
-from typing import Union
 from urllib.parse import urljoin
 
 from .utils import md5sum, sha256sum
 
 # argument type hints
-PathArgtype = Union[str, Path]
+PathArgtype = str | Path
 
 # manifest request
 GKMAS_APPID = 400
@@ -34,6 +33,17 @@ GKMAS_ONLINEPDB_KEY = sha256sum("eSquJySjayO5OLLVgdTd".encode("utf-8"))
 GKMAS_ONLINEPDB_KEY_PC = sha256sum("x5HFaJCJywDyuButLM0f".encode("utf-8"))
 GKMAS_OCTOCACHE_KEY = md5sum("1nuv9td1bw1udefk".encode("utf-8"))
 GKMAS_OCTOCACHE_IV = md5sum("LvAUtf+tnz".encode("utf-8"))
+
+# manifest history
+REPO_OBJECT_URL_TEMPLATE = "https://raw.githubusercontent.com/AllenHeartcore/GkmasObjectManager/{branch}/{path}"
+WAYBACK_COMMITS_DATABASE_LOCAL = "wayback_commits.json"
+WAYBACK_COMMITS_DATABASE_REMOTE = REPO_OBJECT_URL_TEMPLATE.format(
+    branch="manifest-update", path=WAYBACK_COMMITS_DATABASE_LOCAL
+)
+WAYBACK_MANIFEST_URL_TEMPLATE = REPO_OBJECT_URL_TEMPLATE.format(
+    branch="{hash}", path="manifests/v{revision:04d}.json"
+)
+WAYBACK_IGNORED_FIELDS = ["id", "name", "uploadVersionId"]
 
 # manifest export
 CSV_COLUMNS = ["objectName", "md5", "name", "size", "state"]
