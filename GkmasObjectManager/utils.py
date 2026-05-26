@@ -5,12 +5,13 @@ General-purpose utilities: hashing, decorators, etc.
 
 import json
 from pathlib import Path
-from typing import Union
 
 import requests
 from cryptography.hazmat.primitives import hashes
 
-REQUEST_TIMEOUT = 10  # putting this in const.py causes circular imports
+REQUEST_TIMEOUT = 10
+PathArgtype = str | Path
+# putting these in const.py causes circular imports
 
 
 def _rget(url: str, **kwargs) -> requests.Response:
@@ -20,13 +21,13 @@ def _rget(url: str, **kwargs) -> requests.Response:
     return r
 
 
-def _json_load(src: Union[str, Path]) -> dict:
+def _json_load(src: PathArgtype) -> dict:
     """Loads a JSON file from the given path."""
     with open(src, "r", encoding="utf-8") as fin:
         return json.load(fin)
 
 
-def _json_dump(obj: dict, dst: Union[str, Path]) -> None:
+def _json_dump(obj: dict, dst: PathArgtype) -> None:
     """Dumps a JSON file to the given path."""
     with open(dst, "w", encoding="utf-8") as fout:
         json.dump(obj, fout, indent=4, ensure_ascii=False)

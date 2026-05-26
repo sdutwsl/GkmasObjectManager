@@ -3,8 +3,6 @@ revision.py
 Version control for GkmasManifest.
 """
 
-from typing import Union
-
 
 class GkmasManifestRevision:
     """
@@ -40,7 +38,7 @@ class GkmasManifestRevision:
             return f"v{self.this}-diff-v{self.base}"
 
     @property
-    def canon_repr(self) -> Union[int, tuple[int, int]]:
+    def canon_repr(self) -> int | tuple[int, int]:
         """
         [INTERNAL] Returns the "canonical" representation of the revision,
         either as an integer or a tuple. Used in manifest export.

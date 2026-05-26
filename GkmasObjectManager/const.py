@@ -4,13 +4,12 @@ Module-wide constants (macro equivalents).
 """
 
 from pathlib import Path
-from typing import Union
 from urllib.parse import urljoin
 
 from .utils import md5sum, sha256sum
 
 # argument type hints
-PathArgtype = Union[str, Path]
+PathArgtype = str | Path
 
 # manifest request
 GKMAS_APPID = 400

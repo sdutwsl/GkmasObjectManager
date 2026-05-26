@@ -4,7 +4,6 @@ Manifest decryption, exporting, and object downloading.
 """
 
 from pathlib import Path
-from typing import Union
 
 from google.protobuf.json_format import ParseError
 
@@ -16,7 +15,7 @@ from .listing import GkmasObjectList
 from .octodb_pb2 import dict2pdbytes
 from .revision import GkmasManifestRevision
 
-ObjectClass = Union[GkmasAssetBundle, GkmasResource]
+ObjectClass = GkmasAssetBundle | GkmasResource
 
 # The logger would better be a global variable in the
 # modular __init__.py, but Python won't allow me to

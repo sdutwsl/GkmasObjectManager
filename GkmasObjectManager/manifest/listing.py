@@ -4,11 +4,11 @@ listing.py
 optimized for indexing and comparison.
 """
 
-from typing import Optional, Union
+from typing import Optional
 
 from ..object import GkmasAssetBundle, GkmasResource
 
-ObjectClass = Union[GkmasAssetBundle, GkmasResource]
+ObjectClass = GkmasAssetBundle | GkmasResource
 
 
 class GkmasObjectList:
@@ -52,7 +52,7 @@ class GkmasObjectList:
             self._objects[idx] = self.base_class(self.infos[idx], self.url_template)
         return self._objects[idx]
 
-    def __getitem__(self, key: Union[int, str]) -> ObjectClass:
+    def __getitem__(self, key: int | str) -> ObjectClass:
 
         if isinstance(key, int):
             idx = self._id_idx[key]
