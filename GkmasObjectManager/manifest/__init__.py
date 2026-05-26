@@ -52,6 +52,8 @@ def fetch(
     if this_revision != -1:
 
         commits = _json_load(WAYBACK_COMMITS_DATABASE)
+        if str(this_revision) not in commits:
+            raise ValueError(f"Manifest revision {this_revision} not found in history.")
 
         url = WAYBACK_MANIFEST_URL_TEMPLATE.format(
             hash=commits[str(this_revision)],

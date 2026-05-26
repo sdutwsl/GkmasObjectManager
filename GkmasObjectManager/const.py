@@ -35,6 +35,11 @@ GKMAS_OCTOCACHE_KEY = md5sum("1nuv9td1bw1udefk".encode("utf-8"))
 GKMAS_OCTOCACHE_IV = md5sum("LvAUtf+tnz".encode("utf-8"))
 
 # manifest history
-WAYBACK_COMMITS_DATABASE = "wayback_commits.json"
-WAYBACK_MANIFEST_URL_TEMPLATE = "https://raw.githubusercontent.com/AllenHeartcore/GkmasObjectManager/{hash}/manifests/v{revision:04d}.json"
+REPO_OBJECT_URL_TEMPLATE = "https://raw.githubusercontent.com/AllenHeartcore/GkmasObjectManager/{branch}/{path}"
+WAYBACK_COMMITS_DATABASE = REPO_OBJECT_URL_TEMPLATE.format(
+    branch="manifest-update", path="wayback_commits.json"
+)
+WAYBACK_MANIFEST_URL_TEMPLATE = REPO_OBJECT_URL_TEMPLATE.format(
+    branch="{hash}", path="manifests/v{revision:04d}.json"
+)
 WAYBACK_IGNORED_FIELDS = ["id", "name", "uploadVersionId"]

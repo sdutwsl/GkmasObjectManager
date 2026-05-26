@@ -5,6 +5,7 @@ General-purpose utilities: hashing, decorators, etc.
 
 import json
 from pathlib import Path
+from urllib.parse import urlparse
 
 import requests
 from cryptography.hazmat.primitives import hashes
@@ -23,6 +24,8 @@ def _rget(url: str, **kwargs) -> requests.Response:
 
 def _json_load(src: PathArgtype) -> dict:
     """Loads a JSON file from the given path."""
+    if isinstance(src, str) and urlparse(src).scheme in ("http", "https"):
+        return _rget(src).json()  # fetch from 'src' if it's a URL
     with open(src, "r", encoding="utf-8") as fin:
         return json.load(fin)
 
