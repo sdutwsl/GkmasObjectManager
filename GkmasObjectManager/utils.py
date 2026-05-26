@@ -3,6 +3,10 @@ utils.py
 General-purpose utilities: hashing, decorators, etc.
 """
 
+import json
+from pathlib import Path
+from typing import Union
+
 import requests
 from cryptography.hazmat.primitives import hashes
 
@@ -14,6 +18,18 @@ def _rget(url: str, **kwargs) -> requests.Response:
     r = requests.get(url, timeout=REQUEST_TIMEOUT, **kwargs)
     r.raise_for_status()
     return r
+
+
+def _json_load(src: Union[str, Path]) -> dict:
+    """Loads a JSON file from the given path."""
+    with open(src, "r", encoding="utf-8") as fin:
+        return json.load(fin)
+
+
+def _json_dump(obj: dict, dst: Union[str, Path]) -> None:
+    """Dumps a JSON file to the given path."""
+    with open(dst, "w", encoding="utf-8") as fout:
+        json.dump(obj, fout, indent=4, ensure_ascii=False)
 
 
 def sha256sum(data: bytes) -> bytes:

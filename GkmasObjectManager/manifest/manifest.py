@@ -3,7 +3,6 @@ manifest.py
 Manifest decryption, exporting, and object downloading.
 """
 
-import json
 from pathlib import Path
 from typing import Union
 
@@ -12,6 +11,7 @@ from google.protobuf.json_format import ParseError
 from ..const import PathArgtype
 from ..object import GkmasAssetBundle, GkmasResource
 from ..rich import Logger
+from ..utils import _json_dump
 from .listing import GkmasObjectList
 from .octodb_pb2 import dict2pdbytes
 from .revision import GkmasManifestRevision
@@ -236,7 +236,7 @@ class GkmasManifest:
             logger.warning("Attempting to write JSON into a non-.json file")
 
         try:
-            path.write_text(json.dumps(self.canon_repr, indent=4))
+            _json_dump(self.canon_repr, path)
             logger.success(f"JSON has been written into {path}")
         except TypeError:  # non-JSON-serializable object in dict
             logger.error(f"Failed to write JSON into {path}")

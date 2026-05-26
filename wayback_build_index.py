@@ -1,10 +1,10 @@
 import asyncio
-import json
 
 from tqdm import tqdm
 
 from GkmasObjectManager import GkmasManifest, fetch
 from GkmasObjectManager.const import WAYBACK_COMMITS_DATABASE, WAYBACK_IGNORED_FIELDS
+from GkmasObjectManager.utils import _json_dump, _json_load
 
 
 def fetch_one_manifest(revision: int, prog: tqdm) -> GkmasManifest:
@@ -51,9 +51,7 @@ def append_index(index: dict, manifest: GkmasManifest) -> None:
 
 def main():
 
-    with open(WAYBACK_COMMITS_DATABASE) as fin:
-        commits = json.load(fin)
-
+    commits = _json_load(WAYBACK_COMMITS_DATABASE)
     manifests = asyncio.run(fetch_all_manifests(commits))
 
     index = {
@@ -75,8 +73,7 @@ def main():
         else:
             append_index(index, manifests[i] - manifests[i - 1])
 
-    with open("wayback_index.json", "w") as fout:
-        json.dump(index, fout, indent=4)
+    _json_dump(index, "wayback_index.json")
 
 
 if __name__ == "__main__":

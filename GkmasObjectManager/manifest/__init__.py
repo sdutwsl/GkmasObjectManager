@@ -4,7 +4,7 @@ Manifest (object database) management.
 Entry point of the GkmasObjectManager package.
 """
 
-import json
+from json import JSONDecodeError
 from pathlib import Path
 from urllib.parse import urljoin
 
@@ -22,7 +22,7 @@ from ..const import (
     WAYBACK_MANIFEST_URL_TEMPLATE,
     PathArgtype,
 )
-from ..utils import _rget
+from ..utils import _json_load, _rget
 from .decrypt import AESCBCDecryptor
 from .manifest import GkmasManifest
 from .octodb_pb2 import pdbytes2dict
@@ -51,8 +51,7 @@ def fetch(
 
     if this_revision != -1:
 
-        with open(WAYBACK_COMMITS_DATABASE) as fin:
-            commits = json.load(fin)
+        commits = _json_load(WAYBACK_COMMITS_DATABASE)
 
         url = WAYBACK_MANIFEST_URL_TEMPLATE.format(
             hash=commits[str(this_revision)],
@@ -90,12 +89,9 @@ def load(src: PathArgtype, base_revision: int = 0) -> GkmasManifest:
     """
 
     try:
-        return GkmasManifest(
-            json.loads(Path(src).read_text(encoding="utf-8")),
-            base_revision,
-        )
+        return GkmasManifest(_json_load(src), base_revision)
 
-    except json.JSONDecodeError:
+    except JSONDecodeError:
         enc = Path(src).read_bytes()
         try:
             return GkmasManifest(pdbytes2dict(enc), base_revision)
