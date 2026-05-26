@@ -96,7 +96,7 @@ def load(src: PathArgtype, base_revision: int = 0) -> GkmasManifest:
     Also supports importing from JSON.
 
     Args:
-        src (Union[str, Path]): Path to the manifest file.
+        src (str | Path): Path to the manifest file.
             Can be the path to
             - an encrypted octocache (usually named 'octocacheevai'),
             - a decrypted protobuf, or

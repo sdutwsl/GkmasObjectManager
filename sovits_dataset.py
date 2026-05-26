@@ -17,7 +17,7 @@ from tqdm import tqdm
 import GkmasObjectManager as gom
 from GkmasObjectManager.object import GkmasResource
 from GkmasObjectManager.rich import Logger
-from GkmasObjectManager.utils import make_caption_map
+from GkmasObjectManager.utils import _json_load, make_caption_map
 
 logger = Logger()
 logger.info("Fetching manifest...")
@@ -130,8 +130,7 @@ class AdvCacheHandler(CacheHandler):
             return
         for f in tqdm(list(self.cwd.iterdir()), desc="Building caption map"):
             assert f.suffix == ".json", f"Non-JSON file cached in {self.cwd}"
-            commands = json.loads(f.read_text(encoding="utf-8"))
-            self._caption_map.update(make_caption_map(commands))
+            self._caption_map.update(make_caption_map(_json_load(f)))
         self._caption_map_ready = True
 
     def cache(self, target: list[GkmasResource]):

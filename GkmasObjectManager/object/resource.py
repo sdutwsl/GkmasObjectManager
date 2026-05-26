@@ -8,8 +8,6 @@ from email.utils import parsedate_to_datetime
 from pathlib import Path
 from typing import Optional
 
-import requests
-
 from ..adv import GkmasAdventure
 from ..const import CHARACTER_ABBREVS, DEFAULT_DOWNLOAD_PATH, PathArgtype
 from ..media import GkmasDummyMedia
@@ -17,7 +15,7 @@ from ..media.audio import GkmasACBAudio, GkmasAudio, GkmasAWBAudio
 from ..media.image import GkmasImage
 from ..media.video import GkmasUSMVideo
 from ..rich import ProgressReporter
-from ..utils import md5sum
+from ..utils import _rget, md5sum
 
 
 class GkmasResource:
@@ -35,7 +33,7 @@ class GkmasResource:
 
     Methods:
         download(
-            path: Union[str, Path] = DEFAULT_DOWNLOAD_PATH,
+            path: str | Path = DEFAULT_DOWNLOAD_PATH,
             categorize: bool = True,
             **kwargs,
         ) -> None:
@@ -143,7 +141,7 @@ class GkmasResource:
         Downloads the resource to the specified path.
 
         Args:
-            path (Union[str, Path]) = DEFAULT_DOWNLOAD_PATH: A directory or a file path.
+            path (str | Path) = DEFAULT_DOWNLOAD_PATH: A directory or a file path.
                 If a directory, subdirectories are auto-determined based on the resource name.
             categorize (bool) = True: Whether to put the downloaded object into subdirectories.
                 If False, the object is directly downloaded to the specified 'path'.
@@ -205,7 +203,7 @@ class GkmasResource:
         on HTTP status code, size, and MD5 hash. Returns the resource as raw bytes.
         """
 
-        with requests.get(self._url, timeout=10, stream=True) as response:
+        with _rget(self._url, stream=True) as response:
             response.raise_for_status()
 
             chunks = []

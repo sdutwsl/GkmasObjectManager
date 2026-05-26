@@ -10,12 +10,13 @@ import tempfile
 from datetime import datetime
 from io import BytesIO
 from pathlib import Path
-from typing import Tuple, Union
+from typing import Tuple
 from zipfile import ZipFile, ZipInfo
 
 import UnityPy
 from pydub import AudioSegment
 
+from ..const import PathArgtype
 from .dummy import GkmasDummyMedia
 
 
@@ -59,7 +60,7 @@ class GkmasAWBAudio(GkmasDummyMedia):
     @staticmethod
     def _make_vgmstream_args(
         tmp_in: str, tmp_out: str, suffix: str
-    ) -> list[Union[str, Path]]:
+    ) -> list[PathArgtype]:
         return [
             Path(__file__).parent.parent / f"bin/vgmstream/vgmstream-{suffix}",
             "-S",  # select subsongs
@@ -137,7 +138,7 @@ class GkmasACBAudio(GkmasAWBAudio):
     @staticmethod
     def _make_vgmstream_args(
         tmp_in: str, tmp_out: str, suffix: str
-    ) -> list[Union[str, Path]]:
+    ) -> list[PathArgtype]:
         return [
             Path(__file__).parent.parent / f"bin/vgmstream/vgmstream-{suffix}",
             "-S",
