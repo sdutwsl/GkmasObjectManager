@@ -20,7 +20,7 @@ async def fetch_all_manifests(commits: dict[str, str]) -> list[GkmasManifest]:
         return await asyncio.gather(
             *[
                 asyncio.to_thread(fetch_one_manifest, int(revision), prog)
-                for revision in list(commits.keys())[-3:]
+                for revision in commits.keys()
             ]
         )
 
@@ -39,12 +39,14 @@ def sanitize_canon_repr(canon_repr: dict, revision: int) -> dict:
 def append_index(index: dict, manifest: GkmasManifest) -> None:
 
     for obj in manifest.assetbundles:
-        index["assetBundleList"][obj.id]["history"].append(
+        ab_id = index["ab_id_lookup"][obj.id]
+        index["assetBundleList"][ab_id]["history"].append(
             sanitize_canon_repr(obj.canon_repr, manifest.revision.this)
         )
 
     for obj in manifest.resources:
-        index["resourceList"][obj.id]["history"].append(
+        res_id = index["res_id_lookup"][obj.id]
+        index["resourceList"][res_id]["history"].append(
             sanitize_canon_repr(obj.canon_repr, manifest.revision.this)
         )
 
@@ -64,6 +66,12 @@ def main():
             {"id": obj.id, "name": obj.name, "history": []}
             for obj in manifests[-1].resources
         ],
+        "ab_id_lookup": {
+            obj.id: idx for idx, obj in enumerate(manifests[-1].assetbundles)
+        },
+        "res_id_lookup": {
+            obj.id: idx for idx, obj in enumerate(manifests[-1].resources)
+        },
         "urlFormat": manifests[-1].urlformat,
     }
 
@@ -73,6 +81,8 @@ def main():
         else:
             append_index(index, manifests[i] - manifests[i - 1])
 
+    del index["ab_id_lookup"]
+    del index["res_id_lookup"]
     _json_dump(index, "wayback_index.json")
 
 
