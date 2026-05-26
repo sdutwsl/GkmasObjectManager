@@ -1,18 +1,20 @@
 import asyncio
 import json
 
-import requests
 from tqdm import tqdm
 
 from GkmasObjectManager import GkmasManifest
+from GkmasObjectManager.const import (
+    WAYBACK_COMMITS_DATABASE,
+    WAYBACK_IGNORED_FIELDS,
+    WAYBACK_MANIFEST_URL_TEMPLATE,
+)
+from GkmasObjectManager.utils import _rget
 
 
 def fetch_one(version: str, hash: str, prog: tqdm) -> GkmasManifest:
 
-    r = requests.get(
-        f"https://raw.githubusercontent.com/AllenHeartcore/GkmasObjectManager/{hash}/manifests/v0000.json",
-        timeout=10,
-    )
+    r = _rget(WAYBACK_MANIFEST_URL_TEMPLATE.format(hash=hash, revision=int(version)))
     manifest = GkmasManifest(r.json())
     assert manifest.revision.canon_repr == int(version)
 
@@ -36,7 +38,7 @@ def sanitize_canon_repr(canon_repr: dict, revision: int) -> dict:
     ret = {"revision": revision}
 
     for key in canon_repr:
-        if key not in ["id", "name", "uploadVersionId"]:
+        if key not in WAYBACK_IGNORED_FIELDS:
             ret[key] = canon_repr[key]
 
     return ret
@@ -57,7 +59,7 @@ def append_index(index: dict, manifest: GkmasManifest) -> None:
 
 def main():
 
-    with open("wayback_commits.json") as fin:
+    with open(WAYBACK_COMMITS_DATABASE) as fin:
         commits = json.load(fin)
 
     manifests = asyncio.run(fetch_all(commits))

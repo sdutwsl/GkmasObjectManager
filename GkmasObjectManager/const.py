@@ -36,3 +36,8 @@ GKMAS_ONLINEPDB_KEY = sha256sum("eSquJySjayO5OLLVgdTd".encode("utf-8"))
 GKMAS_ONLINEPDB_KEY_PC = sha256sum("x5HFaJCJywDyuButLM0f".encode("utf-8"))
 GKMAS_OCTOCACHE_KEY = md5sum("1nuv9td1bw1udefk".encode("utf-8"))
 GKMAS_OCTOCACHE_IV = md5sum("LvAUtf+tnz".encode("utf-8"))
+
+# manifest history
+WAYBACK_COMMITS_DATABASE = "wayback_commits.json"
+WAYBACK_MANIFEST_URL_TEMPLATE = "https://raw.githubusercontent.com/AllenHeartcore/GkmasObjectManager/{hash}/manifests/v{revision:04d}.json"
+WAYBACK_IGNORED_FIELDS = ["id", "name", "uploadVersionId"]
