@@ -3,13 +3,16 @@ import asyncio
 from tqdm import tqdm
 
 from GkmasObjectManager import GkmasManifest, fetch
-from GkmasObjectManager.const import WAYBACK_COMMITS_DATABASE, WAYBACK_IGNORED_FIELDS
+from GkmasObjectManager.const import (
+    WAYBACK_COMMITS_DATABASE_LOCAL,
+    WAYBACK_IGNORED_FIELDS,
+)
 from GkmasObjectManager.utils import _json_dump, _json_load
 
 
-def fetch_one_manifest(revision: int, prog: tqdm) -> GkmasManifest:
+def fetch_one_manifest(revision: int, commit_hash: str, prog: tqdm) -> GkmasManifest:
 
-    manifest = fetch(revision)
+    manifest = fetch(this_revision=revision, _hash=commit_hash)
     prog.update(1)
     return manifest
 
@@ -19,8 +22,8 @@ async def fetch_all_manifests(commits: dict[str, str]) -> list[GkmasManifest]:
     with tqdm(total=len(commits), desc="Fetching manifests") as prog:
         return await asyncio.gather(
             *[
-                asyncio.to_thread(fetch_one_manifest, int(revision), prog)
-                for revision in commits.keys()
+                asyncio.to_thread(fetch_one_manifest, int(revision), commit_hash, prog)
+                for revision, commit_hash in commits.items()
             ]
         )
 
@@ -53,7 +56,7 @@ def append_index(index: dict, manifest: GkmasManifest) -> None:
 
 def main():
 
-    commits = _json_load(WAYBACK_COMMITS_DATABASE)
+    commits = _json_load(WAYBACK_COMMITS_DATABASE_LOCAL)
     manifests = asyncio.run(fetch_all_manifests(commits))
 
     index = {

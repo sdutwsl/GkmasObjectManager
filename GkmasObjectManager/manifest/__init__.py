@@ -18,7 +18,7 @@ from ..const import (
     GKMAS_OCTOCACHE_KEY,
     GKMAS_ONLINEPDB_KEY,
     GKMAS_ONLINEPDB_KEY_PC,
-    WAYBACK_COMMITS_DATABASE,
+    WAYBACK_COMMITS_DATABASE_REMOTE,
     WAYBACK_MANIFEST_URL_TEMPLATE,
     PathArgtype,
 )
@@ -31,6 +31,7 @@ from .octodb_pb2 import pdbytes2dict
 def fetch(
     this_revision: int = -1,
     base_revision: int = 0,
+    _hash: str = "",
     pc: bool = False,
 ) -> GkmasManifest:
     """
@@ -43,24 +44,39 @@ def fetch(
             Older revisions will be fetched from the commit history
             of **this repository**, instead of the game server.
         base_revision (int): The "base" revision number of the manifest.
+            Defaults to 0 (standalone latest).
             This API return the *difference* between the specified base
-            revision and the latest. Defaults to 0 (standalone latest).
+            revision and the latest.
         pc (bool): Whether to use the PC manifest API.
             Defaults to False (mobile).
     """
+    #   _hash (str): The commit hash of the manifest to fetch.
+    #       Defaults to "" (ignored).
+    #       If specified, overrides commit hash lookup by 'this_revision',
+    #       but still requires 'this_revision' to be specified for sanity check.
+    #       Exclusively used in rebuilding wayback index before remote database is updated.
+    #       NOT FOR GENERAL USE.
 
     if this_revision != -1:
 
-        commits = _json_load(WAYBACK_COMMITS_DATABASE)
-        if str(this_revision) not in commits:
-            raise ValueError(f"Manifest revision {this_revision} not found in history.")
+        if _hash:
+            commit_hash = _hash
+        else:
+            commits = _json_load(WAYBACK_COMMITS_DATABASE_REMOTE)
+            if str(this_revision) not in commits:
+                raise ValueError(
+                    f"Manifest revision {this_revision} not found in history."
+                )
+            commit_hash = commits[str(this_revision)]
 
         url = WAYBACK_MANIFEST_URL_TEMPLATE.format(
-            hash=commits[str(this_revision)],
+            hash=commit_hash,
             revision=base_revision,
         )
         manifest = GkmasManifest(_rget(url).json(), base_revision)
-        assert manifest.revision.canon_repr == int(this_revision)
+        assert manifest.revision.canon_repr == int(
+            this_revision
+        ), "Manifest revision mismatch with commit history record."
         return manifest
 
     url = urljoin(GKMAS_API_URL_PC if pc else GKMAS_API_URL, str(base_revision))
