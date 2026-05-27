@@ -33,13 +33,13 @@ class GkmasManifest:
         urlformat (str): URL format for downloading assetbundles/resources.
 
     Methods:
-        export(path: Union[str, Path]) -> None:
+        export(path: str | Path) -> None:
             Exports the manifest as ProtoDB and/or JSON to the specified path.
         search(criterion: str) -> list:
             Searches the manifest for objects with names *fully* matching the specified criterion.
         download(
             *criteria: str,
-            path: Union[str, Path] = DEFAULT_DOWNLOAD_PATH,
+            path: str | Path = DEFAULT_DOWNLOAD_PATH,
             categorize: bool = True,
             **kwargs,
         ) -> None:
@@ -172,7 +172,7 @@ class GkmasManifest:
         This is a dispatcher method.
 
         Args:
-            path (Union[str, Path]): A file path.
+            path (str | Path): A file path.
                 The format is determined by the extension if 'format' is 'infer'.
                 (All extensions other than .json are inferred
                 as raw binary and therefore exported as ProtoDB, but
