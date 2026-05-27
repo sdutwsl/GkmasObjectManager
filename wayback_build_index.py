@@ -3,10 +3,7 @@ import asyncio
 from tqdm import tqdm
 
 from GkmasObjectManager import GkmasManifest, fetch
-from GkmasObjectManager.const import (
-    WAYBACK_COMMITS_DATABASE_LOCAL,
-    WAYBACK_IGNORED_FIELDS,
-)
+from GkmasObjectManager.const import WAYBACK_COMMITS_DATABASE_LOCAL
 from GkmasObjectManager.utils import _json_dump, _json_load
 
 
@@ -28,15 +25,16 @@ async def fetch_all_manifests(commits: dict[str, str]) -> list[GkmasManifest]:
         )
 
 
-def sanitize_canon_repr(canon_repr: dict, revision: int) -> dict:
-
-    ret = {"revision": revision}
-
-    for key in canon_repr:
-        if key not in WAYBACK_IGNORED_FIELDS:
-            ret[key] = canon_repr[key]
-
-    return ret
+def sanitize_canon_repr(canon_repr: dict, revision: int) -> str:
+    return "|".join(
+        [
+            f"{revision:04d}",
+            canon_repr["objectName"],
+            canon_repr["md5"],
+            str(canon_repr["size"]),
+            ",".join(map(str, canon_repr.get("dependencies", []))),
+        ]
+    )
 
 
 def append_index(index: dict, manifest: GkmasManifest) -> None:

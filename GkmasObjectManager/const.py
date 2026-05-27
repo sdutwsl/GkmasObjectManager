@@ -43,4 +43,3 @@ WAYBACK_COMMITS_DATABASE_REMOTE = REPO_OBJECT_URL_TEMPLATE.format(
 WAYBACK_MANIFEST_URL_TEMPLATE = REPO_OBJECT_URL_TEMPLATE.format(
     branch="{hash}", path="manifests/v{revision:04d}.json"
 )
-WAYBACK_IGNORED_FIELDS = ["id", "name", "uploadVersionId"]
