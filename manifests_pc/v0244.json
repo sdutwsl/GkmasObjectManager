@@ -1,6 +1,6 @@
 {
     "revision": [
-        246,
+        247,
         244
     ],
     "assetBundleList": [
@@ -1520,6 +1520,26 @@
             "state": "ADD",
             "md5": "7c596d51e350180f215561df4bc0874c",
             "objectName": "ItlNJy",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 22540,
+            "name": "img_notice_campaign_store-no1-release-14",
+            "size": 2235573,
+            "crc": 433304089,
+            "state": "ADD",
+            "md5": "4dbea293485414e8206fc2b9e330b5c7",
+            "objectName": "IbcXqv",
+            "uploadVersionId": 705000
+        },
+        {
+            "id": 22541,
+            "name": "img_notice_notice-list_campaign_store-no1-release-14",
+            "size": 1240130,
+            "crc": 4102162251,
+            "state": "ADD",
+            "md5": "edb6503e202ff47e7d1ef92a9c71fe7e",
+            "objectName": "8dg6Mp",
             "uploadVersionId": 705000
         }
     ],
