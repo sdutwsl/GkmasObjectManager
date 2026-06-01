@@ -104,7 +104,14 @@ def fetch_one(path: Path, rev: int, pc: bool):
     )
 
 
-async def do_update(path: str, pc: bool = False) -> bool:
+async def fetch_all(path: Path, revisions: list[int], pc: bool):
+
+    await asyncio.gather(
+        *[asyncio.to_thread(fetch_one, path, rev, pc) for rev in revisions]
+    )
+
+
+def do_update(path: str, pc: bool = False) -> bool:
     """Check for manifest update from server and optionally update all diff revisions."""
 
     path = Path(path)
@@ -121,9 +128,7 @@ async def do_update(path: str, pc: bool = False) -> bool:
     (path / "LATEST_REVISION").write_text(str(rev_remote))
 
     m_remote.export(path / "v0000.json", force_overwrite=True)
-    await asyncio.gather(
-        *[asyncio.to_thread(fetch_one, path, i, pc) for i in range(1, rev_remote)]
-    )
+    asyncio.run(fetch_all(path, list(range(1, rev_remote)), pc))
 
     return True
 
@@ -154,6 +159,6 @@ if __name__ == "__main__":
     if args.rebuild_wayback_index:
         sys.exit(not rebuild_index(args.rebuild_wayback_index))
 
-    HAS_UPDATE = asyncio.run(do_update("manifests"))
-    HAS_UPDATE_PC = asyncio.run(do_update("manifests_pc", pc=True))
+    HAS_UPDATE = do_update("manifests")
+    HAS_UPDATE_PC = do_update("manifests_pc", pc=True)
     sys.exit(not (HAS_UPDATE or HAS_UPDATE_PC))  # avoids short-circuiting
