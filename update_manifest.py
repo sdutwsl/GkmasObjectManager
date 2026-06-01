@@ -12,7 +12,10 @@ from pathlib import Path
 from tqdm import tqdm
 
 from GkmasObjectManager import GkmasManifest, fetch
-from GkmasObjectManager.const import WAYBACK_COMMITS_DATABASE_LOCAL
+from GkmasObjectManager.const import (
+    WAYBACK_COMMITS_DATABASE_LOCAL,
+    WAYBACK_INDEX_DATABASE_LOCAL,
+)
 from GkmasObjectManager.utils import _json_dump, _json_load
 
 
@@ -58,40 +61,68 @@ def append_index(index: dict, manifest: GkmasManifest) -> None:
         )
 
 
-def rebuild_index() -> None:
-
-    commits = _json_load(WAYBACK_COMMITS_DATABASE_LOCAL)
-    revs = list(map(int, commits.keys()))
-    manifests = asyncio.run(fetch_old_manifests(revs))
+def rebuild_index(latest_manifest: GkmasManifest):
 
     index = {
-        "latest_revision": manifests[-1].revision.canon_repr,
+        "latest_revision": latest_manifest.revision.canon_repr,
         "assetBundleList": [
             {"id": obj.id, "name": obj.name, "history": []}
-            for obj in manifests[-1].assetbundles
+            for obj in latest_manifest.assetbundles
         ],
         "resourceList": [
             {"id": obj.id, "name": obj.name, "history": []}
-            for obj in manifests[-1].resources
+            for obj in latest_manifest.resources
         ],
         "ab_id_lookup": {
-            obj.id: idx for idx, obj in enumerate(manifests[-1].assetbundles)
+            obj.id: idx for idx, obj in enumerate(latest_manifest.assetbundles)
         },
         "res_id_lookup": {
-            obj.id: idx for idx, obj in enumerate(manifests[-1].resources)
+            obj.id: idx for idx, obj in enumerate(latest_manifest.resources)
         },
-        "urlFormat": manifests[-1].urlformat,
+        "urlFormat": latest_manifest.urlformat,
     }
+
+    is_incremental = Path(WAYBACK_INDEX_DATABASE_LOCAL).exists()
+
+    if not is_incremental:
+        old_revision = -1
+    else:
+        old_index = _json_load(WAYBACK_INDEX_DATABASE_LOCAL)
+        old_revision = int(old_index["latest_revision"])
+        if old_revision >= latest_manifest.revision.this:
+            return  # already up-to-date
+
+        # patch index with history **in-place**
+        for old_entry in old_index["assetBundleList"]:
+            entry_idx = index["ab_id_lookup"][old_entry["id"]]
+            entry = index["assetBundleList"][entry_idx]  # is a pointer
+            assert entry["name"] == old_entry["name"]
+            entry["history"] = old_entry["history"]
+        for old_entry in old_index["resourceList"]:
+            entry_idx = index["res_id_lookup"][old_entry["id"]]
+            entry = index["resourceList"][entry_idx]
+            assert entry["name"] == old_entry["name"]
+            entry["history"] = old_entry["history"]
+
+    commits = _json_load(WAYBACK_COMMITS_DATABASE_LOCAL)
+    revs = sorted([int(k) for k in commits.keys() if int(k) >= old_revision])
+    # Manifest #old_revision must still be fetched for diff
+
+    manifests = asyncio.run(fetch_old_manifests(revs))
+    manifests.append(latest_manifest)
 
     for i in tqdm(range(len(manifests)), desc="Building index"):
         if i == 0:
-            append_index(index, manifests[i])
+            if not is_incremental:
+                append_index(index, manifests[i])
+            # in incremental update, everything is diff'ed
+            # and update starts from [1]-[0], so [0] is skipped
         else:
             append_index(index, manifests[i] - manifests[i - 1])
 
     del index["ab_id_lookup"]
     del index["res_id_lookup"]
-    _json_dump(index, "wayback_index.json")
+    _json_dump(index, WAYBACK_INDEX_DATABASE_LOCAL)
 
 
 def export_diff_manifest(path: Path, rev: int, pc: bool) -> None:
@@ -124,6 +155,9 @@ def do_update(path: Path, pc: bool = False) -> bool:
 
     m_remote.export(path / "v0000.json", force_overwrite=True)
     asyncio.run(export_diff_manifests(path, list(range(1, rev_remote)), pc))
+
+    if not pc:
+        rebuild_index(m_remote)
 
     return True
 
