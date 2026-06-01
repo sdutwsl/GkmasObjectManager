@@ -19,22 +19,22 @@ from GkmasObjectManager.const import (
 from GkmasObjectManager.utils import _json_dump, _json_load
 
 
-def fetch_old_manifest(rev: int, prog: tqdm) -> GkmasManifest:
+def _fetch_old_manifest(rev: int, prog: tqdm) -> GkmasManifest:
 
     manifest = fetch(rev)
     prog.update(1)
     return manifest
 
 
-async def fetch_old_manifests(revs: list[int]) -> list[GkmasManifest]:
+async def _fetch_old_manifests(revs: list[int]) -> list[GkmasManifest]:
 
-    with tqdm(total=len(revs), desc="Fetching manifests") as prog:
+    with tqdm(total=len(revs), desc="Fetching historical manifests") as prog:
         return await asyncio.gather(
-            *[asyncio.to_thread(fetch_old_manifest, rev, prog) for rev in revs]
+            *[asyncio.to_thread(_fetch_old_manifest, rev, prog) for rev in revs]
         )
 
 
-def sanitize_canon_repr(canon_repr: dict, rev: int) -> str:
+def _sanitize_canon_repr(canon_repr: dict, rev: int) -> str:
     return "|".join(
         [
             f"{rev:04d}",
@@ -46,22 +46,23 @@ def sanitize_canon_repr(canon_repr: dict, rev: int) -> str:
     )
 
 
-def append_index(index: dict, manifest: GkmasManifest) -> None:
+def _append_index(index: dict, manifest: GkmasManifest) -> None:
 
     for obj in manifest.assetbundles:
         ab_id = index["ab_id_lookup"][obj.id]
         index["assetBundleList"][ab_id]["history"].append(
-            sanitize_canon_repr(obj.canon_repr, manifest.revision.this)
+            _sanitize_canon_repr(obj.canon_repr, manifest.revision.this)
         )
 
     for obj in manifest.resources:
         res_id = index["res_id_lookup"][obj.id]
         index["resourceList"][res_id]["history"].append(
-            sanitize_canon_repr(obj.canon_repr, manifest.revision.this)
+            _sanitize_canon_repr(obj.canon_repr, manifest.revision.this)
         )
 
 
 def rebuild_index(latest_manifest: GkmasManifest):
+    print("Rebuilding wayback index...")
 
     index = {
         "latest_revision": latest_manifest.revision.canon_repr,
@@ -108,38 +109,39 @@ def rebuild_index(latest_manifest: GkmasManifest):
     revs = sorted([int(k) for k in commits.keys() if int(k) >= old_revision])
     # Manifest #old_revision must still be fetched for diff
 
-    manifests = asyncio.run(fetch_old_manifests(revs))
+    manifests = asyncio.run(_fetch_old_manifests(revs))
     manifests.append(latest_manifest)
 
-    for i in tqdm(range(len(manifests)), desc="Building index"):
+    for i in tqdm(range(len(manifests)), desc="Building wayback index"):
         if i == 0:
             if not is_incremental:
-                append_index(index, manifests[i])
+                _append_index(index, manifests[i])
             # in incremental update, everything is diff'ed
             # and update starts from [1]-[0], so [0] is skipped
         else:
-            append_index(index, manifests[i] - manifests[i - 1])
+            _append_index(index, manifests[i] - manifests[i - 1])
 
     del index["ab_id_lookup"]
     del index["res_id_lookup"]
     _json_dump(index, WAYBACK_INDEX_DATABASE_LOCAL)
 
 
-def export_diff_manifest(path: Path, rev: int, pc: bool) -> None:
+def _export_diff_manifest(path: Path, rev: int, pc: bool) -> None:
     fetch(base_revision=rev, pc=pc).export(
         path / f"v{rev:04}.json", force_overwrite=True
     )
 
 
-async def export_diff_manifests(path: Path, revs: list[int], pc: bool) -> None:
+async def _export_diff_manifests(path: Path, revs: list[int], pc: bool) -> None:
 
     await asyncio.gather(
-        *[asyncio.to_thread(export_diff_manifest, path, rev, pc) for rev in revs]
+        *[asyncio.to_thread(_export_diff_manifest, path, rev, pc) for rev in revs]
     )
 
 
 def do_update(path: Path, pc: bool = False) -> bool:
     """Check for manifest update from server and optionally update all diff revisions."""
+    print(f"Checking for {'PC' if pc else 'mobile'} manifest update...")
 
     m_remote = fetch(pc=pc)
     rev_remote = m_remote.revision.canon_repr
@@ -151,10 +153,11 @@ def do_update(path: Path, pc: bool = False) -> bool:
 
     # Only write to file after sanity check;
     # this number is used to construct commit message in workflow.
+    print(f"Found new manifest revision: {rev_remote} (local: {rev_local})")
     (path / "LATEST_REVISION").write_text(str(rev_remote))
 
     m_remote.export(path / "v0000.json", force_overwrite=True)
-    asyncio.run(export_diff_manifests(path, list(range(1, rev_remote)), pc))
+    asyncio.run(_export_diff_manifests(path, list(range(1, rev_remote)), pc))
 
     if not pc:
         rebuild_index(m_remote)
