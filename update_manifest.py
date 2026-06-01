@@ -5,7 +5,6 @@ compatible with 'Update Manifest' workflow.
 """
 
 import asyncio
-import subprocess
 import sys
 from argparse import ArgumentParser
 from pathlib import Path
@@ -59,7 +58,7 @@ def append_index(index: dict, manifest: GkmasManifest) -> None:
         )
 
 
-def _rebuild_index() -> None:
+def rebuild_index() -> None:
 
     commits = _json_load(WAYBACK_COMMITS_DATABASE_LOCAL)
     revs = list(map(int, commits.keys()))
@@ -108,10 +107,9 @@ async def export_diff_manifests(path: Path, revs: list[int], pc: bool) -> None:
     )
 
 
-def do_update(path: str, pc: bool = False) -> bool:
+def do_update(path: Path, pc: bool = False) -> bool:
     """Check for manifest update from server and optionally update all diff revisions."""
 
-    path = Path(path)
     m_remote = fetch(pc=pc)
     rev_remote = m_remote.revision.canon_repr
     rev_local = int((path / "LATEST_REVISION").read_text())
@@ -130,8 +128,8 @@ def do_update(path: str, pc: bool = False) -> bool:
     return True
 
 
-def rebuild_index(rev_hash: str) -> bool:
-    """rebuild file history index ("wayback machine")"""
+def record_commit_hash(rev_hash: str) -> bool:
+    """Record a new commit hash from the last manifest update into wayback_commits.json."""
 
     rev, commit_hash = rev_hash.split("|")
 
@@ -140,22 +138,22 @@ def rebuild_index(rev_hash: str) -> bool:
     commits = dict(sorted(commits.items(), key=lambda x: int(x[0])))
     _json_dump(commits, WAYBACK_COMMITS_DATABASE_LOCAL)
 
-    subprocess.run(["python", "wayback_build_index.py"], check=True)
+    return True
 
 
 if __name__ == "__main__":
 
     parser = ArgumentParser()
     parser.add_argument(
-        "--rebuild-wayback-index",
+        "--record-commit-hash",
         type=str,
-        help='rebuild file history index (requires "<revision>|<commit_hash>" from the last manifest update)',
+        help='record a new commit hash for a revision (requires "<revision>|<commit_hash>" format)',
     )
     args = parser.parse_args()
 
-    if args.rebuild_wayback_index:
-        sys.exit(not rebuild_index(args.rebuild_wayback_index))
+    if args.record_commit_hash:
+        sys.exit(not record_commit_hash(args.record_commit_hash))
 
-    HAS_UPDATE = do_update("manifests")
-    HAS_UPDATE_PC = do_update("manifests_pc", pc=True)
+    HAS_UPDATE = do_update(Path("manifests"))
+    HAS_UPDATE_PC = do_update(Path("manifests_pc"), pc=True)
     sys.exit(not (HAS_UPDATE or HAS_UPDATE_PC))  # avoids short-circuiting
