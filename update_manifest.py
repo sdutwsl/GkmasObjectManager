@@ -17,28 +17,25 @@ from GkmasObjectManager.const import WAYBACK_COMMITS_DATABASE_LOCAL
 from GkmasObjectManager.utils import _json_dump, _json_load
 
 
-def fetch_one_manifest(revision: int, prog: tqdm) -> GkmasManifest:
+def fetch_old_manifest(rev: int, prog: tqdm) -> GkmasManifest:
 
-    manifest = fetch(revision)
+    manifest = fetch(rev)
     prog.update(1)
     return manifest
 
 
-async def fetch_all_manifests(revisions: list[int]) -> list[GkmasManifest]:
+async def fetch_old_manifests(revs: list[int]) -> list[GkmasManifest]:
 
-    with tqdm(total=len(revisions), desc="Fetching manifests") as prog:
+    with tqdm(total=len(revs), desc="Fetching manifests") as prog:
         return await asyncio.gather(
-            *[
-                asyncio.to_thread(fetch_one_manifest, revision, prog)
-                for revision in revisions
-            ]
+            *[asyncio.to_thread(fetch_old_manifest, rev, prog) for rev in revs]
         )
 
 
-def sanitize_canon_repr(canon_repr: dict, revision: int) -> str:
+def sanitize_canon_repr(canon_repr: dict, rev: int) -> str:
     return "|".join(
         [
-            f"{revision:04d}",
+            f"{rev:04d}",
             canon_repr["objectName"],
             canon_repr["md5"],
             str(canon_repr["size"]),
@@ -62,11 +59,11 @@ def append_index(index: dict, manifest: GkmasManifest) -> None:
         )
 
 
-def _rebuild_index():
+def _rebuild_index() -> None:
 
     commits = _json_load(WAYBACK_COMMITS_DATABASE_LOCAL)
-    revisions = list(map(int, commits.keys()))
-    manifests = asyncio.run(fetch_all_manifests(revisions))
+    revs = list(map(int, commits.keys()))
+    manifests = asyncio.run(fetch_old_manifests(revs))
 
     index = {
         "latest_revision": manifests[-1].revision.canon_repr,
@@ -98,16 +95,16 @@ def _rebuild_index():
     _json_dump(index, "wayback_index.json")
 
 
-def fetch_one(path: Path, rev: int, pc: bool):
+def export_diff_manifest(path: Path, rev: int, pc: bool) -> None:
     fetch(base_revision=rev, pc=pc).export(
         path / f"v{rev:04}.json", force_overwrite=True
     )
 
 
-async def fetch_all(path: Path, revisions: list[int], pc: bool):
+async def export_diff_manifests(path: Path, revs: list[int], pc: bool) -> None:
 
     await asyncio.gather(
-        *[asyncio.to_thread(fetch_one, path, rev, pc) for rev in revisions]
+        *[asyncio.to_thread(export_diff_manifest, path, rev, pc) for rev in revs]
     )
 
 
@@ -128,7 +125,7 @@ def do_update(path: str, pc: bool = False) -> bool:
     (path / "LATEST_REVISION").write_text(str(rev_remote))
 
     m_remote.export(path / "v0000.json", force_overwrite=True)
-    asyncio.run(fetch_all(path, list(range(1, rev_remote)), pc))
+    asyncio.run(export_diff_manifests(path, list(range(1, rev_remote)), pc))
 
     return True
 
@@ -136,10 +133,10 @@ def do_update(path: str, pc: bool = False) -> bool:
 def rebuild_index(rev_hash: str) -> bool:
     """rebuild file history index ("wayback machine")"""
 
-    revision, commit_hash = rev_hash.split("|")
+    rev, commit_hash = rev_hash.split("|")
 
     commits = _json_load(WAYBACK_COMMITS_DATABASE_LOCAL)
-    commits[revision] = commit_hash
+    commits[rev] = commit_hash
     commits = dict(sorted(commits.items(), key=lambda x: int(x[0])))
     _json_dump(commits, WAYBACK_COMMITS_DATABASE_LOCAL)
 
