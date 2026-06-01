@@ -17,20 +17,20 @@ from GkmasObjectManager.const import WAYBACK_COMMITS_DATABASE_LOCAL
 from GkmasObjectManager.utils import _json_dump, _json_load
 
 
-def fetch_one_manifest(revision: int, commit_hash: str, prog: tqdm) -> GkmasManifest:
+def fetch_one_manifest(revision: int, prog: tqdm) -> GkmasManifest:
 
-    manifest = fetch(this_revision=revision, _hash=commit_hash)
+    manifest = fetch(revision)
     prog.update(1)
     return manifest
 
 
-async def fetch_all_manifests(commits: dict[str, str]) -> list[GkmasManifest]:
+async def fetch_all_manifests(revisions: list[int]) -> list[GkmasManifest]:
 
-    with tqdm(total=len(commits), desc="Fetching manifests") as prog:
+    with tqdm(total=len(revisions), desc="Fetching manifests") as prog:
         return await asyncio.gather(
             *[
-                asyncio.to_thread(fetch_one_manifest, int(revision), commit_hash, prog)
-                for revision, commit_hash in commits.items()
+                asyncio.to_thread(fetch_one_manifest, revision, prog)
+                for revision in revisions
             ]
         )
 
@@ -65,7 +65,8 @@ def append_index(index: dict, manifest: GkmasManifest) -> None:
 def _rebuild_index():
 
     commits = _json_load(WAYBACK_COMMITS_DATABASE_LOCAL)
-    manifests = asyncio.run(fetch_all_manifests(commits))
+    revisions = list(map(int, commits.keys()))
+    manifests = asyncio.run(fetch_all_manifests(revisions))
 
     index = {
         "latest_revision": manifests[-1].revision.canon_repr,

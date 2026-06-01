@@ -31,7 +31,6 @@ from .octodb_pb2 import pdbytes2dict
 def fetch(
     this_revision: int = -1,
     base_revision: int = 0,
-    _hash: str = "",
     pc: bool = False,
 ) -> GkmasManifest:
     """
@@ -50,29 +49,17 @@ def fetch(
         pc (bool): Whether to use the PC manifest API.
             Defaults to False (mobile).
     """
-    #   _hash (str): The commit hash of the manifest to fetch.
-    #       Defaults to "" (ignored).
-    #       If specified, overrides commit hash lookup by 'this_revision',
-    #       but still requires 'this_revision' to be specified for sanity check.
-    #       Exclusively used in rebuilding wayback index before remote database is updated.
-    #       NOT FOR GENERAL USE.
 
     if this_revision != -1:
 
-        if _hash:
-            commit_hash = _hash
-        else:
-            commits = _json_load(WAYBACK_COMMITS_DATABASE_REMOTE)
-            if str(this_revision) not in commits:
-                raise ValueError(
-                    f"Manifest revision {this_revision} not found in history."
-                )
-            commit_hash = commits[str(this_revision)]
-
+        commits = _json_load(WAYBACK_COMMITS_DATABASE_REMOTE)
+        if str(this_revision) not in commits:
+            raise ValueError(f"Manifest revision {this_revision} not found in history.")
         url = WAYBACK_MANIFEST_URL_TEMPLATE.format(
-            hash=commit_hash,
+            hash=commits[str(this_revision)],
             revision=base_revision,
         )
+
         manifest = GkmasManifest(_rget(url).json(), base_revision)
         assert manifest.revision.canon_repr == int(
             this_revision
