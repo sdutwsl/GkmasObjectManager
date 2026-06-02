@@ -1,0 +1,121 @@
+name: Download cards to Cloudflare
+
+on:
+    workflow_dispatch:
+    schedule:
+        # Every Monday at 20:30 UTC.
+        - cron: "30 20 * * 1"
+
+permissions:
+    contents: read
+
+concurrency:
+    group: download-cards-to-cloudflare
+    cancel-in-progress: false
+
+jobs:
+    download-and-upload:
+        runs-on: ubuntu-latest
+        environment: deploy
+
+        env:
+            R2_ACCESS_KEY: ${{ secrets.R2_ACCESS_KEY }}
+            R2_SECRET_KEY: ${{ secrets.R2_SECRET_KEY }}
+            R2_ENDPOINT_URL: ${{ secrets.R2_ENDPOINT_URL }}
+            BUCKET_NAME: ${{ secrets.BUCKET_NAME }}
+            PREFIX: ${{ secrets.PREFIX }}
+
+        steps:
+            - name: Checkout repository
+              uses: actions/checkout@v4
+
+            - name: Set up Python 3.12
+              uses: actions/setup-python@v5
+              with:
+                  python-version: "3.12"
+                  cache: pip
+
+            - name: Install dependencies
+              run: |
+                  python -m pip install --upgrade pip
+                  python -m pip install -r requirements.txt
+                  python -m pip install boto3
+
+            - name: Download card images
+              run: |
+                  python - <<'PY'
+                  import GkmasObjectManager as gom
+
+                  m = gom.fetch()
+                  m.export("manifest.csv")
+                  m.export("manifest.json")
+
+                  m.download(
+                      "img.*csprt-3.*full.*",
+                      path="gakumas_cards",
+                      categorize=False,
+                      image_format="PNG",
+                      image_resize="16:9",
+                  )
+                  PY
+
+            - name: Upload card images to Cloudflare R2
+              run: |
+                  python - <<'PY'
+                  import os
+
+                  import boto3
+                  from botocore.exceptions import NoCredentialsError
+
+                  R2_ACCESS_KEY = os.getenv("R2_ACCESS_KEY")
+                  R2_SECRET_KEY = os.getenv("R2_SECRET_KEY")
+                  R2_ENDPOINT_URL = os.getenv("R2_ENDPOINT_URL")
+                  BUCKET_NAME = os.getenv("BUCKET_NAME")
+                  PREFIX = os.getenv("PREFIX", "")
+
+                  if not all([R2_ACCESS_KEY, R2_SECRET_KEY, R2_ENDPOINT_URL, BUCKET_NAME]):
+                      raise ValueError(
+                          "Please make sure all required environment variables are set: "
+                          "R2_ACCESS_KEY, R2_SECRET_KEY, R2_ENDPOINT_URL, BUCKET_NAME"
+                      )
+
+                  s3_client = boto3.client(
+                      "s3",
+                      aws_access_key_id=R2_ACCESS_KEY,
+                      aws_secret_access_key=R2_SECRET_KEY,
+                      endpoint_url=R2_ENDPOINT_URL,
+                  )
+
+                  def file_exists_in_bucket(bucket_name, file_path):
+                      try:
+                          s3_client.head_object(Bucket=bucket_name, Key=file_path)
+                          return True
+                      except s3_client.exceptions.ClientError:
+                          return False
+
+                  def upload_directory_to_r2(directory_path):
+                      if not os.path.isdir(directory_path):
+                          raise ValueError(f"{directory_path} is not a valid directory.")
+
+                      for root, _, files in os.walk(directory_path):
+                          for file_name in files:
+                              local_file_path = os.path.join(root, file_name)
+                              relative_path = os.path.relpath(local_file_path, directory_path)
+                              r2_path = os.path.join(PREFIX, relative_path).replace("\\", "/")
+
+                              if file_exists_in_bucket(BUCKET_NAME, r2_path):
+                                  print(f"File already exists, skipping: {r2_path}")
+                                  continue
+
+                              try:
+                                  s3_client.upload_file(local_file_path, BUCKET_NAME, r2_path)
+                                  print(f"Upload successful: {local_file_path} -> {r2_path}")
+                              except NoCredentialsError:
+                                  print("Invalid credentials.")
+                                  raise
+                              except Exception as e:
+                                  print(f"Upload failed: {local_file_path} -> {r2_path}, error: {e}")
+                                  raise
+
+                  upload_directory_to_r2("./gakumas_cards")
+                  PY

@@ -1,5 +1,8 @@
 # PROJECT-SPECIFIC
 .*
+!.github/
+!.github/workflows/
+!.github/workflows/*.yml
 objects/*
 !MANIFEST
 
