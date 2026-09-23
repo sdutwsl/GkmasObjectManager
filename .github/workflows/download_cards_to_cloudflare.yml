@@ -1,0 +1,151 @@
+name: Download cards to Cloudflare
+
+on:
+    workflow_dispatch:
+    schedule:
+        - cron: "30 20 * * 1"
+
+permissions:
+    contents: read
+
+concurrency:
+    group: download-cards-to-cloudflare
+    cancel-in-progress: true
+
+jobs:
+    download-and-upload:
+        runs-on: ubuntu-latest
+        environment: deploy
+
+        env:
+            R2_ACCESS_KEY: ${{ secrets.R2_ACCESS_KEY }}
+            R2_SECRET_KEY: ${{ secrets.R2_SECRET_KEY }}
+            R2_ENDPOINT_URL: ${{ secrets.R2_ENDPOINT_URL }}
+            BUCKET_NAME: ${{ secrets.BUCKET_NAME }}
+            PREFIX: ${{ secrets.PREFIX }}
+
+        steps:
+            - name: Checkout repository
+              uses: actions/checkout@v4
+
+            - name: Set up Python 3.12
+              uses: actions/setup-python@v5
+              with:
+                  python-version: "3.12"
+                  cache: pip
+
+            - name: Install dependencies
+              run: |
+                  python -m pip install --upgrade pip
+                  python -m pip install -r requirements.txt
+                  python -m pip install boto3 pillow
+
+            - name: Download card images
+              run: |
+                  python - <<'PY'
+                  import UnityPy
+                  import GkmasObjectManager as gom
+
+                  # Gakumas is built with Unity 6, but its bundles carry a stripped
+                  # engine version ("0.0.0"), so UnityPy falls back to whatever
+                  # gom.const.GKMAS_UNITY_VERSION says -- currently a stale 2022.3.21f1.
+                  # With that layout every Texture2D misparses, m_StreamData.path comes
+                  # out empty, and conversion dies inside UnityPy's resource reader.
+                  # Must be set *after* importing gom, which assigns it at import time.
+                  UnityPy.config.FALLBACK_UNITY_VERSION = "6000.0.0f1"
+
+                  m = gom.fetch()
+                  m.export("manifest.csv")
+                  m.export("manifest.json")
+                  m.download(
+                      "img.*csprt-3.*full.*",
+                      path="gakumas_cards",
+                      categorize=False,
+                      image_format="png",
+                      image_resize="16:9",
+                  )
+                  PY
+
+            - name: Fail on undecoded assetbundles
+              run: |
+                  python - <<'PY'
+                  from pathlib import Path
+                  import sys
+
+                  # gom swallows conversion errors and rawdumps the .unity3d bundle
+                  # instead, which the upload step would happily push to R2.
+                  leftovers = sorted(Path("gakumas_cards").rglob("*.unity3d"))
+                  if leftovers:
+                      for path in leftovers:
+                          print(f"Undecoded assetbundle: {path}")
+                      sys.exit(f"{len(leftovers)} assetbundle(s) failed to convert")
+                  PY
+
+            - name: Convert images to WebP
+              run: |
+                  python - <<'PY'
+                  from pathlib import Path
+                  from PIL import Image
+                  import shutil
+
+                  root = Path("gakumas_cards")
+                  webp_dir = root / "webp"
+                  original_dir = root / "original"
+
+                  webp_dir.mkdir(exist_ok=True)
+                  original_dir.mkdir(exist_ok=True)
+
+                  for png in list(root.glob("*.png")):
+                      original = original_dir / f"{png.stem}-ori.png"
+                      webp = webp_dir / f"{png.stem}.webp"
+
+                      shutil.move(png, original)
+
+                      with Image.open(original) as image:
+                          image.save(webp, "WEBP", quality=90, method=6)
+                  PY
+
+            - name: Upload card images to Cloudflare R2
+              run: |
+                  python - <<'PY'
+                  import os
+                  import boto3
+                  from botocore.config import Config
+                  from boto3.s3.transfer import TransferConfig
+
+                  client = boto3.client(
+                      "s3",
+                      aws_access_key_id=os.getenv("R2_ACCESS_KEY"),
+                      aws_secret_access_key=os.getenv("R2_SECRET_KEY"),
+                      endpoint_url=os.getenv("R2_ENDPOINT_URL"),
+                      config=Config(
+                          signature_version="s3v4",
+                          retries={
+                              "max_attempts": 10,
+                              "mode": "standard",
+                          },
+                      ),
+                  )
+
+                  transfer_config = TransferConfig(
+                      max_concurrency=2,
+                      multipart_threshold=64 * 1024 * 1024,
+                  )
+
+                  bucket = os.getenv("BUCKET_NAME")
+                  prefix = os.getenv("PREFIX", "")
+
+                  for root, _, files in os.walk("./gakumas_cards"):
+                      for name in files:
+                          local = os.path.join(root, name)
+                          relative = os.path.relpath(local, "./gakumas_cards")
+                          key = os.path.join(prefix, relative).replace("\\", "/")
+
+                          client.upload_file(
+                              local,
+                              bucket,
+                              key,
+                              Config=transfer_config,
+                          )
+                          print(f"Upload successful: {local} -> {key}")
+                  PY
